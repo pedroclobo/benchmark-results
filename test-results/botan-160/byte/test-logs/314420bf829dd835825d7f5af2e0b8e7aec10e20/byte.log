@@ -1,0 +1,51 @@
+#####
+byte - Run 1
+2024-09-13 10:48:11
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
+
+CAST-256 encrypt buffer size 1024 bytes: 65.574 MiB/sec 31.83 cycles/byte (983.61 MiB in 15000.00 ms)
+CAST-256 decrypt buffer size 1024 bytes: 65.765 MiB/sec 31.74 cycles/byte (986.47 MiB in 15000.01 ms)
+
+algo                               operation             1024 bytes
+CAST-256                           decrypt                 68959.14
+CAST-256                           encrypt                 68759.40
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+byte - Run 2
+2024-09-13 10:48:46
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
+
+CAST-256 encrypt buffer size 1024 bytes: 65.575 MiB/sec 31.83 cycles/byte (983.63 MiB in 15000.00 ms)
+CAST-256 decrypt buffer size 1024 bytes: 65.756 MiB/sec 31.74 cycles/byte (986.34 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+CAST-256                           decrypt                 68949.94
+CAST-256                           encrypt                 68760.49
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+byte - Run 3
+2024-09-13 10:49:18
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
+
+CAST-256 encrypt buffer size 1024 bytes: 65.428 MiB/sec 31.90 cycles/byte (981.42 MiB in 15000.00 ms)
+CAST-256 decrypt buffer size 1024 bytes: 65.675 MiB/sec 31.78 cycles/byte (985.13 MiB in 15000.01 ms)
+
+algo                               operation             1024 bytes
+CAST-256                           decrypt                 68865.52
+CAST-256                           encrypt                 68606.02
+
+[results are the number of 1000s bytes processed per second]
+
+

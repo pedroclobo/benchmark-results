@@ -1,0 +1,51 @@
+#####
+byte - Run 1
+2024-09-13 10:42:28
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
+
+AES-256 encrypt buffer size 1024 bytes: 1730.538 MiB/sec 1.07 cycles/byte (25958.07 MiB in 15000.00 ms)
+AES-256 decrypt buffer size 1024 bytes: 1732.007 MiB/sec 1.07 cycles/byte (25980.10 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+AES-256                            decrypt               1816140.65
+AES-256                            encrypt               1814600.76
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+byte - Run 2
+2024-09-13 10:43:05
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
+
+AES-256 encrypt buffer size 1024 bytes: 1727.932 MiB/sec 1.07 cycles/byte (25918.98 MiB in 15000.00 ms)
+AES-256 decrypt buffer size 1024 bytes: 1729.064 MiB/sec 1.07 cycles/byte (25935.96 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+AES-256                            decrypt               1813054.81
+AES-256                            encrypt               1811868.21
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+byte - Run 3
+2024-09-13 10:43:39
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
+
+AES-256 encrypt buffer size 1024 bytes: 1728.716 MiB/sec 1.07 cycles/byte (25930.74 MiB in 15000.00 ms)
+AES-256 decrypt buffer size 1024 bytes: 1731.975 MiB/sec 1.07 cycles/byte (25979.63 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+AES-256                            decrypt               1816107.48
+AES-256                            encrypt               1812689.85
+
+[results are the number of 1000s bytes processed per second]
+
+
