@@ -1,0 +1,3 @@
+PATH=/home/pedro/.local/bin/scripts:/home/pedro/.local/bin/scripts:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+CC=/home/pedro/dev/phoronix-benchmark-infra/toolchain/clang
+CXX=/home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++
