@@ -1,0 +1,18 @@
+#####
+base - Run 1
+2024-09-14 09:38:23
+#####
+Results: 1 threads 14 iter 61.15s user 61.189939s total 0.229 iter/s 0.229 iter/cpu
+
+#####
+base - Run 2
+2024-09-14 09:39:28
+#####
+Results: 1 threads 14 iter 61.14s user 61.187790s total 0.229 iter/s 0.229 iter/cpu
+
+#####
+base - Run 3
+2024-09-14 09:40:31
+#####
+Results: 1 threads 14 iter 61.15s user 61.189888s total 0.229 iter/s 0.229 iter/cpu
+

@@ -1,0 +1,42 @@
+#####
+base - Run 1
+2024-09-14 09:56:56
+#####
+Lua SciMark 2010-12-10 based on SciMark 2.0a. Copyright (C) 2006-2010 Mike Pall.
+
+FFT       153.24  [1048576]
+SOR      1001.06  [1000]
+MC        279.45  
+SPARSE    569.54  [100000, 1000000]
+LU       1238.18  [1000]
+
+SciMark   648.29  [large problem sizes]
+
+#####
+base - Run 2
+2024-09-14 09:57:30
+#####
+Lua SciMark 2010-12-10 based on SciMark 2.0a. Copyright (C) 2006-2010 Mike Pall.
+
+FFT       152.23  [1048576]
+SOR      1001.68  [1000]
+MC        279.58  
+SPARSE    567.23  [100000, 1000000]
+LU       1239.55  [1000]
+
+SciMark   648.05  [large problem sizes]
+
+#####
+base - Run 3
+2024-09-14 09:58:01
+#####
+Lua SciMark 2010-12-10 based on SciMark 2.0a. Copyright (C) 2006-2010 Mike Pall.
+
+FFT       151.75  [1048576]
+SOR      1001.86  [1000]
+MC        279.60  
+SPARSE    565.52  [100000, 1000000]
+LU       1233.19  [1000]
+
+SciMark   646.38  [large problem sizes]
+
