@@ -1,0 +1,72 @@
+#####
+base - Run 1
+2024-09-14 11:26:35
+#####
+Forked child 0
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++R1:4594:4096:30.01
++DTP:4096:public:rsa:30
++R1:4598:4096:30.01
++DTP:4096:public:rsa:30
++R2:300204:4096:30.00
++R2:301239:4096:30.00
+Forked child 1
+Got: +F2:4:4096:153.215595:10041.300000 from 0
+Got: +F2:4:4096:153.082306:10006.800000 from 1
+version: 3.1.0
+built on: Sat Sep 14 10:59:39 2024 UTC
+options: bn(64,64)
+compiler: /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -Wall -O3 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3bfffebffff:0x21c27ab
+                  sign    verify    sign/s verify/s
+rsa 4096 bits 0.003265s 0.000050s    306.3  20048.1
+
+#####
+base - Run 2
+2024-09-14 11:27:39
+#####
+Forked child 0
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++R1:4599:4096:30.00
++DTP:4096:public:rsa:30
++R1:4598:4096:30.00
++DTP:4096:public:rsa:30
++R2:295720:4096:30.00
++R2:300238:4096:30.00
+Forked child 1
+Got: +F2:4:4096:153.300000:9857.333333 from 0
+Got: +F2:4:4096:153.266667:10007.933333 from 1
+version: 3.1.0
+built on: Sat Sep 14 10:59:39 2024 UTC
+options: bn(64,64)
+compiler: /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -Wall -O3 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3bfffebffff:0x21c27ab
+                  sign    verify    sign/s verify/s
+rsa 4096 bits 0.003262s 0.000050s    306.6  19865.3
+
+#####
+base - Run 3
+2024-09-14 11:28:41
+#####
+Forked child 0
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++R1:4595:4096:30.00
++DTP:4096:public:rsa:30
++R1:4599:4096:30.01
++DTP:4096:public:rsa:30
++R2:298637:4096:30.00
++R2:302227:4096:30.00
+Forked child 1
+Got: +F2:4:4096:153.166667:9954.566667 from 0
+Got: +F2:4:4096:153.248917:10074.233333 from 1
+version: 3.1.0
+built on: Sat Sep 14 10:59:39 2024 UTC
+options: bn(64,64)
+compiler: /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -Wall -O3 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3bfffebffff:0x21c27ab
+                  sign    verify    sign/s verify/s
+rsa 4096 bits 0.003264s 0.000050s    306.4  20028.8
+
