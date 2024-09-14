@@ -1,0 +1,135 @@
+#####
+byte - Run 1
+2024-09-14 12:51:19
+#####
+Forked child 0
++DT:AES-128-GCM:30:16
++DT:AES-128-GCM:30:16
++R:416263773:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:64
++R:415657108:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:64
++R:300711430:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:256
++R:300286029:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:256
++R:169771352:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:1024
++R:169586676:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:1024
++R:62261106:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:8192
++R:62368670:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:8192
++R:9889244:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:16384
++R:9886672:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:16384
++R:5028802:AES-128-GCM:30.000000
++R:5034010:AES-128-GCM:30.000000
+808BF0F7FF7F0000:error:1C800066:Provider routines:ossl_gcm_stream_update:cipher operation failed:providers/implementations/ciphers/ciphercommon_gcm.c:320:
+808BF0F7FF7F0000:error:1C800066:Provider routines:ossl_gcm_stream_update:cipher operation failed:providers/implementations/ciphers/ciphercommon_gcm.c:320:
+808BF0F7FF7F0000:error:1C800066:Provider routines:ossl_gcm_stream_update:cipher operation failed:providers/implementations/ciphers/ciphercommon_gcm.c:320:
+808BF0F7FF7F0000:error:1C800066:Provider routines:ossl_gcm_stream_update:cipher operation failed:providers/implementations/ciphers/ciphercommon_gcm.c:320:
+Forked child 1
+Got: +H:16:64:256:1024:8192:16384 from 0
+Got: +F:25:AES-128-GCM:222007345.60:641517717.33:1448715537.07:2125179084.80:2700422894.93:2746396398.93 from 0
+Got: +H:16:64:256:1024:8192:16384 from 1
+Got: +F:25:AES-128-GCM:221683790.93:640610195.20:1447139635.20:2128850602.67:2699720567.47:2749240661.33 from 1
+version: 3.1.0
+built on: Sat Sep 14 12:10:05 2024 UTC
+options: bn(64,64)
+compiler: /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -Wall -O3 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3bfffebffff:0x21c27ab
+evp             443691.14k  1282127.91k  2895855.17k  4254029.69k  5400143.46k  5495637.06k
+
+#####
+byte - Run 2
+2024-09-14 12:54:23
+#####
+Forked child 0
++DT:AES-128-GCM:30:16
++DT:AES-128-GCM:30:16
++R:416170317:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:64
++R:416049848:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:64
++R:300036883:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:256
++R:300091116:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:256
++R:169676017:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:1024
++R:169484347:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:1024
++R:62452211:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:8192
++R:62442251:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:8192
++R:9899178:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:16384
++R:9889836:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:16384
++R:5032655:AES-128-GCM:30.000000
++R:5028673:AES-128-GCM:30.000000
+808BF0F7FF7F0000:error:1C800066:Provider routines:ossl_gcm_stream_update:cipher operation failed:providers/implementations/ciphers/ciphercommon_gcm.c:320:
+808BF0F7FF7F0000:error:1C800066:Provider routines:ossl_gcm_stream_update:cipher operation failed:providers/implementations/ciphers/ciphercommon_gcm.c:320:
+808BF0F7FF7F0000:error:1C800066:Provider routines:ossl_gcm_stream_update:cipher operation failed:providers/implementations/ciphers/ciphercommon_gcm.c:320:
+808BF0F7FF7F0000:error:1C800066:Provider routines:ossl_gcm_stream_update:cipher operation failed:providers/implementations/ciphers/ciphercommon_gcm.c:320:
+Forked child 1
+Got: +H:16:64:256:1024:8192:16384 from 0
+Got: +F:25:AES-128-GCM:221957502.40:640078683.73:1447902011.73:2131702135.47:2703135539.20:2748500650.67 from 0
+Got: +H:16:64:256:1024:8192:16384 from 1
+Got: +F:25:AES-128-GCM:221893252.27:640194380.80:1446266427.73:2131362167.47:2700584550.40:2746325947.73 from 1
+version: 3.1.0
+built on: Sat Sep 14 12:10:05 2024 UTC
+options: bn(64,64)
+compiler: /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -Wall -O3 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3bfffebffff:0x21c27ab
+evp             443850.75k  1280273.06k  2894168.44k  4263064.30k  5403720.09k  5494826.60k
+
+#####
+byte - Run 3
+2024-09-14 12:57:25
+#####
+Forked child 0
++DT:AES-128-GCM:30:16
++DT:AES-128-GCM:30:16
++R:415603361:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:64
++R:416243975:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:64
++R:300181228:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:256
++R:300769771:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:256
++R:169587083:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:1024
++R:169781283:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:1024
++R:62430448:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:8192
++R:62431867:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:8192
++R:9889729:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:16384
++R:9887854:AES-128-GCM:30.000000
++DT:AES-128-GCM:30:16384
++R:5032192:AES-128-GCM:30.000000
++R:5035407:AES-128-GCM:30.000000
+808BF0F7FF7F0000:error:1C800066:Provider routines:ossl_gcm_stream_update:cipher operation failed:providers/implementations/ciphers/ciphercommon_gcm.c:320:
+808BF0F7FF7F0000:error:1C800066:Provider routines:ossl_gcm_stream_update:cipher operation failed:providers/implementations/ciphers/ciphercommon_gcm.c:320:
+808BF0F7FF7F0000:error:1C800066:Provider routines:ossl_gcm_stream_update:cipher operation failed:providers/implementations/ciphers/ciphercommon_gcm.c:320:
+808BF0F7FF7F0000:error:1C800066:Provider routines:ossl_gcm_stream_update:cipher operation failed:providers/implementations/ciphers/ciphercommon_gcm.c:320:
+Forked child 1
+Got: +H:16:64:256:1024:8192:16384 from 0
+Got: +F:25:AES-128-GCM:221655125.87:640386619.73:1447143108.27:2130959291.73:2700555332.27:2748247790.93 from 0
+Got: +H:16:64:256:1024:8192:16384 from 1
+Got: +F:25:AES-128-GCM:221996786.67:641642178.13:1448800281.60:2131007726.93:2700043332.27:2750003609.60 from 1
+version: 3.1.0
+built on: Sat Sep 14 12:10:05 2024 UTC
+options: bn(64,64)
+compiler: /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -Wall -O3 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3bfffebffff:0x21c27ab
+evp             443651.91k  1282028.80k  2895943.39k  4261967.02k  5400598.66k  5498251.40k
+
