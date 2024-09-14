@@ -1,0 +1,601 @@
+Archive:  sample-photo-6000x4000-1.zip
+  inflating: sample-photo-6000x4000.JPG  
+fatal: not a git repository (or any of the parent directories): .git
+Downloading third_party/brotli version 35ef5c554d888bef217d449346067de05e269b30...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 2861k    0 2861k    0     0  2019k      0 --:--:--  0:00:01 --:--:-- 2952k100 10.6M    0 10.6M    0     0  4497k      0 --:--:--  0:00:02 --:--:-- 5520k100 19.4M    0 19.4M    0     0  5833k      0 --:--:--  0:00:03 --:--:-- 6713k100 22.7M    0 22.7M    0     0  6140k      0 --:--:--  0:00:03 --:--:-- 6964k
+Downloading third_party/highway version 22e3d7276f4157d4a47586ba9fd91dd6303f441a...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1690k    0 1690k    0     0  1481k      0 --:--:--  0:00:01 --:--:-- 1481k
+Downloading third_party/sjpeg version 868ab558fad70fcbe8863ba4e85179eeb81cc840...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1338k    0 1338k    0     0  1242k      0 --:--:--  0:00:01 --:--:-- 1242k100 2414k    0 2414k    0     0  1885k      0 --:--:--  0:00:01 --:--:-- 5324k
+Downloading third_party/skcms version 64374756e03700d649f897dbd98c95e78c30c7da...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 2771k    0 2771k    0     0  3736k      0 --:--:-- --:--:-- --:--:-- 3735k100 8974k    0 8974k    0     0  6138k      0 --:--:--  0:00:01 --:--:-- 6142k
+Downloading third_party/zlib version cacf7f1d4e3d44d871b605da3b647f07d718623f...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  629k    0  629k    0     0   700k      0 --:--:-- --:--:-- --:--:--  700k
+Downloading third_party/libpng version a40189cf881e9f0db80511c382292a5604c3c3d1...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  873k    0  873k    0     0   755k      0 --:--:--  0:00:01 --:--:--  755k100 1473k    0 1473k    0     0  1134k      0 --:--:--  0:00:01 --:--:-- 4227k
+Done.
+-- The C compiler identification is Clang 20.0.0
+-- The CXX compiler identification is Clang 20.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test JPEGXL_EMSCRIPTEN
+-- Performing Test JPEGXL_EMSCRIPTEN - Success
+-- CMAKE_SYSTEM_PROCESSOR is x86_64
+-- Performing Test CXX_FUZZERS_SUPPORTED
+-- Performing Test CXX_FUZZERS_SUPPORTED - Success
+-- Performing Test CXX_CONSTRUCTOR_ALIASES_SUPPORTED
+-- Performing Test CXX_CONSTRUCTOR_ALIASES_SUPPORTED - Success
+-- Performing Test CXX_MACRO_PREFIX_MAP
+-- Performing Test CXX_MACRO_PREFIX_MAP - Success
+-- Performing Test CXX_NO_RTTI_SUPPORTED
+-- Performing Test CXX_NO_RTTI_SUPPORTED - Success
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- tcmalloc version  -- tcmalloc 2.8.0 disabled due to https://github.com/gperftools/gperftools/issues/1204
+-- Performing Test JXL_HWY_DISABLED_TARGETS_FORCED
+-- Performing Test JXL_HWY_DISABLED_TARGETS_FORCED - Success
+-- Compiled IDs C:Clang, C++:Clang
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performing Test ATOMICS_LOCK_FREE_INSTRUCTIONS
+-- Performing Test ATOMICS_LOCK_FREE_INSTRUCTIONS - Success
+-- Performing Test HWY_EMSCRIPTEN
+-- Performing Test HWY_EMSCRIPTEN - Success
+-- Performing Test HWY_RISCV
+-- Performing Test HWY_RISCV - Success
+CMake Deprecation Warning at third_party/brotli/CMakeLists.txt:5 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Performing Test BROTLI_EMSCRIPTEN
+-- Performing Test BROTLI_EMSCRIPTEN - Success
+-- Compiler is EMSCRIPTEN
+-- Looking for log2
+-- Looking for log2 - found
+-- Performing Test CXX_WPSABI_SUPPORTED
+-- Performing Test CXX_WPSABI_SUPPORTED - Success
+CMake Deprecation Warning at third_party/sjpeg/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Performing Test SJPEG_HAVE_FLAG___SSE2__
+-- Performing Test SJPEG_HAVE_FLAG___SSE2__ - Success
+-- Performing Test SJPEG_HAVE_FLAG___ARM_NEON__
+-- Performing Test SJPEG_HAVE_FLAG___ARM_NEON__ - Success
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  
+-- Could NOT find PNG (missing: PNG_LIBRARY PNG_PNG_INCLUDE_DIR) 
+-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+-- Could NOT find OpenGL (missing: OPENGL_opengl_LIBRARY OPENGL_glx_LIBRARY OPENGL_INCLUDE_DIR) 
+-- Could NOT find GLUT (missing: GLUT_glut_LIBRARY GLUT_INCLUDE_DIR) 
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Performing Test LINKER_SUPPORT_EXCLUDE_LIBS
+-- Performing Test LINKER_SUPPORT_EXCLUDE_LIBS - Success
+-- Could NOT find GIF (missing: GIF_LIBRARY GIF_INCLUDE_DIR) (Required is at least version "5.1")
+-- Checking for module 'OpenEXR'
+--   Package 'OpenEXR', required by 'virtual:world', not found
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+CMake Warning at CMakeLists.txt:457 (message):
+  asciidoc was not found, the man pages will not be installed.
+
+
+-- Building with JPEGXL_VERSION=(unknown)
+-- Checking for module 'libwebp'
+--   Package 'libwebp', required by 'virtual:world', not found
+-- Checking for module 'libavif'
+--   Package 'libavif', required by 'virtual:world', not found
+-- Building tools: cjxl;djxl;jxlinfo;cjpeg_hdr;benchmark_xl
+-- Configuring done (7.1s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/pedro/.phoronix-test-suite/installed-tests/pts/jpegxl-1.5.0/libjxl-0.7.0/build
+[  1%] Building CXX object lib/CMakeFiles/jxl_threads.dir/threads/resizable_parallel_runner.cc.o
+[  1%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/ac_strategy.cc.o
+[  1%] Building CXX object lib/CMakeFiles/jxl_threads.dir/threads/thread_parallel_runner.cc.o
+[  1%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/alpha.cc.o
+[  1%] Building CXX object lib/CMakeFiles/jxl_threads.dir/threads/thread_parallel_runner_internal.cc.o
+[  2%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/ans_common.cc.o
+[  2%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/aux_out.cc.o
+[  3%] Linking CXX shared library ../libjxl_threads.so
+[  3%] Built target jxl_threads
+[  3%] Building CXX object third_party/highway/CMakeFiles/hwy.dir/hwy/aligned_allocator.cc.o
+[  3%] Building CXX object third_party/highway/CMakeFiles/hwy.dir/hwy/nanobenchmark.cc.o
+[  3%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/base/cache_aligned.cc.o
+[  4%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/base/data_parallel.cc.o
+[  4%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/base/padded_bytes.cc.o
+[  5%] Building CXX object third_party/highway/CMakeFiles/hwy.dir/hwy/per_target.cc.o
+[  5%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/base/random.cc.o
+[  6%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/blending.cc.o
+[  6%] Building CXX object third_party/highway/CMakeFiles/hwy.dir/hwy/print.cc.o
+[  6%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/box_content_decoder.cc.o
+[  6%] Building CXX object third_party/highway/CMakeFiles/hwy.dir/hwy/targets.cc.o
+[  7%] Linking CXX static library libhwy.a
+[  7%] Built target hwy
+[  7%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/chroma_from_luma.cc.o
+[  8%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/coeff_order.cc.o
+[  8%] Building C object third_party/brotli/CMakeFiles/brotlicommon-static.dir/c/common/dictionary.c.o
+[  9%] Building C object third_party/brotli/CMakeFiles/brotlicommon-static.dir/c/common/transform.c.o
+[  9%] Linking C static library libbrotlicommon-static.a
+[  9%] Built target brotlicommon-static
+[  9%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/color_encoding_internal.cc.o
+[ 10%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/butteraugli/butteraugli.cc.o
+[ 10%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/color_management.cc.o
+[ 11%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/compressed_dc.cc.o
+[ 11%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/butteraugli_wrapper.cc.o
+[ 11%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/convolve_separable5.cc.o
+[ 11%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_ac_strategy.cc.o
+[ 12%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_adaptive_quantization.cc.o
+[ 12%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/convolve_separable7.cc.o
+[ 12%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_ans.cc.o
+[ 12%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_ar_control_field.cc.o
+[ 13%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_butteraugli_comparator.cc.o
+[ 13%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_butteraugli_pnorm.cc.o
+[ 13%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_cache.cc.o
+[ 14%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_chroma_from_luma.cc.o
+[ 15%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/convolve_slow.cc.o
+[ 15%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/convolve_symmetric3.cc.o
+[ 15%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/convolve_symmetric5.cc.o
+[ 16%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dct_scales.cc.o
+[ 16%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_ans.cc.o
+[ 16%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_cluster.cc.o
+[ 16%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_cache.cc.o
+[ 17%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_context_map.cc.o
+[ 17%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_external_image.cc.o
+[ 17%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_coeff_order.cc.o
+[ 18%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_color_management.cc.o
+[ 18%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_frame.cc.o
+[ 18%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_comparator.cc.o
+[ 19%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_group.cc.o
+[ 19%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_context_map.cc.o
+[ 20%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_detect_dots.cc.o
+[ 20%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_dot_dictionary.cc.o
+[ 20%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_entropy_coder.cc.o
+[ 21%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_external_image.cc.o
+[ 21%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_group_border.cc.o
+[ 21%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_huffman.cc.o
+[ 22%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_modular.cc.o
+[ 22%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_file.cc.o
+[ 22%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_frame.cc.o
+[ 22%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_noise.cc.o
+[ 23%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_group.cc.o
+[ 23%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_patch_dictionary.cc.o
+[ 24%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/dec_xyb.cc.o
+[ 24%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/decode.cc.o
+[ 24%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/decode_to_jpeg.cc.o
+[ 24%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_heuristics.cc.o
+[ 25%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/enc_bit_writer.cc.o
+[ 25%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/entropy_coder.cc.o
+[ 25%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_huffman.cc.o
+[ 25%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/epf.cc.o
+[ 26%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_icc_codec.cc.o
+[ 27%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/fast_dct.cc.o
+[ 27%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_image_bundle.cc.o
+[ 27%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_modular.cc.o
+[ 27%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/fields.cc.o
+[ 27%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/frame_header.cc.o
+[ 28%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/gauss_blur.cc.o
+[ 29%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_noise.cc.o
+[ 29%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_patch_dictionary.cc.o
+[ 29%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/headers.cc.o
+[ 29%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/huffman_table.cc.o
+[ 30%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/icc_codec.cc.o
+[ 30%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_photon_noise.cc.o
+[ 30%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/icc_codec_common.cc.o
+[ 31%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_quant_weights.cc.o
+[ 31%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/image.cc.o
+[ 31%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_splines.cc.o
+[ 31%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_toc.cc.o
+[ 32%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/image_bundle.cc.o
+[ 33%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_transforms.cc.o
+[ 33%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/image_metadata.cc.o
+[ 33%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/jpeg/dec_jpeg_data.cc.o
+[ 34%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/jpeg/dec_jpeg_data_writer.cc.o
+[ 34%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/jpeg/jpeg_data.cc.o
+[ 34%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/loop_filter.cc.o
+[ 35%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/luminance.cc.o
+[ 35%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/memory_manager_internal.cc.o
+[ 35%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/modular/encoding/dec_ma.cc.o
+[ 35%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/enc_xyb.cc.o
+[ 36%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/modular/encoding/encoding.cc.o
+[ 36%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/modular/modular_image.cc.o
+[ 36%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/modular/transform/rct.cc.o
+[ 36%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/encode.cc.o
+[ 37%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/modular/transform/squeeze.cc.o
+[ 38%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/gaborish.cc.o
+[ 38%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/huffman_tree.cc.o
+[ 38%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/jpeg/enc_jpeg_data.cc.o
+[ 39%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/jpeg/enc_jpeg_data_reader.cc.o
+[ 39%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/modular/transform/transform.cc.o
+[ 39%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/jpeg/enc_jpeg_huffman_decode.cc.o
+[ 39%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/opsin_params.cc.o
+[ 39%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/linalg.cc.o
+[ 40%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/passes_state.cc.o
+[ 41%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/modular/encoding/enc_debug_tree.cc.o
+[ 41%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/quant_weights.cc.o
+[ 41%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/modular/encoding/enc_encoding.cc.o
+[ 41%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/modular/encoding/enc_ma.cc.o
+[ 41%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/quantizer.cc.o
+[ 42%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/low_memory_render_pipeline.cc.o
+[ 42%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/render_pipeline.cc.o
+[ 43%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/modular/transform/enc_palette.cc.o
+[ 44%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/simple_render_pipeline.cc.o
+[ 44%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_blending.cc.o
+[ 44%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/modular/transform/enc_rct.cc.o
+[ 44%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/modular/transform/enc_squeeze.cc.o
+[ 45%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/modular/transform/enc_transform.cc.o
+[ 45%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/optimize.cc.o
+[ 45%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_chroma_upsampling.cc.o
+[ 45%] Building CXX object lib/CMakeFiles/jxl_enc-obj.dir/jxl/progressive_split.cc.o
+[ 45%] Built target jxl_enc-obj
+[ 46%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_epf.cc.o
+[ 46%] Building CXX object third_party/CMakeFiles/skcms-obj.dir/skcms/skcms.cc.o
+[ 46%] Built target skcms-obj
+[ 46%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/backward_references.c.o
+[ 46%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_from_linear.cc.o
+[ 46%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/backward_references_hq.c.o
+[ 47%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/bit_cost.c.o
+[ 47%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/block_splitter.c.o
+[ 47%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/brotli_bit_stream.c.o
+[ 48%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/cluster.c.o
+[ 48%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/compress_fragment.c.o
+[ 48%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_gaborish.cc.o
+[ 48%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/compress_fragment_two_pass.c.o
+[ 50%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/dictionary_hash.c.o
+[ 50%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/encode.c.o
+[ 50%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/encoder_dict.c.o
+[ 51%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_noise.cc.o
+[ 52%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/entropy_encode.c.o
+[ 52%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/histogram.c.o
+[ 52%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/literal_cost.c.o
+[ 53%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/memory.c.o
+[ 53%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/metablock.c.o
+[ 53%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/static_dict.c.o
+[ 54%] Building C object third_party/brotli/CMakeFiles/brotlienc-static.dir/c/enc/utf8_util.c.o
+[ 54%] Linking C static library libbrotlienc-static.a
+[ 54%] Built target brotlienc-static
+[ 54%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_patches.cc.o
+[ 55%] Building CXX object third_party/highway/CMakeFiles/hwy_test.dir/hwy/tests/test_util.cc.o
+[ 55%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_splines.cc.o
+[ 55%] Linking CXX static library libhwy_test.a
+[ 55%] Built target hwy_test
+[ 56%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_spot.cc.o
+[ 56%] Building CXX object third_party/highway/CMakeFiles/hwy_list_targets.dir/hwy/tests/list_targets.cc.o
+[ 56%] Linking CXX executable hwy_list_targets
+Config: emu128:0 scalar:0 static:0 all_attain:0 is_test:0
+Compiled HWY_TARGETS:   AVX3 AVX2 SSE4 SSSE3 EMU128
+HWY_ATTAINABLE_TARGETS: AVX3 AVX2 SSE4 SSSE3 EMU128
+HWY_BASELINE_TARGETS:   EMU128
+HWY_STATIC_TARGET:      EMU128
+HWY_BROKEN_TARGETS:    
+HWY_DISABLED_TARGETS:  
+Current CPU supports:   AVX2 SSE4 SSSE3 EMU128 SCALAR
+[ 56%] Built target hwy_list_targets
+[ 56%] Building CXX object lib/CMakeFiles/jxl_extras_codec-obj.dir/extras/dec/color_description.cc.o
+[ 57%] Building CXX object lib/CMakeFiles/jxl_extras_codec-obj.dir/extras/dec/color_hints.cc.o
+[ 57%] Building CXX object lib/CMakeFiles/jxl_extras_codec-obj.dir/extras/dec/decode.cc.o
+[ 57%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_to_linear.cc.o
+[ 57%] Building CXX object lib/CMakeFiles/jxl_extras_codec-obj.dir/extras/dec/jxl.cc.o
+[ 58%] Building CXX object lib/CMakeFiles/jxl_extras_codec-obj.dir/extras/dec/pgx.cc.o
+[ 58%] Building CXX object lib/CMakeFiles/jxl_extras_codec-obj.dir/extras/dec/pnm.cc.o
+[ 58%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_tone_mapping.cc.o
+[ 58%] Building CXX object lib/CMakeFiles/jxl_extras_codec-obj.dir/extras/enc/encode.cc.o
+[ 59%] Building CXX object lib/CMakeFiles/jxl_extras_codec-obj.dir/extras/enc/npy.cc.o
+[ 59%] Building CXX object lib/CMakeFiles/jxl_extras_codec-obj.dir/extras/enc/pgx.cc.o
+[ 60%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_upsampling.cc.o
+[ 60%] Building CXX object lib/CMakeFiles/jxl_extras_codec-obj.dir/extras/enc/pnm.cc.o
+[ 61%] Building CXX object lib/CMakeFiles/jxl_extras_codec-obj.dir/extras/exif.cc.o
+[ 61%] Building CXX object lib/CMakeFiles/jxl_extras_codec-obj.dir/extras/time.cc.o
+[ 61%] Building CXX object lib/CMakeFiles/jxl_extras_codec-obj.dir/extras/dec/jpg.cc.o
+[ 61%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_write.cc.o
+[ 62%] Building CXX object lib/CMakeFiles/jxl_extras_codec-obj.dir/extras/enc/jpg.cc.o
+[ 62%] Building CXX object lib/CMakeFiles/jxl_extras_codec-obj.dir/extras/dec/apng.cc.o
+[ 62%] Building CXX object lib/CMakeFiles/jxl_extras_codec-obj.dir/extras/enc/apng.cc.o
+[ 62%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_xyb.cc.o
+[ 62%] Built target jxl_extras_codec-obj
+[ 63%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/render_pipeline/stage_ycbcr.cc.o
+[ 63%] Building CXX object lib/CMakeFiles/jxl_threads-static.dir/threads/resizable_parallel_runner.cc.o
+[ 63%] Building CXX object lib/CMakeFiles/jxl_threads-static.dir/threads/thread_parallel_runner.cc.o
+[ 64%] Building CXX object lib/CMakeFiles/jxl_threads-static.dir/threads/thread_parallel_runner_internal.cc.o
+[ 64%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/splines.cc.o
+[ 64%] Linking CXX static library libjxl_threads.a
+[ 64%] Built target jxl_threads-static
+[ 64%] Building CXX object lib/CMakeFiles/jxl_dec-obj.dir/jxl/toc.cc.o
+[ 64%] Building CXX object lib/CMakeFiles/jxl_profiler.dir/profiler/profiler.cc.o
+[ 64%] Linking CXX static library libjxl_profiler.a
+[ 64%] Built target jxl_profiler
+[ 64%] Building CXX object tools/CMakeFiles/jxl_tool.dir/cmdline.cc.o
+[ 65%] Building CXX object tools/CMakeFiles/jxl_tool.dir/codec_config.cc.o
+[ 65%] Built target jxl_dec-obj
+[ 65%] Building CXX object tools/CMakeFiles/jxl_tool.dir/speed_stats.cc.o
+[ 65%] Building CXX object third_party/sjpeg/CMakeFiles/sjpeg.dir/src/bit_writer.cc.o
+[ 65%] Building CXX object tools/CMakeFiles/jxl_tool.dir/file_io.cc.o
+[ 66%] Building CXX object third_party/sjpeg/CMakeFiles/sjpeg.dir/src/colors_rgb.cc.o
+[ 67%] Building CXX object tools/CMakeFiles/jxl_tool.dir/tool_version.cc.o
+[ 67%] Linking CXX static library libjxl_tool.a
+[ 67%] Built target jxl_tool
+[ 67%] Building CXX object third_party/sjpeg/CMakeFiles/sjpeg.dir/src/dichotomy.cc.o
+[ 67%] Building CXX object third_party/sjpeg/CMakeFiles/sjpeg.dir/src/enc.cc.o
+[ 68%] Building CXX object third_party/sjpeg/CMakeFiles/sjpeg.dir/src/fdct.cc.o
+[ 68%] Building C object third_party/brotli/CMakeFiles/brotlidec-static.dir/c/dec/bit_reader.c.o
+[ 69%] Building C object third_party/brotli/CMakeFiles/brotlidec-static.dir/c/dec/decode.c.o
+[ 69%] Building CXX object third_party/sjpeg/CMakeFiles/sjpeg.dir/src/headers.cc.o
+[ 69%] Building C object third_party/brotli/CMakeFiles/brotlidec-static.dir/c/dec/huffman.c.o
+[ 69%] Building C object third_party/brotli/CMakeFiles/brotlidec-static.dir/c/dec/state.c.o
+[ 69%] Building CXX object third_party/sjpeg/CMakeFiles/sjpeg.dir/src/jpeg_tools.cc.o
+[ 70%] Linking C static library libbrotlidec-static.a
+[ 70%] Built target brotlidec-static
+[ 71%] Building CXX object third_party/sjpeg/CMakeFiles/sjpeg.dir/src/score_7.cc.o
+[ 71%] Building CXX object third_party/sjpeg/CMakeFiles/sjpeg.dir/src/yuv_convert.cc.o
+[ 72%] Linking CXX shared library ../libjxl_dec.so
+[ 72%] Built target jxl_dec
+[ 72%] Linking CXX shared library ../libjxl.so
+[ 72%] Linking CXX static library libsjpeg.a
+[ 72%] Built target sjpeg
+[ 72%] Built target jxl
+[ 73%] Building C object third_party/brotli/CMakeFiles/brotli.dir/c/tools/brotli.c.o
+[ 74%] Linking CXX static library libjxl_dec.a
+[ 74%] Built target jxl_dec-static
+[ 74%] Linking CXX static library libjxl.a
+[ 74%] Built target jxl-static
+[ 75%] Linking CXX static library libjxl_extras_codec-static.a
+[ 75%] Built target jxl_extras_codec-static
+[ 75%] Linking CXX shared library libjxl_extras_codec.so
+[ 75%] Linking C executable brotli
+/usr/bin/ld: libbrotlienc-static.a(encode.c.o): in function `ShouldCompress':
+encode.c:(.text+0x6451): undefined reference to `log2'
+/usr/bin/ld: encode.c:(.text+0x64d1): undefined reference to `log2'
+/usr/bin/ld: encode.c:(.text+0x654e): undefined reference to `log2'
+/usr/bin/ld: libbrotlienc-static.a(encode.c.o): in function `DecideOverLiteralContextModeling':
+encode.c:(.text+0x73e0): undefined reference to `log2'
+/usr/bin/ld: encode.c:(.text+0x7451): undefined reference to `log2'
+/usr/bin/ld: libbrotlienc-static.a(encode.c.o):encode.c:(.text+0x74cb): more undefined references to `log2' follow
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+[ 75%] Built target brotli
+[ 75%] Building CXX object tools/CMakeFiles/cjxl.dir/cjxl_main.cc.o
+[ 75%] Built target jxl_extras_codec
+[ 75%] Building CXX object tools/CMakeFiles/djxl.dir/djxl_main.cc.o
+[ 75%] Linking CXX executable djxl
+clang++: error: no such file or directory: 'USE_LIBPNG=1'
+[ 75%] Built target djxl
+[ 76%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/codec.cc.o
+[ 76%] Linking CXX executable cjxl
+clang++: error: no such file or directory: 'USE_LIBPNG=1'
+[ 76%] Built target cjxl
+[ 76%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/dec/color_description.cc.o
+[ 76%] Building C object tools/CMakeFiles/jxlinfo.dir/jxlinfo.c.o
+[ 77%] Linking CXX executable jxlinfo
+clang++: error: no such file or directory: 'USE_LIBPNG=1'
+[ 77%] Built target jxlinfo
+[ 77%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/dec/color_hints.cc.o
+[ 78%] Building CXX object tools/CMakeFiles/djxl_fuzzer.dir/djxl_fuzzer.cc.o
+[ 79%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/dec/decode.cc.o
+[ 79%] Linking CXX executable djxl_fuzzer
+/usr/bin/ld: /lib/x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[ 79%] Built target djxl_fuzzer
+[ 79%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/dec/jxl.cc.o
+[ 80%] Building CXX object CMakeFiles/decode_oneshot.dir/examples/decode_oneshot.cc.o
+[ 80%] Linking CXX executable decode_oneshot
+[ 80%] Built target decode_oneshot
+[ 80%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/dec/pgx.cc.o
+[ 80%] Building CXX object CMakeFiles/decode_progressive.dir/examples/decode_progressive.cc.o
+[ 81%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/dec/pnm.cc.o
+[ 82%] Linking CXX executable decode_progressive
+[ 82%] Built target decode_progressive
+[ 82%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/enc/encode.cc.o
+[ 83%] Building CXX object CMakeFiles/encode_oneshot.dir/examples/encode_oneshot.cc.o
+[ 83%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/enc/npy.cc.o
+[ 83%] Linking CXX executable encode_oneshot
+[ 83%] Built target encode_oneshot
+[ 84%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/enc/pgx.cc.o
+[ 84%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/enc/pnm.cc.o
+[ 84%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/exif.cc.o
+[ 85%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/hlg.cc.o
+[ 85%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/packed_image_convert.cc.o
+[ 85%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/render_hdr.cc.o
+[ 86%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/time.cc.o
+[ 86%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/tone_mapping.cc.o
+[ 86%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/dec/jpg.cc.o
+[ 87%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/enc/jpg.cc.o
+[ 87%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/dec/apng.cc.o
+[ 87%] Building CXX object lib/CMakeFiles/jxl_extras-static.dir/extras/enc/apng.cc.o
+[ 88%] Linking CXX static library libjxl_extras-static.a
+[ 88%] Built target jxl_extras-static
+[ 88%] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_xl.cc.o
+[ 88%] Building CXX object tools/CMakeFiles/cjpeg_hdr.dir/cjpeg_hdr.cc.o
+[ 88%] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_args.cc.o
+[ 89%] Linking CXX executable cjpeg_hdr
+clang++: error: no such file or directory: 'USE_LIBPNG=1'
+[ 89%] Built target cjpeg_hdr
+[ 90%] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_codec.cc.o
+[ 90%] Building CXX object tools/CMakeFiles/color_encoding_fuzzer.dir/color_encoding_fuzzer.cc.o
+[ 90%] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_file_io.cc.o
+[ 91%] Linking CXX executable color_encoding_fuzzer
+/usr/bin/ld: /lib/x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[ 91%] Built target color_encoding_fuzzer
+[ 91%] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_stats.cc.o
+[ 92%] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_utils.cc.o
+[ 92%] Building CXX object tools/CMakeFiles/decode_basic_info_fuzzer.dir/decode_basic_info_fuzzer.cc.o
+[ 92%] Linking CXX executable decode_basic_info_fuzzer
+/usr/bin/ld: /lib/x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[ 92%] Built target decode_basic_info_fuzzer
+[ 92%] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_codec_custom.cc.o
+[ 92%] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_codec_jxl.cc.o
+[ 93%] Building CXX object tools/CMakeFiles/cjxl_fuzzer.dir/cjxl_fuzzer.cc.o
+[ 93%] Linking CXX executable cjxl_fuzzer
+/usr/bin/ld: /lib/x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[ 93%] Built target cjxl_fuzzer
+[ 94%] Building CXX object tools/CMakeFiles/benchmark_xl.dir/__/third_party/dirent.cc.o
+[ 94%] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_codec_jpeg.cc.o
+[ 94%] Building CXX object tools/CMakeFiles/icc_codec_fuzzer.dir/icc_codec_fuzzer.cc.o
+[ 95%] Linking CXX executable icc_codec_fuzzer
+/usr/bin/ld: /lib/x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[ 95%] Built target icc_codec_fuzzer
+[ 95%] Building CXX object tools/CMakeFiles/benchmark_xl.dir/benchmark/benchmark_codec_png.cc.o
+[ 95%] Building CXX object tools/CMakeFiles/fields_fuzzer.dir/fields_fuzzer.cc.o
+[ 96%] Linking CXX executable benchmark_xl
+clang++: error: no such file or directory: 'USE_LIBPNG=1'
+[ 96%] Built target benchmark_xl
+[ 96%] Building CXX object tools/CMakeFiles/rans_fuzzer.dir/rans_fuzzer.cc.o
+[ 97%] Linking CXX executable fields_fuzzer
+/usr/bin/ld: /lib/x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[ 97%] Built target fields_fuzzer
+[ 98%] Building CXX object tools/CMakeFiles/set_from_bytes_fuzzer.dir/set_from_bytes_fuzzer.cc.o
+[ 98%] Linking CXX executable rans_fuzzer
+/usr/bin/ld: /lib/x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[ 98%] Built target rans_fuzzer
+[ 98%] Building CXX object tools/CMakeFiles/transforms_fuzzer.dir/transforms_fuzzer.cc.o
+[ 98%] Linking CXX executable set_from_bytes_fuzzer
+/usr/bin/ld: /lib/x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+/usr/bin/ld: ../lib/libjxl_extras-static.a(apng.cc.o): in function `jxl::extras::DecodeImageAPNG(jxl::Span<unsigned char const>, jxl::extras::ColorHints const&, jxl::SizeConstraints const&, jxl::extras::PackedPixelFile*)':
+apng.cc:(.text+0x6fd): undefined reference to `png_get_iCCP'
+/usr/bin/ld: apng.cc:(.text+0x75c): undefined reference to `png_get_image_width'
+/usr/bin/ld: apng.cc:(.text+0x773): undefined reference to `png_get_image_height'
+/usr/bin/ld: apng.cc:(.text+0x78b): undefined reference to `png_get_color_type'
+/usr/bin/ld: apng.cc:(.text+0x799): undefined reference to `png_get_bit_depth'
+/usr/bin/ld: apng.cc:(.text+0x7c0): undefined reference to `png_get_sBIT'
+/usr/bin/ld: apng.cc:(.text+0x8e1): undefined reference to `png_save_uint_32'
+/usr/bin/ld: apng.cc:(.text+0xad4): undefined reference to `png_get_valid'
+/usr/bin/ld: apng.cc:(.text+0x18b7): undefined reference to `png_destroy_read_struct'
+/usr/bin/ld: ../lib/libjxl_extras-static.a(apng.cc.o): in function `jxl::extras::(anonymous namespace)::processing_start(png_struct_def*&, png_info_def*&, void*, bool, std::vector<unsigned char, std::allocator<unsigned char> >&, std::vector<std::vector<unsigned char, std::allocator<unsigned char> >, std::allocator<std::vector<unsigned char, std::allocator<unsigned char> > > >&)':
+apng.cc:(.text+0x1b45): undefined reference to `png_create_read_struct'
+/usr/bin/ld: apng.cc:(.text+0x1b50): undefined reference to `png_create_info_struct'
+/usr/bin/ld: apng.cc:(.text+0x1b81): undefined reference to `png_set_longjmp_fn'
+/usr/bin/ld: apng.cc:(.text+0x1baa): undefined reference to `png_set_keep_unknown_chunks'
+/usr/bin/ld: apng.cc:(.text+0x1bbc): undefined reference to `png_set_crc_action'
+/usr/bin/ld: apng.cc:(.text+0x1bdc): undefined reference to `png_set_progressive_read_fn'
+/usr/bin/ld: apng.cc:(.text+0x1bf0): undefined reference to `png_process_data'
+/usr/bin/ld: apng.cc:(.text+0x1c09): undefined reference to `png_process_data'
+/usr/bin/ld: apng.cc:(.text+0x1c57): undefined reference to `png_process_data'
+/usr/bin/ld: ../lib/libjxl_extras-static.a(apng.cc.o): in function `jxl::extras::(anonymous namespace)::processing_finish(png_struct_def*, png_info_def*, jxl::extras::PackedMetadata*)':
+apng.cc:(.text+0x1cff): undefined reference to `png_set_longjmp_fn'
+/usr/bin/ld: apng.cc:(.text+0x1d26): undefined reference to `png_process_data'
+/usr/bin/ld: apng.cc:(.text+0x1d3c): undefined reference to `png_get_text'
+/usr/bin/ld: ../lib/libjxl_extras-static.a(apng.cc.o): in function `jxl::extras::(anonymous namespace)::processing_data(png_struct_def*, png_info_def*, unsigned char*, unsigned int)':
+apng.cc:(.text+0x2753): undefined reference to `png_set_longjmp_fn'
+/usr/bin/ld: apng.cc:(.text+0x2776): undefined reference to `png_process_data'
+/usr/bin/ld: ../lib/libjxl_extras-static.a(apng.cc.o): in function `jxl::extras::(anonymous namespace)::info_fn(png_struct_def*, png_info_def*)':
+apng.cc:(.text+0x287e): undefined reference to `png_set_expand'
+/usr/bin/ld: apng.cc:(.text+0x2886): undefined reference to `png_set_palette_to_rgb'
+/usr/bin/ld: apng.cc:(.text+0x288e): undefined reference to `png_set_tRNS_to_alpha'
+/usr/bin/ld: apng.cc:(.text+0x2896): undefined reference to `png_set_interlace_handling'
+/usr/bin/ld: apng.cc:(.text+0x28a5): undefined reference to `png_read_update_info'
+/usr/bin/ld: ../lib/libjxl_extras-static.a(apng.cc.o): in function `jxl::extras::(anonymous namespace)::row_fn(png_struct_def*, unsigned char*, unsigned int, int)':
+apng.cc:(.text+0x28c4): undefined reference to `png_get_progressive_ptr'
+/usr/bin/ld: apng.cc:(.text+0x290b): undefined reference to `png_progressive_combine_row'
+/usr/bin/ld: ../lib/libjxl_extras-static.a(apng.cc.o): in function `jxl::extras::(anonymous namespace)::APNGEncoder::Encode(jxl::extras::PackedPixelFile const&, jxl::extras::EncodedImage*, jxl::ThreadPool*) const':
+apng.cc:(.text+0x7d7): undefined reference to `png_create_write_struct'
+/usr/bin/ld: apng.cc:(.text+0x7f2): undefined reference to `png_create_info_struct'
+/usr/bin/ld: apng.cc:(.text+0x81f): undefined reference to `png_set_write_fn'
+/usr/bin/ld: apng.cc:(.text+0x82a): undefined reference to `png_set_flush'
+/usr/bin/ld: apng.cc:(.text+0x868): undefined reference to `png_set_IHDR'
+/usr/bin/ld: apng.cc:(.text+0x88e): undefined reference to `png_write_info'
+/usr/bin/ld: apng.cc:(.text+0x9e8): undefined reference to `png_set_benign_errors'
+/usr/bin/ld: apng.cc:(.text+0xa0f): undefined reference to `png_set_iCCP'
+/usr/bin/ld: apng.cc:(.text+0xdef): undefined reference to `png_set_text'
+/usr/bin/ld: apng.cc:(.text+0xe22): undefined reference to `png_write_info'
+/usr/bin/ld: apng.cc:(.text+0xef8): undefined reference to `png_save_uint_32'
+/usr/bin/ld: apng.cc:(.text+0xf07): undefined reference to `png_save_uint_32'
+/usr/bin/ld: apng.cc:(.text+0xf30): undefined reference to `png_write_chunk'
+/usr/bin/ld: apng.cc:(.text+0xf4d): undefined reference to `png_save_uint_32'
+/usr/bin/ld: apng.cc:(.text+0xf60): undefined reference to `png_save_uint_32'
+/usr/bin/ld: apng.cc:(.text+0xf6f): undefined reference to `png_save_uint_32'
+/usr/bin/ld: apng.cc:(.text+0xf7d): undefined reference to `png_save_uint_32'
+/usr/bin/ld: apng.cc:(.text+0xf88): undefined reference to `png_save_uint_32'
+/usr/bin/ld: apng.cc:(.text+0xf9c): undefined reference to `png_save_uint_16'
+/usr/bin/ld: apng.cc:(.text+0xfa9): undefined reference to `png_save_uint_16'
+/usr/bin/ld: apng.cc:(.text+0xfd8): undefined reference to `png_write_chunk'
+/usr/bin/ld: apng.cc:(.text+0x10f8): undefined reference to `png_write_flush'
+/usr/bin/ld: apng.cc:(.text+0x1112): undefined reference to `png_write_image'
+/usr/bin/ld: apng.cc:(.text+0x111b): undefined reference to `png_write_flush'
+/usr/bin/ld: apng.cc:(.text+0x115e): undefined reference to `png_save_uint_32'
+/usr/bin/ld: apng.cc:(.text+0x127b): undefined reference to `png_write_chunk'
+/usr/bin/ld: apng.cc:(.text+0x12f1): undefined reference to `png_write_end'
+/usr/bin/ld: apng.cc:(.text+0x12fe): undefined reference to `png_destroy_write_struct'
+/usr/bin/ld: apng.cc:(.text+0x15bc): undefined reference to `png_set_keep_unknown_chunks'
+/usr/bin/ld: apng.cc:(.text+0x15d3): undefined reference to `png_set_unknown_chunks'
+/usr/bin/ld: ../lib/libjxl_extras-static.a(apng.cc.o): in function `jxl::extras::(anonymous namespace)::PngWrite(png_struct_def*, unsigned char*, unsigned long)':
+apng.cc:(.text+0x16ce): undefined reference to `png_get_io_ptr'
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[ 98%] Built target set_from_bytes_fuzzer
+[ 98%] Building CXX object tools/CMakeFiles/jxl_emcc.dir/jxl_emcc.cc.o
+[100%] Linking CXX executable transforms_fuzzer
+/usr/bin/ld: /lib/x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[100%] Built target transforms_fuzzer
+/home/pedro/.phoronix-test-suite/installed-tests/pts/jpegxl-1.5.0/libjxl-0.7.0/tools/jxl_emcc.cc:228:5: warning: 'main' should not be 'extern "C"' [-Wmain]
+  228 | int main(int argc, char* argv[]) {
+      |     ^
+1 warning generated.
+[100%] Linking CXX executable jxl_emcc
+clang++: error: unknown argument: '--closure'
+clang++: error: no such file or directory: '1'
+clang++: error: no such file or directory: 'TOTAL_MEMORY=75mb'
+clang++: error: no such file or directory: 'USE_LIBPNG=1'
+clang++: error: no such file or directory: 'DISABLE_EXCEPTION_CATCHING=1'
+clang++: error: no such file or directory: 'MODULARIZE=1'
+clang++: error: no such file or directory: 'FILESYSTEM=0'
+clang++: error: no such file or directory: 'USE_PTHREADS=1'
+clang++: error: no such file or directory: 'PTHREAD_POOL_SIZE=4'
+clang++: error: no such file or directory: 'EXPORT_NAME=JxlCodecModule'
+clang++: error: no such file or directory: 'EXPORTED_FUNCTIONS=['
+clang++: error: no such file or directory: '_malloc,'
+clang++: error: no such file or directory: '_free,'
+clang++: error: no such file or directory: '_jxlCreateInstance,'
+clang++: error: no such file or directory: '_jxlDestroyInstance,'
+clang++: error: no such file or directory: '_jxlFlush,'
+clang++: error: no such file or directory: '_jxlProcessInput'
+clang++: error: no such file or directory: ']'
+[100%] Built target jxl_emcc
