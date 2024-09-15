@@ -1,0 +1,27 @@
+#####
+byte - Run 1
+2024-09-15 09:49:21
+#####
+Benchmarking: HMAC-SHA512 [password is key, SHA512 256/256 AVX2 4x]... DONE
+Many salts:	2489K c/s real, 2489K c/s virtual
+Only one salt:	1198K c/s real, 1198K c/s virtual
+
+
+#####
+byte - Run 2
+2024-09-15 09:50:25
+#####
+Benchmarking: HMAC-SHA512 [password is key, SHA512 256/256 AVX2 4x]... DONE
+Many salts:	2489K c/s real, 2489K c/s virtual
+Only one salt:	1198K c/s real, 1198K c/s virtual
+
+
+#####
+byte - Run 3
+2024-09-15 09:51:27
+#####
+Benchmarking: HMAC-SHA512 [password is key, SHA512 256/256 AVX2 4x]... DONE
+Many salts:	2488K c/s real, 2488K c/s virtual
+Only one salt:	1198K c/s real, 1198K c/s virtual
+
+

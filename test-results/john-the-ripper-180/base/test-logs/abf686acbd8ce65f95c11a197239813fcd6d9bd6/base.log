@@ -1,0 +1,27 @@
+#####
+base - Run 1
+2024-09-15 09:05:54
+#####
+Benchmarking: bcrypt ("$2a$05", 32 iterations) [Blowfish 32/64 X3]... DONE
+Speed for cost 1 (iteration count) of 32
+Raw:	757 c/s real, 757 c/s virtual
+
+
+#####
+base - Run 2
+2024-09-15 09:06:28
+#####
+Benchmarking: bcrypt ("$2a$05", 32 iterations) [Blowfish 32/64 X3]... DONE
+Speed for cost 1 (iteration count) of 32
+Raw:	756 c/s real, 756 c/s virtual
+
+
+#####
+base - Run 3
+2024-09-15 09:07:00
+#####
+Benchmarking: bcrypt ("$2a$05", 32 iterations) [Blowfish 32/64 X3]... DONE
+Speed for cost 1 (iteration count) of 32
+Raw:	757 c/s real, 757 c/s virtual
+
+

@@ -1,0 +1,24 @@
+#####
+base - Run 1
+2024-09-15 09:04:04
+#####
+Benchmarking: wpapsk, WPA/WPA2/PMF/PMKID PSK [PBKDF2-SHA1 256/256 AVX2 8x2]... DONE
+Raw:	1757 c/s real, 1757 c/s virtual
+
+
+#####
+base - Run 2
+2024-09-15 09:04:39
+#####
+Benchmarking: wpapsk, WPA/WPA2/PMF/PMKID PSK [PBKDF2-SHA1 256/256 AVX2 8x2]... DONE
+Raw:	1757 c/s real, 1757 c/s virtual
+
+
+#####
+base - Run 3
+2024-09-15 09:05:11
+#####
+Benchmarking: wpapsk, WPA/WPA2/PMF/PMKID PSK [PBKDF2-SHA1 256/256 AVX2 8x2]... DONE
+Raw:	1757 c/s real, 1757 c/s virtual
+
+

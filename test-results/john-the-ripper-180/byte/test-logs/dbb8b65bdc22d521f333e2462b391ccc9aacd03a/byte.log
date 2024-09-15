@@ -1,0 +1,27 @@
+#####
+byte - Run 1
+2024-09-15 09:52:39
+#####
+Benchmarking: md5crypt, crypt(3) $1$ (and variants) [MD5 256/256 AVX2 8x5]... DONE
+Many salts:	44506 c/s real, 44536 c/s virtual
+Only one salt:	44462 c/s real, 44477 c/s virtual
+
+
+#####
+byte - Run 2
+2024-09-15 09:53:44
+#####
+Benchmarking: md5crypt, crypt(3) $1$ (and variants) [MD5 256/256 AVX2 8x5]... DONE
+Many salts:	44504 c/s real, 44533 c/s virtual
+Only one salt:	44465 c/s real, 44480 c/s virtual
+
+
+#####
+byte - Run 3
+2024-09-15 09:54:46
+#####
+Benchmarking: md5crypt, crypt(3) $1$ (and variants) [MD5 256/256 AVX2 8x5]... DONE
+Many salts:	44482 c/s real, 44512 c/s virtual
+Only one salt:	44446 c/s real, 44461 c/s virtual
+
+
