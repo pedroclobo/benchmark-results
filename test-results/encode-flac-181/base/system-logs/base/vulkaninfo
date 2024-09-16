@@ -634,8 +634,8 @@ VkPhysicalDeviceMemoryProperties:
 =================================
 memoryHeaps: count = 1
 	memoryHeaps[0]:
-		size   = 6177392640 (0x170338800) (5.75 GiB)
-		budget = 5999951872 (0x165a00000) (5.59 GiB)
+		size   = 6177404928 (0x17033b800) (5.75 GiB)
+		budget = 5335154688 (0x13e000000) (4.97 GiB)
 		usage  = 0 (0x00000000) (0.00 B)
 		flags: count = 1
 			MEMORY_HEAP_DEVICE_LOCAL_BIT
@@ -1705,8 +1705,8 @@ memoryHeaps: count = 3
 		flags: count = 1
 			MEMORY_HEAP_DEVICE_LOCAL_BIT
 	memoryHeaps[1]:
-		size   = 6177392640 (0x170338800) (5.75 GiB)
-		budget = 6177392640 (0x170338800) (5.75 GiB)
+		size   = 6177404928 (0x17033b800) (5.75 GiB)
+		budget = 6177404928 (0x17033b800) (5.75 GiB)
 		usage  = 1077248 (0x00107000) (1.03 MiB)
 		flags:
 			None
@@ -2916,9 +2916,9 @@ VkPhysicalDeviceMemoryProperties:
 =================================
 memoryHeaps: count = 1
 	memoryHeaps[0]:
-		size   = 8236523520 (0x1eaef6000) (7.67 GiB)
-		budget = 8236523520 (0x1eaef6000) (7.67 GiB)
-		usage  = 1590935552 (0x5ed3c000) (1.48 GiB)
+		size   = 8236539904 (0x1eaefa000) (7.67 GiB)
+		budget = 8236539904 (0x1eaefa000) (7.67 GiB)
+		usage  = 2321006592 (0x8a57c000) (2.16 GiB)
 		flags: count = 1
 			MEMORY_HEAP_DEVICE_LOCAL_BIT
 memoryTypes: count = 1

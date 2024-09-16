@@ -124,12 +124,7 @@ checking for getauxval... yes
 checking for getopt_long... yes
 checking size of void*... (cached) 8
 checking for doxygen... no
-checking for Ogg... no
-*** Could not run Ogg test program, checking why...
-*** The test program failed to compile or link. See the file config.log for the
-*** exact error that occurred. This usually means Ogg was incorrectly installed
-*** or that you have moved Ogg since it was installed.
-configure: WARNING: *** Ogg development environment not installed - Ogg support will not be built
+checking for Ogg... yes
 checking for ld used by /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang... /usr/bin/ld -m elf_x86_64
 checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
 checking for shared library run path origin... done
@@ -218,7 +213,7 @@ config.status: executing libtool commands
     Compiler is GCC : ......................... no
     Compiler is Clang : ....................... yes
     Asm optimizations : ....................... yes
-    Ogg/FLAC support : ........................ no
+    Ogg/FLAC support : ........................ yes
     Stack protector  : ........................ no
     Fuzzing support (Clang only) : ............ no
 
@@ -319,6 +314,10 @@ make[4]: Entering directory '/home/pedro/.phoronix-test-suite/installed-tests/pt
   CC       stream_encoder_intrin_avx2.lo
   CC       stream_encoder_framing.lo
   CC       window.lo
+  CC       ogg_decoder_aspect.lo
+  CC       ogg_encoder_aspect.lo
+  CC       ogg_helper.lo
+  CC       ogg_mapping.lo
   CCLD     libFLAC.la
   CCLD     libFLAC-static.la
 ar: `u' modifier ignored since `D' is the default (see `U')

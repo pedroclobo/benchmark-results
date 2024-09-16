@@ -1,38 +1,38 @@
-1013700	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac-1.4.2.tar.xz
-17	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/libFLAC.so.12
-1083	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/libFLAC++.la
-346240	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/libFLAC.so.12.0.0
-17	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/libFLAC.so
-19	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/libFLAC++.so
-151744	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/libFLAC++.so.10.0.0
-982	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/libFLAC.la
-19	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/libFLAC++.so.10
-314	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/pkgconfig/flac++.pc
-322	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/pkgconfig/flac.pc
-636	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/pkgconfig
-500757	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib
-4102	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/export.h
-71583	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/stream_decoder.h
-2693	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/ordinals.h
-100611	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/metadata.h
-2002	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/assert.h
-84581	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/stream_encoder.h
-7424	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/callback.h
-19896	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/all.h
-41367	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/format.h
-334259	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC
-3932	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC++/export.h
-15668	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC++/encoder.h
-12789	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC++/decoder.h
-51538	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC++/metadata.h
-1976	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC++/all.h
-85903	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC++
-420162	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include
-130624	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/bin/metaflac
-229232	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/bin/flac
-359856	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/bin
-1280775	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_
-898	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/pts-install.json
-78906	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/install.log
-779	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/encode-flac
-2375058	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1
+151744	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/libFLAC++.so.10.0.0	ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, not stripped
+314	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/pkgconfig/flac++.pc	ASCII text
+325	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/pkgconfig/flac.pc	ASCII text
+639	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/pkgconfig	directory
+1173	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/libFLAC++.la	libtool library file, ASCII text
+17	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/libFLAC.so.12	symbolic link to libFLAC.so.12.0.0
+360976	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/libFLAC.so.12.0.0	ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, not stripped
+17	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/libFLAC.so	symbolic link to libFLAC.so.12.0.0
+1072	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/libFLAC.la	libtool library file, ASCII text
+19	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/libFLAC++.so.10	symbolic link to libFLAC++.so.10.0.0
+19	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib/libFLAC++.so	symbolic link to libFLAC++.so.10.0.0
+515676	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/lib	directory
+233752	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/bin/flac	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, not stripped
+130624	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/bin/metaflac	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, not stripped
+364376	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/bin	directory
+15668	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC++/encoder.h	C++ source, ASCII text
+51538	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC++/metadata.h	C++ source, ASCII text
+12789	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC++/decoder.h	C++ source, ASCII text
+3932	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC++/export.h	C source, ASCII text
+1976	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC++/all.h	C source, ASCII text
+85903	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC++	directory
+100611	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/metadata.h	C source, ASCII text
+7424	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/callback.h	C source, ASCII text
+2693	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/ordinals.h	C source, ASCII text
+84581	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/stream_encoder.h	C source, ASCII text
+2002	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/assert.h	C source, ASCII text
+4102	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/export.h	C source, ASCII text
+71583	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/stream_decoder.h	C source, ASCII text
+41367	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/format.h	C source, ASCII text
+19896	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC/all.h	LaTeX document, ASCII text
+334259	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include/FLAC	directory
+420162	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_/include	directory
+1300214	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac_	directory
+1013700	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac-1.4.2.tar.xz	XZ compressed data, checksum CRC64
+165	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/encode-flac	POSIX shell script, ASCII text executable
+78660	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/install.log	C source, ASCII text, with very long lines (684)
+898	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/pts-install.json	JSON text data
+2393637	/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1	directory
