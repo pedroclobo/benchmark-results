@@ -1,4 +1,4 @@
-82	/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite-speedtest
+95	/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite-speedtest
 25646	/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/install.log
 10014	/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/opcodes.c
 705310	/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/fts5.c
@@ -2079,4 +2079,4 @@
 126637695	/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite
 11158769	/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite-330-for-speedtest.tar.gz
 903	/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/pts-install.json
-137823095	/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1
+137823108	/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1

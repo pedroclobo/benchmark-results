@@ -1,42 +1,42 @@
 #####
 byte - Run 1
-2024-09-14 10:06:49
+2024-09-16 15:46:53
 #####
 Lua SciMark 2010-12-10 based on SciMark 2.0a. Copyright (C) 2006-2010 Mike Pall.
 
-FFT       153.44  [1048576]
-SOR      1000.43  [1000]
-MC        279.43  
-SPARSE    567.72  [100000, 1000000]
-LU       1239.86  [1000]
+FFT       153.48  [1048576]
+SOR      1001.33  [1000]
+MC        279.55  
+SPARSE    568.61  [100000, 1000000]
+LU       1239.09  [1000]
 
-SciMark   648.18  [large problem sizes]
+SciMark   648.41  [large problem sizes]
 
 #####
 byte - Run 2
-2024-09-14 10:07:23
+2024-09-16 15:47:27
 #####
 Lua SciMark 2010-12-10 based on SciMark 2.0a. Copyright (C) 2006-2010 Mike Pall.
 
-FFT       153.25  [1048576]
-SOR       999.27  [1000]
-MC        279.54  
-SPARSE    567.82  [100000, 1000000]
-LU       1237.61  [1000]
+FFT       152.78  [1048576]
+SOR      1002.33  [1000]
+MC        279.57  
+SPARSE    569.72  [100000, 1000000]
+LU       1238.55  [1000]
 
-SciMark   647.50  [large problem sizes]
+SciMark   648.59  [large problem sizes]
 
 #####
 byte - Run 3
-2024-09-14 10:07:55
+2024-09-16 15:47:59
 #####
 Lua SciMark 2010-12-10 based on SciMark 2.0a. Copyright (C) 2006-2010 Mike Pall.
 
-FFT       153.16  [1048576]
-SOR      1000.48  [1000]
-MC        279.49  
-SPARSE    568.49  [100000, 1000000]
-LU       1240.03  [1000]
+FFT       153.03  [1048576]
+SOR      1001.25  [1000]
+MC        279.56  
+SPARSE    583.46  [100000, 1000000]
+LU       1240.43  [1000]
 
-SciMark   648.33  [large problem sizes]
+SciMark   651.55  [large problem sizes]
 

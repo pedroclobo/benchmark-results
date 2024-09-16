@@ -1,0 +1,192 @@
+#####
+byte - Run 1
+2024-09-16 16:23:00
+#####
+Forked child 0
++DTP:4096:private:rsa sign:30
++DTP:4096:private:rsa sign:30
++R1:2167:4096:30.01
++DTP:4096:public:rsa verify:30
++R1:2167:4096:30.01
++DTP:4096:public:rsa verify:30
++R2:150281:4096:30.00
++DTP:4096:private:rsa encrypt:30
++R2:149726:4096:30.00
++DTP:4096:private:rsa encrypt:30
++R3:144668:4096:30.00
++R3:144152:4096:30.00
++DTP:4096:private:rsa decrypt:30
++DTP:4096:private:rsa decrypt:30
++R4:2239:4096:30.01
++R4:2226:4096:30.02
++DTP:rsa4096:keygen:30
++DTP:rsa4096:keygen:30
++R15:16:rsa4096:30.06
++DTP:rsa4096:encaps:30
++R15:21:rsa4096:30.28
++DTP:rsa4096:encaps:30
++R16:141254:rsa4096:30.00
++DTP:rsa4096:decaps:30
++R16:139565:rsa4096:30.00
++DTP:rsa4096:decaps:30
++R17:2286:rsa4096:30.00
++R17:2287:rsa4096:30.01
++DTP:rsa4096:keygen:30
++DTP:rsa4096:keygen:30
++R18:20:rsa4096:30.42
++DTP:rsa4096:signs:30
++R18:22:rsa4096:30.32
++DTP:rsa4096:signs:30
++R19:2290:rsa4096:30.01
++DTP:rsa4096:verify:30
++R19:2294:rsa4096:30.00
++DTP:rsa4096:verify:30
++R20:149184:rsa4096:30.00
++R20:152541:rsa4096:30.00
+Forked child 1
+Got: +F2:4:4096:72.209264:4990.866667:4805.066667:74.150566 from 0
+Got: +F9:4:0.532269:4708.466667:76.200000 from 0
+Got: +F10:4:0.657462:76.307897:4972.800000 from 0
+Got: +F2:4:4096:72.209264:5009.366667:4822.266667:74.608464 from 1
+Got: +F9:4:0.693527:4652.166667:76.207931 from 1
+Got: +F10:4:0.725594:76.466667:5084.700000 from 1
+version: 3.3.0
+built on: Mon Sep 16 15:50:25 2024 UTC
+options: bn(64,64)
+compiler: /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -Wall -O3 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3bfffebffff:0x21c27ab
+                   sign    verify    encrypt   decrypt   sign/s verify/s  encr./s  decr./s
+rsa  4096 bits 0.006924s 0.000100s 0.000104s 0.006722s    144.4  10000.2   9627.3    148.8
+                               keygen    encaps    decaps keygens/s  encaps/s  decaps/s
+                    rsa4096 0.815796s 0.000107s 0.006561s       1.2    9360.6     152.4
+                               keygen     signs    verify keygens/s    sign/s  verify/s
+                    rsa4096 0.723037s 0.006546s 0.000099s       1.4     152.8   10057.5
+
+#####
+byte - Run 2
+2024-09-16 16:28:09
+#####
+Forked child 0
++DTP:4096:private:rsa sign:30
++DTP:4096:private:rsa sign:30
++R1:2165:4096:30.01
++DTP:4096:public:rsa verify:30
++R1:2144:4096:30.01
++DTP:4096:public:rsa verify:30
++R2:149827:4096:30.00
++DTP:4096:private:rsa encrypt:30
++R2:150043:4096:30.00
++DTP:4096:private:rsa encrypt:30
++R3:144037:4096:30.00
++R3:144150:4096:30.01
++DTP:4096:private:rsa decrypt:30
++DTP:4096:private:rsa decrypt:30
++R4:2136:4096:30.00
++R4:2211:4096:30.00
++DTP:rsa4096:keygen:30
++DTP:rsa4096:keygen:30
++R15:19:rsa4096:30.67
++DTP:rsa4096:encaps:30
++R15:17:rsa4096:31.26
++DTP:rsa4096:encaps:30
++R16:141038:rsa4096:30.00
++DTP:rsa4096:decaps:30
++R16:141698:rsa4096:30.00
++DTP:rsa4096:decaps:30
++R17:2296:rsa4096:30.01
++DTP:rsa4096:keygen:30
++R17:2178:rsa4096:30.01
++DTP:rsa4096:keygen:30
++R18:17:rsa4096:30.35
++DTP:rsa4096:signs:30
++R18:19:rsa4096:30.11
++DTP:rsa4096:signs:30
++R19:2295:rsa4096:30.02
++DTP:rsa4096:verify:30
++R19:2171:rsa4096:30.01
++DTP:rsa4096:verify:30
++R20:148144:rsa4096:30.00
++R20:159442:rsa4096:30.00
+Forked child 1
+Got: +F2:4:4096:71.442852:5001.433333:4803.398867:73.700000 from 0
+Got: +F9:4:0.543826:4723.266667:72.575808 from 0
+Got: +F10:4:0.631020:72.342552:5314.733333 from 0
+Got: +F2:4:4096:72.142619:4994.233333:4801.233333:71.200000 from 1
+Got: +F9:4:0.619498:4701.266667:76.507831 from 1
+Got: +F10:4:0.560132:76.449034:4938.133333 from 1
+version: 3.3.0
+built on: Mon Sep 16 15:50:25 2024 UTC
+options: bn(64,64)
+compiler: /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -Wall -O3 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3bfffebffff:0x21c27ab
+                   sign    verify    encrypt   decrypt   sign/s verify/s  encr./s  decr./s
+rsa  4096 bits 0.006964s 0.000100s 0.000104s 0.006901s    143.6   9995.7   9604.6    144.9
+                               keygen    encaps    decaps keygens/s  encaps/s  decaps/s
+                    rsa4096 0.859606s 0.000106s 0.006708s       1.2    9424.5     149.1
+                               keygen     signs    verify keygens/s    sign/s  verify/s
+                    rsa4096 0.839523s 0.006721s 0.000098s       1.2     148.8   10252.9
+
+#####
+byte - Run 3
+2024-09-16 16:33:22
+#####
+Forked child 0
++DTP:4096:private:rsa sign:30
++DTP:4096:private:rsa sign:30
++R1:2167:4096:30.01
++DTP:4096:public:rsa verify:30
++R1:2167:4096:30.01
++DTP:4096:public:rsa verify:30
++R2:150284:4096:30.00
++DTP:4096:private:rsa encrypt:30
++R2:149844:4096:30.00
++DTP:4096:private:rsa encrypt:30
++R3:144707:4096:30.00
++R3:144289:4096:30.01
++DTP:4096:private:rsa decrypt:30
++DTP:4096:private:rsa decrypt:30
++R4:2237:4096:30.00
++R4:2237:4096:30.00
++DTP:rsa4096:keygen:30
++DTP:rsa4096:keygen:30
++R15:20:rsa4096:30.96
++DTP:rsa4096:encaps:30
++R15:15:rsa4096:30.12
++DTP:rsa4096:encaps:30
++R16:141634:rsa4096:30.00
++DTP:rsa4096:decaps:30
++R16:140549:rsa4096:30.00
++DTP:rsa4096:decaps:30
++R17:2297:rsa4096:30.00
++DTP:rsa4096:keygen:30
++R17:2152:rsa4096:30.01
++DTP:rsa4096:keygen:30
++R18:18:rsa4096:30.51
++DTP:rsa4096:signs:30
++R18:17:rsa4096:35.17
++DTP:rsa4096:signs:30
++R19:2276:rsa4096:30.00
++DTP:rsa4096:verify:30
++R19:2270:rsa4096:30.01
++DTP:rsa4096:verify:30
++R20:150216:rsa4096:30.00
++R20:182561:rsa4096:30.00
+Forked child 1
+Got: +F2:4:4096:72.209264:4994.800000:4808.030656:74.566667 from 0
+Got: +F9:4:0.645995:4721.133333:76.566667 from 0
+Got: +F10:4:0.589971:75.866667:5007.200000 from 0
+Got: +F2:4:4096:72.209264:5009.466667:4823.566667:74.566667 from 1
+Got: +F9:4:0.498008:4684.966667:71.709430 from 1
+Got: +F10:4:0.483367:75.641453:6085.366667 from 1
+version: 3.3.0
+built on: Mon Sep 16 15:50:25 2024 UTC
+options: bn(64,64)
+compiler: /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -Wall -O3 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3bfffebffff:0x21c27ab
+                   sign    verify    encrypt   decrypt   sign/s verify/s  encr./s  decr./s
+rsa  4096 bits 0.006924s 0.000100s 0.000104s 0.006705s    144.4  10004.3   9631.6    149.1
+                               keygen    encaps    decaps keygens/s  encaps/s  decaps/s
+                    rsa4096 0.874124s 0.000106s 0.006744s       1.1    9406.1     148.3
+                               keygen     signs    verify keygens/s    sign/s  verify/s
+                    rsa4096 0.931673s 0.006600s 0.000090s       1.1     151.5   11092.6
+

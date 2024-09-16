@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <Generated>
     <Title>john-the-ripper-1.8.0_</Title>
-    <LastModified>2024-09-15 09:13:38</LastModified>
+    <LastModified>2024-09-16 11:56:36</LastModified>
     <TestClient>Phoronix Test Suite v10.8.4</TestClient>
     <Description>Intel Core i5-5200U testing with a FF50 06F2 (5.30 BIOS) and Intel HD 5500 2GB on Ubuntu 24.04 via the Phoronix Test Suite.</Description>
   </Generated>
@@ -12,7 +12,7 @@
     <Hardware>Processor: Intel Core i5-5200U @ 2.10GHz (2 Cores), Motherboard: FF50 06F2 (5.30 BIOS), Chipset: Intel Broadwell-U-OPI, Memory: 8GB, Disk: 480GB KINGSTON SA400S3, Graphics: Intel HD 5500 2GB, Audio: Conexant CX20756, Monitor: VG245, Network: Realtek RTL8111/8168/8211/8411 + Intel 3160</Hardware>
     <Software>OS: Ubuntu 24.04, Kernel: 6.8.0-44-generic (x86_64), Desktop: GNOME Shell 46.0, Display Server: X Server 1.21.1.11, Display Driver: NVIDIA, Compiler: GCC 13.2.0, File-System: ext4, Screen Resolution: 1920x1080</Software>
     <User>pedro</User>
-    <TimeStamp>2024-09-15 09:01:39</TimeStamp>
+    <TimeStamp>2024-09-16 11:44:37</TimeStamp>
     <TestClientVersion>10.8.4</TestClientVersion>
     <Notes></Notes>
     <JSON>{"cpu-scaling-governor":"intel_cpufreq performance","cpu-microcode":"0x2f","cpu-thermald":"2.5.6","kernel-extra-details":"Transparent Huge Pages: madvise","environment-variables":"FLAGS=-O2","security":"gather_data_sampling: Not affected + itlb_multihit: KVM: Mitigation of VMX disabled + l1tf: Mitigation of PTE Inversion; VMX: conditional cache flushes SMT disabled + mds: Mitigation of Clear buffers; SMT disabled + meltdown: Mitigation of PTI + mmio_stale_data: Unknown: No mitigations + reg_file_data_sampling: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of Retpolines; IBPB: conditional; IBRS_FW; RSB filling; PBRSB-eIBRS: Not affected; BHI: Not affected + srbds: Mitigation of Microcode + tsx_async_abort: Not affected"}</JSON>
@@ -29,8 +29,8 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>756</Value>
-        <RawString>755:757:757</RawString>
+        <Value>757</Value>
+        <RawString>757:757:757</RawString>
         <JSON>{"test-run-times":"30.30:30.24:30.24"}</JSON>
       </Entry>
     </Data>
@@ -49,7 +49,7 @@
         <Identifier>base</Identifier>
         <Value>1757</Value>
         <RawString>1757:1757:1757</RawString>
-        <JSON>{"test-run-times":"30.30:30.30:30.30"}</JSON>
+        <JSON>{"test-run-times":"30.31:30.31:30.31"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -65,8 +65,8 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>757</Value>
-        <RawString>757:756:757</RawString>
+        <Value>756</Value>
+        <RawString>756:757:756</RawString>
         <JSON>{"test-run-times":"30.24:30.24:30.24"}</JSON>
       </Entry>
     </Data>
@@ -83,8 +83,8 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>2486667</Value>
-        <RawString>2486000:2487000:2487000</RawString>
+        <Value>2485667</Value>
+        <RawString>2486000:2486000:2485000</RawString>
         <JSON>{"test-run-times":"60.08:60.08:60.08"}</JSON>
       </Entry>
     </Data>
@@ -101,8 +101,8 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>44241</Value>
-        <RawString>44274:44280:44169</RawString>
+        <Value>44266</Value>
+        <RawString>44254:44260:44285</RawString>
         <JSON>{"test-run-times":"60.22:60.22:60.22"}</JSON>
       </Entry>
     </Data>
