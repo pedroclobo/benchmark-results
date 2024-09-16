@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <Generated>
     <Title>botan-1.6.0_</Title>
-    <LastModified>2024-09-13 10:17:16</LastModified>
+    <LastModified>2024-09-16 10:04:17</LastModified>
     <TestClient>Phoronix Test Suite v10.8.4</TestClient>
     <Description>Intel Core i5-5200U testing with a FF50 06F2 (5.30 BIOS) and Intel HD 5500 2GB on Ubuntu 24.04 via the Phoronix Test Suite.</Description>
   </Generated>
@@ -12,7 +12,7 @@
     <Hardware>Processor: Intel Core i5-5200U @ 2.10GHz (2 Cores), Motherboard: FF50 06F2 (5.30 BIOS), Chipset: Intel Broadwell-U-OPI, Memory: 8GB, Disk: 480GB KINGSTON SA400S3, Graphics: Intel HD 5500 2GB, Audio: Conexant CX20756, Monitor: VG245, Network: Realtek RTL8111/8168/8211/8411 + Intel 3160</Hardware>
     <Software>OS: Ubuntu 24.04, Kernel: 6.8.0-44-generic (x86_64), Desktop: GNOME Shell 46.0, Display Server: X Server 1.21.1.11, Display Driver: NVIDIA, Compiler: GCC 13.2.0, File-System: ext4, Screen Resolution: 1920x1080</Software>
     <User>pedro</User>
-    <TimeStamp>2024-09-13 10:06:20</TimeStamp>
+    <TimeStamp>2024-09-16 09:53:22</TimeStamp>
     <TestClientVersion>10.8.4</TestClientVersion>
     <Notes></Notes>
     <JSON>{"cpu-scaling-governor":"intel_cpufreq performance","cpu-microcode":"0x2f","cpu-thermald":"2.5.6","kernel-extra-details":"Transparent Huge Pages: madvise","environment-variables":"FLAGS=-O2","security":"gather_data_sampling: Not affected + itlb_multihit: KVM: Mitigation of VMX disabled + l1tf: Mitigation of PTE Inversion; VMX: conditional cache flushes SMT disabled + mds: Mitigation of Clear buffers; SMT disabled + meltdown: Mitigation of PTI + mmio_stale_data: Unknown: No mitigations + reg_file_data_sampling: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of Retpolines; IBPB: conditional; IBRS_FW; RSB filling; PBRSB-eIBRS: Not affected; BHI: Not affected + srbds: Mitigation of Microcode + tsx_async_abort: Not affected"}</JSON>
@@ -29,8 +29,8 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>47.087</Value>
-        <RawString>47.087:47.099:47.076</RawString>
+        <Value>47.065</Value>
+        <RawString>47.017:47.075:47.103</RawString>
         <JSON>{"test-run-times":"30.13:30.08:30.08"}</JSON>
       </Entry>
     </Data>
@@ -47,8 +47,8 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>46.373</Value>
-        <RawString>46.382:46.384:46.353</RawString>
+        <Value>46.335</Value>
+        <RawString>46.276:46.377:46.353</RawString>
         <JSON>{"test-run-times":"30.13:30.08:30.08"}</JSON>
       </Entry>
     </Data>
@@ -65,9 +65,9 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>1729.554</Value>
-        <RawString>1728.406:1729.915:1730.341</RawString>
-        <JSON>{"test-run-times":"32.45:32.49:32.49"}</JSON>
+        <Value>1732.024</Value>
+        <RawString>1731.065:1732.549:1732.457</RawString>
+        <JSON>{"test-run-times":"32.39:32.38:32.38"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -83,9 +83,9 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>1731.388</Value>
-        <RawString>1730.013:1731.754:1732.398</RawString>
-        <JSON>{"test-run-times":"32.45:32.49:32.49"}</JSON>
+        <Value>1723.696</Value>
+        <RawString>1724.769:1722.959:1723.36</RawString>
+        <JSON>{"test-run-times":"32.39:32.38:32.38"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -101,9 +101,9 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>170.284</Value>
-        <RawString>170.453:170.448:169.95</RawString>
-        <JSON>{"test-run-times":"30.26:30.26:30.26"}</JSON>
+        <Value>170.448</Value>
+        <RawString>170.451:170.452:170.442</RawString>
+        <JSON>{"test-run-times":"30.26:30.25:30.25"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -119,9 +119,9 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>177.070</Value>
-        <RawString>177.664:177.659:175.887</RawString>
-        <JSON>{"test-run-times":"30.26:30.26:30.26"}</JSON>
+        <Value>177.681</Value>
+        <RawString>177.73:177.665:177.649</RawString>
+        <JSON>{"test-run-times":"30.26:30.25:30.25"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -137,9 +137,9 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>182.092</Value>
-        <RawString>182.072:182.081:182.124</RawString>
-        <JSON>{"test-run-times":"30.27:30.27:30.27"}</JSON>
+        <Value>182.157</Value>
+        <RawString>182.161:182.149:182.16</RawString>
+        <JSON>{"test-run-times":"30.27:30.26:30.27"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -155,9 +155,9 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>182.345</Value>
-        <RawString>182.332:182.326:182.377</RawString>
-        <JSON>{"test-run-times":"30.27:30.27:30.27"}</JSON>
+        <Value>182.508</Value>
+        <RawString>182.518:182.492:182.514</RawString>
+        <JSON>{"test-run-times":"30.27:30.26:30.27"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -173,8 +173,8 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>65.601</Value>
-        <RawString>65.603:65.604:65.596</RawString>
+        <Value>65.533</Value>
+        <RawString>65.589:65.425:65.586</RawString>
         <JSON>{"test-run-times":"30.10:30.10:30.10"}</JSON>
       </Entry>
     </Data>
@@ -191,8 +191,8 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>65.792</Value>
-        <RawString>65.793:65.793:65.791</RawString>
+        <Value>65.743</Value>
+        <RawString>65.765:65.692:65.772</RawString>
         <JSON>{"test-run-times":"30.10:30.10:30.10"}</JSON>
       </Entry>
     </Data>
@@ -209,9 +209,9 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>412.435</Value>
-        <RawString>412.401:412.424:412.479</RawString>
-        <JSON>{"test-run-times":"30.56:30.56:30.56"}</JSON>
+        <Value>413.027</Value>
+        <RawString>413.023:413.055:413.004</RawString>
+        <JSON>{"test-run-times":"30.48:30.48:30.49"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -227,9 +227,9 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>409.601</Value>
-        <RawString>409.583:409.598:409.621</RawString>
-        <JSON>{"test-run-times":"30.56:30.56:30.56"}</JSON>
+        <Value>408.504</Value>
+        <RawString>408.524:408.494:408.494</RawString>
+        <JSON>{"test-run-times":"30.48:30.48:30.49"}</JSON>
       </Entry>
     </Data>
   </Result>

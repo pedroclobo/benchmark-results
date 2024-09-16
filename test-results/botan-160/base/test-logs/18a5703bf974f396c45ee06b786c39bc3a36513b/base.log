@@ -1,50 +1,50 @@
 #####
 base - Run 1
-2024-09-13 10:08:48
+2024-09-16 09:55:49
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
 
-AES-256 encrypt buffer size 1024 bytes: 1728.406 MiB/sec 1.07 cycles/byte (25926.09 MiB in 15000.00 ms)
-AES-256 decrypt buffer size 1024 bytes: 1730.013 MiB/sec 1.07 cycles/byte (25950.20 MiB in 15000.00 ms)
+AES-256 encrypt buffer size 1024 bytes: 1731.065 MiB/sec 1.07 cycles/byte (25965.97 MiB in 15000.00 ms)
+AES-256 decrypt buffer size 1024 bytes: 1724.769 MiB/sec 1.08 cycles/byte (25871.54 MiB in 15000.00 ms)
 
 algo                               operation             1024 bytes
-AES-256                            decrypt               1814050.50
-AES-256                            encrypt               1812365.24
+AES-256                            decrypt               1808551.72
+AES-256                            encrypt               1815153.17
 
 [results are the number of 1000s bytes processed per second]
 
 
 #####
 base - Run 2
-2024-09-13 10:09:24
+2024-09-16 09:56:26
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
 
-AES-256 encrypt buffer size 1024 bytes: 1729.915 MiB/sec 1.07 cycles/byte (25948.72 MiB in 15000.00 ms)
-AES-256 decrypt buffer size 1024 bytes: 1731.754 MiB/sec 1.07 cycles/byte (25976.31 MiB in 15000.00 ms)
+AES-256 encrypt buffer size 1024 bytes: 1732.549 MiB/sec 1.07 cycles/byte (25988.24 MiB in 15000.00 ms)
+AES-256 decrypt buffer size 1024 bytes: 1722.959 MiB/sec 1.08 cycles/byte (25844.39 MiB in 15000.00 ms)
 
 algo                               operation             1024 bytes
-AES-256                            decrypt               1815875.57
-AES-256                            encrypt               1813947.21
+AES-256                            decrypt               1806653.67
+AES-256                            encrypt               1816709.61
 
 [results are the number of 1000s bytes processed per second]
 
 
 #####
 base - Run 3
-2024-09-13 10:09:59
+2024-09-16 09:57:00
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
 
-AES-256 encrypt buffer size 1024 bytes: 1730.341 MiB/sec 1.07 cycles/byte (25955.12 MiB in 15000.00 ms)
-AES-256 decrypt buffer size 1024 bytes: 1732.398 MiB/sec 1.07 cycles/byte (25985.97 MiB in 15000.00 ms)
+AES-256 encrypt buffer size 1024 bytes: 1732.457 MiB/sec 1.07 cycles/byte (25986.85 MiB in 15000.00 ms)
+AES-256 decrypt buffer size 1024 bytes: 1723.360 MiB/sec 1.08 cycles/byte (25850.40 MiB in 15000.00 ms)
 
 algo                               operation             1024 bytes
-AES-256                            decrypt               1816551.07
-AES-256                            encrypt               1814394.34
+AES-256                            decrypt               1807074.13
+AES-256                            encrypt               1816612.46
 
 [results are the number of 1000s bytes processed per second]
 

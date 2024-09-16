@@ -163,19 +163,14 @@ checking whether gcrypt is enabled...
 checking for OpenSSL or libgcrypt... OpenSSL
 checking for openssl/cmac.h... yes
 checking for ethtool... /usr/sbin//ethtool
-checking for libnl-3.0 >= 3.2... no
-checking for libnl-3.1 = 3.1... no
-checking for libnl-3.0 >= 3... no
-checking for libnl-1 >= 1... no
-checking for libnl-tiny >= 1... no
-could not find development files for any supported version of libnl. install either libnl1 or libnl3.
+checking for libnl-3.0 >= 3.2... yes
 checking for expect... no
 configure: WARNING: expect not found; cannot run some tests
 checking for python... no
 checking for python3... python3
 checking for greadlink... no
 checking for readlink... readlink
-checking for hwloc... no
+checking for hwloc... yes
 checking pcap header directories... not found
 checking for pcap.h... no
 checking for libpcre... no
@@ -322,13 +317,13 @@ aircrack-ng 1.7.0
 
   Required Libraries:
     Ethtool:                     yes, found /usr/sbin//ethtool
-    Libnl:                       no
+    Libnl:                       yes, found libnl-3.0
 
   Optional Libraries:
     Airpcap:                     no
     Cmocka:                      no
     DUMA:                        no
-    Hwloc:                       no
+    Hwloc:                       yes
     Jemalloc:                    no
     Pcap:                        no
     Pcre:                        no
@@ -348,7 +343,7 @@ Making all in scripts
 cp "/home/pedro/.phoronix-test-suite/installed-tests/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/scripts/airmon-ng.linux" "/home/pedro/.phoronix-test-suite/installed-tests/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/scripts/airmon-ng"
 chmod +x "/home/pedro/.phoronix-test-suite/installed-tests/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/scripts/airmon-ng"
   CC       lib/libac/cpu/libaircrack_la-trampoline_x86.lo
-  CC       lib/libac/cpu/libaircrack_la-cpuset_pthread.lo
+  CC       lib/libac/cpu/libaircrack_la-cpuset_hwloc.lo
   CC       src/aircrack-ng/aircrack_ng-aircrack-ng.o
   CXX      src/aircrack-ng/aircrack_ng-linecount.o
   CC       src/aircrack-ng/aircrack_ng-session.o
@@ -2064,8 +2059,8 @@ lib/ce-wpa/crypto_engine.c:536:3: warning: 'CMAC_CTX_free' is deprecated [-Wdepr
 /usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
    62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
       |                                                    ^
-  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_sse2_la-simd-intrinsics.lo
 20 warnings generated.
+  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_sse2_la-simd-intrinsics.lo
   CC       lib/ce-wpa/libaircrack_ce_wpa_x86_sse2_la-wpapsk.lo
 lib/ce-wpa/wpapsk.c:210:4: warning: 'SHA1_Init' is deprecated [-Wdeprecated-declarations]
   210 |                         SHA1_Init(&ctx_ipad[j]);

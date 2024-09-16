@@ -1,50 +1,50 @@
 #####
 byte - Run 1
-2024-09-13 10:44:33
+2024-09-16 10:27:20
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
 
-Twofish encrypt buffer size 1024 bytes: 170.416 MiB/sec 12.19 cycles/byte (2556.24 MiB in 15000.01 ms)
-Twofish decrypt buffer size 1024 bytes: 177.696 MiB/sec 11.69 cycles/byte (2665.43 MiB in 15000.00 ms)
+Twofish encrypt buffer size 1024 bytes: 170.458 MiB/sec 12.19 cycles/byte (2556.88 MiB in 15000.00 ms)
+Twofish decrypt buffer size 1024 bytes: 177.735 MiB/sec 11.68 cycles/byte (2666.02 MiB in 15000.00 ms)
 
 algo                               operation             1024 bytes
-Twofish                            decrypt                186327.38
-Twofish                            encrypt                178694.15
+Twofish                            decrypt                186368.50
+Twofish                            encrypt                178738.60
 
 [results are the number of 1000s bytes processed per second]
 
 
 #####
 byte - Run 2
-2024-09-13 10:45:07
+2024-09-16 10:27:54
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
 
-Twofish encrypt buffer size 1024 bytes: 170.437 MiB/sec 12.19 cycles/byte (2556.55 MiB in 15000.00 ms)
-Twofish decrypt buffer size 1024 bytes: 177.702 MiB/sec 11.69 cycles/byte (2665.53 MiB in 15000.00 ms)
+Twofish encrypt buffer size 1024 bytes: 170.457 MiB/sec 12.19 cycles/byte (2556.86 MiB in 15000.00 ms)
+Twofish decrypt buffer size 1024 bytes: 177.743 MiB/sec 11.68 cycles/byte (2666.14 MiB in 15000.00 ms)
 
 algo                               operation             1024 bytes
-Twofish                            decrypt                186333.98
-Twofish                            encrypt                178715.73
+Twofish                            decrypt                186376.70
+Twofish                            encrypt                178737.12
 
 [results are the number of 1000s bytes processed per second]
 
 
 #####
 byte - Run 3
-2024-09-13 10:45:40
+2024-09-16 10:28:27
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
 
-Twofish encrypt buffer size 1024 bytes: 170.468 MiB/sec 12.19 cycles/byte (2557.02 MiB in 15000.00 ms)
-Twofish decrypt buffer size 1024 bytes: 177.742 MiB/sec 11.68 cycles/byte (2666.12 MiB in 15000.00 ms)
+Twofish encrypt buffer size 1024 bytes: 170.442 MiB/sec 12.19 cycles/byte (2556.63 MiB in 15000.01 ms)
+Twofish decrypt buffer size 1024 bytes: 177.726 MiB/sec 11.69 cycles/byte (2665.88 MiB in 15000.00 ms)
 
 algo                               operation             1024 bytes
-Twofish                            decrypt                186375.52
-Twofish                            encrypt                178748.84
+Twofish                            decrypt                186358.73
+Twofish                            encrypt                178721.25
 
 [results are the number of 1000s bytes processed per second]
 
