@@ -1252,6 +1252,7 @@ In file included from Lalign11.c:1:
 ./functions.h:189:13: note: conflicting prototype is here
   189 | extern void ErrorExit( char *message );
       |             ^
+11 warnings generated.
 In file included from Lalign11.c:1:
 ./mltaln.h:168:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   168 | extern void constants();
@@ -1259,7 +1260,6 @@ In file included from Lalign11.c:1:
 ./functions.h:270:13: note: conflicting prototype is here
   270 | extern void constants( int nseq, char **seq );
       |             ^
-11 warnings generated.
 gcc  -Denablemultithread  -std=c99 -O3 -c genalign11.c 
 In file included from genalign11.c:1:
 ./mltaln.h:195:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
@@ -1339,8 +1339,8 @@ In file included from genalign11.c:1:
   270 | extern void constants( int nseq, char **seq );
       |             ^
 11 warnings generated.
-11 warnings generated.
 gcc  -Denablemultithread  -std=c99 -O3 -c MSalignmm.c 
+11 warnings generated.
 gcc  -Denablemultithread  -std=c99 -O3 -c fftFunctions.c
 In file included from MSalignmm.c:1:
 ./mltaln.h:195:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
@@ -1358,24 +1358,10 @@ In file included from MSalignmm.c:1:
       |            ^
 In file included from MSalignmm.c:1:
 ./mltaln.h:182:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  182 | extern double A__In file included from fftFunctions.c:1:
-./mltaln.h:195:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  195 | extern void cpmx_calc();
-      |             ^
-./functions.h:78:13: note: conflicting prototype is here
-   78 | extern void cpmx_calc( char **seq, double **cpmx, double *eff, int lgth, int clus );
-      |             ^
-align();
+  182 | extern double A__align();
       |               ^
 ./functions.h:150:15: note: conflicting prototype is here
-In file included from fftFunctions.c:1:
-./mltaln.h:198:12: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  198 | exte  150rn int fastconjuction();
-      |            ^
-./functions.h:85:12: note: conflicting prototype is here
-   85 | extern int fastconjuction( int *memlist, char **seq, char **aseq, double *peff, double *eff, char name[M][B], char aname[M | ][B], char *d );
-      |            ^
-extern double A__align( double **scoringmtx, int penalty, int penalty_ex, char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, char *gs1, char *gs2, char *ge1, char *ge2, int *, int, int *, int headgp, int tailgp, int firstmem, int calledby, double **cpmxchild0, double **cpmxchild1, double ***cpmxresult, double orieff1, double orieff2 );
+  150 | extern double A__align( double **scoringmtx, int penalty, int penalty_ex, char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, char *gs1, char *gs2, char *ge1, char *ge2, int *, int, int *, int headgp, int tailgp, int firstmem, int calledby, double **cpmxchild0, double **cpmxchild1, double ***cpmxresult, double orieff1, double orieff2 );
       |               ^
 In file included from MSalignmm.c:1:
 ./mltaln.h:184:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
@@ -1395,102 +1381,116 @@ In file included from MSalignmm.c:1:
 ./mltaln.h:188:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   188 | extern double Falign();
       |               ^
-./functions.h:In file included from 155:fftFunctions.c15::1 :
-note: ./mltaln.hconflicting prototype is here:
-182:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  182 |   e155x | teexrtne rdno udbolueb lAe_ _Faalliiggnn(() ;i
-n      t|                ^*
-*whi./functions.hc:h150m:t15x:,  note: dconflicting prototype is hereo
-uble ***scoringmatrices, double **s  c150o | reexitnegrmnt xd,o ucbhlaer  A _*_*asleiqg1n,(  cdhoaurb l e* **s*esqc2o,r idnogumbtlxe,  *ienftf 1p,e ndaolutbyl,e  i*netf fp2e,n adlotuyb_leex ,* *cehfafr1 s*,* sdeoqu1b,l ec h*a*re f*f*2sse,q 2i,n td o u b lcel u*se1f,f 1i,n td o u b lcel u*se2f,f 2i,n ti natl lioccylce,n ,i nitn tj c*yfcf,t liongt,  ailnlto c*l,e ni,n ti,n ti ncto n*s t)r;a
-i      n| t              ^,
- double *impmatch, char *gs1, char *gs2, char *ge1, char *ge2, int *, int, int *, int headgp, int tailgp, int firstmem, int calledby, double **cpmxchild0, double **cpmxchild1, double ***cpmxresult, double orieff1, double In file included from oMSalignmm.cr:i1e:
-f./mltaln.hf2 );
+./functions.h:155:15: note: conflicting prototype is here
+  155 | extern double Falign( int **whichmtx, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int *fftlog, int *, int, int * );
       |               ^
-:189:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  189 | exteIn file included from fftFunctions.c:1:
+In file included from MSalignmm.c:1:
+./mltaln.h:189:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  189 | extern double Falign_localhom();
+      |               ^
+./functions.h:158:8: note: conflicting prototype is here
+  158 | double Falign_localhom( int **which, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int constraint, double *totalimpmatch, int *gapmap1, int *gapmap2, int *chudanpt, int chudanref, int *chudanres );
+      |        ^
+In file included from MSalignmm.c:1:
+./mltaln.h:185:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  185 | extern double partA__align();
+      |               ^
+./functions.h:162:15: note: conflicting prototype is here
+  162 | extern double partA__align( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int start1, int end1, int start2, int end2, int *gapmap1, int *gapmap2, char *, char *, char *, char *, int *, int, int * );
+      |               ^
+In file included from MSalignmm.c:1:
+./mltaln.h:187:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  187 | extern double G__align11();
+      |               ^
+./functions.h:164:15: note: conflicting prototype is here
+  164 | extern double G__align11( double **scoringmtx, char **seq1, char **seq2, int alloclen, int headgp, int tailgp  );
+      |               ^
+In file included from MSalignmm.c:1:
+./mltaln.h:194:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  194 | extern void ErrorExit();
+      |             ^
+./functions.h:189:13: note: conflicting prototype is here
+  189 | extern void ErrorExit( char *message );
+      |             ^
+In file included from MSalignmm.c:1:
+./mltaln.h:168:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  168 | extern void constants();
+      |             ^
+./functions.h:270:13: note: conflicting prototype is here
+  270 | extern void constants( int nseq, char **seq );
+      |             ^
+In file included from fftFunctions.c:1:
+./mltaln.h:195:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  195 | extern void cpmx_calc();
+      |             ^
+./functions.h:78:13: note: conflicting prototype is here
+   78 | extern void cpmx_calc( char **seq, double **cpmx, double *eff, int lgth, int clus );
+      |             ^
+In file included from fftFunctions.c:1:
+./mltaln.h:198:12: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  198 | extern int fastconjuction();
+      |            ^
+./functions.h:85:12: note: conflicting prototype is here
+   85 | extern int fastconjuction( int *memlist, char **seq, char **aseq, double *peff, double *eff, char name[M][B], char aname[M][B], char *d );
+      |            ^
+In file included from fftFunctions.c:1:
+./mltaln.h:182:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  182 | extern double A__align();
+      |               ^
+./functions.h:150:15: note: conflicting prototype is here
+  150 | extern double A__align( double **scoringmtx, int penalty, int penalty_ex, char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, char *gs1, char *gs2, char *ge1, char *ge2, int *, int, int *, int headgp, int tailgp, int firstmem, int calledby, double **cpmxchild0, double **cpmxchild1, double ***cpmxresult, double orieff1, double orieff2 );
+      |               ^
+In file included from fftFunctions.c:1:
 ./mltaln.h:184:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  184 | extern doublern  A__align_gapmap();
+  184 | extern double A__align_gapmap();
       |               ^
 ./functions.h:152:15: note: conflicting prototype is here
   152 | extern double A__align_gapmap( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int *gapmap1, int *gapmap2 );
       |               ^
-dIn file included from fftFunctions.c:1:
+In file included from fftFunctions.c:1:
 ./mltaln.h:181:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   181 | extern double translate_and_Calign();
       |               ^
 ./functions.h:153:15: note: conflicting prototype is here
   153 | extern double translate_and_Calign( char **mseq1, char **mseq2, double *effarr1, double *effarr2, int clus1, int clus2, int alloclen );
       |               ^
-oubIn file included from fftFunctions.c:1:
+In file included from fftFunctions.c:1:
 ./mltaln.h:188:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  188 | extern double Falign(l)e; 
-F      a| l              ^i
-gn_./functions.hl:o155c:a15l:h onote: mconflicting prototype is here(
-);
+  188 | extern double Falign();
       |               ^
-./functions.h:  158155: | 8e:x tnote: econflicting prototype is herer
-n double Falign( int **which  m158t | xd,o udbolueb lFea l*i*g*ns_cloorcianlghmoamt(r iicnets ,* *dwohuibclhe,  *d*osucbolree i*n*g*mstcxo,r icnhgamra t r*i*cseesq,1 ,d ocuhbalre   **s*c*osreeqi2n,g mdtoxu,b lceh a*re f f*1*,s edqo1u,b lceh a*re f f*2*,s edqo2u,b ldeo u*b*leef f*1esf,f 1d, oduobulbel e* **eeffff22s,,  dionutb l e   *c*leufsf11,s ,i ndto u b l ec l*u*se2f,f 2isn,t  ianltl o c l ecnl,u si1n,t  i*nftf t l o gc,l uisn2t,  *i,n ti natl,l oicnlte n*,  )i;n
-t       | c              ^o
-nstraint, double *totalimpmatch, int *gapmap1, int *gapmap2, int *chudanpt, int chudanref, int *chudanres );
-      |        ^
+./functions.h:155:15: note: conflicting prototype is here
+  155 | extern double Falign( int **whichmtx, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int *fftlog, int *, int, int * );
+      |               ^
 In file included from fftFunctions.c:1:
 ./mltaln.h:189:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   189 | extern double Falign_localhom();
       |               ^
 ./functions.h:158:8: note: conflicting prototype is here
-  158 | double Falign_localhom( int **which, double ***scoringmIn file included from aMSalignmm.ct:r1i:
-c./mltaln.he:s185,: 15d:o uwarning: ba function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]l
-e **s  c185o | reexitnegrmnt xd,o ucbhlaer  p a*r*tsAe_q_1a,l icghna(r) ; 
-*      *| s              ^e
-q2, ./functions.hd:o162u:b15l:e  note: *conflicting prototype is heree
-ff1, double *eff2, dou  b162l | ee x*t*eerfnf 1dso,u bdloeu bplaer t*A*_e_fafl2isg,n (i ncth a r   *c*lsuesq11,,  icnhta r   * *csleuqs22,,  dionutb lael l*oecflfe1n,,  dionutb lceo n*setfrfa2i,n ti,n td oiucbylce,  *itnott ajlciymcp,m aitncth ,a lilnotc l*egna,p mianpt1 ,c oinnstt r*agianptm,a pd2o,u bilnet  **icmhpumdaatncpht,,  iinntt  scthaurdta1n,r eifn,t  ienntd 1*,c hiundta nsrteasr t)2;,
-       i| n       ^t
- end2, int *gapmap1, int *gapmap2, char *, char *, char *, char *, int *, int, int * );
-      |               ^
-In file included from MSalignmm.c:1:
-./mltaln.h:187:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  187In file included from fftFunctions.c | :1:
+  158 | double Falign_localhom( int **which, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int constraint, double *totalimpmatch, int *gapmap1, int *gapmap2, int *chudanpt, int chudanref, int *chudanres );
+      |        ^
+In file included from fftFunctions.c:1:
 ./mltaln.h:185:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   185 | extern double partA__align();
       |               ^
-e./functions.h:162:15: note: conflicting prototype is here
-  162 | extern doxuble partA__align( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int start1, int end1, int start2, int end2, int *gapmap1, int *gapmap2, char *, char *, char *, char *, tint *, int, int * );
-      |               ^
-ern doubleIn file included from fftFunctions.c:1:
-./mltaln.h:187:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  187 | e G__align11();
-      |               ^
-xtern double G__align11();
-      |               ^
-./functions.h:164:15: note: conflicting prototype is here
-./functions.h:164:15: note: conflicting prototype is here
-  164 | extern double G__align11( double **scor  164 | exteringmtx, chn double G__align11( double **scoringmtx,ar **seq1, char **seq2, in char **seq1, char **seq2, int allotc laelnl,o cilnetn ,h eiandtg ph,e aidngtp ,t aiinltg pt a i)l;g
-p       |                ^)
-;
+./functions.h:162:15: note: conflicting prototype is here
+  162 | extern double partA__align( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int start1, int end1, int start2, int end2, int *gapmap1, int *gapmap2, char *, char *, char *, char *, int *, int, int * );
       |               ^
 In file included from fftFunctions.c:1:
-./mltaln.h:In file included from 194:MSalignmm.c13::1 :
-warning: ./mltaln.ha function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]:
-194:13: warning:   a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]194
- | exter  n194  | veoxitde rEnr rvooriEdx iEtr(r)o;r
-E      x| i            ^t
-();
-      | ./functions.h            ^:
-189:13./functions.h:: 189note: :conflicting prototype is here13
-: note: conflicting prototype is here  
-189 | ex  t189e | renx tveorind  vEorirdo rEErxriotr(E xcihta(r  c*hmaers s*amgees s)a;g
-e       | )            ^;
-
+./mltaln.h:187:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  187 | extern double G__align11();
+      |               ^
+./functions.h:164:15: note: conflicting prototype is here
+  164 | extern double G__align11( double **scoringmtx, char **seq1, char **seq2, int alloclen, int headgp, int tailgp  );
+      |               ^
+In file included from fftFunctions.c:1:
+./mltaln.h:194:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  194 | extern void ErrorExit();
       |             ^
-In file included from MSalignmm.c:1:
-./mltaln.h:168In file included from fftFunctions.c:1:
+./functions.h:189:13: note: conflicting prototype is here
+  189 | extern void ErrorExit( char *message );
+      |             ^
+In file included from fftFunctions.c:1:
 ./mltaln.h:168:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  168 | extern void constants();
-      |             ^
-./functions.h:270:13:13: note: conflicting prototype is here
-  270 | extern void constants( int ns:eq, char **seq );
-      |             ^
- warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   168 | extern void constants();
       |             ^
 ./functions.h:270:13: note: conflicting prototype is here
@@ -1845,8 +1845,7 @@ In file included from SAalignmm.c:1:
   182 | extern double A__align();
       |               ^
 ./functions.h:150:15: note: conflicting prototype is here
-  150 | extern double A__align( 11 warnings generated.
-double **scoringmtx, int penalty, int penalty_ex, char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, char *gs1, char *gs2, char *ge1, char *ge2, int *, int, int *, int headgp, int tailgp, int firstmem, int calledby, double **cpmxchild0, double **cpmxchild1, double ***cpmxresult, double orieff1, double orieff2 );
+  150 | extern double A__align( double **scoringmtx, int penalty, int penalty_ex, char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, char *gs1, char *gs2, char *ge1, char *ge2, int *, int, int *, int headgp, int tailgp, int firstmem, int calledby, double **cpmxchild0, double **cpmxchild1, double ***cpmxresult, double orieff1, double orieff2 );
       |               ^
 In file included from SAalignmm.c:1:
 ./mltaln.h:184:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
@@ -1877,8 +1876,7 @@ In file included from SAalignmm.c:1:
   158 | double Falign_localhom( int **which, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int constraint, double *totalimpmatch, int *gapmap1, int *gapmap2, int *chudanpt, int chudanref, int *chudanres );
       |        ^
 In file included from SAalignmm.c:1:
-./mltaln.h:185:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]gcc  -Denablemultithread  -std=c99 -O3 -c treeOperation.c
-
+./mltaln.h:185:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   185 | extern double partA__align();
       |               ^
 ./functions.h:162:15: note: conflicting prototype is here
@@ -1912,6 +1910,8 @@ In file included from SAalignmm.c:1:
 SAalignmm.c:159:8: note: conflicting prototype is here
   159 | double Aalign( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen )
       |        ^
+11 warnings generated.
+gcc  -Denablemultithread  -std=c99 -O3 -c treeOperation.c
 In file included from treeOperation.c:1:
 ./mltaln.h:195:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   195 | extern void cpmx_calc();
@@ -2386,22 +2386,21 @@ In file included from mafft-distance.c:1:
       |             ^
 11 warnings generated.
 gcc  -Denablemultithread  -std=c99 -O3 -c MSalign11.c 
+In file included from MSalign11.c:1:
+./mltaln.h:195:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  195 | extern void cpmx_calc();
+      |             ^
+./functions.h:78:13: note: conflicting prototype is here
+   78 | extern void cpmx_calc( char **seq, double **cpmx, double *eff, int lgth, int clus );
+      |             ^
+In file included from MSalign11.c:1:
+./mltaln.h:198:12: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  198 | extern int fastconjuction();
+      |            ^
+./functions.h:85:12: note: conflicting prototype is here
+   85 | extern int fastconjuction( int *memlist, char **seq, char **aseq, double *peff, double *eff, char name[M][B], char aname[M][B], char *d );
+      |            ^
 11 warnings generated.
-gcc  -Denablemultithread  -std=c99 -O3 -c suboptalign11.c 
-In file included from MSalign11.c:1:
-./mltaln.h:195:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  195 | extern void cpmx_calc();
-      |             ^
-./functions.h:78:13: note: conflicting prototype is here
-   78 | extern void cpmx_calc( char **seq, double **cpmx, double *eff, int lgth, int clus );
-      |             ^
-In file included from MSalign11.c:1:
-./mltaln.h:198:12: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  198 | extern int fastconjuction();
-      |            ^
-./functions.h:85:12: note: conflicting prototype is here
-   85 | extern int fastconjuction( int *memlist, char **seq, char **aseq, double *peff, double *eff, char name[M][B], char aname[M][B], char *d );
-      |            ^
 In file included from MSalign11.c:1:
 ./mltaln.h:182:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   182 | extern double A__align();
@@ -2414,7 +2413,8 @@ In file included from MSalign11.c:1:
   184 | extern double A__align_gapmap();
       |               ^
 ./functions.h:152:15: note: conflicting prototype is here
-  152 | extern double A__align_gapmap( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int *gapmap1, int *gapmap2 );
+  152 | extern double A__align_gapmap( char **seq1, char **seq2, double *eff1, double *effgcc  -Denablemultithread  -std=c99 -O3 -c suboptalign11.c 
+2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int *gapmap1, int *gapmap2 );
       |               ^
 In file included from MSalign11.c:1:
 ./mltaln.h:181:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
@@ -2542,9 +2542,9 @@ In file included from suboptalign11.c:1:
 ./functions.h:270:13: note: conflicting prototype is here
   270 | extern void constants( int nseq, char **seq );
       |             ^
+11 warnings generated.
 11 warnings generated.
 gcc  -Denablemultithread  -std=c99 -O3 -c pairlocalalignmain.c
-11 warnings generated.
 gcc  -Denablemultithread  -std=c99 -O3 -c pairlocalalign.c
 In file included from pairlocalalignmain.c:1:
 ./mltaln.h:195:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
@@ -2560,13 +2560,90 @@ In file included from pairlocalalignmain.c:1:
 ./functions.h:85:12: note: conflicting prototype is here
    85 | extern int fastconjuction( int *memlist, char **seq, char **aseq, double *peff, double *eff, char name[M][B], char aname[M][B], char *d );
       |            ^
+In file included from pairlocalalign.c:1:
+./mltaln.h:195:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  195 | extern void cpmx_calc();
+      |             ^
+./functions.h:78:13: note: conflicting prototype is here
+   78 | extern void cpmx_calc( char **seq, double **cpmx, double *eff, int lgth, int clus );
+      |             ^
+In file included from pairlocalalign.c:1:
+./mltaln.h:198:12: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  198 | extern int fastconjuction();
+      |            ^
+./functions.h:85:12: note: conflicting prototype is here
+   85 | extern int fastconjuction( int *memlist, char **seq, char **aseq, double *peff, double *eff, char name[M][B], char aname[M][B], char *d );
+      |            ^
 In file included from pairlocalalignmain.c:1:
+In file included from pairlocalalign.c:1:
 ./mltaln.h:182:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   182 | extern double A__align();
       |               ^
 ./functions.h:150:15: note: conflicting prototype is here
   150 | extern double A__align( double **scoringmtx, int penalty, int penalty_ex, char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, char *gs1, char *gs2, char *ge1, char *ge2, int *, int, int *, int headgp, int tailgp, int firstmem, int calledby, double **cpmxchild0, double **cpmxchild1, double ***cpmxresult, double orieff1, double orieff2 );
       |               ^
+In file included from pairlocalalign.c:1:
+./mltaln.h:184:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  184 | extern double A__align_gapmap();
+      |               ^
+./functions.h:152:15: note: conflicting prototype is here
+  152 | extern double A__align_gapmap( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int *gapmap1, int *gapmap2 );
+      |               ^
+In file included from pairlocalalign.c:1:
+./mltaln.h:181:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  181 | extern double translate_and_Calign();
+      |               ^
+./functions.h:153:15: note: conflicting prototype is here
+  153 | extern double translate_and_Calign( char **mseq1, char **mseq2, double *effarr1, double *effarr2, int clus1, int clus2, int alloclen );
+      |               ^
+In file included from pairlocalalign.c:1:
+./mltaln.h:188:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  188 | extern double Falign();
+      |               ^
+./functions.h:155:15: note: conflicting prototype is here
+  155 | extern double Falign( int **whichmtx, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int *fftlog, int *, int, int * );
+      |               ^
+./mltaln.h:182In file included from pairlocalalign.c:1:
+./mltaln.h:189:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  189 | extern double Falign_localhom();
+      |               ^
+./functions.h:158:8: note: conflicting prototype is here
+  158 | double Falign_localhom( int **which, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int constraint, double *totalimpmatch, int *gapmap1, int *gapmap2, int *chudanpt, int chudanref, int *chudanres );
+      |        ^
+In file included from pairlocalalign.c:1:
+./mltaln.h:185:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  185 | extern double partA__align();
+      |               ^
+./functions.h:162:15: note: conflicting prototype is here
+  162 | extern double partA__align( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int start1, int end1, int start2, int end2, int *gapmap1, int *gapmap2, char *, char *, char *, char *, int *, int, int * );
+      |               ^
+:15In file included from pairlocalalign.c:1:
+./mltaln.h:187:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  187 | extern double G__align11();
+      |               ^
+./functions.h:164:15: note: conflicting prototype is here
+  164 | extern double G__align11( double **scoringmtx, char **seq1, char **seq2, int alloclen, int headgp, int tailgp  );
+      |               ^
+:In file included from pairlocalalign.c:1:
+./mltaln.h:194:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  194 | extern void ErrorExit();
+      |             ^
+./functions.h:189:13: note: conflicting prototype is here
+  189 | extern void ErrorExit( char *message );
+      |             ^
+ warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  182 | extern double A__align();
+      |               ^
+./functions.h:150:15: note: conflicting prototype is here
+  150 | extern double A__align( double **scoringmtx, int penalty, int penalty_ex, char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, char *gs1, char *gs2, char *ge1, char *ge2, int *, int, int *, int headgp, int tailgp, int firstmem, int calledby, double **cpmxchild0, double **cpmxchild1, double ***cpmxresult, double orieff1, double orieff2 );
+      |               ^
+In file included from pairlocalalign.c:1:
+./mltaln.h:168:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  168 | extern void constants();
+      |             ^
+./functions.h:270:13: note: conflicting prototype is here
+  270 | extern void constants( int nseq, char **seq );
+      |             ^
 In file included from pairlocalalignmain.c:1:
 ./mltaln.h:184:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   184 | extern double A__align_gapmap();
@@ -2625,83 +2702,6 @@ In file included from pairlocalalignmain.c:1:
       |             ^
 11 warnings generated.
 gcc  -Denablemultithread  -std=c99 -O3 -c multi2hat3s.c
-In file included from pairlocalalign.c:1:
-./mltaln.h:195:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  195 | extern void cpmx_calc();
-      |             ^
-./functions.h:78:13: note: conflicting prototype is here
-   78 | extern void cpmx_calc( char **seq, double **cpmx, double *eff, int lgth, int clus );
-      |             ^
-In file included from pairlocalalign.c:1:
-./mltaln.h:198:12: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  198 | extern int fastconjuction();
-      |            ^
-./functions.h:85:12: note: conflicting prototype is here
-   85 | extern int fastconjuction( int *memlist, char **seq, char **aseq, double *peff, double *eff, char name[M][B], char aname[M][B], char *d );
-      |            ^
-In file included from pairlocalalign.c:1:
-./mltaln.h:182:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  182 | extern double A__align();
-      |               ^
-./functions.h:150:15: note: conflicting prototype is here
-  150 | extern double A__align( double **scoringmtx, int penalty, int penalty_ex, char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, char *gs1, char *gs2, char *ge1, char *ge2, int *, int, int *, int headgp, int tailgp, int firstmem, int calledby, double **cpmxchild0, double **cpmxchild1, double ***cpmxresult, double orieff1, double orieff2 );
-      |               ^
-In file included from pairlocalalign.c:1:
-./mltaln.h:184:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  184 | extern double A__align_gapmap();
-      |               ^
-./functions.h:152:15: note: conflicting prototype is here
-  152 | extern double A__align_gapmap( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int *gapmap1, int *gapmap2 );
-      |               ^
-In file included from pairlocalalign.c:1:
-./mltaln.h:181:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  181 | extern double translate_and_Calign();
-      |               ^
-./functions.h:153:15: note: conflicting prototype is here
-  153 | extern double translate_and_Calign( char **mseq1, char **mseq2, double *effarr1, double *effarr2, int clus1, int clus2, int alloclen );
-      |               ^
-In file included from pairlocalalign.c:1:
-./mltaln.h:188:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  188 | extern double Falign();
-      |               ^
-./functions.h:155:15: note: conflicting prototype is here
-  155 | extern double Falign( int **whichmtx, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int *fftlog, int *, int, int * );
-      |               ^
-In file included from pairlocalalign.c:1:
-./mltaln.h:189:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  189 | extern double Falign_localhom();
-      |               ^
-./functions.h:158:8: note: conflicting prototype is here
-  158 | double Falign_localhom( int **which, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int constraint, double *totalimpmatch, int *gapmap1, int *gapmap2, int *chudanpt, int chudanref, int *chudanres );
-      |        ^
-In file included from pairlocalalign.c:1:
-./mltaln.h:185:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  185 | extern double partA__align();
-      |               ^
-./functions.h:162:15: note: conflicting prototype is here
-  162 | extern double partA__align( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int start1, int end1, int start2, int end2, int *gapmap1, int *gapmap2, char *, char *, char *, char *, int *, int, int * );
-      |               ^
-In file included from pairlocalalign.c:1:
-./mltaln.h:187:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  187 | extern double G__align11();
-      |               ^
-./functions.h:164:15: note: conflicting prototype is here
-  164 | extern double G__align11( double **scoringmtx, char **seq1, char **seq2, int alloclen, int headgp, int tailgp  );
-      |               ^
-In file included from pairlocalalign.c:1:
-./mltaln.h:194:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  194 | extern void ErrorExit();
-      |             ^
-./functions.h:189:13: note: conflicting prototype is here
-  189 | extern void ErrorExit( char *message );
-      |             ^
-In file included from pairlocalalign.c:1:
-./mltaln.h:168:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  168 | extern void constants();
-      |             ^
-./functions.h:270:13: note: conflicting prototype is here
-  270 | extern void constants( int nseq, char **seq );
-      |             ^
 pairlocalalign.c:2848:23: warning: passing arguments to 'Aalign' without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
  2848 |                                                         pscore = Aalign( mseq1, mseq2, effarr1, effarr2, 1, 1, alloclen );
       |                                                                        ^
@@ -3188,17 +3188,17 @@ In file included from tbfast.c:1:
 disttbfast.c:2258:21: warning: passing arguments to 'Aalign' without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
  2258 |                                         pscore = Aalign( mseq1, mseq2, effarr1, effarr2, clus1, clus2, *alloclen );
       |                                                        ^
-disttbfast.c:2605:21: warning: passing arguments to 'Aalign' without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
- 2605 |                                         pscore = Aalign( mseq1, mseq2, effarr1, effarr2, clus1, clus2, *alloclen );
-      |                                                        ^
 tbfast.c:1146:21: warning: passing arguments to 'Aalign' without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
  1146 |                                         pscore = Aalign( mseq1, mseq2, effarr1, effarr2, clus1, clus2, *alloclen );
       |                                                        ^
-disttbfast.c:3074:21: warning: passing arguments to 'Aalign' without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
- 3074 |                                         pscore = Aalign( mseq1, mseq2, effarr1, effarr2, clus1, clus2, *alloclen );
+disttbfast.c:2605:21: warning: passing arguments to 'Aalign' without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+ 2605 |                                         pscore = Aalign( mseq1, mseq2, effarr1, effarr2, clus1, clus2, *alloclen );
       |                                                        ^
 tbfast.c:1628:21: warning: passing arguments to 'Aalign' without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
  1628 |                                         pscore = Aalign( mseq1, mseq2, effarr1, effarr2, clus1, clus2, *alloclen );
+      |                                                        ^
+disttbfast.c:3074:21: warning: passing arguments to 'Aalign' without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+ 3074 |                                         pscore = Aalign( mseq1, mseq2, effarr1, effarr2, clus1, clus2, *alloclen );
       |                                                        ^
 tbfast.c:3058:2: warning: invalid preprocessing directive, did you mean '#elif'? [-Wunknown-directives]
  3058 | #elseif 0 // 2017/Jan/19 ??    
@@ -3441,9 +3441,9 @@ In file included from f2cl.c:1:
 ./functions.h:270:13: note: conflicting prototype is here
   270 | extern void constants( int nseq, char **seq );
       |             ^
-14 warnings generated.
+1411 warnings generated.
+ warnings generated.
 gcc  -Denablemultithread  -std=c99 -O3 -c mccaskillwrap.c
-11 warnings generated.
 gcc  -Denablemultithread  -std=c99 -O3 -c contrafoldwrap.c
 In file included from mccaskillwrap.c:1:
 ./mltaln.h:195:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
@@ -3452,82 +3452,19 @@ In file included from mccaskillwrap.c:1:
 ./functions.h:78:13: note: conflicting prototype is here
    78 | extern void cpmx_calc( char **seq, double **cpmx, double *eff, int lgth, int clus );
       |             ^
-In file included from mccaskillwrap.c:1:
+In file included from contrafoldwrap.c:In file included from mccaskillwrap.c:1:
 ./mltaln.h:198:12: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   198 | extern int fastconjuction();
       |            ^
-./functions.h:85:12: note: conflicting prototype is here
-   85 | extern int fastconjuction( int *memlist, char **seq, char **aseq, double *peff, double *eff, char name[M][B], char aname[M][B], char *d );
-      |            ^
-In file included from mccaskillwrap.c:1:
-./mltaln.h:182:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  182 | extern double A__align();
-      |               ^
-./functions.h:150:15: note: conflicting prototype is here
-  150 | extern double A__align( double **scoringmtx, int penalty, int penalty_ex, char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, char *gs1, char *gs2, char *ge1, char *ge2, int *, int, int *, int headgp, int tailgp, int firstmem, int calledby, double **cpmxchild0, double **cpmxchild1, double ***cpmxresult, double orieff1, double orieff2 );
-      |               ^
-In file included from mccaskillwrap.c:1:
-./mltaln.h:184:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  184 | extern double A__align_gapmap();
-      |               ^
-./functions.h:152:15: note: conflicting prototype is here
-  152 | extern double A__align_gapmap( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int *gapmap1, int *gapmap2 );
-      |               ^
-In file included from mccaskillwrap.c:1:
-./mltaln.h:181:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  181 | extern double translate_and_Calign();
-      |               ^
-./functions.h:153:15: note: conflicting prototype is here
-  153 | extern double translate_and_Calign( char **mseq1, char **mseq2, double *effarr1, double *effarr2, int clus1, int clus2, int alloclen );
-      |               ^
-In file included from mccaskillwrap.c:1:
-./mltaln.h:188:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  188 | extern double Falign();
-      |               ^
-./functions.h:155:15: note: conflicting prototype is here
-  155 | extern double Falign( int **whichmtx, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int *fftlog, int *, int, int * );
-      |               ^
-In file included from mccaskillwrap.c:1:
-./mltaln.h:189:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  189 | extern double Falign_localhom();
-      |               ^
-./functions.h:158:8: note: conflicting prototype is here
-  158 | double Falign_localhom( int **which, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int constraint, double *totalimpmatch, int *gapmap1, int *gapmap2, int *chudanpt, int chudanref, int *chudanres );
-      |        ^
-In file included from mccaskillwrap.c:1:
-./mltaln.h:185:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  185 | extern double partA__align();
-      |               ^
-./functions.h:162:15: note: conflicting prototype is here
-  162 | extern double partA__align( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int start1, int end1, int start2, int end2, int *gapmap1, int *gapmap2, char *, char *, char *, char *, int *, int, int * );
-      |               ^
-In file included from mccaskillwrap.c:1:
-./mltaln.h:187:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  187 | extern double G__align11();
-      |               ^
-./functions.h:164:15: note: conflicting prototype is here
-  164 | extern double G__align11( double **scoringmtx, char **seq1, char **seq2, int alloclen, int headgp, int tailgp  );
-      |               ^
-In file included from mccaskillwrap.c:1:
-./mltaln.h:194:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  194 | extern void ErrorExit();
-      |             ^
-./functions.h:189:13: note: conflicting prototype is here
-  189 | extern void ErrorExit( char *message );
-      |             ^
-In file included from mccaskillwrap.c:1:
-./mltaln.h:168:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  168 | extern void constants();
-      |             ^
-./functions.h:270:13: note: conflicting prototype is here
-  270 | extern void constants( int nseq, char **seq );
-      |             ^
-In file included from contrafoldwrap.c:1:
-./mltaln.h:195:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  195 | extern void cpmx_calc();
+./functions.h:85:12:1:
+./mltaln.h:195 note: conflicting prototype is here
+   85 | extern int fastconjuction( int *memlist, char **seq, char **aseq, d:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+ouble *peff, double *eff, char name[M][B], char aname[M][B], char *d  195 | extern void cpmx_calc();
       |             ^
 ./functions.h:78:13: note: conflicting prototype is here
-   78 | extern void cpmx_calc( char **seq, double **cpmx, double *eff, int lgth, int clus );
+   78 | extern void cpmx_calc( char **seq, double **cpmx, double *eff, int lgth, in );
+      |            ^
+t clus );
       |             ^
 In file included from contrafoldwrap.c:1:
 ./mltaln.h:198:12: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
@@ -3536,55 +3473,111 @@ In file included from contrafoldwrap.c:1:
 ./functions.h:85:12: note: conflicting prototype is here
    85 | extern int fastconjuction( int *memlist, char **seq, char **aseq, double *peff, double *eff, char name[M][B], char aname[M][B], char *d );
       |            ^
-In file included from contrafoldwrap.c:1:
+In file included from mccaskillwrap.c:1:
 ./mltaln.h:182:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   182 | extern double A__align();
       |               ^
 ./functions.h:150:15: note: conflicting prototype is here
   150 | extern double A__align( double **scoringmtx, int penalty, int penalty_ex, char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, char *gs1, char *gs2, char *ge1, char *ge2, int *, int, int *, int headgp, int tailgp, int firstmem, int calledby, double **cpmxchild0, double **cpmxchild1, double ***cpmxresult, double orieff1, double orieff2 );
       |               ^
-In file included from contrafoldwrap.c:1:
+In file included from mccaskillwrap.c:1:
 ./mltaln.h:184:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   184 | extern double A__align_gapmap();
       |               ^
-./functions.h:152:15: note: conflicting prototype is here
-  152 | extern double A__align_gapmap( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int *gapmap1, int *gapmap2 );
+./functions.hIn file included from contrafoldwrap.c:1:
+./mltaln.h:182:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  :152:15: note: conflicting prototype is here
+  152 | extern double A__al182 | extern double A__align();
       |               ^
-In file included from contrafoldwrap.c:1:
+./functions.h:150:15: note: conflicting prototype is here
+  150 | extern double A__align( double **scoringmtx, int penalty, int penalty_ex, chign_gapmap( char **seq1, char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constrar **seq2, double *eff1, double *eff2, int icyc, int jcyc, aint, double *impmatch, char *gs1, char *gs2, char *ge1, char *gint alloclen, int constraint, double *impmatch, int *gapmap1, int *gapme2, int *, int, int *, int headgp, int tailgp, int firstmem, int calledby, double **cpmxchild0, double **cpmxchild1, douap2 );
+      |               ^
+ble ***cpmxresult, double orieff1, double orieff2 );
+      |               ^
+In file included from mccaskillwrap.c:1:
 ./mltaln.h:181:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  181 | extern double translate_and_Calign();
+  181 | extern double translate_and_Calign(In file included from contrafoldwrap.c:1:
+./mltaln.h:184:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  184 | extern );
       |               ^
 ./functions.h:153:15: note: conflicting prototype is here
-  153 | extern double translate_and_Calign( char **mseq1, char **mseq2, double *effarr1, double *effarr2, int clus1, int clus2, int alloclen );
+  153 | extern double translate_and_Calign( char *double A__align_gapmap();
+      |               ^
+./functions.h*mseq1, char **mseq2,: 152d:o15u:b lnote: econflicting prototype is here 
+*effarr1, doubl  e152  | *eexftfearrnr 2d,o uibnlte  cAl_u_sa1l,i ginn_tg acplmuasp2(,  cihnatr  a*l*lsoecql1e,n  c)h;a
+r       | *              ^*
+seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int *gapmap1, int *gapmap2 );
+      |               ^
+In file included from mccaskillwrap.c:1:
+./mltaln.h:188:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  188 | extern double Falign();
+      |               ^In file included from 
+contrafoldwrap.c:./functions.h1::
+155./mltaln.h::15181:: 15note: :conflicting prototype is here 
+warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  181 | extern   d155o | uebxltee rtnr adnosulbaltee _Faanldi_gCna(l iignnt( )*;*
+w      h| i              ^c
+hmt./functions.hx:,153 :d15o:u bnote: lconflicting prototype is heree
+ ***scori  n153g | meaxttreirn double translate_and_Calign( char **mseq1, char **mseq2, double *effarr1, double *effarr2, int clus1, int clus2, int alloclen );
+      |               ^
+ces, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int *fftlog, int *, int, int * );
       |               ^
 In file included from contrafoldwrap.c:1:
 ./mltaln.h:188:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   188 | extern double Falign();
       |               ^
 ./functions.h:155:15: note: conflicting prototype is here
-  155 | extern double Falign( int **whichmtx, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int *fftlog, int *, int, int * );
-      |               ^
-In file included from contrafoldwrap.c:1:
-./mltaln.h:189:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  155 | extern double Falign( int **whichmtx, double ***scoringmIn file included from atmccaskillwrap.cr:i1c:
+e./mltaln.hs:,189 :d15o:u blwarning: ea function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype] 
+**score  i189n | gemxttxe,r nc hdaoru b l*e* sFeaql1i,g nc_hlaorc a l*h*osme(q)2;,
+       d| o              ^u
+ble ./functions.h*:e158f:f81:,  note: dconflicting prototype is hereo
+uble *eff2, double **  e158f | fd1osu,b ldeo uFballei g*n*_elfofc2asl,h oimn(t  i n t  c*l*uwsh1i,c hi,n td o u b lcel u*s*2*,s cionrti naglmlaotcrliecne,s ,i ndto u*bflfet l*o*gs,c oirneti n*g,m tixn,t ,c hianrt   ** *)s;e
+q      1| ,              ^ 
+char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int constraint, double *totalimpmatch, int *gapmap1, int *gapmap2, int *chudanpt, int chudanref, int *chudanreIn file included from scontrafoldwrap.c :)1;:
+
+./mltaln.h      :| 189       ^:
+15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   189 | extern double Falign_localhom();
       |               ^
 ./functions.h:158:8: note: conflicting prototype is here
   158 | double Falign_localhom( int **which, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int constraint, double *totalimpmatch, int *gapmap1, int *gapmap2, int *chudanpt, int chudanref, int *chudanres );
       |        ^
-In file included from contrafoldwrap.c:1:
+In file included from mccaskillwrap.c:1:
 ./mltaln.h:185:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   185 | extern double partA__align();
       |               ^
 ./functions.h:162:15: note: conflicting prototype is here
-  162 | extern double partA__align( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int start1, int end1, int start2, int end2, int *gapmap1, int *gapmap2, char *, char *, char *, char *, int *, int, int * );
+  162 | extern doubIn file included from contrafoldwrap.c:1:
+./mltaln.h:185:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  185 | extele partA__align( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyrnc, int alloc dloeunb,l ei npta rctoAn_s_tarlaiignnt(,) ;d
+ou      b| l              ^e
+ *impmatch, i./functions.hn:t162 :s15t:a rnote: tconflicting prototype is here1
+, int end1, int start2  ,162  | ienxtt eernnd 2d,o uibnlte  *pgaarptmAa_p_1a,l iignnt(  *cghaaprm a*p*2s,e qc1h,a rc h*a,r  c*h*asre q*2,,  cdhoaurb l*e,  *cehfafr1 ,* ,d oiunbtl e* ,* eifnft2,,  iinntt  *i c)y;c
+,       | i              ^n
+t jcyc, int alloclen, int constraint, double *impmatch, int start1, int end1, int start2, int end2, int *gapmap1, int *gapmap2, char *, char *, char *, char *, int *, int, int * );
       |               ^
-In file included from contrafoldwrap.c:1:
+In file included from mccaskillwrap.c:1:
 ./mltaln.h:187:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   187 | extern double G__align11();
       |               ^
 ./functions.h:164:15: note: conflicting prototype is here
+  164 | extern double G__align11( double **scoringmtx, chIn file included from arcontrafoldwrap.c :*1*:
+s./mltaln.he:q1871:,15 :c hwarning: aa function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]r
+ **se  q1872, |  eixntte ranl ldooculbelne,  Gi_n_ta lhiegand1g1p(,) ;i
+n      t|                ^t
+ail./functions.hg:p164 : 15):; 
+note:       conflicting prototype is here| 
+              ^
   164 | extern double G__align11( double **scoringmtx, char **seq1, char **seq2, int alloclen, int headgp, int tailgp  );
       |               ^
+In file included from mccaskillwrap.c:1:
+./mltaln.h:194:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  194 | extern void ErrorExit();
+      |             ^
+./functions.h:189:13: note: conflicting prototype is here
+  189 | extern void ErrorExit( char *message );
+      |             ^
 In file included from contrafoldwrap.c:1:
 ./mltaln.h:194:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   194 | extern void ErrorExit();
@@ -3594,10 +3587,17 @@ In file included from contrafoldwrap.c:1:
       |             ^
 In file included from contrafoldwrap.c:1:
 ./mltaln.h:168:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  168 | extern void constants();
+  168 | extIn file included from mccaskillwrap.c:1:
+./mltaln.h:168:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  ern void constants();
+168 | extern void constants();
       |             ^
 ./functions.h:270:13: note: conflicting prototype is here
-  270 | extern void constants( int nseq, char **seq );
+  270 | extern v      |             ^
+./functions.h:270:13: note: conflicting prototype is here
+  oid constants( int nseq, char *270 | extern void constants*seq );
+      |             ^
+( int nseq, char **seq );
       |             ^
 11 warnings generated.
 gcc  -Denablemultithread  -std=c99 -O3 -c countlen.c
@@ -3680,6 +3680,8 @@ In file included from countlen.c:1:
 ./functions.h:270:13: note: conflicting prototype is here
   270 | extern void constants( int nseq, char **seq );
       |             ^
+11 warnings generated.
+gcc  -Denablemultithread  -std=c99 -O3 -c regtable2seq.c
 In file included from seq2regtable.c:1:
 ./mltaln.h:195:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   195 | extern void cpmx_calc();
@@ -3757,8 +3759,6 @@ In file included from seq2regtable.c:1:
 ./functions.h:270:13: note: conflicting prototype is here
   270 | extern void constants( int nseq, char **seq );
       |             ^
-11 warnings generated.
-gcc  -Denablemultithread  -std=c99 -O3 -c regtable2seq.c
 11 warnings generated.
 gcc  -Denablemultithread  -std=c99 -O3 -c score.c
 In file included from regtable2seq.c:1:
@@ -3933,75 +3933,12 @@ In file included from getlag.c:1:
 ./functions.h:85:12: note: conflicting prototype is here
    85 | extern int fastconjuction( int *memlist, char **seq, char **aseq, double *peff, double *eff, char name[M][B], char aname[M][B], char *d );
       |            ^
-In file included from getlag.c:1:
-./mltaln.h:182:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  182 | extern double A__align();
-      |               ^
-./functions.h:150:15: note: conflicting prototype is here
-  150 | extern double A__align( double **scoringmtx, int penalty, int penalty_ex, char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, char *gs1, char *gs2, char *ge1, char *ge2, int *, int, int *, int headgp, int tailgp, int firstmem, int calledby, double **cpmxchild0, double **cpmxchild1, double ***cpmxresult, double orieff1, double orieff2 );
-      |               ^
-In file included from getlag.c:1:
-./mltaln.h:184:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  184 | extern double A__align_gapmap();
-      |               ^
-./functions.h:152:15: note: conflicting prototype is here
-  152 | extern double A__align_gapmap( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int *gapmap1, int *gapmap2 );
-      |               ^
-In file included from getlag.c:1:
-./mltaln.h:181:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  181 | extern double translate_and_Calign();
-      |               ^
-./functions.h:153:15: note: conflicting prototype is here
-  153 | extern double translate_and_Calign( char **mseq1, char **mseq2, double *effarr1, double *effarr2, int clus1, int clus2, int alloclen );
-      |               ^
-In file included from getlag.c:1:
-./mltaln.h:188:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  188 | extern double Falign();
-      |               ^
-./functions.h:155:15: note: conflicting prototype is here
-  155 | extern double Falign( int **whichmtx, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int *fftlog, int *, int, int * );
-      |               ^
-In file included from getlag.c:1:
-./mltaln.h:189:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  189 | extern double Falign_localhom();
-      |               ^
-./functions.h:158:8: note: conflicting prototype is here
-  158 | double Falign_localhom( int **which, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int constraint, double *totalimpmatch, int *gapmap1, int *gapmap2, int *chudanpt, int chudanref, int *chudanres );
-      |        ^
-In file included from getlag.c:1:
-./mltaln.h:185:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  185 | extern double partA__align();
-      |               ^
-./functions.h:162:15: note: conflicting prototype is here
-  162 | extern double partA__align( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int start1, int end1, int start2, int end2, int *gapmap1, int *gapmap2, char *, char *, char *, char *, int *, int, int * );
-      |               ^
-In file included from getlag.c:1:
-./mltaln.h:187:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  187 | extern double G__align11();
-      |               ^
-./functions.h:164:15: note: conflicting prototype is here
-  164 | extern double G__align11( double **scoringmtx, char **seq1, char **seq2, int alloclen, int headgp, int tailgp  );
-      |               ^
-In file included from getlag.c:1:
-./mltaln.h:194:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  194 | extern void ErrorExit();
-      |             ^
-./functions.h:189:13: note: conflicting prototype is here
-  189 | extern void ErrorExit( char *message );
-      |             ^
 In file included from dndpre.c:1:
 ./mltaln.h:195:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  195 | extern void In file included from getlag.c:1:
-./mltaln.h:168:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
-  168 | extern void constants();
-      |             ^
-./functions.h:270:13: note: conflicting prototype is here
-  270 | extern void conscpmx_calc();
+  195 | extern void cpmx_calc();
       |             ^
 ./functions.h:78:13: note: conflicting prototype is here
    78 | extern void cpmx_calc( char **seq, double **cpmx, double *eff, int lgth, int clus );
-      |             ^
-tants( int nseq, char **seq );
       |             ^
 In file included from dndpre.c:1:
 ./mltaln.h:198:12: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
@@ -4010,7 +3947,7 @@ In file included from dndpre.c:1:
 ./functions.h:85:12: note: conflicting prototype is here
    85 | extern int fastconjuction( int *memlist, char **seq, char **aseq, double *peff, double *eff, char name[M][B], char aname[M][B], char *d );
       |            ^
-In file included from dndpre.c:1:
+In file included from In file included from dndpre.c:1:
 ./mltaln.h:182:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   182 | extern double A__align();
       |               ^
@@ -4045,7 +3982,7 @@ In file included from dndpre.c:1:
 ./functions.h:158:8: note: conflicting prototype is here
   158 | double Falign_localhom( int **which, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int constraint, double *totalimpmatch, int *gapmap1, int *gapmap2, int *chudanpt, int chudanref, int *chudanres );
       |        ^
-In file included from dndpre.c:1:
+getlag.cIn file included from dndpre.c:1:
 ./mltaln.h:185:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   185 | extern double partA__align();
       |               ^
@@ -4059,6 +3996,13 @@ In file included from dndpre.c:1:
 ./functions.h:164:15: note: conflicting prototype is here
   164 | extern double G__align11( double **scoringmtx, char **seq1, char **seq2, int alloclen, int headgp, int tailgp  );
       |               ^
+:1:
+./mltaln.h:182:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  182 | extern double A__align();
+      |               ^
+./functions.h:150:15: note: conflicting prototype is here
+  150 | extern double A__align( double **scoringmtx, int penalty, int penalty_ex, char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, char *gs1, char *gs2, char *ge1, char *ge2, int *, int, int *, int headgp, int tailgp, int firstmem, int calledby, double **cpmxchild0, double **cpmxchild1, double ***cpmxresult, double orieff1, double orieff2 );
+      |               ^
 In file included from dndpre.c:1:
 ./mltaln.h:194:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   194 | extern void ErrorExit();
@@ -4066,7 +4010,63 @@ In file included from dndpre.c:1:
 ./functions.h:189:13: note: conflicting prototype is here
   189 | extern void ErrorExit( char *message );
       |             ^
-In file included from dndpre.c:1:
+In file included from getlag.c:1:
+./mltaln.h:184:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  184 | extern double A__align_gapmap();
+      |               ^
+./functions.h:152:15: note: conflicting prototype is here
+  152 | extern double A__align_gapmap( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int *gapmap1, int *gapmap2 );
+      |               ^
+In file included from getlag.c:1:
+./mltaln.h:181:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  181In file included from dndpre.c:1:
+./mltaln.h:168:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  168 | extern void constants();
+      |             ^
+./functions.h:270:13: note: conflicting prototype is here
+  270 | extern void constants( int nseq, char **seq );
+      |             ^
+ | extern double translate_and_Calign();
+      |               ^
+./functions.h:153:15: note: conflicting prototype is here
+  153 | extern double translate_and_Calign( char **mseq1, char **mseq2, double *effarr1, double *effarr2, int clus1, int clus2, int alloclen );
+      |               ^
+In file included from getlag.c:1:
+./mltaln.h:188:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  188 | extern double Falign();
+      |               ^
+./functions.h:155:15: note: conflicting prototype is here
+  155 | extern double Falign( int **whichmtx, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int *fftlog, int *, int, int * );
+      |               ^
+In file included from getlag.c:1:
+./mltaln.h:189:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  189 | extern double Falign_localhom();
+      |               ^
+./functions.h:158:8: note: conflicting prototype is here
+  158 | double Falign_localhom( int **which, double ***scoringmatrices, double **scoreingmtx, char  **seq1, char  **seq2, double *eff1, double *eff2, double **eff1s, double **eff2s, int    clus1, int    clus2, int alloclen, int constraint, double *totalimpmatch, int *gapmap1, int *gapmap2, int *chudanpt, int chudanref, int *chudanres );
+      |        ^
+In file included from getlag.c:1:
+./mltaln.h:185:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  185 | extern double partA__align();
+      |               ^
+./functions.h:162:15: note: conflicting prototype is here
+  162 | extern double partA__align( char **seq1, char **seq2, double *eff1, double *eff2, int icyc, int jcyc, int alloclen, int constraint, double *impmatch, int start1, int end1, int start2, int end2, int *gapmap1, int *gapmap2, char *, char *, char *, char *, int *, int, int * );
+      |               ^
+In file included from getlag.c:1:
+./mltaln.h:187:15: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  187 | extern double G__align11();
+      |               ^
+./functions.h:164:15: note: conflicting prototype is here
+  164 | extern double G__align11( double **scoringmtx, char **seq1, char **seq2, int alloclen, int headgp, int tailgp  );
+      |               ^
+In file included from getlag.c:1:
+./mltaln.h:194:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
+  194 | extern void ErrorExit();
+      |             ^
+./functions.h:189:13: note: conflicting prototype is here
+  189 | extern void ErrorExit( char *message );
+      |             ^
+In file included from getlag.c:1:
 ./mltaln.h:168:13: warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent declaration [-Wdeprecated-non-prototype]
   168 | extern void constants();
       |             ^

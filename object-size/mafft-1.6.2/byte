@@ -1,5 +1,5 @@
 390977	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/install.log
-123	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft
+136	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft
 4550	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/share/man/man1/mafft-homologs.1
 14771	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/share/man/man1/mafft.1
 19321	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/share/man/man1
@@ -70,4 +70,4 @@
 614447	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft-7.471-without-extensions-src.tgz
 198841	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft-ex1-lsu-rna.txt
 1043	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/pts-install.json
-14851866	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2
+14851879	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2
