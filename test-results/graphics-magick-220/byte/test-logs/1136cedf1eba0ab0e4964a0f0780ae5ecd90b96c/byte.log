@@ -1,0 +1,18 @@
+#####
+byte - Run 1
+2024-09-17 20:28:57
+#####
+Results: 1 threads 4 iter 78.30s user 78.347756s total 0.051 iter/s 0.051 iter/cpu
+
+#####
+byte - Run 2
+2024-09-17 20:30:20
+#####
+Results: 1 threads 4 iter 78.31s user 78.359162s total 0.051 iter/s 0.051 iter/cpu
+
+#####
+byte - Run 3
+2024-09-17 20:31:40
+#####
+Results: 1 threads 4 iter 78.31s user 78.358972s total 0.051 iter/s 0.051 iter/cpu
+
