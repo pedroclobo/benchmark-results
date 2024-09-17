@@ -1,388 +1,388 @@
-71	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/.gitignore
-2932	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/COPYRIGHT
-8020	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/luajit.html
-13658	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/running.html
-3869	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/status.html
-22495	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/ext_ffi_tutorial.html
-13073	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/ext_profiler.html
-2514	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/bluequad-print.css
-5575	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/bluequad.css
-43292	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/changes.html
-53670	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/ext_ffi_semantics.html
-2927	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/contact.html
-5980	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/ext_c_api.html
-25188	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/install.html
-7623	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/faq.html
-17732	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/extensions.html
-5841	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/ext_jit.html
-21512	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/ext_ffi_api.html
-1340	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/img/contact.png
-1340	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/img
-10274	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/ext_ffi.html
-264583	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc
-453	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/README
-30989	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dynasm.lua
-34598	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_arm.lua
-34807	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_arm64.lua
-13463	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_arm.h
-16236	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_x86.h
-2062	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_proto.h
-57489	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_ppc.lua
-568	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_x64.lua
-74407	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_x86.lua
-579	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_mips64.lua
-12341	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_ppc.h
-12348	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_mips.h
-15074	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_arm64.h
-30354	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_mips.lua
-335315	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm
-22433	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ccallback.c
-29204	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_snap.c
-19735	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_string.c
-25360	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_ffi.o
-5916	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_iropt.h
-1360	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_udata_dyn.o
-3108	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/psvitabuild.bat
-17065	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_base.c
-1164	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_carith.h
-691	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_mcode.h
-6042	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_target.h
-5480	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ccall.o
-4992	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cdata.o
-39256	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_crecord.o
-2464	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vmevent.o
-3946	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/msvcbuild.bat
-77	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/.gitignore
-12616	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ctype_dyn.o
-1112	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_char_dyn.o
-330	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_alloc.h
-16016	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_snap_dyn.o
-356	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm.h
-3804	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/ps4build.bat
-8728	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_table_dyn.o
-138776	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/vm_mips64.dasc
-5843	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_str.c
-10063	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_target_mips.h
-19704	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_lex.o
-417	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_parse.h
-25687	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_narrow.c
-6028	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lauxlib.h
-143996	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/vm_mips.dasc
-51672	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_fold.o
-3997	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ffdef.h
-5464	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_math.o
-2011	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bcdump.h
-3154	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_lex.h
-11056	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_tab_dyn.o
-125733	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/vm_arm.dasc
-2101	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_traceerr.h
-1125	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_state.h
-135	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lua.hpp
-16472	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_io_dyn.o
-7330	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_sink.c
-11952	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_gc.o
-42462	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_alloc.c
-1980	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_char.c
-7518	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_target_ppc.h
-113239	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/vm_arm64.dasc
-3688	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vmmath_dyn.o
-7280	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_lib.o
-18236	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ctype.c
-25360	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_ffi_dyn.o
-6888	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strscan_dyn.o
-2528	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_obj.o
-2528	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_obj_dyn.o
-3173	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/xb1build.bat
-87772	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vm.S
-6704	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bcread.o
-6571	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_os.c
-36072	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_api.o
-13928	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cconv_dyn.o
-57202	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cparse.c
-4803	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ccall.h
-1760	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_crecord.h
-3152	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_func.o
-9936	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_narrow.o
-16648	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_string_dyn.o
-9936	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_narrow_dyn.o
-2901	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_recdef.h
-21824	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/luajit.o
-1654	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_record.h
-10768	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_os_dyn.o
-3872	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_profile_dyn.o
-3688	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vmmath.o
-631	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ccallback.h
-9299	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_state.c
-776	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_func.h
-4335	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_bit.c
-6792	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_state.o
-11824	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strfmt_dyn.o
-364	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ff.h
-12710	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_carith.c
-12616	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ctype.o
-26364	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_trace.c
-6728	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_buf_dyn.o
-8363	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bc.h
-20136	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_jit_dyn.o
-27005	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_split.c
-5117	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_dispatch.h
-6082	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_math.c
-87141	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_record.c
-752	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_split_dyn.o
-921	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_snap.h
-5000	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bcwrite_dyn.o
-6728	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_buf.o
-7075	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_emit_ppc.h
-12224	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strfmt_num.o
-10862	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_clib.c
-44704	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_record.o
-23180	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_ffi.c
-13928	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cconv.o
-13473	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_lex.c
-9602	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_target_arm64.h
-16648	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_string.o
-4192	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_init_dyn.o
-28952	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vm_dyn.o
-4919	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_gc.h
-6120	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_load_dyn.o
-22112	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_gdbjit.c
-16725	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_dispatch.c
-7280	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_lib_dyn.o
-10863	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_def.h
-4720	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ccallback_dyn.o
-589	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj.supp
-1552	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vmevent.c
-11448	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_dispatch_dyn.o
-20136	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_jit.o
-72613	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm_ppc.h
-4192	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_init.o
-5000	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bcwrite.o
-12323	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lua.h
-307	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_udata.h
-1571	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vmevent.h
-4992	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cdata_dyn.o
-11952	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_gc_dyn.o
-4728	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_clib.o
-1437	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_char.h
-11771	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ircall.h
-2953	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_buf.h
-6120	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_load.o
-1112	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_char.o
-51672	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_fold_dyn.o
-5480	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ccall_dyn.o
-19400	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_base.o
-11448	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_dispatch.o
-9231	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_profile.c
-7312	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_sink_dyn.o
-1113	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lualib.h
-19859	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_debug.c
-6704	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bcread_dyn.o
-16104	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_debug_dyn.o
-19704	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_lex_dyn.o
-14632	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ir_dyn.o
-61799	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_crecord.c
-564776	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/libluajit.so
-12224	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strfmt_num_dyn.o
-34296	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_obj.h
-5750	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_func.c
-5728	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_loop_dyn.o
-952280	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/libluajit.a
-36072	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_api_dyn.o
-1520	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bc.o
-16710	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strscan.c
-3152	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_func_dyn.o
-14632	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ir.o
-20354	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strfmt_num.c
-15360	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_err_dyn.o
-103532	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm_x86.h
-7103	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_target_arm.h
-71006	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm_arm.h
-19492	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_tab.c
-65954	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm_arm64.h
-24482	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cconv.c
-15404	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_loop.c
-16905	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ctype.h
-83256	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm.o
-15360	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_emit_x86.h
-15115	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_meta.c
-4400	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_bit_dyn.o
-19092	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ir.h
-4400	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_bit.o
-8491	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_emit_mips.h
-5464	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_math_dyn.o
-2187	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cdata.h
-9119	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_frame.h
-45080	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_parse.o
-15264	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_err.o
-35765	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ccall.c
-737	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_str.h
-10867	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_emit_arm.h
-752	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_split.o
-10480	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bcwrite.c
-2187	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cparse.h
-6792	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_state_dyn.o
-1520	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bc_dyn.o
-2990	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/luajit.h
-8216	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_carith_dyn.o
-3536	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_str.o
-2640	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_dce.o
-3640	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vm.h
-4720	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ccallback.o
-18608	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_package.o
-12991	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_emit_arm64.h
-12901	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ir.c
-16472	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_io.o
-4093	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_load.c
-39256	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_crecord_dyn.o
-13256	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strfmt.c
-18200	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_debug.o
-7787	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_errmsg.h
-15329	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/Makefile.dep
-7627	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_lib.c
-10768	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_os.o
-156457	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/vm_x86.dasc
-1360	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_udata.o
-12936	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_alloc.o
-79710	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_parse.c
-26451	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_gc.c
-2031	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_dce.c
-752	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_gdbjit_dyn.o
-19400	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_base_dyn.o
-31	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/.gitignore
-101752	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm
-193	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/README
-13034	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm.c
-2880	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_libbc.h
-4965	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/genlibbc.lua
-21928	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_lib.o
-7224	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_asm.o
-2592	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm.h
-6264	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_peobj.o
-12154	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_peobj.c
-9184	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_fold.o
-257012	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_arch.h
-169392	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/minilua
-12139	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_lib.c
-205832	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/minilua.o
-6478	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_fold.c
-9565	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_asm.c
-12039	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/genminilua.lua
-174364	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/minilua.c
-87088	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm.o
-1116110	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host
-1651	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_trace.h
-18076	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_package.c
-9042	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cdata.c
-3840	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_mcode_dyn.o
-10488	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_mem.o
-5534	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_buf.c
-3785	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_lib.h
-754	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_clib.h
-13576	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_trace_dyn.o
-45080	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_parse_dyn.o
-18200	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_debug_dyn.o
-85016	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm_mips.h
-9489	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_debug.c
-32328	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ffrecord_dyn.o
-16104	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_debug.o
-564264	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/luajit
-848	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_udata.c
-11136	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_aux_dyn.o
-3872	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_profile.o
-31273	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_mem.c
-3840	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_mcode.o
-20598	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_jit.c
-10050	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_mcode.c
-2640	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_dce_dyn.o
-14205	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_libdef.h
-14859	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/luajit.c
-12936	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_alloc_dyn.o
-11136	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_aux.o
-7312	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_sink.o
-11144	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_meta.o
-13576	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_trace.o
-712	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_x64.lua
-619	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_arm64be.lua
-10	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/.gitignore
-19344	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_arm.lua
-717	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_mips64el.lua
-5783	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/v.lua
-5620	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/bc.lua
-18344	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/bcsave.lua
-20301	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_ppc.lua
-13773	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_mips.lua
-33826	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_x86.lua
-715	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_mipsel.lua
-706	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_mips64.lua
-7397	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/vmdef.lua
-9135	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/p.lua
-1002	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/zone.lua
-20112	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dump.lua
-30904	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_arm64.lua
-189020	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit
-17335	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_jit.h
-3536	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_str_dyn.o
-10488	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_mem_dyn.o
-7926	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_table.c
-9243	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_aux.c
-156576	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/vm_ppc.dasc
-23052	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/Makefile
-4728	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_clib_dyn.o
-464	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_gdbjit.h
-430	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_profile.h
-4588	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/luaconf.h
-28952	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vm.o
-133621	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/vm_x64.dasc
-18608	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_package_dyn.o
-10662	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_target_x86.h
-2464	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vmevent_dyn.o
-261	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bc.c
-8728	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_table.o
-72569	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm.c
-15439	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_folddef.h
-11824	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strfmt.o
-1922	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_debug.h
-12998	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bcread.c
-16016	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_snap.o
-8216	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_carith.o
-2025	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cconv.h
-38754	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ffrecord.c
-13439	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_io.c
-70579	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_fold.c
-4083	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vmmath.c
-15444	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_arch.h
-11056	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_tab.o
-1309	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_obj.c
-4527	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strfmt.h
-1088	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strscan.h
-11144	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_meta_dyn.o
-5728	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_loop.o
-44704	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_record_dyn.o
-637	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ffrecord.h
-1723	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bcdef.h
-32328	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ffrecord.o
-2570	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_tab.h
-1496	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_err.h
-31018	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_api.c
-752	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_gdbjit.o
-50488	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cparse.o
-1519	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_meta.h
-50488	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cparse_dyn.o
-1355	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_init.c
-25427	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_err.c
-3135	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/xedkbuild.bat
-83256	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm_dyn.o
-6888	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strscan.o
-2394	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/ljamalg.c
-8511528	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src
-5879	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/Makefile
-2339	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/etc/luajit.1
-598	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/etc/luajit.pc
-2937	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/etc
-9123698	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git
-11894	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/scimark.lua
-2235	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/install.log
-704300	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-20190110.tar.xz
-83	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/luajit
-1090	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/pts-install.json
-9843300	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0
+71	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/.gitignore	ASCII text
+2932	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/COPYRIGHT	ASCII text
+8020	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/luajit.html	HTML document, ASCII text
+13658	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/running.html	HTML document, ASCII text
+3869	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/status.html	HTML document, ASCII text
+22495	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/ext_ffi_tutorial.html	HTML document, ASCII text, with very long lines (331)
+13073	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/ext_profiler.html	HTML document, ASCII text
+2514	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/bluequad-print.css	ASCII text
+5575	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/bluequad.css	ASCII text
+43292	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/changes.html	HTML document, ASCII text
+53670	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/ext_ffi_semantics.html	HTML document, ASCII text
+2927	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/contact.html	HTML document, ASCII text
+5980	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/ext_c_api.html	HTML document, ASCII text
+25188	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/install.html	HTML document, ASCII text
+7623	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/faq.html	HTML document, ASCII text
+17732	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/extensions.html	HTML document, ASCII text
+5841	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/ext_jit.html	HTML document, ASCII text
+21512	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/ext_ffi_api.html	HTML document, ASCII text
+1340	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/img/contact.png	PNG image data, 170 x 13, 8-bit colormap, non-interlaced
+1340	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/img	directory
+10274	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc/ext_ffi.html	HTML document, ASCII text
+264583	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/doc	directory
+453	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/README	ASCII text
+30989	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dynasm.lua	ASCII text
+34598	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_arm.lua	ASCII text
+34807	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_arm64.lua	ASCII text
+13463	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_arm.h	C source, ASCII text
+16236	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_x86.h	C source, ASCII text
+2062	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_proto.h	C source, ASCII text
+57489	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_ppc.lua	ASCII text
+568	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_x64.lua	ASCII text
+74407	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_x86.lua	ASCII text
+579	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_mips64.lua	ASCII text
+12341	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_ppc.h	C source, ASCII text
+12348	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_mips.h	C source, ASCII text
+15074	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_arm64.h	C source, ASCII text
+30354	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm/dasm_mips.lua	ASCII text
+335315	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/dynasm	directory
+22433	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ccallback.c	C source, ASCII text
+29204	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_snap.c	C source, ASCII text
+19735	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_string.c	C source, ASCII text
+25360	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_ffi.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+5916	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_iropt.h	C source, ASCII text
+1360	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_udata_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+3108	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/psvitabuild.bat	DOS batch file, ASCII text, with CRLF line terminators
+17065	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_base.c	C source, ASCII text
+1164	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_carith.h	C source, ASCII text
+691	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_mcode.h	C source, ASCII text
+6042	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_target.h	C source, ASCII text
+5480	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ccall.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+4992	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cdata.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+39256	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_crecord.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+2464	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vmevent.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+3946	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/msvcbuild.bat	DOS batch file, ASCII text, with CRLF line terminators
+77	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/.gitignore	ASCII text
+12616	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ctype_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+1112	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_char_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+330	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_alloc.h	C source, ASCII text
+16016	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_snap_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+356	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm.h	C source, ASCII text
+3804	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/ps4build.bat	DOS batch file, ASCII text, with CRLF line terminators
+8728	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_table_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+138776	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/vm_mips64.dasc	ASCII text
+5843	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_str.c	C source, ASCII text
+10063	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_target_mips.h	C source, ASCII text
+19704	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_lex.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+417	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_parse.h	C source, ASCII text
+25687	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_narrow.c	C source, ASCII text
+6028	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lauxlib.h	C source, ASCII text
+143996	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/vm_mips.dasc	ASCII text
+51672	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_fold.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+3997	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ffdef.h	C source, ASCII text
+5464	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_math.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+2011	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bcdump.h	C source, ASCII text
+3154	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_lex.h	C source, ASCII text
+11056	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_tab_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+125733	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/vm_arm.dasc	ASCII text
+2101	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_traceerr.h	ASCII text
+1125	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_state.h	C source, ASCII text
+135	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lua.hpp	C source, ASCII text
+16472	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_io_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+7330	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_sink.c	C source, ASCII text
+11952	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_gc.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+42462	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_alloc.c	C source, ASCII text
+1980	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_char.c	C source, ASCII text
+7518	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_target_ppc.h	C source, ASCII text
+113239	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/vm_arm64.dasc	ASCII text
+3688	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vmmath_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+7280	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_lib.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+18236	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ctype.c	C source, ASCII text
+25360	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_ffi_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+6888	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strscan_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+2528	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_obj.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+2528	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_obj_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+3173	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/xb1build.bat	DOS batch file, ASCII text, with CRLF line terminators
+87772	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vm.S	assembler source, ASCII text
+6704	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bcread.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+6571	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_os.c	C source, ASCII text
+36072	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_api.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+13928	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cconv_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+57202	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cparse.c	C source, ASCII text
+4803	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ccall.h	C source, ASCII text
+1760	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_crecord.h	C source, ASCII text
+3152	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_func.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+9936	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_narrow.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+16648	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_string_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+9936	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_narrow_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+2901	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_recdef.h	ASCII text
+21824	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/luajit.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+1654	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_record.h	C source, ASCII text
+10768	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_os_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+3872	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_profile_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+3688	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vmmath.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+631	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ccallback.h	C source, ASCII text
+9299	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_state.c	C source, ASCII text
+776	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_func.h	C source, ASCII text
+4335	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_bit.c	C source, ASCII text
+6792	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_state.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+11824	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strfmt_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+364	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ff.h	C source, ASCII text
+12710	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_carith.c	C source, ASCII text
+12616	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ctype.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+26364	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_trace.c	C source, ASCII text
+6728	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_buf_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+8363	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bc.h	C source, ASCII text
+20136	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_jit_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+27005	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_split.c	C source, ASCII text
+5117	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_dispatch.h	C source, ASCII text
+6082	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_math.c	C source, ASCII text
+87141	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_record.c	C source, ASCII text
+752	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_split_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+921	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_snap.h	C source, ASCII text
+5000	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bcwrite_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+6728	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_buf.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+7075	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_emit_ppc.h	ASCII text
+12224	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strfmt_num.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+10862	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_clib.c	C source, ASCII text
+44704	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_record.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+23180	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_ffi.c	C source, ASCII text
+13928	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cconv.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+13473	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_lex.c	C source, ASCII text
+9602	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_target_arm64.h	C source, ASCII text
+16648	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_string.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+4192	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_init_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+28952	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vm_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+4919	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_gc.h	C source, ASCII text
+6120	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_load_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+22112	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_gdbjit.c	C source, ASCII text
+16725	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_dispatch.c	C source, ASCII text
+7280	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_lib_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+10863	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_def.h	C source, ASCII text
+4720	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ccallback_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+589	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj.supp	ASCII text
+1552	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vmevent.c	C source, ASCII text
+11448	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_dispatch_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+20136	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_jit.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+72613	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm_ppc.h	ASCII text
+4192	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_init.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+5000	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bcwrite.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+12323	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lua.h	C source, ASCII text
+307	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_udata.h	C source, ASCII text
+1571	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vmevent.h	C source, ASCII text
+4992	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cdata_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+11952	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_gc_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+4728	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_clib.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+1437	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_char.h	C source, ASCII text
+11771	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ircall.h	C source, ASCII text
+2953	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_buf.h	C source, ASCII text
+6120	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_load.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+1112	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_char.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+51672	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_fold_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+5480	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ccall_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+19400	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_base.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+11448	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_dispatch.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+9231	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_profile.c	C source, ASCII text
+7312	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_sink_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+1113	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lualib.h	C source, ASCII text
+19859	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_debug.c	C source, ASCII text
+6704	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bcread_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+16104	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_debug_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+19704	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_lex_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+14632	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ir_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+61799	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_crecord.c	C source, ASCII text
+564776	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/libluajit.so	ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, stripped
+12224	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strfmt_num_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+34296	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_obj.h	C source, ASCII text
+5750	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_func.c	C source, ASCII text
+5728	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_loop_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+952280	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/libluajit.a	current ar archive
+36072	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_api_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+1520	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bc.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+16710	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strscan.c	C source, ASCII text
+3152	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_func_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+14632	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ir.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+20354	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strfmt_num.c	C source, ASCII text
+15360	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_err_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+103532	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm_x86.h	ASCII text
+7103	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_target_arm.h	C source, ASCII text
+71006	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm_arm.h	ASCII text
+19492	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_tab.c	C source, ASCII text
+65954	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm_arm64.h	ASCII text
+24482	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cconv.c	C source, ASCII text
+15404	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_loop.c	C source, ASCII text
+16905	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ctype.h	C source, ASCII text
+83256	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+15360	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_emit_x86.h	ASCII text
+15115	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_meta.c	C source, ASCII text
+4400	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_bit_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+19092	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ir.h	C source, ASCII text
+4400	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_bit.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+8491	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_emit_mips.h	ASCII text
+5464	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_math_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+2187	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cdata.h	C source, ASCII text
+9119	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_frame.h	C source, ASCII text
+45080	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_parse.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+15264	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_err.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+35765	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ccall.c	C source, ASCII text
+737	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_str.h	C source, ASCII text
+10867	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_emit_arm.h	ASCII text
+752	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_split.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+10480	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bcwrite.c	C source, ASCII text
+2187	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cparse.h	C source, ASCII text
+6792	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_state_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+1520	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bc_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+2990	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/luajit.h	C source, ASCII text
+8216	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_carith_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+3536	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_str.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+2640	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_dce.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+3640	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vm.h	C source, ASCII text
+4720	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ccallback.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+18608	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_package.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+12991	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_emit_arm64.h	ASCII text
+12901	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ir.c	C source, ASCII text
+16472	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_io.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+4093	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_load.c	C source, ASCII text
+39256	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_crecord_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+13256	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strfmt.c	C source, ASCII text
+18200	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_debug.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+7787	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_errmsg.h	JavaScript source, ASCII text
+15329	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/Makefile.dep	ASCII text
+7627	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_lib.c	C source, ASCII text
+10768	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_os.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+156457	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/vm_x86.dasc	ASCII text
+1360	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_udata.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+12936	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_alloc.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+79710	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_parse.c	C source, ASCII text
+26451	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_gc.c	C source, ASCII text
+2031	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_dce.c	C source, ASCII text
+752	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_gdbjit_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+19400	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_base_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+31	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/.gitignore	ASCII text
+101752	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, not stripped
+193	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/README	ASCII text
+13034	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm.c	C source, ASCII text
+2880	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_libbc.h	ASCII text
+4965	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/genlibbc.lua	JavaScript source, ASCII text
+21928	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_lib.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+7224	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_asm.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+2592	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm.h	C source, ASCII text
+6264	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_peobj.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+12154	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_peobj.c	C source, ASCII text
+9184	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_fold.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+257012	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_arch.h	ASCII text
+169392	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/minilua	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, not stripped
+12139	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_lib.c	C source, ASCII text
+205832	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/minilua.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+6478	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_fold.c	C source, ASCII text
+9565	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm_asm.c	C source, ASCII text
+12039	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/genminilua.lua	C source, ASCII text
+174364	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/minilua.c	C source, ASCII text
+87088	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host/buildvm.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+1116110	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/host	directory
+1651	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_trace.h	C source, ASCII text
+18076	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_package.c	C source, ASCII text
+9042	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cdata.c	C source, ASCII text
+3840	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_mcode_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+10488	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_mem.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+5534	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_buf.c	C source, ASCII text
+3785	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_lib.h	C source, ASCII text
+754	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_clib.h	C source, ASCII text
+13576	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_trace_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+45080	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_parse_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+18200	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_debug_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+85016	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm_mips.h	ASCII text
+9489	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_debug.c	C source, ASCII text
+32328	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ffrecord_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+16104	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_debug.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+564264	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/luajit	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+848	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_udata.c	C source, ASCII text
+11136	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_aux_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+3872	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_profile.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+31273	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_mem.c	C source, ASCII text
+3840	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_mcode.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+20598	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_jit.c	C source, ASCII text
+10050	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_mcode.c	C source, ASCII text
+2640	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_dce_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+14205	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_libdef.h	C source, ASCII text
+14859	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/luajit.c	C source, ASCII text
+12936	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_alloc_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+11136	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_aux.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+7312	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_sink.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+11144	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_meta.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+13576	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_trace.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+712	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_x64.lua	ASCII text
+619	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_arm64be.lua	ASCII text
+10	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/.gitignore	ASCII text
+19344	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_arm.lua	ASCII text
+717	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_mips64el.lua	ASCII text
+5783	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/v.lua	ASCII text
+5620	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/bc.lua	ASCII text
+18344	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/bcsave.lua	C source, ASCII text
+20301	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_ppc.lua	ASCII text
+13773	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_mips.lua	ASCII text
+33826	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_x86.lua	ASCII text
+715	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_mipsel.lua	ASCII text
+706	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_mips64.lua	ASCII text
+7397	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/vmdef.lua	ASCII text, with very long lines (613)
+9135	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/p.lua	ASCII text
+1002	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/zone.lua	ASCII text
+20112	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dump.lua	ASCII text
+30904	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit/dis_arm64.lua	ASCII text
+189020	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/jit	directory
+17335	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_jit.h	C source, ASCII text
+3536	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_str_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+10488	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_mem_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+7926	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_table.c	C source, ASCII text
+9243	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_aux.c	C source, ASCII text
+156576	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/vm_ppc.dasc	ASCII text
+23052	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/Makefile	ASCII text
+4728	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_clib_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+464	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_gdbjit.h	C source, ASCII text
+430	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_profile.h	C source, ASCII text
+4588	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/luaconf.h	C source, ASCII text
+28952	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vm.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+133621	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/vm_x64.dasc	ASCII text
+18608	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_package_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+10662	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_target_x86.h	C source, ASCII text
+2464	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vmevent_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+261	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bc.c	C source, ASCII text
+8728	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_table.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+72569	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm.c	C source, ASCII text
+15439	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_folddef.h	ASCII text
+11824	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strfmt.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+1922	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_debug.h	C source, ASCII text
+12998	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bcread.c	C source, ASCII text
+16016	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_snap.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+8216	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_carith.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+2025	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cconv.h	C source, ASCII text
+38754	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ffrecord.c	C source, ASCII text
+13439	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_io.c	C source, ASCII text
+70579	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_fold.c	C source, ASCII text
+4083	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_vmmath.c	C source, ASCII text
+15444	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_arch.h	C source, ASCII text
+11056	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_tab.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+1309	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_obj.c	C source, ASCII text
+4527	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strfmt.h	C source, ASCII text
+1088	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strscan.h	C source, ASCII text
+11144	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_meta_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+5728	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_opt_loop.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+44704	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_record_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+637	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ffrecord.h	C source, ASCII text
+1723	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_bcdef.h	ASCII text
+32328	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_ffrecord.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+2570	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_tab.h	C source, ASCII text
+1496	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_err.h	C source, ASCII text
+31018	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_api.c	C source, ASCII text
+752	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_gdbjit.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+50488	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cparse.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+1519	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_meta.h	C source, ASCII text
+50488	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_cparse_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+1355	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lib_init.c	C source, ASCII text
+25427	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_err.c	C source, ASCII text
+3135	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/xedkbuild.bat	DOS batch file, ASCII text, with CRLF line terminators
+83256	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_asm_dyn.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+6888	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/lj_strscan.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+2394	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src/ljamalg.c	C source, ASCII text
+8511528	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/src	directory
+5879	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/Makefile	ASCII text
+2339	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/etc/luajit.1	troff or preprocessor input, ASCII text
+598	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/etc/luajit.pc	ASCII text
+2937	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git/etc	directory
+9123698	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-Git	directory
+11894	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/scimark.lua	ASCII text
+2235	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/install.log	ASCII text
+704300	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/LuaJIT-20190110.tar.xz	XZ compressed data, checksum CRC64
+83	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/luajit	POSIX shell script, ASCII text executable
+1090	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0/pts-install.json	JSON text data
+9843300	/home/pedro/.phoronix-test-suite/installed-tests/pts/luajit-1.1.0	directory
