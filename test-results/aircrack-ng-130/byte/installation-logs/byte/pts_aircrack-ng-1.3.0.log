@@ -170,14 +170,14 @@ checking for python... no
 checking for python3... python3
 checking for greadlink... no
 checking for readlink... readlink
-checking for hwloc... yes
+checking for hwloc... no
 checking pcap header directories... not found
 checking for pcap.h... no
 checking for libpcre... no
 checking for rfkill... /usr/sbin//rfkill
 checking for SQLite3 header... not found
 checking for sqlite3.h... no
-checking for zlib... yes
+checking for zlib... no
 checking for cmocka... no
 checking size of off_t... 8
 checking for long file names... yes
@@ -323,13 +323,13 @@ aircrack-ng 1.7.0
     Airpcap:                     no
     Cmocka:                      no
     DUMA:                        no
-    Hwloc:                       yes
+    Hwloc:                       no
     Jemalloc:                    no
     Pcap:                        no
     Pcre:                        no
     Sqlite:                      no
     Tcmalloc:                    no
-    Zlib:                        yes
+    Zlib:                        no
 
   Features:
     CMAC Support:                yes
@@ -342,8 +342,6 @@ make[2]: Nothing to be done for 'all'.
 Making all in scripts
 cp "/home/pedro/.phoronix-test-suite/installed-tests/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/scripts/airmon-ng.linux" "/home/pedro/.phoronix-test-suite/installed-tests/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/scripts/airmon-ng"
 chmod +x "/home/pedro/.phoronix-test-suite/installed-tests/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/scripts/airmon-ng"
-  CC       lib/libac/cpu/libaircrack_la-trampoline_x86.lo
-  CC       lib/libac/cpu/libaircrack_la-cpuset_hwloc.lo
   CC       src/aircrack-ng/aircrack_ng-aircrack-ng.o
   CXX      src/aircrack-ng/aircrack_ng-linecount.o
   CC       src/aircrack-ng/aircrack_ng-session.o
@@ -764,6 +762,9 @@ lib/crypto/crypto.c:1566:3: warning: 'AES_encrypt' is deprecated [-Wdeprecated-d
   CC       lib/osdep/libaircrack_osdep_la-linux_tap.lo
   CC       lib/osdep/libaircrack_osdep_la-common.lo
   CC       lib/radiotap/radiotap.lo
+  CCLD     libradiotap.la
+  CCLD     libaircrack-osdep.la
+  CCLD     libaccrypto.la
   CC       lib/libac/adt/libaircrack_la-avl_tree.lo
   CC       lib/libac/adt/libaircrack_la-circular_buffer.lo
   CC       lib/libac/adt/libaircrack_la-circular_queue.lo
@@ -775,23 +776,43 @@ lib/crypto/crypto.c:1566:3: warning: 'AES_encrypt' is deprecated [-Wdeprecated-d
   CC       lib/libac/support/libaircrack_la-mcs_index_rates.lo
   CC       lib/libac/tui/libaircrack_la-console.lo
   CC       lib/libac/utf8/libaircrack_la-verifyssid.lo
+  CC       lib/libac/cpu/libaircrack_la-trampoline_x86.lo
+  CC       lib/libac/cpu/libaircrack_la-cpuset_pthread.lo
+  CCLD     libaircrack.la
   CC       lib/ce-wep/libaircrack_ce_wep_la-uniqueiv.lo
+  CCLD     libaircrack-ce-wep.la
   CC       lib/ptw/libptw_la-aircrack-ptw-lib.lo
+  CCLD     libptw.la
+  CXXLD    aircrack-ng
   CC       src/airdecap-ng/airdecap_ng-airdecap-ng.o
+  CCLD     airdecap-ng
   CC       src/packetforge-ng/packetforge_ng-packetforge-ng.o
+  CCLD     packetforge-ng
   CC       src/ivstools/ivstools-ivstools.o
+  CCLD     ivstools
   CC       src/kstats/kstats-kstats.o
+  CCLD     kstats
   CC       src/makeivs-ng/makeivs_ng-makeivs-ng.o
+  CCLD     makeivs-ng
   CC       src/airdecloak-ng/airdecloak_ng-airdecloak-ng.o
+  CCLD     airdecloak-ng
   CC       src/wpaclean/wpaclean-wpaclean.o
+  CCLD     wpaclean
   CC       src/buddy-ng/buddy_ng-buddy-ng.o
+  CCLD     buddy-ng
   CC       src/airbase-ng/airbase_ng-airbase-ng.o
+  CCLD     airbase-ng
   CC       src/aireplay-ng/aireplay_ng-aireplay-ng.o
+  CCLD     aireplay-ng
   CC       src/airodump-ng/airodump_ng-airodump-ng.o
   CC       src/airodump-ng/airodump_ng-dump_write.o
+  CCLD     airodump-ng
   CC       src/airserv-ng/airserv_ng-airserv-ng.o
+  CCLD     airserv-ng
   CC       src/airtun-ng/airtun_ng-airtun-ng.o
+  CCLD     airtun-ng
   CC       src/airventriloquist-ng/airventriloquist_ng-airventriloquist-ng.o
+  CCLD     airventriloquist-ng
   CC       lib/ce-wpa/libaircrack_ce_wpa_la-crypto_engine.lo
 lib/ce-wpa/crypto_engine.c:70:2: warning: 'SHA256_Init' is deprecated [-Wdeprecated-declarations]
    70 |         SHA256_Init(&ctx);
@@ -1037,9 +1058,399 @@ lib/ce-wpa/crypto_engine.c:536:3: warning: 'CMAC_CTX_free' is deprecated [-Wdepr
   CC       lib/ce-wpa/libaircrack_ce_wpa_la-memory.lo
   CC       lib/ce-wpa/libaircrack_ce_wpa_la-simd-intrinsics.lo
   CC       lib/ce-wpa/libaircrack_ce_wpa_la-wpapsk.lo
+  CCLD     libaircrack-ce-wpa.la
   CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx2_la-crypto_engine.lo
+lib/ce-wpa/crypto_engine.c:70:2: warning: 'SHA256_Init' is deprecated [-Wdeprecated-declarations]
+   70 |         SHA256_Init(&ctx);
+      |         ^
+/usr/include/openssl/sha.h:73:1: note: 'SHA256_Init' has been explicitly marked deprecated here
+   73 | OSSL_DEPRECATEDIN_3_0 int SHA256_Init(SHA256_CTX *c);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:73:3: warning: 'SHA256_Update' is deprecated [-Wdeprecated-declarations]
+   73 |                 SHA256_Update(&ctx, addr[i], len[i]);
+      |                 ^
+/usr/include/openssl/sha.h:74:1: note: 'SHA256_Update' has been explicitly marked deprecated here
+   74 | OSSL_DEPRECATEDIN_3_0 int SHA256_Update(SHA256_CTX *c,
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:76:2: warning: 'SHA256_Final' is deprecated [-Wdeprecated-declarations]
+   76 |         SHA256_Final(mac, &ctx);
+      |         ^
+/usr/include/openssl/sha.h:76:1: note: 'SHA256_Final' has been explicitly marked deprecated here
+   76 | OSSL_DEPRECATEDIN_3_0 int SHA256_Final(unsigned char *md, SHA256_CTX *c);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:367:2: warning: 'SHA1_Init' is deprecated [-Wdeprecated-declarations]
+  367 |         SHA1_Init(&ctx_ipad);
+      |         ^
+/usr/include/openssl/sha.h:49:1: note: 'SHA1_Init' has been explicitly marked deprecated here
+   49 | OSSL_DEPRECATEDIN_3_0 int SHA1_Init(SHA_CTX *c);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:368:2: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
+  368 |         SHA1_Update(&ctx_ipad, buffer, 64);
+      |         ^
+/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
+   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:372:2: warning: 'SHA1_Init' is deprecated [-Wdeprecated-declarations]
+  372 |         SHA1_Init(&ctx_opad);
+      |         ^
+/usr/include/openssl/sha.h:49:1: note: 'SHA1_Init' has been explicitly marked deprecated here
+   49 | OSSL_DEPRECATEDIN_3_0 int SHA1_Init(SHA_CTX *c);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:373:2: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
+  373 |         SHA1_Update(&ctx_opad, buffer, 64);
+      |         ^
+/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
+   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:390:3: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
+  390 |                 SHA1_Update(&sha1_ctx, buffer, 20);
+      |                 ^
+/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
+   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:391:3: warning: 'SHA1_Final' is deprecated [-Wdeprecated-declarations]
+  391 |                 SHA1_Final(buffer, &sha1_ctx);
+      |                 ^
+/usr/include/openssl/sha.h:51:1: note: 'SHA1_Final' has been explicitly marked deprecated here
+   51 | OSSL_DEPRECATEDIN_3_0 int SHA1_Final(unsigned char *md, SHA_CTX *c);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:394:3: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
+  394 |                 SHA1_Update(&sha1_ctx, buffer, 20);
+      |                 ^
+/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
+   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:395:3: warning: 'SHA1_Final' is deprecated [-Wdeprecated-declarations]
+  395 |                 SHA1_Final(buffer, &sha1_ctx);
+      |                 ^
+/usr/include/openssl/sha.h:51:1: note: 'SHA1_Final' has been explicitly marked deprecated here
+   51 | OSSL_DEPRECATEDIN_3_0 int SHA1_Final(unsigned char *md, SHA_CTX *c);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:413:3: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
+  413 |                 SHA1_Update(&sha1_ctx, buffer, 20);
+      |                 ^
+/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
+   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:414:3: warning: 'SHA1_Final' is deprecated [-Wdeprecated-declarations]
+  414 |                 SHA1_Final(buffer, &sha1_ctx);
+      |                 ^
+/usr/include/openssl/sha.h:51:1: note: 'SHA1_Final' has been explicitly marked deprecated here
+   51 | OSSL_DEPRECATEDIN_3_0 int SHA1_Final(unsigned char *md, SHA_CTX *c);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:417:3: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
+  417 |                 SHA1_Update(&sha1_ctx, buffer, 20);
+      |                 ^
+/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
+   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:418:3: warning: 'SHA1_Final' is deprecated [-Wdeprecated-declarations]
+  418 |                 SHA1_Final(buffer, &sha1_ctx);
+      |                 ^
+/usr/include/openssl/sha.h:51:1: note: 'SHA1_Final' has been explicitly marked deprecated here
+   51 | OSSL_DEPRECATEDIN_3_0 int SHA1_Final(unsigned char *md, SHA_CTX *c);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:532:9: warning: 'CMAC_CTX_new' is deprecated [-Wdeprecated-declarations]
+  532 |                 ctx = CMAC_CTX_new();
+      |                       ^
+/usr/include/openssl/cmac.h:32:1: note: 'CMAC_CTX_new' has been explicitly marked deprecated here
+   32 | OSSL_DEPRECATEDIN_3_0 CMAC_CTX *CMAC_CTX_new(void);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:533:3: warning: 'CMAC_Init' is deprecated [-Wdeprecated-declarations]
+  533 |                 CMAC_Init(ctx, ptk, 16, EVP_aes_128_cbc(), 0);
+      |                 ^
+/usr/include/openssl/cmac.h:37:1: note: 'CMAC_Init' has been explicitly marked deprecated here
+   37 | OSSL_DEPRECATEDIN_3_0 int CMAC_Init(CMAC_CTX *ctx,
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:534:3: warning: 'CMAC_Update' is deprecated [-Wdeprecated-declarations]
+  534 |                 CMAC_Update(ctx, eapol, eapol_size);
+      |                 ^
+/usr/include/openssl/cmac.h:40:1: note: 'CMAC_Update' has been explicitly marked deprecated here
+   40 | OSSL_DEPRECATEDIN_3_0 int CMAC_Update(CMAC_CTX *ctx,
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:535:3: warning: 'CMAC_Final' is deprecated [-Wdeprecated-declarations]
+  535 |                 CMAC_Final(ctx, mic[vectorIdx], &miclen);
+      |                 ^
+/usr/include/openssl/cmac.h:42:1: note: 'CMAC_Final' has been explicitly marked deprecated here
+   42 | OSSL_DEPRECATEDIN_3_0 int CMAC_Final(CMAC_CTX *ctx,
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/crypto_engine.c:536:3: warning: 'CMAC_CTX_free' is deprecated [-Wdeprecated-declarations]
+  536 |                 CMAC_CTX_free(ctx);
+      |                 ^
+/usr/include/openssl/cmac.h:34:1: note: 'CMAC_CTX_free' has been explicitly marked deprecated here
+   34 | OSSL_DEPRECATEDIN_3_0 void CMAC_CTX_free(CMAC_CTX *ctx);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+20 warnings generated.
   CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx2_la-memory.lo
   CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx2_la-simd-intrinsics.lo
+  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx2_la-wpapsk.lo
+lib/ce-wpa/wpapsk.c:210:4: warning: 'SHA1_Init' is deprecated [-Wdeprecated-declarations]
+  210 |                         SHA1_Init(&ctx_ipad[j]);
+      |                         ^
+/usr/include/openssl/sha.h:49:1: note: 'SHA1_Init' has been explicitly marked deprecated here
+   49 | OSSL_DEPRECATEDIN_3_0 int SHA1_Init(SHA_CTX *c);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/wpapsk.c:211:4: warning: 'SHA1_Init' is deprecated [-Wdeprecated-declarations]
+  211 |                         SHA1_Init(&ctx_opad[j]);
+      |                         ^
+/usr/include/openssl/sha.h:49:1: note: 'SHA1_Init' has been explicitly marked deprecated here
+   49 | OSSL_DEPRECATEDIN_3_0 int SHA1_Init(SHA_CTX *c);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/wpapsk.c:214:4: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
+  214 |                         SHA1_Update(&ctx_ipad[j], buffer[j].c, 64);
+      |                         ^
+/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
+   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/wpapsk.c:217:4: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
+  217 |                         SHA1_Update(&ctx_opad[j], buffer[j].c, 64);
+      |                         ^
+/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
+   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/wpapsk.c:249:4: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
+  249 |                         SHA1_Update(&sha1_ctx, essid, slen);
+      |                         ^
+/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
+   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/wpapsk.c:250:4: warning: 'SHA1_Final' is deprecated [-Wdeprecated-declarations]
+  250 |                         SHA1_Final(outbuf[j].c, &sha1_ctx);
+      |                         ^
+/usr/include/openssl/sha.h:51:1: note: 'SHA1_Final' has been explicitly marked deprecated here
+   51 | OSSL_DEPRECATEDIN_3_0 int SHA1_Final(unsigned char *md, SHA_CTX *c);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/wpapsk.c:252:4: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
+  252 |                         SHA1_Update(&sha1_ctx, outbuf[j].c, SHA_DIGEST_LENGTH);
+      |                         ^
+/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
+   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/wpapsk.c:253:4: warning: 'SHA1_Final' is deprecated [-Wdeprecated-declarations]
+  253 |                         SHA1_Final(outbuf[j].c, &sha1_ctx);
+      |                         ^
+/usr/include/openssl/sha.h:51:1: note: 'SHA1_Final' has been explicitly marked deprecated here
+   51 | OSSL_DEPRECATEDIN_3_0 int SHA1_Final(unsigned char *md, SHA_CTX *c);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/wpapsk.c:313:4: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
+  313 |                         SHA1_Update(&sha1_ctx, essid, slen);
+      |                         ^
+/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
+   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/wpapsk.c:314:4: warning: 'SHA1_Final' is deprecated [-Wdeprecated-declarations]
+  314 |                         SHA1_Final(&outbuf[j].c[20], &sha1_ctx);
+      |                         ^
+/usr/include/openssl/sha.h:51:1: note: 'SHA1_Final' has been explicitly marked deprecated here
+   51 | OSSL_DEPRECATEDIN_3_0 int SHA1_Final(unsigned char *md, SHA_CTX *c);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/wpapsk.c:316:4: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
+  316 |                         SHA1_Update(&sha1_ctx, &outbuf[j].c[20], 20);
+      |                         ^
+/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
+   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+lib/ce-wpa/wpapsk.c:317:4: warning: 'SHA1_Final' is deprecated [-Wdeprecated-declarations]
+  317 |                         SHA1_Final(&outbuf[j].c[20], &sha1_ctx);
+      |                         ^
+/usr/include/openssl/sha.h:51:1: note: 'SHA1_Final' has been explicitly marked deprecated here
+   51 | OSSL_DEPRECATEDIN_3_0 int SHA1_Final(unsigned char *md, SHA_CTX *c);
+      | ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+      |                                                 ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+      |                                                    ^
+12 warnings generated.
+  CCLD     libaircrack-ce-wpa-x86-avx2.la
+  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx_la-crypto_engine.lo
 lib/ce-wpa/crypto_engine.c:70:2: warning: 'SHA256_Init' is deprecated [-Wdeprecated-declarations]
    70 |         SHA256_Init(&ctx);
       |         ^
@@ -1281,398 +1692,9 @@ lib/ce-wpa/crypto_engine.c:536:3: warning: 'CMAC_CTX_free' is deprecated [-Wdepr
    62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
       |                                                    ^
 20 warnings generated.
-  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx2_la-wpapsk.lo
-  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx_la-crypto_engine.lo
-lib/ce-wpa/wpapsk.c:210:4: warning: 'SHA1_Init' is deprecated [-Wdeprecated-declarations]
-  210 |                         SHA1_Init(&ctx_ipad[j]);
-      |                         ^
-/usr/include/openssl/sha.h:49:1: note: 'SHA1_Init' has been explicitly marked deprecated here
-   49 | OSSL_DEPRECATEDIN_3_0 int SHA1_Init(SHA_CTX *c);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/wpapsk.c:211:4: warning: 'SHA1_Init' is deprecated [-Wdeprecated-declarations]
-  211 |                         SHA1_Init(&ctx_opad[j]);
-      |                         ^
-/usr/include/openssl/sha.h:49:1: note: 'SHA1_Init' has been explicitly marked deprecated here
-   49 | OSSL_DEPRECATEDIN_3_0 int SHA1_Init(SHA_CTX *c);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/wpapsk.c:214:4: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
-  214 |                         SHA1_Update(&ctx_ipad[j], buffer[j].c, 64);
-      |                         ^
-/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
-   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/wpapsk.c:217:4: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
-  217 |                         SHA1_Update(&ctx_opad[j], buffer[j].c, 64);
-      |                         ^
-/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
-   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/wpapsk.c:249:4: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
-  249 |                         SHA1_Update(&sha1_ctx, essid, slen);
-      |                         ^
-/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
-   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/wpapsk.c:250:4: warning: 'SHA1_Final' is deprecated [-Wdeprecated-declarations]
-  250 |                         SHA1_Final(outbuf[j].c, &sha1_ctx);
-      |                         ^
-/usr/include/openssl/sha.h:51:1: note: 'SHA1_Final' has been explicitly marked deprecated here
-   51 | OSSL_DEPRECATEDIN_3_0 int SHA1_Final(unsigned char *md, SHA_CTX *c);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/wpapsk.c:252:4: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
-  252 |                         SHA1_Update(&sha1_ctx, outbuf[j].c, SHA_DIGEST_LENGTH);
-      |                         ^
-/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
-   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/wpapsk.c:253:4: warning: 'SHA1_Final' is deprecated [-Wdeprecated-declarations]
-  253 |                         SHA1_Final(outbuf[j].c, &sha1_ctx);
-      |                         ^
-/usr/include/openssl/sha.h:51:1: note: 'SHA1_Final' has been explicitly marked deprecated here
-   51 | OSSL_DEPRECATEDIN_3_0 int SHA1_Final(unsigned char *md, SHA_CTX *c);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/wpapsk.c:313:4: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
-  313 |                         SHA1_Update(&sha1_ctx, essid, slen);
-      |                         ^
-/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
-   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/wpapsk.c:314:4: warning: 'SHA1_Final' is deprecated [-Wdeprecated-declarations]
-  314 |                         SHA1_Final(&outbuf[j].c[20], &sha1_ctx);
-      |                         ^
-/usr/include/openssl/sha.h:51:1: note: 'SHA1_Final' has been explicitly marked deprecated here
-   51 | OSSL_DEPRECATEDIN_3_0 int SHA1_Final(unsigned char *md, SHA_CTX *c);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/wpapsk.c:316:4: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
-  316 |                         SHA1_Update(&sha1_ctx, &outbuf[j].c[20], 20);
-      |                         ^
-/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
-   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/wpapsk.c:317:4: warning: 'SHA1_Final' is deprecated [-Wdeprecated-declarations]
-  317 |                         SHA1_Final(&outbuf[j].c[20], &sha1_ctx);
-      |                         ^
-/usr/include/openssl/sha.h:51:1: note: 'SHA1_Final' has been explicitly marked deprecated here
-   51 | OSSL_DEPRECATEDIN_3_0 int SHA1_Final(unsigned char *md, SHA_CTX *c);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-12 warnings generated.
   CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx_la-memory.lo
   CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx_la-simd-intrinsics.lo
-lib/ce-wpa/crypto_engine.c:70:2: warning: 'SHA256_Init' is deprecated [-Wdeprecated-declarations]
-   70 |         SHA256_Init(&ctx);
-      |         ^
-/usr/include/openssl/sha.h:73:1: note: 'SHA256_Init' has been explicitly marked deprecated here
-   73 | OSSL_DEPRECATEDIN_3_0 int SHA256_Init(SHA256_CTX *c);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:73:3: warning: 'SHA256_Update' is deprecated [-Wdeprecated-declarations]
-   73 |                 SHA256_Update(&ctx, addr[i], len[i]);
-      |                 ^
-/usr/include/openssl/sha.h:74:1: note: 'SHA256_Update' has been explicitly marked deprecated here
-   74 | OSSL_DEPRECATEDIN_3_0 int SHA256_Update(SHA256_CTX *c,
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:76:2: warning: 'SHA256_Final' is deprecated [-Wdeprecated-declarations]
-   76 |         SHA256_Final(mac, &ctx);
-      |         ^
-/usr/include/openssl/sha.h:76:1: note: 'SHA256_Final' has been explicitly marked deprecated here
-   76 | OSSL_DEPRECATEDIN_3_0 int SHA256_Final(unsigned char *md, SHA256_CTX *c);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:367:2: warning: 'SHA1_Init' is deprecated [-Wdeprecated-declarations]
-  367 |         SHA1_Init(&ctx_ipad);
-      |         ^
-/usr/include/openssl/sha.h:49:1: note: 'SHA1_Init' has been explicitly marked deprecated here
-   49 | OSSL_DEPRECATEDIN_3_0 int SHA1_Init(SHA_CTX *c);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:368:2: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
-  368 |         SHA1_Update(&ctx_ipad, buffer, 64);
-      |         ^
-/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
-   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:372:2: warning: 'SHA1_Init' is deprecated [-Wdeprecated-declarations]
-  372 |         SHA1_Init(&ctx_opad);
-      |         ^
-/usr/include/openssl/sha.h:49:1: note: 'SHA1_Init' has been explicitly marked deprecated here
-   49 | OSSL_DEPRECATEDIN_3_0 int SHA1_Init(SHA_CTX *c);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:373:2: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
-  373 |         SHA1_Update(&ctx_opad, buffer, 64);
-      |         ^
-/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
-   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:390:3: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
-  390 |                 SHA1_Update(&sha1_ctx, buffer, 20);
-      |                 ^
-/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
-   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:391:3: warning: 'SHA1_Final' is deprecated [-Wdeprecated-declarations]
-  391 |                 SHA1_Final(buffer, &sha1_ctx);
-      |                 ^
-/usr/include/openssl/sha.h:51:1: note: 'SHA1_Final' has been explicitly marked deprecated here
-   51 | OSSL_DEPRECATEDIN_3_0 int SHA1_Final(unsigned char *md, SHA_CTX *c);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:394:3: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
-  394 |                 SHA1_Update(&sha1_ctx, buffer, 20);
-      |                 ^
-/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
-   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:395:3: warning: 'SHA1_Final' is deprecated [-Wdeprecated-declarations]
-  395 |                 SHA1_Final(buffer, &sha1_ctx);
-      |                 ^
-/usr/include/openssl/sha.h:51:1: note: 'SHA1_Final' has been explicitly marked deprecated here
-   51 | OSSL_DEPRECATEDIN_3_0 int SHA1_Final(unsigned char *md, SHA_CTX *c);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:413:3: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
-  413 |                 SHA1_Update(&sha1_ctx, buffer, 20);
-      |                 ^
-/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
-   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:414:3: warning: 'SHA1_Final' is deprecated [-Wdeprecated-declarations]
-  414 |                 SHA1_Final(buffer, &sha1_ctx);
-      |                 ^
-/usr/include/openssl/sha.h:51:1: note: 'SHA1_Final' has been explicitly marked deprecated here
-   51 | OSSL_DEPRECATEDIN_3_0 int SHA1_Final(unsigned char *md, SHA_CTX *c);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:417:3: warning: 'SHA1_Update' is deprecated [-Wdeprecated-declarations]
-  417 |                 SHA1_Update(&sha1_ctx, buffer, 20);
-      |                 ^
-/usr/include/openssl/sha.h:50:1: note: 'SHA1_Update' has been explicitly marked deprecated here
-   50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:418:3: warning: 'SHA1_Final' is deprecated [-Wdeprecated-declarations]
-  418 |                 SHA1_Final(buffer, &sha1_ctx);
-      |                 ^
-/usr/include/openssl/sha.h:51:1: note: 'SHA1_Final' has been explicitly marked deprecated here
-   51 | OSSL_DEPRECATEDIN_3_0 int SHA1_Final(unsigned char *md, SHA_CTX *c);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:532:9: warning: 'CMAC_CTX_new' is deprecated [-Wdeprecated-declarations]
-  532 |                 ctx = CMAC_CTX_new();
-      |                       ^
-/usr/include/openssl/cmac.h:32:1: note: 'CMAC_CTX_new' has been explicitly marked deprecated here
-   32 | OSSL_DEPRECATEDIN_3_0 CMAC_CTX *CMAC_CTX_new(void);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:533:3: warning: 'CMAC_Init' is deprecated [-Wdeprecated-declarations]
-  533 |                 CMAC_Init(ctx, ptk, 16, EVP_aes_128_cbc(), 0);
-      |                 ^
-/usr/include/openssl/cmac.h:37:1: note: 'CMAC_Init' has been explicitly marked deprecated here
-   37 | OSSL_DEPRECATEDIN_3_0 int CMAC_Init(CMAC_CTX *ctx,
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:534:3: warning: 'CMAC_Update' is deprecated [-Wdeprecated-declarations]
-  534 |                 CMAC_Update(ctx, eapol, eapol_size);
-      |                 ^
-/usr/include/openssl/cmac.h:40:1: note: 'CMAC_Update' has been explicitly marked deprecated here
-   40 | OSSL_DEPRECATEDIN_3_0 int CMAC_Update(CMAC_CTX *ctx,
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:535:3: warning: 'CMAC_Final' is deprecated [-Wdeprecated-declarations]
-  535 |                 CMAC_Final(ctx, mic[vectorIdx], &miclen);
-      |                 ^
-/usr/include/openssl/cmac.h:42:1: note: 'CMAC_Final' has been explicitly marked deprecated here
-   42 | OSSL_DEPRECATEDIN_3_0 int CMAC_Final(CMAC_CTX *ctx,
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-lib/ce-wpa/crypto_engine.c:536:3: warning: 'CMAC_CTX_free' is deprecated [-Wdeprecated-declarations]
-  536 |                 CMAC_CTX_free(ctx);
-      |                 ^
-/usr/include/openssl/cmac.h:34:1: note: 'CMAC_CTX_free' has been explicitly marked deprecated here
-   34 | OSSL_DEPRECATEDIN_3_0 void CMAC_CTX_free(CMAC_CTX *ctx);
-      | ^
-/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
-  182 | #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
-      |                                                 ^
-/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
-   62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
-      |                                                    ^
-20 warnings generated.
   CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx_la-wpapsk.lo
-  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_sse2_la-crypto_engine.lo
 lib/ce-wpa/wpapsk.c:210:4: warning: 'SHA1_Init' is deprecated [-Wdeprecated-declarations]
   210 |                         SHA1_Init(&ctx_ipad[j]);
       |                         ^
@@ -1818,7 +1840,8 @@ lib/ce-wpa/wpapsk.c:317:4: warning: 'SHA1_Final' is deprecated [-Wdeprecated-dec
    62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
       |                                                    ^
 12 warnings generated.
-  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_sse2_la-memory.lo
+  CCLD     libaircrack-ce-wpa-x86-avx.la
+  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_sse2_la-crypto_engine.lo
 lib/ce-wpa/crypto_engine.c:70:2: warning: 'SHA256_Init' is deprecated [-Wdeprecated-declarations]
    70 |         SHA256_Init(&ctx);
       |         ^
@@ -2060,6 +2083,7 @@ lib/ce-wpa/crypto_engine.c:536:3: warning: 'CMAC_CTX_free' is deprecated [-Wdepr
    62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
       |                                                    ^
 20 warnings generated.
+  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_sse2_la-memory.lo
   CC       lib/ce-wpa/libaircrack_ce_wpa_x86_sse2_la-simd-intrinsics.lo
   CC       lib/ce-wpa/libaircrack_ce_wpa_x86_sse2_la-wpapsk.lo
 lib/ce-wpa/wpapsk.c:210:4: warning: 'SHA1_Init' is deprecated [-Wdeprecated-declarations]
@@ -2207,30 +2231,6 @@ lib/ce-wpa/wpapsk.c:317:4: warning: 'SHA1_Final' is deprecated [-Wdeprecated-dec
    62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
       |                                                    ^
 12 warnings generated.
-  CC       lib/cowpatty/libcowpatty_la-cowpatty.lo
-  CCLD     libradiotap.la
-  CCLD     libaircrack-ce-wep.la
-  CCLD     libptw.la
-  CCLD     kstats
-  CCLD     libcowpatty.la
-  CCLD     libaircrack-osdep.la
-  CCLD     libaccrypto.la
-  CCLD     libaircrack.la
-  CCLD     libaircrack-ce-wpa.la
-  CCLD     libaircrack-ce-wpa-x86-avx2.la
-  CCLD     libaircrack-ce-wpa-x86-avx.la
   CCLD     libaircrack-ce-wpa-x86-sse2.la
-  CXXLD    aircrack-ng
-  CCLD     airdecap-ng
-  CCLD     packetforge-ng
-  CCLD     ivstools
-  CCLD     makeivs-ng
-  CCLD     airdecloak-ng
-  CCLD     wpaclean
-  CCLD     buddy-ng
-  CCLD     airbase-ng
-  CCLD     aireplay-ng
-  CCLD     airodump-ng
-  CCLD     airserv-ng
-  CCLD     airtun-ng
-  CCLD     airventriloquist-ng
+  CC       lib/cowpatty/libcowpatty_la-cowpatty.lo
+  CCLD     libcowpatty.la
