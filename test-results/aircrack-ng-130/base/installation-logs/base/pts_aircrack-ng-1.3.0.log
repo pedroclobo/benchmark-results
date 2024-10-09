@@ -170,14 +170,14 @@ checking for python... no
 checking for python3... python3
 checking for greadlink... no
 checking for readlink... readlink
-checking for hwloc... yes
+checking for hwloc... no
 checking pcap header directories... not found
 checking for pcap.h... no
 checking for libpcre... no
 checking for rfkill... /usr/sbin//rfkill
 checking for SQLite3 header... not found
 checking for sqlite3.h... no
-checking for zlib... yes
+checking for zlib... no
 checking for cmocka... no
 checking size of off_t... 8
 checking for long file names... yes
@@ -323,13 +323,13 @@ aircrack-ng 1.7.0
     Airpcap:                     no
     Cmocka:                      no
     DUMA:                        no
-    Hwloc:                       yes
+    Hwloc:                       no
     Jemalloc:                    no
     Pcap:                        no
     Pcre:                        no
     Sqlite:                      no
     Tcmalloc:                    no
-    Zlib:                        yes
+    Zlib:                        no
 
   Features:
     CMAC Support:                yes
@@ -342,8 +342,6 @@ make[2]: Nothing to be done for 'all'.
 Making all in scripts
 cp "/home/pedro/.phoronix-test-suite/installed-tests/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/scripts/airmon-ng.linux" "/home/pedro/.phoronix-test-suite/installed-tests/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/scripts/airmon-ng"
 chmod +x "/home/pedro/.phoronix-test-suite/installed-tests/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/scripts/airmon-ng"
-  CC       lib/libac/cpu/libaircrack_la-trampoline_x86.lo
-  CC       lib/libac/cpu/libaircrack_la-cpuset_hwloc.lo
   CC       src/aircrack-ng/aircrack_ng-aircrack-ng.o
   CXX      src/aircrack-ng/aircrack_ng-linecount.o
   CC       src/aircrack-ng/aircrack_ng-session.o
@@ -764,6 +762,9 @@ lib/crypto/crypto.c:1566:3: warning: 'AES_encrypt' is deprecated [-Wdeprecated-d
   CC       lib/osdep/libaircrack_osdep_la-linux_tap.lo
   CC       lib/osdep/libaircrack_osdep_la-common.lo
   CC       lib/radiotap/radiotap.lo
+  CCLD     libradiotap.la
+  CCLD     libaircrack-osdep.la
+  CCLD     libaccrypto.la
   CC       lib/libac/adt/libaircrack_la-avl_tree.lo
   CC       lib/libac/adt/libaircrack_la-circular_buffer.lo
   CC       lib/libac/adt/libaircrack_la-circular_queue.lo
@@ -775,23 +776,43 @@ lib/crypto/crypto.c:1566:3: warning: 'AES_encrypt' is deprecated [-Wdeprecated-d
   CC       lib/libac/support/libaircrack_la-mcs_index_rates.lo
   CC       lib/libac/tui/libaircrack_la-console.lo
   CC       lib/libac/utf8/libaircrack_la-verifyssid.lo
+  CC       lib/libac/cpu/libaircrack_la-trampoline_x86.lo
+  CC       lib/libac/cpu/libaircrack_la-cpuset_pthread.lo
+  CCLD     libaircrack.la
   CC       lib/ce-wep/libaircrack_ce_wep_la-uniqueiv.lo
+  CCLD     libaircrack-ce-wep.la
   CC       lib/ptw/libptw_la-aircrack-ptw-lib.lo
+  CCLD     libptw.la
+  CXXLD    aircrack-ng
   CC       src/airdecap-ng/airdecap_ng-airdecap-ng.o
+  CCLD     airdecap-ng
   CC       src/packetforge-ng/packetforge_ng-packetforge-ng.o
+  CCLD     packetforge-ng
   CC       src/ivstools/ivstools-ivstools.o
+  CCLD     ivstools
   CC       src/kstats/kstats-kstats.o
+  CCLD     kstats
   CC       src/makeivs-ng/makeivs_ng-makeivs-ng.o
+  CCLD     makeivs-ng
   CC       src/airdecloak-ng/airdecloak_ng-airdecloak-ng.o
+  CCLD     airdecloak-ng
   CC       src/wpaclean/wpaclean-wpaclean.o
+  CCLD     wpaclean
   CC       src/buddy-ng/buddy_ng-buddy-ng.o
+  CCLD     buddy-ng
   CC       src/airbase-ng/airbase_ng-airbase-ng.o
+  CCLD     airbase-ng
   CC       src/aireplay-ng/aireplay_ng-aireplay-ng.o
+  CCLD     aireplay-ng
   CC       src/airodump-ng/airodump_ng-airodump-ng.o
   CC       src/airodump-ng/airodump_ng-dump_write.o
+  CCLD     airodump-ng
   CC       src/airserv-ng/airserv_ng-airserv-ng.o
+  CCLD     airserv-ng
   CC       src/airtun-ng/airtun_ng-airtun-ng.o
+  CCLD     airtun-ng
   CC       src/airventriloquist-ng/airventriloquist_ng-airventriloquist-ng.o
+  CCLD     airventriloquist-ng
   CC       lib/ce-wpa/libaircrack_ce_wpa_la-crypto_engine.lo
 lib/ce-wpa/crypto_engine.c:70:2: warning: 'SHA256_Init' is deprecated [-Wdeprecated-declarations]
    70 |         SHA256_Init(&ctx);
@@ -1037,9 +1058,8 @@ lib/ce-wpa/crypto_engine.c:536:3: warning: 'CMAC_CTX_free' is deprecated [-Wdepr
   CC       lib/ce-wpa/libaircrack_ce_wpa_la-memory.lo
   CC       lib/ce-wpa/libaircrack_ce_wpa_la-simd-intrinsics.lo
   CC       lib/ce-wpa/libaircrack_ce_wpa_la-wpapsk.lo
+  CCLD     libaircrack-ce-wpa.la
   CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx2_la-crypto_engine.lo
-  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx2_la-memory.lo
-  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx2_la-simd-intrinsics.lo
 lib/ce-wpa/crypto_engine.c:70:2: warning: 'SHA256_Init' is deprecated [-Wdeprecated-declarations]
    70 |         SHA256_Init(&ctx);
       |         ^
@@ -1281,8 +1301,9 @@ lib/ce-wpa/crypto_engine.c:536:3: warning: 'CMAC_CTX_free' is deprecated [-Wdepr
    62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
       |                                                    ^
 20 warnings generated.
+  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx2_la-memory.lo
+  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx2_la-simd-intrinsics.lo
   CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx2_la-wpapsk.lo
-  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx_la-crypto_engine.lo
 lib/ce-wpa/wpapsk.c:210:4: warning: 'SHA1_Init' is deprecated [-Wdeprecated-declarations]
   210 |                         SHA1_Init(&ctx_ipad[j]);
       |                         ^
@@ -1428,8 +1449,8 @@ lib/ce-wpa/wpapsk.c:317:4: warning: 'SHA1_Final' is deprecated [-Wdeprecated-dec
    62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
       |                                                    ^
 12 warnings generated.
-  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx_la-memory.lo
-  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx_la-simd-intrinsics.lo
+  CCLD     libaircrack-ce-wpa-x86-avx2.la
+  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx_la-crypto_engine.lo
 lib/ce-wpa/crypto_engine.c:70:2: warning: 'SHA256_Init' is deprecated [-Wdeprecated-declarations]
    70 |         SHA256_Init(&ctx);
       |         ^
@@ -1671,6 +1692,8 @@ lib/ce-wpa/crypto_engine.c:536:3: warning: 'CMAC_CTX_free' is deprecated [-Wdepr
    62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
       |                                                    ^
 20 warnings generated.
+  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx_la-memory.lo
+  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx_la-simd-intrinsics.lo
   CC       lib/ce-wpa/libaircrack_ce_wpa_x86_avx_la-wpapsk.lo
 lib/ce-wpa/wpapsk.c:210:4: warning: 'SHA1_Init' is deprecated [-Wdeprecated-declarations]
   210 |                         SHA1_Init(&ctx_ipad[j]);
@@ -1816,9 +1839,9 @@ lib/ce-wpa/wpapsk.c:317:4: warning: 'SHA1_Final' is deprecated [-Wdeprecated-dec
 /usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
    62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
       |                                                    ^
-  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_sse2_la-crypto_engine.lo
 12 warnings generated.
-  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_sse2_la-memory.lo
+  CCLD     libaircrack-ce-wpa-x86-avx.la
+  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_sse2_la-crypto_engine.lo
 lib/ce-wpa/crypto_engine.c:70:2: warning: 'SHA256_Init' is deprecated [-Wdeprecated-declarations]
    70 |         SHA256_Init(&ctx);
       |         ^
@@ -2060,6 +2083,7 @@ lib/ce-wpa/crypto_engine.c:536:3: warning: 'CMAC_CTX_free' is deprecated [-Wdepr
    62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
       |                                                    ^
 20 warnings generated.
+  CC       lib/ce-wpa/libaircrack_ce_wpa_x86_sse2_la-memory.lo
   CC       lib/ce-wpa/libaircrack_ce_wpa_x86_sse2_la-simd-intrinsics.lo
   CC       lib/ce-wpa/libaircrack_ce_wpa_x86_sse2_la-wpapsk.lo
 lib/ce-wpa/wpapsk.c:210:4: warning: 'SHA1_Init' is deprecated [-Wdeprecated-declarations]
@@ -2207,30 +2231,6 @@ lib/ce-wpa/wpapsk.c:317:4: warning: 'SHA1_Final' is deprecated [-Wdeprecated-dec
    62 | #     define OSSL_DEPRECATED(since) __attribute__((deprecated))
       |                                                    ^
 12 warnings generated.
-  CC       lib/cowpatty/libcowpatty_la-cowpatty.lo
-  CCLD     libradiotap.la
-  CCLD     libaircrack-ce-wep.la
-  CCLD     libptw.la
-  CCLD     kstats
-  CCLD     libcowpatty.la
-  CCLD     libaircrack-osdep.la
-  CCLD     libaccrypto.la
-  CCLD     libaircrack.la
-  CCLD     libaircrack-ce-wpa.la
-  CCLD     libaircrack-ce-wpa-x86-avx2.la
-  CCLD     libaircrack-ce-wpa-x86-avx.la
   CCLD     libaircrack-ce-wpa-x86-sse2.la
-  CXXLD    aircrack-ng
-  CCLD     airdecap-ng
-  CCLD     packetforge-ng
-  CCLD     ivstools
-  CCLD     makeivs-ng
-  CCLD     airdecloak-ng
-  CCLD     wpaclean
-  CCLD     buddy-ng
-  CCLD     airbase-ng
-  CCLD     aireplay-ng
-  CCLD     airodump-ng
-  CCLD     airserv-ng
-  CCLD     airtun-ng
-  CCLD     airventriloquist-ng
+  CC       lib/cowpatty/libcowpatty_la-cowpatty.lo
+  CCLD     libcowpatty.la
