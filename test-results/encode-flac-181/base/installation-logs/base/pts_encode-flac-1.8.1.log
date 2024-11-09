@@ -1,8 +1,7 @@
 checking for a BSD-compatible install... /usr/bin/install -c
 checking whether build environment is sane... yes
 checking for a race-free mkdir -p... /usr/bin/mkdir -p
-checking for gawk... no
-checking for mawk... mawk
+checking for gawk... gawk
 checking whether make sets $(MAKE)... yes
 checking whether make supports nested variables... yes
 checking how to create a pax tar archive... gnutar
@@ -42,15 +41,15 @@ checking for a sed that does not truncate output... /usr/bin/sed
 checking for grep that handles long lines and -e... /usr/bin/grep
 checking for egrep... /usr/bin/grep -E
 checking for fgrep... /usr/bin/grep -F
-checking for ld used by /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang... /usr/bin/ld
-checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for ld used by /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang... /bin/ld
+checking if the linker (/bin/ld) is GNU ld... yes
 checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
 checking the name lister (/usr/bin/nm -B) interface... BSD nm
 checking whether ln -s works... yes
 checking the maximum length of command line arguments... 1572864
 checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
 checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
-checking for /usr/bin/ld option to reload object files... -r
+checking for /bin/ld option to reload object files... -r
 checking for objdump... objdump
 checking how to recognize dependent libraries... pass_all
 checking for dlltool... no
@@ -72,8 +71,8 @@ checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang PIC flag -f
 checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang static flag -static works... yes
 checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang supports -c -o file.o... yes
 checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang supports -c -o file.o... (cached) yes
-checking whether the /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
-checking whether -lc should be explicitly linked in... no
+checking whether the /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... yes
 checking dynamic linker characteristics... GNU/Linux ld.so
 checking how to hardcode library paths into programs... immediate
 checking whether stripping libraries is possible... yes
@@ -85,16 +84,16 @@ checking whether the compiler supports GNU C++... yes
 checking whether /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ accepts -g... yes
 checking for /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ option to enable C++11 features... none needed
 checking dependency style of /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++... gcc3
-checking how to run the C++ preprocessor... /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ -E
-checking for ld used by /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++... /usr/bin/ld -m elf_x86_64
-checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
-checking whether the /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking how to run the C++ preprocessor... cpp
+checking for ld used by /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++... /bin/ld -m elf_x86_64
+checking if the linker (/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
 checking for /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ option to produce PIC... -fPIC -DPIC
 checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ PIC flag -fPIC -DPIC works... yes
 checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ static flag -static works... yes
 checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ supports -c -o file.o... yes
 checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ supports -c -o file.o... (cached) yes
-checking whether the /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether the /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
 checking dynamic linker characteristics... (cached) GNU/Linux ld.so
 checking how to hardcode library paths into programs... immediate
 checking whether we are using the CLANG C compiler... yes
@@ -124,11 +123,16 @@ checking for getauxval... yes
 checking for getopt_long... yes
 checking size of void*... (cached) 8
 checking for doxygen... no
-checking for Ogg... yes
-checking for ld used by /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang... /usr/bin/ld -m elf_x86_64
-checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for Ogg... no
+*** Could not run Ogg test program, checking why...
+*** The test program failed to compile or link. See the file config.log for the
+*** exact error that occurred. This usually means Ogg was incorrectly installed
+*** or that you have moved Ogg since it was installed.
+configure: WARNING: *** Ogg development environment not installed - Ogg support will not be built
+checking for ld used by /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang... /bin/ld -m elf_x86_64
+checking if the linker (/bin/ld -m elf_x86_64) is GNU ld... yes
 checking for shared library run path origin... done
-checking how to run the C preprocessor... /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang -E
+checking how to run the C preprocessor... cpp
 checking for iconv... yes
 checking for working iconv... yes
 checking for iconv declaration... 
@@ -213,7 +217,7 @@ config.status: executing libtool commands
     Compiler is GCC : ......................... no
     Compiler is Clang : ....................... yes
     Asm optimizations : ....................... yes
-    Ogg/FLAC support : ........................ yes
+    Ogg/FLAC support : ........................ no
     Stack protector  : ........................ no
     Fuzzing support (Clang only) : ............ no
 
@@ -314,10 +318,6 @@ make[4]: Entering directory '/home/pedro/.phoronix-test-suite/installed-tests/pt
   CC       stream_encoder_intrin_avx2.lo
   CC       stream_encoder_framing.lo
   CC       window.lo
-  CC       ogg_decoder_aspect.lo
-  CC       ogg_encoder_aspect.lo
-  CC       ogg_helper.lo
-  CC       ogg_mapping.lo
   CCLD     libFLAC.la
   CCLD     libFLAC-static.la
 ar: `u' modifier ignored since `D' is the default (see `U')
@@ -326,15 +326,8 @@ make[3]: Leaving directory '/home/pedro/.phoronix-test-suite/installed-tests/pts
 Making all in share
 make[3]: Entering directory '/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac-1.4.2/src/share'
   CC       getopt/getopt.lo
-  CC       getopt/getopt1.lo
-getopt/getopt1.c:83:1: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
-   83 | share__getopt_long (argc, argv, options, long_options, opt_index)
-      | ^
-getopt/getopt1.c:99:1: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
-   99 | share__getopt_long_only (argc, argv, options, long_options, opt_index)
-      | ^
-2 warnings generated.
   CC       grabbag/alloc.lo
+  CC       getopt/getopt1.lo
   CC       grabbag/cuesheet.lo
   CC       grabbag/file.lo
   CC       grabbag/picture.lo
@@ -349,11 +342,11 @@ getopt/getopt1.c:99:1: warning: a function definition without a prototype is dep
   CCLD     getopt/libgetopt.la
   CCLD     grabbag/libgrabbag.la
 ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
   CCLD     utf8/libutf8.la
 ar: `u' modifier ignored since `D' is the default (see `U')
-  CCLD     replaygain_analysis/libreplaygain_analysis.la
-ar: `u' modifier ignored since `D' is the default (see `U')
   CCLD     replaygain_synthesis/libreplaygain_synthesis.la
+  CCLD     replaygain_analysis/libreplaygain_analysis.la
 ar: `u' modifier ignored since `D' is the default (see `U')
 ar: `u' modifier ignored since `D' is the default (see `U')
 make[3]: Leaving directory '/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac-1.4.2/src/share'
@@ -796,7 +789,7 @@ make[3]: Entering directory '/home/pedro/.phoronix-test-suite/installed-tests/pt
  /usr/bin/mkdir -p '/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1//flac_/lib'
  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   libFLAC++.la '/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1//flac_/lib'
 libtool: warning: relinking 'libFLAC++.la'
-libtool: install: (cd /home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac-1.4.2/src/libFLAC++; /bin/bash "/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac-1.4.2/libtool"  --silent --tag CXX --mode=relink /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ -O3 -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef -Weffc++ -fvisibility=hidden -no-undefined -version-info 10:0:0 -o libFLAC++.la -rpath /home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1//flac_/lib metadata.lo stream_decoder.lo stream_encoder.lo ../libFLAC/libFLAC.la -lm )
+libtool: install: (cd /home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac-1.4.2/src/libFLAC++; /bin/bash "/home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1/flac-1.4.2/libtool"  --silent --tag CXX --mode=relink /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ -O3 -O2 -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef -Weffc++ -fvisibility=hidden -no-undefined -version-info 10:0:0 -o libFLAC++.la -rpath /home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1//flac_/lib metadata.lo stream_decoder.lo stream_encoder.lo ../libFLAC/libFLAC.la -lm )
 libtool: install: /usr/bin/install -c .libs/libFLAC++.so.10.0.0T /home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1//flac_/lib/libFLAC++.so.10.0.0
 libtool: install: (cd /home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1//flac_/lib && { ln -s -f libFLAC++.so.10.0.0 libFLAC++.so.10 || { rm -f libFLAC++.so.10 && ln -s libFLAC++.so.10.0.0 libFLAC++.so.10; }; })
 libtool: install: (cd /home/pedro/.phoronix-test-suite/installed-tests/pts/encode-flac-1.8.1//flac_/lib && { ln -s -f libFLAC++.so.10.0.0 libFLAC++.so || { rm -f libFLAC++.so && ln -s libFLAC++.so.10.0.0 libFLAC++.so; }; })
