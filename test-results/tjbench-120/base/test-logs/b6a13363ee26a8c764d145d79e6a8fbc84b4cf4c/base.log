@@ -1,6 +1,6 @@
 #####
 base - Run 1
-2024-09-16 15:21:39
+2024-11-09 21:36:18
 #####
 
 Warmup time = 5.0 seconds
@@ -8,13 +8,13 @@ Warmup time = 5.0 seconds
 >>>>>  JPEG 4:2:2 --> BGR (Top-down)  <<<<<
 
 Image size: 6016 x 4000
-Decompress    --> Frame rate:         3.931912 fps
-                  Throughput:         94.617520 Megapixels/sec
+Decompress    --> Frame rate:         2.133713 fps
+                  Throughput:         51.345660 Megapixels/sec
 
 
 #####
 base - Run 2
-2024-09-16 15:22:08
+2024-11-09 21:36:48
 #####
 
 Warmup time = 5.0 seconds
@@ -22,13 +22,13 @@ Warmup time = 5.0 seconds
 >>>>>  JPEG 4:2:2 --> BGR (Top-down)  <<<<<
 
 Image size: 6016 x 4000
-Decompress    --> Frame rate:         3.929184 fps
-                  Throughput:         94.551879 Megapixels/sec
+Decompress    --> Frame rate:         2.133642 fps
+                  Throughput:         51.343965 Megapixels/sec
 
 
 #####
 base - Run 3
-2024-09-16 15:22:35
+2024-11-09 21:37:15
 #####
 
 Warmup time = 5.0 seconds
@@ -36,7 +36,7 @@ Warmup time = 5.0 seconds
 >>>>>  JPEG 4:2:2 --> BGR (Top-down)  <<<<<
 
 Image size: 6016 x 4000
-Decompress    --> Frame rate:         3.933694 fps
-                  Throughput:         94.660424 Megapixels/sec
+Decompress    --> Frame rate:         2.133727 fps
+                  Throughput:         51.345995 Megapixels/sec
 
 
