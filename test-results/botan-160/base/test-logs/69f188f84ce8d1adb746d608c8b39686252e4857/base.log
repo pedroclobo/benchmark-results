@@ -1,50 +1,50 @@
 #####
 base - Run 1
-2024-09-16 09:59:32
+2024-11-09 20:49:22
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
 
-Blowfish encrypt buffer size 1024 bytes: 182.161 MiB/sec 11.40 cycles/byte (2732.42 MiB in 15000.01 ms)
-Blowfish decrypt buffer size 1024 bytes: 182.518 MiB/sec 11.38 cycles/byte (2737.77 MiB in 15000.00 ms)
+Blowfish encrypt buffer size 1024 bytes: 182.244 MiB/sec 11.39 cycles/byte (2733.66 MiB in 15000.00 ms)
+Blowfish decrypt buffer size 1024 bytes: 182.068 MiB/sec 11.40 cycles/byte (2731.02 MiB in 15000.00 ms)
 
 algo                               operation             1024 bytes
-Blowfish                           decrypt                191384.17
-Blowfish                           encrypt                191010.00
+Blowfish                           decrypt                190911.90
+Blowfish                           encrypt                191096.65
 
 [results are the number of 1000s bytes processed per second]
 
 
 #####
 base - Run 2
-2024-09-16 10:00:06
+2024-11-09 20:49:56
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
 
-Blowfish encrypt buffer size 1024 bytes: 182.149 MiB/sec 11.40 cycles/byte (2732.23 MiB in 15000.00 ms)
-Blowfish decrypt buffer size 1024 bytes: 182.492 MiB/sec 11.38 cycles/byte (2737.38 MiB in 15000.00 ms)
+Blowfish encrypt buffer size 1024 bytes: 182.237 MiB/sec 11.39 cycles/byte (2733.56 MiB in 15000.00 ms)
+Blowfish decrypt buffer size 1024 bytes: 182.093 MiB/sec 11.40 cycles/byte (2731.39 MiB in 15000.00 ms)
 
 algo                               operation             1024 bytes
-Blowfish                           decrypt                191356.57
-Blowfish                           encrypt                190996.93
+Blowfish                           decrypt                190938.23
+Blowfish                           encrypt                191089.63
 
 [results are the number of 1000s bytes processed per second]
 
 
 #####
 base - Run 3
-2024-09-16 10:00:38
+2024-11-09 20:50:29
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
 
-Blowfish encrypt buffer size 1024 bytes: 182.160 MiB/sec 11.40 cycles/byte (2732.40 MiB in 15000.00 ms)
-Blowfish decrypt buffer size 1024 bytes: 182.514 MiB/sec 11.38 cycles/byte (2737.71 MiB in 15000.00 ms)
+Blowfish encrypt buffer size 1024 bytes: 182.206 MiB/sec 11.40 cycles/byte (2733.09 MiB in 15000.00 ms)
+Blowfish decrypt buffer size 1024 bytes: 182.084 MiB/sec 11.40 cycles/byte (2731.26 MiB in 15000.00 ms)
 
 algo                               operation             1024 bytes
-Blowfish                           decrypt                191380.12
-Blowfish                           encrypt                191008.55
+Blowfish                           decrypt                190928.79
+Blowfish                           encrypt                191057.01
 
 [results are the number of 1000s bytes processed per second]
 
