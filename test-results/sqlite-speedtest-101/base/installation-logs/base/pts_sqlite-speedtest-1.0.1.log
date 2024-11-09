@@ -13,22 +13,22 @@ checking for a sed that does not truncate output... /usr/bin/sed
 checking for grep that handles long lines and -e... /usr/bin/grep
 checking for egrep... /usr/bin/grep -E
 checking for fgrep... /usr/bin/grep -F
-checking for ld used by /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang... /usr/bin/ld
-checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for ld used by /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang... /bin/ld
+checking if the linker (/bin/ld) is GNU ld... yes
 checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
 checking the name lister (/usr/bin/nm -B) interface... BSD nm
 checking whether ln -s works... yes
 checking the maximum length of command line arguments... 1572864
 checking whether the shell understands some XSI constructs... yes
 checking whether the shell understands "+="... yes
-checking for /usr/bin/ld option to reload object files... -r
+checking for /bin/ld option to reload object files... -r
 checking for objdump... objdump
 checking how to recognize dependent libraries... pass_all
 checking for ar... ar
 checking for strip... strip
 checking for ranlib... ranlib
 checking command to parse /usr/bin/nm -B output from /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang object... ok
-checking how to run the C preprocessor... /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang -E
+checking how to run the C preprocessor... /lib/cpp
 checking for ANSI C header files... yes
 checking for sys/types.h... yes
 checking for sys/stat.h... yes
@@ -47,8 +47,8 @@ checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang PIC flag -f
 checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang static flag -static works... yes
 checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang supports -c -o file.o... yes
 checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang supports -c -o file.o... (cached) yes
-checking whether the /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
-checking whether -lc should be explicitly linked in... no
+checking whether the /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... yes
 checking dynamic linker characteristics... GNU/Linux ld.so
 checking how to hardcode library paths into programs... immediate
 checking whether stripping libraries is possible... yes
@@ -103,7 +103,7 @@ checking for Tcl configuration... configure: WARNING: Can't find Tcl configurati
 configure: WARNING: *** Without Tcl the regression tests cannot be executed ***
 configure: WARNING: *** Consider using --with-tcl=... to define location of Tcl ***
 checking for library containing readline... no
-checking for library containing tgetent... no
+checking for library containing tgetent... -lncurses
 checking for readline in -lreadline... no
 checking readline.h usability... no
 checking readline.h presence... no
@@ -119,10 +119,10 @@ checking for /usr/contrib/include/readline/readline.h... no
 checking for /mingw/include/readline.h... no
 checking for /mingw/include/readline/readline.h... no
 checking for library containing fdatasync... none required
-checking zlib.h usability... yes
-checking zlib.h presence... yes
-checking for zlib.h... yes
-checking for library containing deflate... -lz
+checking zlib.h usability... no
+checking zlib.h presence... no
+checking for zlib.h... no
+checking for library containing deflate... no
 checking for library containing dlopen... none required
 checking whether to support MEMSYS5... no
 checking whether to support MEMSYS3... no
@@ -131,16 +131,16 @@ config.status: creating Makefile
 config.status: creating sqlite3.pc
 config.status: creating config.h
 config.status: executing libtool commands
-/home/pedro/dev/phoronix-benchmark-infra/toolchain/clang  -g -O2 -o mkkeywordhash   /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/mkkeywordhash.c
+/home/pedro/dev/phoronix-benchmark-infra/toolchain/clang  -O2 -o mkkeywordhash   /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/mkkeywordhash.c
 ./mkkeywordhash >keywordhash.h
-/home/pedro/dev/phoronix-benchmark-infra/toolchain/clang  -g -O2 -o lemon /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/lemon.c
+/home/pedro/dev/phoronix-benchmark-infra/toolchain/clang  -O2 -o lemon /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/lemon.c
 cp /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/lempar.c .
 cp /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/parse.y .
 ./lemon   parse.y
 cat parse.h /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbe.c | tclsh8.6 /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/mkopcodeh.tcl >opcodes.h
 tclsh8.6 /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/mkopcodec.tcl opcodes.h >opcodes.c
 tclsh8.6 /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/mkshellc.tcl >shell.c
-/home/pedro/dev/phoronix-benchmark-infra/toolchain/clang  -g -O2 -o mksourceid /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/mksourceid.c
+/home/pedro/dev/phoronix-benchmark-infra/toolchain/clang  -O2 -o mksourceid /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/mksourceid.c
 tclsh8.6 /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/mksqlite3h.tcl /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite >sqlite3.h
 cp /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts5/fts5parse.y .
 rm -f fts5parse.h
@@ -158,5 +158,5 @@ touch .target_source
 tclsh8.6 /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/tool/mksqlite3c.tcl
 cp tsrc/sqlite3ext.h .
 cp /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/session/sqlite3session.h .
-./libtool --mode=link /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang -g -O2 -DSQLITE_OS_UNIX=1 -I. -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/rtree -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/icu -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3 -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/async -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/session -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG -DSQLITE_THREADSAFE=1   -DSQLITE_HAVE_ZLIB=1     -o speedtest1 /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/test/speedtest1.c sqlite3.c -lz  
-libtool: link: /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang -g -O2 -DSQLITE_OS_UNIX=1 -I. -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/rtree -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/icu -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3 -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/async -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/session -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG -DSQLITE_THREADSAFE=1 -DSQLITE_HAVE_ZLIB=1 -o speedtest1 /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/test/speedtest1.c sqlite3.c  -lz
+./libtool --mode=link /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang -O2 -DSQLITE_OS_UNIX=1 -I. -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/rtree -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/icu -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3 -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/async -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/session -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG -DSQLITE_THREADSAFE=1       -o speedtest1 /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/test/speedtest1.c sqlite3.c 
+libtool: link: /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang -O2 -DSQLITE_OS_UNIX=1 -I. -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/src -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/rtree -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/icu -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3 -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/async -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/session -I/home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG -DSQLITE_THREADSAFE=1 -o speedtest1 /home/pedro/.phoronix-test-suite/installed-tests/pts/sqlite-speedtest-1.0.1/sqlite/test/speedtest1.c sqlite3.c 
