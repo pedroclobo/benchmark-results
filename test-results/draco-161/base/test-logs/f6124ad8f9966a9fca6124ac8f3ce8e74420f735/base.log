@@ -1,38 +1,38 @@
 #####
 base - Run 1
-2024-09-16 11:38:20
+2024-11-09 20:57:42
 #####
 Encoder options:
   Compression level = 10
   Positions: Quantization = 16 bits
 
-Encoded mesh saved to out.drc (9122 ms to encode).
+Encoded mesh saved to out.drc (9254 ms to encode).
 
 Encoded size = 5411725 bytes
 
 
 #####
 base - Run 2
-2024-09-16 11:38:37
+2024-11-09 20:57:58
 #####
 Encoder options:
   Compression level = 10
   Positions: Quantization = 16 bits
 
-Encoded mesh saved to out.drc (9105 ms to encode).
+Encoded mesh saved to out.drc (9251 ms to encode).
 
 Encoded size = 5411725 bytes
 
 
 #####
 base - Run 3
-2024-09-16 11:38:51
+2024-11-09 20:58:13
 #####
 Encoder options:
   Compression level = 10
   Positions: Quantization = 16 bits
 
-Encoded mesh saved to out.drc (9096 ms to encode).
+Encoded mesh saved to out.drc (9257 ms to encode).
 
 Encoded size = 5411725 bytes
 
