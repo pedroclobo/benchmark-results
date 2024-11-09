@@ -26,8 +26,7 @@ configure.ac:74: the top level
 checking for a BSD-compatible install... /usr/bin/install -c
 checking whether build environment is sane... yes
 checking for a race-free mkdir -p... /usr/bin/mkdir -p
-checking for gawk... no
-checking for mawk... mawk
+checking for gawk... gawk
 checking whether make sets $(MAKE)... yes
 checking whether make supports nested variables... yes
 checking build system type... x86_64-pc-linux-gnu
@@ -49,15 +48,15 @@ checking for a sed that does not truncate output... /usr/bin/sed
 checking for grep that handles long lines and -e... /usr/bin/grep
 checking for egrep... /usr/bin/grep -E
 checking for fgrep... /usr/bin/grep -F
-checking for ld used by /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang... /usr/bin/ld
-checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for ld used by /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang... /bin/ld
+checking if the linker (/bin/ld) is GNU ld... yes
 checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
 checking the name lister (/usr/bin/nm -B) interface... BSD nm
 checking whether ln -s works... yes
 checking the maximum length of command line arguments... 1572864
 checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
 checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
-checking for /usr/bin/ld option to reload object files... -r
+checking for /bin/ld option to reload object files... -r
 checking for file... file
 checking for objdump... objdump
 checking how to recognize dependent libraries... pass_all
@@ -91,8 +90,8 @@ checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang PIC flag -f
 checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang static flag -static works... yes
 checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang supports -c -o file.o... yes
 checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang supports -c -o file.o... (cached) yes
-checking whether the /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
-checking whether -lc should be explicitly linked in... no
+checking whether the /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... yes
 checking dynamic linker characteristics... GNU/Linux ld.so
 checking how to hardcode library paths into programs... immediate
 checking whether stripping libraries is possible... yes
@@ -111,16 +110,16 @@ checking whether the compiler supports GNU C++... yes
 checking whether /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ accepts -g... yes
 checking for /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ option to enable C++11 features... none needed
 checking dependency style of /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++... gcc3
-checking how to run the C++ preprocessor... /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ -E
-checking for ld used by /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++... /usr/bin/ld -m elf_x86_64
-checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
-checking whether the /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking how to run the C++ preprocessor... cpp
+checking for ld used by /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++... /bin/ld -m elf_x86_64
+checking if the linker (/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
 checking for /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ option to produce PIC... -fPIC -DPIC
 checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ PIC flag -fPIC -DPIC works... yes
 checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ static flag -static works... yes
 checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ supports -c -o file.o... yes
 checking if /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ supports -c -o file.o... (cached) yes
-checking whether the /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether the /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang++ linker (/bin/ld -m elf_x86_64) supports shared libraries... yes
 checking dynamic linker characteristics... (cached) GNU/Linux ld.so
 checking how to hardcode library paths into programs... immediate
 checking whether make sets $(MAKE)... (cached) yes
@@ -197,7 +196,7 @@ configure:
         Source code location:          .
 
         C99 Compiler:                  /home/pedro/dev/phoronix-benchmark-infra/toolchain/clang
-        C99 Compiler flags:            -fwrapv -Wunused-parameter -Wunused -Wuninitialized -Wreturn-type -Wmissing-prototypes -Wint-conversion -Wimplicit -g -O2 -std=c99
+        C99 Compiler flags:            -fwrapv -Wunused-parameter -Wunused -Wuninitialized -Wreturn-type -Wmissing-prototypes -Wint-conversion -Wimplicit -O2 -std=c99
 
         Sonic:                         no
         PCAudioLib:                    no
@@ -215,6 +214,7 @@ configure:
             Chinese (Mandarin):        yes
             Chinese (Cantonese):       yes
 
+sed: -e expression #1, char 18: unknown option to `s'
 Makefile:2883: warning: ignoring prerequisites on suffix rule definition
 make  all-am
 make[1]: Entering directory '/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak-ng-1.51'

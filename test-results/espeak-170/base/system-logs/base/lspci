@@ -202,11 +202,9 @@ SVendor:	Toshiba Corporation [1179]
 SDevice:	GM108M [GeForce 930M] [f842]
 Rev:	a2
 ProgIf:	00
-Driver:	nvidia
+Driver:	nouveau
 Module:	nvidiafb
 Module:	nouveau
-Module:	nvidia_drm
-Module:	nvidia
 IOMMUGroup:	14
 
 Slot:	0a:00.0

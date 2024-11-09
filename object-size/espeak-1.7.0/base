@@ -1,6 +1,31 @@
+674762	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/gutenberg-science.txt	ASCII text, with CRLF line terminators
 14260788	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak-ng-1.51.tar.gz	gzip compressed data, from Unix, original size modulo 2^32 41277440
-1845	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/vim/addons/syntax/espeaklist.vim	ASCII text
+97525	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/install.log	ASCII text
+945	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/pts-install.json	JSON text data
+181	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak	POSIX shell script, ASCII text executable
+1008158	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib/libespeak-ng.a	current ar archive
+22	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib/libespeak-ng.so.1	symbolic link to libespeak-ng.so.1.1.51
+15	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib/libespeak.la	symbolic link to libespeak-ng.la
+22	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib/libespeak-ng.so	symbolic link to libespeak-ng.so.1.1.51
+625592	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib/libespeak-ng.so.1.1.51	ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, not stripped
+389	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib/pkgconfig/espeak-ng.pc	ASCII text
+389	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib/pkgconfig	directory
+1052	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib/libespeak-ng.la	libtool library file, ASCII text
+1635250	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib	directory
+6379	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/include/espeak-ng/espeak_ng.h	C source, ASCII text
+25848	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/include/espeak-ng/speak_lib.h	C source, ASCII text, with very long lines (303)
+3117	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/include/espeak-ng/encoding.h	C source, ASCII text
+35344	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/include/espeak-ng	directory
+25848	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/include/espeak/speak_lib.h	C source, ASCII text, with very long lines (303)
+25848	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/include/espeak	directory
+61192	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/include	directory
+32664	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/bin/espeak-ng	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, not stripped
+9	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/bin/espeak	symbolic link to espeak-ng
+8	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/bin/speak	symbolic link to speak-ng
+562384	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/bin/speak-ng	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, not stripped
+595065	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/bin	directory
 3442	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/vim/addons/syntax/espeakrules.vim	ASCII text
+1845	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/vim/addons/syntax/espeaklist.vim	ASCII text
 5287	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/vim/addons/syntax	directory
 446	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/vim/addons/ftdetect/espeakfiletype.vim	CSV ASCII text
 446	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/vim/addons/ftdetect	directory
@@ -8,558 +33,533 @@
 219	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/vim/registry/espeak.yaml	ASCII text
 219	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/vim/registry	directory
 5952	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/vim	directory
-2215	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ba_dict	data
-49645	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/cs_dict	TTComp archive data, binary, 1K dictionary
-89979	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/bn_dict	TTComp archive data, binary, 1K dictionary
-4384	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mt_dict	TTComp archive data, binary, 1K dictionary
-47836	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/sv_dict	TTComp archive data, binary, 1K dictionary
-46832	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/sr_dict	TTComp archive data, binary, 1K dictionary
-2014629	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ru_dict	TTComp archive data, binary, 1K dictionary
-1827	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/qya_dict	xBase compound index, free node pointer 0x495, key length 0x400, index options (0xc1, unique, structure), index signature 4, at 16 reserved 0x48, sort order 4916, expression length 18432, FOR expression pool length 0, key expression pool length 0
-63859	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mk_dict	TTComp archive data, binary, 1K dictionary
-5226	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/bpy_dict	data
-47523	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ko_dict	TTComp archive data, binary, 1K dictionary
-47804	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/sw_dict	TTComp archive data, binary, 1K dictionary
-59928	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/sd_dict	TTComp archive data, binary, 1K dictionary
-48841	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/eu_dict	TTComp archive data, binary, 1K dictionary
+1859	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/kk_dict	data
+63878	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/am_dict	TTComp archive data, binary, 1K dictionary
+76730	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/pl_dict	TTComp archive data, binary, 1K dictionary
 95377	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ne_dict	TTComp archive data, binary, 1K dictionary
-1919	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/qu_dict	xBase compound index, free node pointer 0x675, key length 0x600, index options (0x41, unique), index signature 4, at 16 reserved 0x700000000000c23, sort order 0, FOR expression pool length 0, key expression pool length 0
-2540	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/uz_dict	xBase compound index, free node pointer 0x840, reserved counter 0x6000000, key length 0x34c3, index options (0x53, unique, bit vector (SoftC)), index signature 128, at 16 reserved 0x71044105000048, sort order 34570, expression length 10095, FOR expression pool length 0x7378, at 0x508 reserved 0x6168, key expression pool length 0x4862, key expression pool 0x9c2050000000000
-3140	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/gn_dict	xBase compound index, free node pointer 0xa5c, key length 0x500, index options (0x41, unique), index signature 4, at 16 reserved 0x4106000000000023, sort order 0, FOR expression pool length 0, at 0x508 reserved 0x60e, key expression pool length 0x305f, key expression pool 0x736515676e616c
-1534	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/nci_dict	data
-68276	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/de_dict	TTComp archive data, binary, 1K dictionary
+50002	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/sk_dict	TTComp archive data, binary, 1K dictionary
+1827	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/qya_dict	xBase compound index, free node pointer 0x495, key length 0x400, index options (0xc1, unique, structure), index signature 4, at 16 reserved 0x48, sort order 4916, expression length 18432, FOR expression pool length 0, key expression pool length 0
 20508	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/tk_dict	TTComp archive data, binary, 1K dictionary
-1710	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/piqd_dict	xBase compound index, free node pointer 0x520, key length 0x700, index options (0x41, unique), index signature 4, at 16 reserved 0x2f2313, sort order 0, FOR expression pool length 0, key expression pool length 0, key expression pool 0x801c420800000000
-53541	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ms_dict	TTComp archive data, binary, 1K dictionary
-87	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmq/nb	Unicode text, UTF-8 text
-25	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmq/sv	ASCII text
-27	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmq/is	ASCII text
-43	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmq/da	ASCII text
-182	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmq	directory
-56	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sit/my	ASCII text
-194	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sit/yue	ASCII text
-161	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sit/cmn-Latn-pinyin	ASCII text
-745	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sit/cmn	Unicode text, UTF-8 text
-213	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sit/yue-Latn-jyutping	ASCII text
-128	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sit/hak	ASCII text
-1497	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sit	directory
-569	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/iro/chr	ASCII text
-569	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/iro	directory
-52	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/jpx/ja	ASCII text
-52	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/jpx	directory
+89246	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/or_dict	TTComp archive data, binary, 1K dictionary
+46849	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/tr_dict	TTComp archive data, binary, 1K dictionary
+43773	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/az_dict	TTComp archive data, binary, 1K dictionary
+94837	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/te_dict	TTComp archive data, binary, 1K dictionary
+45003	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/sq_dict	TTComp archive data, binary, 1K dictionary
+43928	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/fi_dict	TTComp archive data, binary, 1K dictionary
+2409	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/py_dict	TTComp archive data, binary, 1K dictionary
+47068	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/bs_dict	TTComp archive data, binary, 1K dictionary
+64421	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ky_dict	TTComp archive data, binary, 1K dictionary
+39068	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/phonindex	data
+2082	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/uk_dict	data
+1919	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/qu_dict	xBase compound index, free node pointer 0x675, key length 0x600, index options (0x41, unique), index signature 4, at 16 reserved 0x700000000000c23, sort order 0, FOR expression pool length 0, key expression pool length 0
+1534	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/nci_dict	data
+45047	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/sl_dict	TTComp archive data, binary, 1K dictionary
+85384	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/si_dict	TTComp archive data, binary, 1K dictionary
+87391	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mr_dict	TTComp archive data, binary, 1K dictionary
+121473	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/af_dict	TTComp archive data, binary, 1K dictionary
+563571	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/yue_dict	TTComp archive data, binary, 1K dictionary
+2014629	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ru_dict	TTComp archive data, binary, 1K dictionary
+88377	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/shn_dict	TTComp archive data, binary, 1K dictionary
+52673	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ga_dict	TTComp archive data, binary, 1K dictionary
+65621	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lv_dict	TTComp archive data, binary, 1K dictionary
+1582	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/nog_dict	xBase index, free node pointer 0x408, key length 0, index options (0)
+62263	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/hy_dict	TTComp archive data, binary, 1K dictionary
+2128	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/pap_dict	xBase compound index, free node pointer 0x69e, key length 0x400, index options (0xc1, unique, structure), index signature 4, at 16 reserved 0x84106000000004c, sort order 0, FOR expression pool length 0, at 0x508 reserved 0xc205, key expression pool length 0xf008, key expression pool 0x4c
+2356	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ptbr4_phtrans	data
+2524	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ptbr_phtrans	data
+484	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/grc-de6_phtrans	data
+1108	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/es4_phtrans	data
+2284	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/vz_phtrans	data
+772	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/tl1_phtrans	data
+1732	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/es_phtrans	data
+5812	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ir1_phtrans	data
+2164	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ro1_phtrans	data
+1396	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/de6_phtrans	data
+364	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/tr1_phtrans	data
+1588	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/sv2_phtrans	data
+1492	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/cmn_phtrans	data
+1132	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ic1_phtrans	data
+1156	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/us3_phtrans	data
+1036	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/jp_phtrans	data
+2092	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/pt1_phtrans	data
+2164	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/cr1_phtrans	data
+1156	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/de8_phtrans	data
+892	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/it3_phtrans	data
+1228	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/us_phtrans	data
+1060	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/es3_phtrans	data
+580	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/cs_phtrans	data
+1636	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/af1_phtrans	data
+2212	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/gr1_phtrans	data
+1684	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/nl_phtrans	data
+1804	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/de4_phtrans	data
+724	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/nz1_phtrans	data
+1996	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ca_phtrans	data
+748	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/la1_phtrans	data
+532	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/hn1_phtrans	data
+1972	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/fr_phtrans	data
+1324	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/it1_phtrans	data
+940	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ma1_phtrans	data
+1444	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/hu1_phtrans	data
+748	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/he_phtrans	data
+1588	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/sv_phtrans	data
+2212	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/gr2_phtrans	data
+796	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/en1_phtrans	data
+1708	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/id1_phtrans	data
+1060	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/lt_phtrans	data
+1444	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ee1_phtrans	data
+1804	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/mx1_phtrans	data
+1564	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/pl1_phtrans	data
+1612	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ar1_phtrans	data
+1732	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/de2_phtrans	data
+1612	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ar2_phtrans	data
+1444	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/in_phtrans	data
+1828	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/mx2_phtrans	data
+74740	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph	directory
+48738	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/es_dict	TTComp archive data, binary, 1K dictionary
+43130	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/cy_dict	TTComp archive data, binary, 1K dictionary
+292327	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/fa_dict	TTComp archive data, binary, 1K dictionary
+1803	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ht_dict	data
+2070	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ug_dict	data
+338	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Lee	ASCII text, with CRLF line terminators
+287	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robosoft6	ASCII text
+364	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/steph	ASCII text
+233	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/RicishayMax	ASCII text
+425	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/f5	ASCII text
+39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/klatt6	ASCII text
+38	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/klatt	ASCII text
+493	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/anika	ASCII text
+243	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robosoft8	ASCII text
+283	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Gene2	ASCII text, with CRLF line terminators
+128	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Alex	ASCII text
+38	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/klatt2	ASCII text
+324	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/f1	ASCII text
+340	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/belinda	ASCII text
+451	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robosoft	ASCII text
+300	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/m3	ASCII text
+447	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robosoft4	ASCII text
+3193	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Mr serious	ASCII text, with CRLF line terminators
+381	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/antonio	ASCII text
+253	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/gustave	ASCII text
+262	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/iven3	ASCII text
+455	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robosoft3	ASCII text
+435	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/RicishayMax3	ASCII text
+93	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/croak	ASCII text
+335	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/m1	ASCII text
+417	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/UniRobot	ASCII text, with CRLF line terminators
+57	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/caleb	ASCII text
+201	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/benjamin	ASCII text
+270	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Mario	ASCII text, with CRLF line terminators
+361	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/AnxiousAndy	ASCII text, with CRLF line terminators
+530	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/sandro	ASCII text
+3189	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/norbert	ASCII text, with CRLF line terminators
+354	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/quincy	ASCII text, with CRLF line terminators
+263	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/grandma	ASCII text
+264	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/m2	ASCII text
+290	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/m4	ASCII text
+404	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/michel	ASCII text, with CRLF line terminators
+305	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Denis	ASCII text, with CRLF line terminators
+262	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/m5	ASCII text
+352	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/pedro	ASCII text
+225	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/max	ASCII text, with CRLF line terminators
+3142	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/pablo	ASCII text
+284	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/paul	ASCII text
+361	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/kaukovalta	ASCII text, with CRLF line terminators
+75	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/adam	ASCII text
+454	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robosoft2	ASCII text
+152	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/edward2	ASCII text
+254	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/m7	ASCII text
+256	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/grandpa	ASCII text
+275	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/zac	ASCII text, with CRLF line terminators
+270	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Michael	ASCII text, with CRLF line terminators
+375	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/f3	ASCII text
+39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/klatt4	ASCII text
+224	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/boris	ASCII text, with CRLF line terminators
+186	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/whisper	ASCII text
+287	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/ed	ASCII text
+281	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Gene	ASCII text, with CRLF line terminators
+435	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/RicishayMax2	ASCII text
+279	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/iven2	ASCII text
+188	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/m6	ASCII text
+357	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/f2	ASCII text
+3189	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Tweaky	ASCII text, with CRLF line terminators
+112	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/david	ASCII text
+3186	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/john	ASCII text, with CRLF line terminators
+410	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robosoft7	ASCII text
+383	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/travis	ASCII text, with CRLF line terminators
+253	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/victor	ASCII text
+39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/klatt5	ASCII text
+367	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/steph2	ASCII text
+261	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/iven	ASCII text
+39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/klatt3	ASCII text
+315	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Annie	ASCII text, with CRLF line terminators
+300	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/announcer	ASCII text
+350	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/linda	ASCII text
+280	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Nguyen	ASCII text
+3858	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Demonic	Unicode text, UTF-8 text, with CRLF line terminators
+377	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/steph3	ASCII text
+382	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/miguel	ASCII text
+251	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/marcelo	ASCII text
+320	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Andy	ASCII text, with CRLF line terminators
+112	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Mike	ASCII text
+466	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Alicia	ASCII text, with CRLF line terminators
+265	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/rob	ASCII text, with CRLF line terminators
+357	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Andrea	ASCII text
+149	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/fast	ASCII text
+392	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/whisperf	ASCII text
+284	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/m8	ASCII text
+467	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Marco	ASCII text, with CRLF line terminators
+151	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/edward	ASCII text
+512	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/anikaRobot	ASCII text
+381	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Henrique	ASCII text
+379	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Diogo	ASCII text
+358	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/aunty	ASCII text, with CRLF line terminators
+445	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robosoft5	ASCII text
+261	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/iven4	ASCII text
+350	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/f4	ASCII text
+420	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Storm	ASCII text, with CRLF line terminators
+274	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robert	ASCII text, with CRLF line terminators
+267	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Jacky	ASCII text, with CRLF line terminators
+280	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/shelby	ASCII text
+378	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Hugo	ASCII text
+47716	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v	directory
+129	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de4	ASCII text
+96	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de3-en	ASCII text
+82	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-cz2	ASCII text
+88	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-af1	ASCII text
+104	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-es3	ASCII text
+85	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-tr1	ASCII text
+99	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-sw2-en	ASCII text
+96	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de1-en	ASCII text
+84	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ar1	ASCII text
+81	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de4-en	ASCII text
+180	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-us3	ASCII text
+94	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-gr1	ASCII text
+114	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-es1	ASCII text
+91	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-nl2-en	ASCII text
+103	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr2	ASCII text
+87	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-lt1	ASCII text
+71	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de8	ASCII text
+83	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-la1	ASCII text
+108	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-es2	ASCII text
+99	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-pl1	ASCII text
+97	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-hu1-en	ASCII text
+83	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de6-grc	ASCII text
+69	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-in1	ASCII text
+136	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-br2	ASCII text
+170	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-us1	ASCII text
+98	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-sw1	ASCII text
+131	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-en1	ASCII text
+102	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-sw2	ASCII text
+102	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-hu1	ASCII text
+132	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-br1	ASCII text
+71	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-jp1	ASCII text
+144	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de1	ASCII text
+88	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ic1	ASCII text
+96	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-nl2	ASCII text
+136	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-br4	ASCII text
+127	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr4	ASCII text
+93	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-sw1-en	ASCII text
+132	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-br3	ASCII text
+85	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-in2	ASCII text
+105	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ca1	ASCII text
+150	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de7	ASCII text
+87	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-lt2	ASCII text
+68	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-hb1	ASCII text
+69	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-nl1	ASCII text
+122	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de6	ASCII text
+88	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-gr2-en	ASCII text
+144	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-vz1	ASCII text
+236	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de5	ASCII text
+80	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de2-en	ASCII text
+74	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de6-en	ASCII text
+105	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ca2	ASCII text
+166	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr1	ASCII text
+101	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-jp2	ASCII text
+87	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-jp3	ASCII text
+85	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-tl1	ASCII text
+85	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-nl3	ASCII text
+87	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-it2	ASCII text
+753	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ir1	ASCII text
+120	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-mx1	ASCII text
+82	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-pl1-en	ASCII text
+105	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr4-en	ASCII text
+100	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr6	ASCII text
+84	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ar2	ASCII text
+88	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-es4	ASCII text
+131	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-pt1	ASCII text
+92	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-cn1	ASCII text
+111	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-cr1	ASCII text
+102	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr1-en	ASCII text
+83	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr7	ASCII text
+114	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-tr2	ASCII text
+145	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-it4	ASCII text
+178	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-us2	ASCII text
+70	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-cz1	ASCII text
+100	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr5	ASCII text
+120	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-mx2	ASCII text
+94	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-gr2	ASCII text
+90	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de5-en	ASCII text
+101	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-id1	ASCII text
+84	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-it1	ASCII text
+97	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ee1	ASCII text
+98	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ma1	ASCII text
+87	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ro1	ASCII text
+83	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-af1-en	ASCII text
+81	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ro1-en	ASCII text
+142	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-it3	ASCII text
+68	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-nz1	ASCII text
+128	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de2	ASCII text
+99	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de3	ASCII text
+100	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr3	ASCII text
+83	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-hb2	ASCII text
+10018	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb	directory
+57734	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices	directory
+37	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/tai/th	ASCII text
+92	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/tai/shn	ASCII text
+129	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/tai	directory
 114	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/azc/nci	ASCII text
 114	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/azc	directory
-208	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/aav/vi-VN-x-central	ASCII text
-111	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/aav/vi	ASCII text
-207	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/aav/vi-VN-x-south	ASCII text
-526	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/aav	directory
-24	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zlw/sk	ASCII text
-23	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zlw/cs	ASCII text
-38	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zlw/pl	ASCII text
-85	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zlw	directory
-124	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ccs/ka	ASCII text
-124	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ccs	directory
+47	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sai/gn	ASCII text
+47	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sai	directory
+188	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/en-GB-x-gbcwmd	ASCII text
+23	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/nl	ASCII text
+295	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/en-GB-scotland	ASCII text
+238	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/en-GB-x-gbclan	ASCII text
+335	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/en-029	ASCII text
+271	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/en-US-nyc	ASCII text
+123	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/af	ASCII text
+42	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/de	ASCII text
+31	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/lb	ASCII text
+249	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/en-GB-x-rp	ASCII text
+257	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/en-US	ASCII text
+140	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/en	ASCII text
+2192	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw	directory
+51	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ko	ASCII text
+30	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/esx/kl	ASCII text
+30	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/esx	directory
+365	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ine/hyw	ASCII text
+103	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ine/sq	Unicode text, UTF-8 text
+61	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ine/hy	ASCII text
+529	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ine	directory
+54	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/eu	ASCII text
+39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/cus/om	ASCII text
+39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/cus	directory
+367	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/poz/mi	Unicode text, UTF-8 text
+430	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/poz/ms	ASCII text
+134	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/poz/id	ASCII text
+931	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/poz	directory
+569	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/iro/chr	ASCII text
+569	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/iro	directory
+87	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmq/nb	Unicode text, UTF-8 text
+27	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmq/is	ASCII text
+25	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmq/sv	ASCII text
+43	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmq/da	ASCII text
+182	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmq	directory
+70	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/dra/te	ASCII text
+57	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/dra/ml	ASCII text
+55	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/dra/kn	ASCII text
+51	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/dra/ta	ASCII text
+233	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/dra	directory
+42	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/map/haw	ASCII text
+42	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/map	directory
 23	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/grk/el	ASCII text
 99	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/grk/grc	ASCII text
 122	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/grk	directory
-30	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/esx/kl	ASCII text
-30	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/esx	directory
-51	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/cel/gd	ASCII text
-66	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/cel/ga	ASCII text
-37	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/cel/cy	ASCII text
-154	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/cel	directory
-297	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/itc/la	ASCII text
-297	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/itc	directory
-134	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/poz/id	ASCII text
-367	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/poz/mi	Unicode text, UTF-8 text
-430	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/poz/ms	ASCII text
-931	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/poz	directory
-369	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/bat/ltg	ASCII text
-28	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/bat/lt	ASCII text
-286	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/bat/lv	ASCII text
-683	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/bat	directory
-140	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/en	ASCII text
-123	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/af	ASCII text
-238	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/en-GB-x-gbclan	ASCII text
-188	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/en-GB-x-gbcwmd	ASCII text
-335	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/en-029	ASCII text
-23	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/nl	ASCII text
-257	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/en-US	ASCII text
-271	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/en-US-nyc	ASCII text
-31	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/lb	ASCII text
-295	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/en-GB-scotland	ASCII text
-249	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/en-GB-x-rp	ASCII text
-42	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw/de	ASCII text
-2192	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/gmw	directory
-51	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ko	ASCII text
-25	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/tr	ASCII text
-25	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/tk	ASCII text
-45	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/az	ASCII text
-23	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/tt	ASCII text
-40	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/cv	ASCII text
-39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/nog	ASCII text
-25	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/ba	ASCII text
-40	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/kk	ASCII text
-24	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/ug	ASCII text
-43	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/ky	ASCII text
-39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/uz	ASCII text
-368	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk	directory
-39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/cus/om	ASCII text
-39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/cus	directory
-23	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/hi	ASCII text
-55	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/si	ASCII text
-41	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/mr	ASCII text
-42	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/as	ASCII text
-39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/or	ASCII text
-37	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/ne	ASCII text
+88	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/qu	ASCII text
+39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/bpy	ASCII text
 94	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/ur	ASCII text
 26	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/kok	ASCII text
-66	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/sd	ASCII text
-42	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/gu	ASCII text
-25	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/pa	ASCII text
+39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/or	ASCII text
 25	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/bn	ASCII text
-39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/bpy	ASCII text
+66	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/sd	ASCII text
+55	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/si	ASCII text
+41	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/mr	ASCII text
+37	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/ne	ASCII text
+42	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/as	ASCII text
+42	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/gu	ASCII text
+23	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/hi	ASCII text
+25	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc/pa	ASCII text
 554	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/inc	directory
-40	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ira/ku	ASCII text
-269	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ira/fa-Latn	ASCII text
-90	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ira/fa	ASCII text
-399	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ira	directory
-42	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zle/uk	ASCII text
-280	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zle/ru-LV	ASCII text
-66	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zle/ru	ASCII text
-69	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zle/be	ASCII text
-457	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zle	directory
-47	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sai/gn	ASCII text
-47	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sai	directory
+56	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/piqd	ASCII text
+140	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/py	ASCII text
+69	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/jbo	ASCII text
+29	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/ia	ASCII text
+135	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/lfn	ASCII text, with CRLF line terminators
+57	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/qdb	ASCII text
+175	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/sjn	ASCII text
+50	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/io	ASCII text
+41	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/eo	ASCII text
+173	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/qya	ASCII text
+925	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art	directory
+23	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zlw/cs	ASCII text
+38	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zlw/pl	ASCII text
+24	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zlw/sk	ASCII text
+85	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zlw	directory
+250	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zls/sr	ASCII text
+28	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zls/mk	ASCII text
+230	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zls/bs	ASCII text
+262	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zls/hr	ASCII text
+43	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zls/sl	ASCII text
+111	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zls/bg	ASCII text
+924	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zls	directory
+41	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/bnt/sw	ASCII text
+42	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/bnt/tn	ASCII text
+83	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/bnt	directory
 41	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sem/am	ASCII text
 41	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sem/mt	ASCII text
 50	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sem/ar	ASCII text
 40	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sem/he	ASCII text
 172	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sem	directory
+52	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/jpx/ja	ASCII text
+52	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/jpx	directory
+124	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ccs/ka	ASCII text
+124	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ccs	directory
+90	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ira/fa	ASCII text
+269	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ira/fa-Latn	ASCII text
+40	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ira/ku	ASCII text
+399	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ira	directory
+111	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/aav/vi	ASCII text
+207	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/aav/vi-VN-x-south	ASCII text
+208	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/aav/vi-VN-x-central	ASCII text
+526	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/aav	directory
+128	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sit/hak	ASCII text
+213	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sit/yue-Latn-jyutping	ASCII text
+194	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sit/yue	ASCII text
+745	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sit/cmn	Unicode text, UTF-8 text
+161	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sit/cmn-Latn-pinyin	ASCII text
+56	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sit/my	ASCII text
+1497	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/sit	directory
+43	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/ky	ASCII text
+25	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/tr	ASCII text
+39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/nog	ASCII text
+40	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/cv	ASCII text
+25	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/tk	ASCII text
+25	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/ba	ASCII text
+24	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/ug	ASCII text
+40	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/kk	ASCII text
+39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/uz	ASCII text
+23	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/tt	ASCII text
+45	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk/az	ASCII text
+368	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/trk	directory
+119	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/urj/fi	ASCII text
+120	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/urj/et	ASCII text
+73	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/urj/hu	ASCII text
+45	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/urj/smj	ASCII text
+357	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/urj	directory
+51	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/cel/gd	ASCII text
+37	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/cel/cy	ASCII text
+66	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/cel/ga	ASCII text
+154	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/cel	directory
 210	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/myn/quc	ASCII text
 210	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/myn	directory
-120	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/urj/et	ASCII text
-45	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/urj/smj	ASCII text
-73	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/urj/hu	ASCII text
-119	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/urj/fi	ASCII text
-357	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/urj	directory
-230	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zls/bs	ASCII text
-111	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zls/bg	ASCII text
-43	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zls/sl	ASCII text
-250	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zls/sr	ASCII text
-262	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zls/hr	ASCII text
-28	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zls/mk	ASCII text
-924	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zls	directory
-103	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ine/sq	Unicode text, UTF-8 text
-365	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ine/hyw	ASCII text
-61	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ine/hy	ASCII text
-529	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/ine	directory
-55	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/dra/kn	ASCII text
-57	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/dra/ml	ASCII text
-51	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/dra/ta	ASCII text
-70	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/dra/te	ASCII text
-233	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/dra	directory
-92	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/tai/shn	ASCII text
-37	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/tai/th	ASCII text
-129	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/tai	directory
-109	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/pt-BR	ASCII text
-27	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/an	ASCII text
 25	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/ca	ASCII text
-95	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/pt	ASCII text
+27	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/an	ASCII text
 79	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/fr	ASCII text
 63	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/es	ASCII text
-140	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/ht	ASCII text
+109	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/pt-BR	ASCII text
 62	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/pap	ASCII text
 26	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/ro	ASCII text
-86	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/fr-CH	ASCII text
-84	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/fr-BE	ASCII text
 177	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/es-419	ASCII text
+140	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/ht	ASCII text
+84	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/fr-BE	ASCII text
+86	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/fr-CH	ASCII text
 109	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/it	ASCII text
+95	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa/pt	ASCII text
 1082	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/roa	directory
-54	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/eu	ASCII text
-57	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/qdb	ASCII text
-50	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/io	ASCII text
-140	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/py	ASCII text
-29	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/ia	ASCII text
-56	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/piqd	ASCII text
-41	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/eo	ASCII text
-69	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/jbo	ASCII text
-175	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/sjn	ASCII text
-135	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/lfn	ASCII text, with CRLF line terminators
-173	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art/qya	ASCII text
-925	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/art	directory
-41	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/bnt/sw	ASCII text
-42	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/bnt/tn	ASCII text
-83	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/bnt	directory
-42	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/map/haw	ASCII text
-42	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/map	directory
-88	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/qu	ASCII text
+297	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/itc/la	ASCII text
+297	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/itc	directory
+66	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zle/ru	ASCII text
+42	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zle/uk	ASCII text
+280	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zle/ru-LV	ASCII text
+69	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zle/be	ASCII text
+457	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/zle	directory
+286	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/bat/lv	ASCII text
+369	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/bat/ltg	ASCII text
+28	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/bat/lt	ASCII text
+683	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang/bat	directory
 14301	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lang	directory
-2793	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lfn_dict	TTComp archive data, binary, 1K dictionary
-6691	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/an_dict	TTComp archive data, binary, 1K dictionary
-43773	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/az_dict	TTComp archive data, binary, 1K dictionary
-43458	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/id_dict	TTComp archive data, binary, 1K dictionary
-4666	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/eo_dict	TTComp archive data, binary, 1K dictionary
-3335	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/hak_dict	xBase index, free node pointer 0x4f4, key length 0, index options (0)
-46849	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/tr_dict	TTComp archive data, binary, 1K dictionary
-1344	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/cv_dict	xBase index, free node pointer 0x408, key length 0, index options (0)
-6017	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/he_dict	data
-2443	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/haw_dict	TTComp archive data, binary, 1K dictionary
-44354	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/is_dict	TTComp archive data, binary, 1K dictionary
-48738	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/es_dict	TTComp archive data, binary, 1K dictionary
-2082	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/uk_dict	data
-1859	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/kk_dict	data
-5005	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/as_dict	xBase index, free node pointer 0xe98, key length 0, index options (0)
-35095	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/smj_dict	TTComp archive data, binary, 1K dictionary
+6394	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/kok_dict	xBase index, free node pointer 0xd1c, key length 0, index options (0)
 166680	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/en_dict	TTComp archive data, binary, 1K dictionary
-3072	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/tn_dict	xBase compound index, free node pointer 0xa18, key length 0x600, index options (0xc3, unique, structure), index signature 56, at 16 reserved 0x4d385f04204c4116, sort order 0, FOR expression pool length 0, key expression pool length 0x40f, key expression pool 0x6b3124373043315f
-2409	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/py_dict	TTComp archive data, binary, 1K dictionary
-2040	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/intonations	data
-2243	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/jbo_dict	xBase compound index, free node pointer 0x701, key length 0x400, index options (0xc1, unique, structure), index signature 4, at 16 reserved 0x84106000000001c, sort order 0, FOR expression pool length 0, key expression pool length 0
-92345	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ml_dict	TTComp archive data, binary, 1K dictionary
-63727	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/fr_dict	TTComp archive data, binary, 1K dictionary
-2301	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/th_dict	xBase index, free node pointer 0x465, key length 0, index options (0)
-45003	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/sq_dict	TTComp archive data, binary, 1K dictionary
-3433	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/grc_dict	xBase index, free node pointer 0x4e0, key length 0, index options (0)
-44263	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/et_dict	TTComp archive data, binary, 1K dictionary
-245287	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/da_dict	TTComp archive data, binary, 1K dictionary
-563571	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/yue_dict	TTComp archive data, binary, 1K dictionary
-133556	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ur_dict	TTComp archive data, binary, 1K dictionary
-2070	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ug_dict	data
-52673	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ga_dict	TTComp archive data, binary, 1K dictionary
-121473	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/af_dict	TTComp archive data, binary, 1K dictionary
-687936	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lb_dict	TTComp archive data, binary, 1K dictionary
-1346	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mi_dict	xBase index, free node pointer 0x497, key length 0, index options (0)
-1450	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/quc_dict	xBase index, free node pointer 0x474, key length 0, index options (0)
-50002	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/sk_dict	TTComp archive data, binary, 1K dictionary
-2265	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ku_dict	xBase compound index, free node pointer 0x771, key length 0x400, index options (0xc1, unique, structure), index signature 4, at 16 reserved 0x84106000000004c, sort order 1024, expression length 36033, FOR expression pool length 0x4c, at 0x508 reserved 0x600, key expression pool length 0x10c2, key expression pool 0x1c4890
-47652	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ja_dict	TTComp archive data, binary, 1K dictionary
-52608	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/vi_dict	TTComp archive data, binary, 1K dictionary
-64421	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ky_dict	TTComp archive data, binary, 1K dictionary
-72841	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/el_dict	TTComp archive data, binary, 1K dictionary
-87391	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mr_dict	TTComp archive data, binary, 1K dictionary
-478165	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ar_dict	TTComp archive data, binary, 1K dictionary
-87828	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/kn_dict	TTComp archive data, binary, 1K dictionary
-63878	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/am_dict	TTComp archive data, binary, 1K dictionary
-209553	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ta_dict	TTComp archive data, binary, 1K dictionary
+47804	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/sw_dict	TTComp archive data, binary, 1K dictionary
 55900	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/phontab	data
-2302	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/om_dict	xBase compound index, free node pointer 0x7ab, key length 0x600, index options (0x41, unique), index signature 4, at 16 reserved 0x700000000000c23, sort order 0, FOR expression pool length 0, key expression pool length 0x800, key expression pool 0xc2357801042
-76730	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/pl_dict	TTComp archive data, binary, 1K dictionary
-551064	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/phondata	data
-79953	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/pa_dict	TTComp archive data, binary, 1K dictionary
+44263	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/et_dict	TTComp archive data, binary, 1K dictionary
+68276	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/de_dict	TTComp archive data, binary, 1K dictionary
+6017	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/he_dict	data
+1450	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/quc_dict	xBase index, free node pointer 0x474, key length 0, index options (0)
+2040	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/intonations	data
+2301	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/th_dict	xBase index, free node pointer 0x465, key length 0, index options (0)
+92345	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ml_dict	TTComp archive data, binary, 1K dictionary
+87828	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/kn_dict	TTComp archive data, binary, 1K dictionary
 2859	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/chr_dict	xBase index, free node pointer 0x408, key length 0, index options (0)
-4178	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/no_dict	TTComp archive data, binary, 1K dictionary
-3028	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/qdb_dict	TTComp archive data, binary, 1K dictionary
-92143	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/hi_dict	TTComp archive data, binary, 1K dictionary
-2121	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/tt_dict	xBase index, free node pointer 0x6cc, key length 0, index options (0)
-43928	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/fi_dict	TTComp archive data, binary, 1K dictionary
-65621	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lv_dict	TTComp archive data, binary, 1K dictionary
-94837	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/te_dict	TTComp archive data, binary, 1K dictionary
-331275	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ia_dict	TTComp archive data, binary, 1K dictionary
-49121	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/gd_dict	TTComp archive data, binary, 1K dictionary
-87051	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/bg_dict	TTComp archive data, binary, 1K dictionary
-1649948	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/cmn_dict	TTComp archive data, binary, 1K dictionary
-153785	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/hu_dict	TTComp archive data, binary, 1K dictionary
-65979	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/nl_dict	TTComp archive data, binary, 1K dictionary
-67817	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/pt_dict	TTComp archive data, binary, 1K dictionary
-39068	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/phonindex	data
-45047	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/sl_dict	TTComp archive data, binary, 1K dictionary
-88377	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/shn_dict	TTComp archive data, binary, 1K dictionary
-47068	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/bs_dict	TTComp archive data, binary, 1K dictionary
-43130	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/cy_dict	TTComp archive data, binary, 1K dictionary
-95948	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/my_dict	TTComp archive data, binary, 1K dictionary
 21854	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/phondata-manifest	ASCII text
-85384	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/si_dict	TTComp archive data, binary, 1K dictionary
-3806	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/la_dict	TTComp archive data, binary, 1K dictionary
-1996	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ca_phtrans	data
-1612	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ar2_phtrans	data
-1036	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/jp_phtrans	data
-1708	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/id1_phtrans	data
-1132	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ic1_phtrans	data
-1588	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/sv2_phtrans	data
-1444	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/hu1_phtrans	data
-748	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/la1_phtrans	data
-532	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/hn1_phtrans	data
-1684	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/nl_phtrans	data
-1060	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/lt_phtrans	data
-940	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ma1_phtrans	data
-2524	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ptbr_phtrans	data
-580	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/cs_phtrans	data
-1828	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/mx2_phtrans	data
-1228	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/us_phtrans	data
-1444	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/in_phtrans	data
-1060	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/es3_phtrans	data
-724	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/nz1_phtrans	data
-1564	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/pl1_phtrans	data
-1324	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/it1_phtrans	data
-1636	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/af1_phtrans	data
-1972	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/fr_phtrans	data
-2164	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ro1_phtrans	data
-2284	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/vz_phtrans	data
-1444	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ee1_phtrans	data
-1732	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/es_phtrans	data
-2212	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/gr2_phtrans	data
-772	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/tl1_phtrans	data
-1804	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/mx1_phtrans	data
-892	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/it3_phtrans	data
-1108	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/es4_phtrans	data
-2212	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/gr1_phtrans	data
-1804	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/de4_phtrans	data
-1156	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/de8_phtrans	data
-1588	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/sv_phtrans	data
-796	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/en1_phtrans	data
-2356	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ptbr4_phtrans	data
-2092	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/pt1_phtrans	data
-1732	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/de2_phtrans	data
-5812	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ir1_phtrans	data
-1396	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/de6_phtrans	data
-748	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/he_phtrans	data
-1492	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/cmn_phtrans	data
-1156	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/us3_phtrans	data
-2164	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/cr1_phtrans	data
-1612	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/ar1_phtrans	data
-484	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/grc-de6_phtrans	data
-364	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph/tr1_phtrans	data
-74740	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mbrola_ph	directory
+4178	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/no_dict	TTComp archive data, binary, 1K dictionary
+1783	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/sjn_dict	xBase index, free node pointer 0x48b, key length 0, index options (0)
+2165	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/io_dict	data
+35095	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/smj_dict	TTComp archive data, binary, 1K dictionary
+2793	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lfn_dict	TTComp archive data, binary, 1K dictionary
+48841	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/eu_dict	TTComp archive data, binary, 1K dictionary
+2215	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ba_dict	data
+95948	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/my_dict	TTComp archive data, binary, 1K dictionary
+44354	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/is_dict	TTComp archive data, binary, 1K dictionary
+1344	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/cv_dict	xBase index, free node pointer 0x408, key length 0, index options (0)
+5226	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/bpy_dict	data
+63727	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/fr_dict	TTComp archive data, binary, 1K dictionary
+53541	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ms_dict	TTComp archive data, binary, 1K dictionary
+1710	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/piqd_dict	xBase compound index, free node pointer 0x520, key length 0x700, index options (0x41, unique), index signature 4, at 16 reserved 0x2f2313, sort order 0, FOR expression pool length 0, key expression pool length 0, key expression pool 0x801c420800000000
+47836	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/sv_dict	TTComp archive data, binary, 1K dictionary
 152406	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/it_dict	TTComp archive data, binary, 1K dictionary
 2645	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/kl_dict	xBase index, free node pointer 0x851, key length 0, index options (0), at 16 reserved 0x6c4808410600
-49890	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lt_dict	TTComp archive data, binary, 1K dictionary
-89246	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/or_dict	TTComp archive data, binary, 1K dictionary
-2165	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/io_dict	data
-49388	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/hr_dict	TTComp archive data, binary, 1K dictionary
-6394	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/kok_dict	xBase index, free node pointer 0xd1c, key length 0, index options (0)
-62263	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/hy_dict	TTComp archive data, binary, 1K dictionary
-68538	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ro_dict	TTComp archive data, binary, 1K dictionary
-45566	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ca_dict	TTComp archive data, binary, 1K dictionary
-87489	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ka_dict	TTComp archive data, binary, 1K dictionary
-2078	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/be_dict	data
-1582	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/nog_dict	xBase index, free node pointer 0x408, key length 0, index options (0)
-1783	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/sjn_dict	xBase index, free node pointer 0x48b, key length 0, index options (0)
-2128	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/pap_dict	xBase compound index, free node pointer 0x69e, key length 0x400, index options (0xc1, unique, structure), index signature 4, at 16 reserved 0x84106000000004c, sort order 0, FOR expression pool length 0, at 0x508 reserved 0xc205, key expression pool length 0xf008, key expression pool 0x4c
-114	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-tr2	ASCII text
-132	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-br3	ASCII text
-111	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-cr1	ASCII text
-132	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-br1	ASCII text
-85	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-in2	ASCII text
-114	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-es1	ASCII text
-170	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-us1	ASCII text
-102	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr1-en	ASCII text
-94	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-gr1	ASCII text
-142	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-it3	ASCII text
-150	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de7	ASCII text
-85	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-nl3	ASCII text
-144	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-vz1	ASCII text
-71	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de8	ASCII text
-70	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-cz1	ASCII text
-129	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de4	ASCII text
-122	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de6	ASCII text
-166	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr1	ASCII text
-104	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-es3	ASCII text
-101	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-id1	ASCII text
-93	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-sw1-en	ASCII text
-108	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-es2	ASCII text
-103	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr2	ASCII text
-98	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ma1	ASCII text
-87	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-lt1	ASCII text
-88	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-es4	ASCII text
-144	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de1	ASCII text
-120	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-mx2	ASCII text
-85	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-tr1	ASCII text
-88	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-gr2-en	ASCII text
-82	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-pl1-en	ASCII text
-180	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-us3	ASCII text
-83	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-af1-en	ASCII text
-136	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-br2	ASCII text
-99	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-sw2-en	ASCII text
-97	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-hu1-en	ASCII text
-80	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de2-en	ASCII text
-87	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-jp3	ASCII text
-81	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ro1-en	ASCII text
-87	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-lt2	ASCII text
-83	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-hb2	ASCII text
-71	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-jp1	ASCII text
-102	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-hu1	ASCII text
-84	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-it1	ASCII text
-74	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de6-en	ASCII text
-96	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-nl2	ASCII text
-94	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-gr2	ASCII text
-87	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-it2	ASCII text
-69	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-nl1	ASCII text
-99	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-pl1	ASCII text
-85	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-tl1	ASCII text
-68	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-nz1	ASCII text
-145	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-it4	ASCII text
-127	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr4	ASCII text
-81	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de4-en	ASCII text
-105	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ca1	ASCII text
-96	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de3-en	ASCII text
-97	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ee1	ASCII text
-128	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de2	ASCII text
-105	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ca2	ASCII text
-102	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-sw2	ASCII text
-90	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de5-en	ASCII text
-105	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr4-en	ASCII text
-100	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr5	ASCII text
-136	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-br4	ASCII text
-87	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ro1	ASCII text
-178	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-us2	ASCII text
-131	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-pt1	ASCII text
-131	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-en1	ASCII text
-88	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ic1	ASCII text
-753	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ir1	ASCII text
-96	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de1-en	ASCII text
-101	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-jp2	ASCII text
-84	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ar1	ASCII text
-83	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-la1	ASCII text
-83	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr7	ASCII text
-236	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de5	ASCII text
-84	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-ar2	ASCII text
-100	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr3	ASCII text
-120	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-mx1	ASCII text
-83	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de6-grc	ASCII text
-88	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-af1	ASCII text
-82	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-cz2	ASCII text
-98	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-sw1	ASCII text
-69	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-in1	ASCII text
-100	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-fr6	ASCII text
-99	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-de3	ASCII text
-91	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-nl2-en	ASCII text
-68	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-hb1	ASCII text
-92	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb/mb-cn1	ASCII text
-10018	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/mb	directory
-254	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/m7	ASCII text
-264	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/m2	ASCII text
-354	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/quincy	ASCII text, with CRLF line terminators
-364	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/steph	ASCII text
-350	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/f4	ASCII text
-382	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/miguel	ASCII text
-378	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Hugo	ASCII text
-93	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/croak	ASCII text
-263	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/grandma	ASCII text
-300	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/m3	ASCII text
-324	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/f1	ASCII text
-392	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/whisperf	ASCII text
-530	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/sandro	ASCII text
-75	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/adam	ASCII text
-57	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/caleb	ASCII text
-445	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robosoft5	ASCII text
-455	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robosoft3	ASCII text
-112	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Mike	ASCII text
-284	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/m8	ASCII text
-128	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Alex	ASCII text
-381	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/antonio	ASCII text
-261	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/iven4	ASCII text
-381	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Henrique	ASCII text
-151	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/edward	ASCII text
-112	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/david	ASCII text
-39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/klatt4	ASCII text
-270	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Michael	ASCII text, with CRLF line terminators
-201	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/benjamin	ASCII text
-253	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/gustave	ASCII text
-340	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/belinda	ASCII text
-188	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/m6	ASCII text
-357	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Andrea	ASCII text
-357	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/f2	ASCII text
-3858	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Demonic	Unicode text, UTF-8 text, with CRLF line terminators
-225	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/max	ASCII text, with CRLF line terminators
-224	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/boris	ASCII text, with CRLF line terminators
-417	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/UniRobot	ASCII text, with CRLF line terminators
-467	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Marco	ASCII text, with CRLF line terminators
-379	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Diogo	ASCII text
-38	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/klatt2	ASCII text
-383	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/travis	ASCII text, with CRLF line terminators
-149	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/fast	ASCII text
-466	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Alicia	ASCII text, with CRLF line terminators
-410	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robosoft7	ASCII text
-358	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/aunty	ASCII text, with CRLF line terminators
-3189	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/norbert	ASCII text, with CRLF line terminators
-290	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/m4	ASCII text
-283	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Gene2	ASCII text, with CRLF line terminators
-274	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robert	ASCII text, with CRLF line terminators
-335	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/m1	ASCII text
-435	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/RicishayMax2	ASCII text
-261	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/iven	ASCII text
-3189	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Tweaky	ASCII text, with CRLF line terminators
-320	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Andy	ASCII text, with CRLF line terminators
-315	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Annie	ASCII text, with CRLF line terminators
-3142	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/pablo	ASCII text
-38	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/klatt	ASCII text
-251	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/marcelo	ASCII text
-404	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/michel	ASCII text, with CRLF line terminators
-300	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/announcer	ASCII text
-284	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/paul	ASCII text
-262	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/iven3	ASCII text
-3193	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Mr serious	ASCII text, with CRLF line terminators
-454	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robosoft2	ASCII text
-267	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Jacky	ASCII text, with CRLF line terminators
-256	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/grandpa	ASCII text
-352	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/pedro	ASCII text
-253	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/victor	ASCII text
-493	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/anika	ASCII text
-262	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/m5	ASCII text
-39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/klatt3	ASCII text
-350	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/linda	ASCII text
-279	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/iven2	ASCII text
-361	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/AnxiousAndy	ASCII text, with CRLF line terminators
-39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/klatt6	ASCII text
-367	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/steph2	ASCII text
-361	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/kaukovalta	ASCII text, with CRLF line terminators
-375	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/f3	ASCII text
-281	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Gene	ASCII text, with CRLF line terminators
-186	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/whisper	ASCII text
-270	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Mario	ASCII text, with CRLF line terminators
-377	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/steph3	ASCII text
-39	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/klatt5	ASCII text
-243	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robosoft8	ASCII text
-3186	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/john	ASCII text, with CRLF line terminators
-280	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Nguyen	ASCII text
-275	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/zac	ASCII text, with CRLF line terminators
-287	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/ed	ASCII text
-338	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Lee	ASCII text, with CRLF line terminators
-287	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robosoft6	ASCII text
-420	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Storm	ASCII text, with CRLF line terminators
-265	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/rob	ASCII text, with CRLF line terminators
-447	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robosoft4	ASCII text
-152	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/edward2	ASCII text
-425	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/f5	ASCII text
-435	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/RicishayMax3	ASCII text
-280	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/shelby	ASCII text
-451	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/robosoft	ASCII text
-512	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/anikaRobot	ASCII text
-305	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/Denis	ASCII text, with CRLF line terminators
-233	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v/RicishayMax	ASCII text
-47716	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices/!v	directory
-57734	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/voices	directory
-1803	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ht_dict	data
-292327	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/fa_dict	TTComp archive data, binary, 1K dictionary
+3335	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/hak_dict	xBase index, free node pointer 0x4f4, key length 0, index options (0)
+3072	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/tn_dict	xBase compound index, free node pointer 0xa18, key length 0x600, index options (0xc3, unique, structure), index signature 56, at 16 reserved 0x4d385f04204c4116, sort order 0, FOR expression pool length 0, key expression pool length 0x40f, key expression pool 0x6b3124373043315f
+47652	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ja_dict	TTComp archive data, binary, 1K dictionary
+43458	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/id_dict	TTComp archive data, binary, 1K dictionary
+2540	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/uz_dict	xBase compound index, free node pointer 0x840, reserved counter 0x6000000, key length 0x34c3, index options (0x53, unique, bit vector (SoftC)), index signature 128, at 16 reserved 0x71044105000048, sort order 34570, expression length 10095, FOR expression pool length 0x7378, at 0x508 reserved 0x6168, key expression pool length 0x4862, key expression pool 0x9c2050000000000
+47523	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ko_dict	TTComp archive data, binary, 1K dictionary
+87051	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/bg_dict	TTComp archive data, binary, 1K dictionary
+153785	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/hu_dict	TTComp archive data, binary, 1K dictionary
 82480	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/gu_dict	TTComp archive data, binary, 1K dictionary
+687936	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lb_dict	TTComp archive data, binary, 1K dictionary
+3140	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/gn_dict	xBase compound index, free node pointer 0xa5c, key length 0x500, index options (0x41, unique), index signature 4, at 16 reserved 0x4106000000000023, sort order 0, FOR expression pool length 0, at 0x508 reserved 0x60e, key expression pool length 0x305f, key expression pool 0x736515676e616c
+478165	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ar_dict	TTComp archive data, binary, 1K dictionary
+89979	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/bn_dict	TTComp archive data, binary, 1K dictionary
+2302	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/om_dict	xBase compound index, free node pointer 0x7ab, key length 0x600, index options (0x41, unique), index signature 4, at 16 reserved 0x700000000000c23, sort order 0, FOR expression pool length 0, key expression pool length 0x800, key expression pool 0xc2357801042
+2121	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/tt_dict	xBase index, free node pointer 0x6cc, key length 0, index options (0)
+45566	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ca_dict	TTComp archive data, binary, 1K dictionary
+2243	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/jbo_dict	xBase compound index, free node pointer 0x701, key length 0x400, index options (0xc1, unique, structure), index signature 4, at 16 reserved 0x84106000000001c, sort order 0, FOR expression pool length 0, key expression pool length 0
+49388	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/hr_dict	TTComp archive data, binary, 1K dictionary
+2265	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ku_dict	xBase compound index, free node pointer 0x771, key length 0x400, index options (0xc1, unique, structure), index signature 4, at 16 reserved 0x84106000000004c, sort order 1024, expression length 36033, FOR expression pool length 0x4c, at 0x508 reserved 0x600, key expression pool length 0x10c2, key expression pool 0x1c4890
+1346	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mi_dict	xBase index, free node pointer 0x497, key length 0, index options (0)
+4666	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/eo_dict	TTComp archive data, binary, 1K dictionary
+68538	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ro_dict	TTComp archive data, binary, 1K dictionary
+49121	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/gd_dict	TTComp archive data, binary, 1K dictionary
+59928	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/sd_dict	TTComp archive data, binary, 1K dictionary
+79953	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/pa_dict	TTComp archive data, binary, 1K dictionary
+65979	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/nl_dict	TTComp archive data, binary, 1K dictionary
+49890	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/lt_dict	TTComp archive data, binary, 1K dictionary
+245287	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/da_dict	TTComp archive data, binary, 1K dictionary
+3806	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/la_dict	TTComp archive data, binary, 1K dictionary
+3028	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/qdb_dict	TTComp archive data, binary, 1K dictionary
+52608	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/vi_dict	TTComp archive data, binary, 1K dictionary
+49645	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/cs_dict	TTComp archive data, binary, 1K dictionary
+87489	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ka_dict	TTComp archive data, binary, 1K dictionary
+67817	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/pt_dict	TTComp archive data, binary, 1K dictionary
+209553	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ta_dict	TTComp archive data, binary, 1K dictionary
+5005	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/as_dict	xBase index, free node pointer 0xe98, key length 0, index options (0)
+46832	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/sr_dict	TTComp archive data, binary, 1K dictionary
+72841	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/el_dict	TTComp archive data, binary, 1K dictionary
+2078	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/be_dict	data
+63859	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mk_dict	TTComp archive data, binary, 1K dictionary
+4384	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/mt_dict	TTComp archive data, binary, 1K dictionary
+1649948	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/cmn_dict	TTComp archive data, binary, 1K dictionary
+331275	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ia_dict	TTComp archive data, binary, 1K dictionary
+6691	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/an_dict	TTComp archive data, binary, 1K dictionary
+3433	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/grc_dict	xBase index, free node pointer 0x4e0, key length 0, index options (0)
+2443	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/haw_dict	TTComp archive data, binary, 1K dictionary
+133556	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/ur_dict	TTComp archive data, binary, 1K dictionary
+92143	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/hi_dict	TTComp archive data, binary, 1K dictionary
+551064	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data/phondata	data
 11627325	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share/espeak-ng-data	directory
 11633277	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/share	directory
-1048	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib/libespeak-ng.la	libtool library file, ASCII text
-1369336	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib/libespeak-ng.so.1.1.51	ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, with debug_info, not stripped
-15	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib/libespeak.la	symbolic link to libespeak-ng.la
-2335374	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib/libespeak-ng.a	current ar archive
-22	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib/libespeak-ng.so.1	symbolic link to libespeak-ng.so.1.1.51
-389	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib/pkgconfig/espeak-ng.pc	ASCII text
-389	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib/pkgconfig	directory
-22	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib/libespeak-ng.so	symbolic link to libespeak-ng.so.1.1.51
-3706206	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/lib	directory
-1303928	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/bin/speak-ng	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, with debug_info, not stripped
-9	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/bin/espeak	symbolic link to espeak-ng
-55304	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/bin/espeak-ng	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, with debug_info, not stripped
-8	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/bin/speak	symbolic link to speak-ng
-1359249	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/bin	directory
-25848	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/include/espeak/speak_lib.h	C source, ASCII text, with very long lines (303)
-25848	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/include/espeak	directory
-3117	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/include/espeak-ng/encoding.h	C source, ASCII text
-6379	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/include/espeak-ng/espeak_ng.h	C source, ASCII text
-25848	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/include/espeak-ng/speak_lib.h	C source, ASCII text, with very long lines (303)
-35344	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/include/espeak-ng	directory
-61192	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_/include	directory
-16759924	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_	directory
-181	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak	POSIX shell script, ASCII text executable
-97587	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/install.log	ASCII text
+13924784	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/espeak_	directory
 250250	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/gutenberg-science.tar.gz	gzip compressed data, was "gutenberg-science.tar", last modified: Sat Aug  9 17:24:50 2008, from Unix, original size modulo 2^32 686080
-674762	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/gutenberg-science.txt	ASCII text, with CRLF line terminators
-893	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0/pts-install.json	JSON text data
-32044385	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0	directory
+29209235	/home/pedro/.phoronix-test-suite/installed-tests/pts/espeak-1.7.0	directory
