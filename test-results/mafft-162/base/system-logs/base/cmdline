@@ -1,1 +1,1 @@
-BOOT_IMAGE=/boot/vmlinuz-6.8.0-44-generic root=UUID=21b4fa6a-f42c-4be4-b385-cf8b9e673c7d ro quiet splash vt.handoff=7
+BOOT_IMAGE=/boot/vmlinuz-6.8.0-48-generic root=UUID=4b7be0c4-df82-49ae-a188-be83fbf8c463 ro

@@ -1,73 +1,73 @@
-390977	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/install.log	Unicode text, UTF-8 text, with very long lines (511)
+198841	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft-ex1-lsu-rna.txt	ASCII text
 136	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft	POSIX shell script, ASCII text executable
+614447	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft-7.471-without-extensions-src.tgz	gzip compressed data, last modified: Fri Jul  3 04:32:51 2020, from Unix, original size modulo 2^32 3573760
+20853	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/install.log	ASCII text, with very long lines (511)
+1095	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/pts-install.json	JSON text data
+14568	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/hex2maffttext	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+727864	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/dvtditr	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+15541	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/seekquencer_premafft.pl	Perl script text executable
+4550	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/mafft-homologs.1	troff or preprocessor input, ASCII text, with very long lines (701)
+674584	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/splittbfast	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+355064	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/dndpre	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+649976	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/getlag	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+371448	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/dndfast7	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+14584	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/maffttext2hex	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+14504	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/version	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+281416	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/replaceu	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+649976	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/mafft-profile	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+695064	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/pairlocalalign	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+14771	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/mafft.1	troff or preprocessor input, ASCII text, with very long lines (701)
+105192	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/seq2regtable	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+723736	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/nodepair	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+682760	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/makedirectionlist	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+383736	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/multi2hat3s	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+281416	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/regtable2seq	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+10475	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/mafftash_premafft.pl	Perl script text executable
+649976	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/setcore	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+371448	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/dndblast	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+371448	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/sextet5	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+350968	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/score	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+666392	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/pairash	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+281416	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/restoreu	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+355064	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/contrafoldwrap	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+371448	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/mafft-distance	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+105192	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/countlen	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+187032	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/f2cl	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+731960	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/disttbfast	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+711448	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/addsingle	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+355064	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/mccaskillwrap	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+768824	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/tbfast	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+281416	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/setdirection	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
+13230321	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft	directory
+13230321	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec	directory
+198841	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/mafft-ex1-lsu-rna.txt	ASCII text
+105604	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/mafft	Bourne-Again shell script, ASCII text executable
+5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-qinsi	symbolic link to mafft
+11609	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-homologs.rb	Ruby script, ASCII text
+5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-ginsi	symbolic link to mafft
+105604	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft	Bourne-Again shell script, ASCII text executable
+5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/fftns	symbolic link to mafft
+5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-linsi	symbolic link to mafft
+5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/einsi	symbolic link to mafft
+7846	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-sparsecore.rb	Ruby script, ASCII text
+100	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-profile	symbolic link to /home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/libexec/mafft/mafft-profile
+5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-nwns	symbolic link to mafft
+5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/linsi	symbolic link to mafft
+5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/fftnsi	symbolic link to mafft
+5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-fftnsi	symbolic link to mafft
+5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-nwnsi	symbolic link to mafft
+5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/nwns	symbolic link to mafft
+5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/ginsi	symbolic link to mafft
+5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-fftns	symbolic link to mafft
+101	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-distance	symbolic link to /home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/libexec/mafft/mafft-distance
+5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/nwnsi	symbolic link to mafft
+5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-xinsi	symbolic link to mafft
+5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-einsi	symbolic link to mafft
+125340	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin	directory
 4550	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/share/man/man1/mafft-homologs.1	troff or preprocessor input, ASCII text, with very long lines (701)
 14771	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/share/man/man1/mafft.1	troff or preprocessor input, ASCII text, with very long lines (701)
 19321	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/share/man/man1	directory
 19321	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/share/man	directory
 19321	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/share	directory
-355056	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/dndpre	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-695056	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/pairlocalalign	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-727856	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/dvtditr	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-182928	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/f2cl	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-649968	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/mafft-profile	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-674576	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/splittbfast	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-4550	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/mafft-homologs.1	troff or preprocessor input, ASCII text, with very long lines (701)
-682752	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/makedirectionlist	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-649968	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/getlag	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-371440	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/sextet5	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-281408	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/regtable2seq	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-281408	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/setdirection	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-14771	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/mafft.1	troff or preprocessor input, ASCII text, with very long lines (701)
-371440	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/mafft-distance	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-371440	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/dndblast	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-15541	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/seekquencer_premafft.pl	Perl script text executable
-14568	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/hex2maffttext	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-768816	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/tbfast	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-14584	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/maffttext2hex	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-711440	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/addsingle	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-281408	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/restoreu	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-731952	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/disttbfast	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-355056	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/mccaskillwrap	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-662288	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/pairash	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-281408	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/replaceu	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-355056	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/contrafoldwrap	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-14504	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/version	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-371440	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/dndfast7	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-723728	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/nodepair	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-383728	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/multi2hat3s	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-350960	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/score	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-105184	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/countlen	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-649968	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/setcore	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-10475	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/mafftash_premafft.pl	Perl script text executable
-105184	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft/seq2regtable	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped
-13221905	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec/mafft	directory
-13221905	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/libexec	directory
-5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/nwns	symbolic link to mafft
-5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-fftnsi	symbolic link to mafft
-5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/fftnsi	symbolic link to mafft
-100	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-profile	symbolic link to /home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/libexec/mafft/mafft-profile
-5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/linsi	symbolic link to mafft
-5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-qinsi	symbolic link to mafft
-5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-xinsi	symbolic link to mafft
-11609	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-homologs.rb	Ruby script, ASCII text
-101	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-distance	symbolic link to /home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2//mafft_/libexec/mafft/mafft-distance
-5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-linsi	symbolic link to mafft
-5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/fftns	symbolic link to mafft
-5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-ginsi	symbolic link to mafft
-7846	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-sparsecore.rb	Ruby script, ASCII text
-5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-einsi	symbolic link to mafft
-5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-nwnsi	symbolic link to mafft
-105604	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft	Bourne-Again shell script, ASCII text executable
-5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/einsi	symbolic link to mafft
-5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/nwnsi	symbolic link to mafft
-5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-nwns	symbolic link to mafft
-5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/ginsi	symbolic link to mafft
-5	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin/mafft-fftns	symbolic link to mafft
-125340	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/bin	directory
-105604	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/mafft	Bourne-Again shell script, ASCII text executable
-198841	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_/mafft-ex1-lsu-rna.txt	ASCII text
-13671011	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_	directory
-614447	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft-7.471-without-extensions-src.tgz	gzip compressed data, last modified: Fri Jul  3 04:32:51 2020, from Unix, original size modulo 2^32 3573760
-198841	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft-ex1-lsu-rna.txt	ASCII text
-1043	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/pts-install.json	JSON text data
-14876455	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2	directory
+13679427	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2/mafft_	directory
+14514799	/home/pedro/.phoronix-test-suite/installed-tests/pts/mafft-1.6.2	directory
