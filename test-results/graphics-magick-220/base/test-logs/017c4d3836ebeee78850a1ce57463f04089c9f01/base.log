@@ -1,18 +1,21 @@
 #####
 base - Run 1
-2024-09-17 21:03:20
+2024-11-09 21:09:32
 #####
-Results: 1 threads 12 iter 62.62s user 62.665863s total 0.191 iter/s 0.192 iter/cpu
+Results: 1 threads 1 iter 0.00s user 0.000099s total 10066.742 iter/s 1000000000000.000 iter/cpu
+./gm_/bin/gm benchmark convert: Unable to open file (input.mpc).
 
 #####
 base - Run 2
-2024-09-17 21:04:27
+2024-11-09 21:09:36
 #####
-Results: 1 threads 12 iter 62.81s user 62.855020s total 0.191 iter/s 0.191 iter/cpu
+Results: 1 threads 1 iter 0.00s user 0.000100s total 10005.803 iter/s 1000000000000.000 iter/cpu
+./gm_/bin/gm benchmark convert: Unable to open file (input.mpc).
 
 #####
 base - Run 3
-2024-09-17 21:05:32
+2024-11-09 21:09:38
 #####
-Results: 1 threads 12 iter 62.37s user 62.424231s total 0.192 iter/s 0.192 iter/cpu
+Results: 1 threads 1 iter 0.00s user 0.000101s total 9926.741 iter/s 1000000000000.000 iter/cpu
+./gm_/bin/gm benchmark convert: Unable to open file (input.mpc).
 

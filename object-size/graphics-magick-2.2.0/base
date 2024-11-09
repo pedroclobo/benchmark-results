@@ -1,127 +1,125 @@
-5657460	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/GraphicsMagick-1.3.43.tar.xz	XZ compressed data, checksum CRC64
-0	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/share/doc	directory
-2513	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/share/GraphicsMagick-1.3.43/config/log.mgk	XML 1.0 document, ASCII text
-497	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/share/GraphicsMagick-1.3.43/config/colors.mgk	XML 1.0 document, ASCII text
-439	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/share/GraphicsMagick-1.3.43/config/modules.mgk	XML 1.0 document, ASCII text
-3449	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/share/GraphicsMagick-1.3.43/config	directory
-3449	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/share/GraphicsMagick-1.3.43	directory
-3449	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/share	directory
-15422110	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/libGraphicsMagick.a	current ar archive
-825444	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/libGraphicsMagickWand.a	current ar archive
-1234	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/libGraphicsMagickWand.la	libtool library file, ASCII text
+4387762	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/libGraphicsMagick.a	current ar archive
+1189	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/libGraphicsMagickWand.la	libtool library file, ASCII text
+1072	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/libGraphicsMagick.la	libtool library file, ASCII text
+46	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/GraphicsMagick-1.3.43/config/type.mgk	XML 1.0 document, ASCII text
+5253	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/GraphicsMagick-1.3.43/config/type-solaris.mgk	XML 1.0 document, ASCII text
+7842	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/GraphicsMagick-1.3.43/config/delegates.mgk	XML 1.0 document, ASCII text
+15792	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/GraphicsMagick-1.3.43/config/type-windows.mgk	XML 1.0 document, ASCII text
+8730	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/GraphicsMagick-1.3.43/config/type-ghostscript.mgk	XML 1.0 document, ASCII text
+37663	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/GraphicsMagick-1.3.43/config	directory
+37663	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/GraphicsMagick-1.3.43	directory
+360772	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/libGraphicsMagickWand.a	current ar archive
+489	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/pkgconfig/GraphicsMagick.pc	ASCII text
 340	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/pkgconfig/GraphicsMagickWand.pc	ASCII text
 344	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/pkgconfig/GraphicsMagick++.pc	ASCII text
-534	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/pkgconfig/GraphicsMagick.pc	ASCII text
-1218	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/pkgconfig	directory
-86	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/GraphicsMagick-1.3.43/config/type.mgk	XML 1.0 document, ASCII text
-10644	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/GraphicsMagick-1.3.43/config/type-ghostscript.mgk	XML 1.0 document, ASCII text
-7859	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/GraphicsMagick-1.3.43/config/delegates.mgk	XML 1.0 document, ASCII text
-15792	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/GraphicsMagick-1.3.43/config/type-windows.mgk	XML 1.0 document, ASCII text
-5253	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/GraphicsMagick-1.3.43/config/type-solaris.mgk	XML 1.0 document, ASCII text
-39634	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/GraphicsMagick-1.3.43/config	directory
-39634	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/GraphicsMagick-1.3.43	directory
-705314	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/libGraphicsMagick++.a	current ar archive
-1223	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/libGraphicsMagick++.la	libtool library file, ASCII text
-1117	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/libGraphicsMagick.la	libtool library file, ASCII text
-16997294	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib	directory
-1736	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/bin/GraphicsMagick-config	POSIX shell script, ASCII text executable
-7580504	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/bin/gm	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, with debug_info, not stripped
-1389	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/bin/GraphicsMagickWand-config	POSIX shell script, ASCII text executable
-1749	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/bin/GraphicsMagick++-config	POSIX shell script, ASCII text executable
-7585378	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/bin	directory
+1173	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/pkgconfig	directory
+705458	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/libGraphicsMagick++.a	current ar archive
+1182	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib/libGraphicsMagick++.la	libtool library file, ASCII text
+5496271	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/lib	directory
 419	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++.h	C source, ASCII text
-1573	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/CoderInfo.h	C++ source, ASCII text
-3578	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/Pixels.h	C++ source, ASCII text
-68963	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/STL.h	C++ source, ASCII text
-37804	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/Include.h	C++ source, ASCII text
-7923	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/Exception.h	C++ source, ASCII text
 65375	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/Drawable.h	C++ source, ASCII text
+7923	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/Exception.h	C++ source, ASCII text
+1573	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/CoderInfo.h	C++ source, ASCII text
+68963	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/STL.h	C++ source, ASCII text
+62981	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/Image.h	C++ source, ASCII text
+11772	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/Montage.h	C++ source, ASCII text
 1271	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/TypeMetric.h	C++ source, ASCII text
 4972	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/Geometry.h	C++ source, ASCII text
-11772	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/Montage.h	C++ source, ASCII text
 11956	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/Color.h	C++ source, ASCII text
-62981	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/Image.h	C++ source, ASCII text
 2384	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/Blob.h	C++ source, ASCII text
+3578	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/Pixels.h	C++ source, ASCII text
+37804	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++/Include.h	C++ source, ASCII text
 280552	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/Magick++	directory
-911	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/plasma.h	C source, ASCII text
-1124	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/paint.h	C source, ASCII text
-987	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/decorate.h	C source, ASCII text
-8364	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/pixel_cache.h	C source, ASCII text
-1050	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/texture.h	C source, ASCII text
-10551	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/error.h	C source, ASCII text
-1004	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/magic.h	C source, ASCII text
-1107	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/shear.h	C source, ASCII text
-17653	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/blob.h	C source, ASCII text
-2636	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/command.h	C source, ASCII text
-3094	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/effect.h	C source, ASCII text
-3149	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/version.h	C source, ASCII text
-1340	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/random.h	C source, ASCII text
-4128	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/log.h	C source, ASCII text
-4930	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/magick.h	C source, ASCII text
-1491	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/statistics.h	C source, ASCII text
-1132	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/enhance.h	C source, ASCII text
-2669	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/profile.h	C source, ASCII text
-3965	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/colorspace.h	C source, ASCII text
-1650	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/monitor.h	C source, ASCII text
-1050	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/montage.h	C source, ASCII text
-1489	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/color_lookup.h	C source, ASCII text
-1843	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/analyze.h	C source, ASCII text
-3275	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/operator.h	C source, ASCII text
-1439	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/channel.h	C source, ASCII text
-1266	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/colormap.h	C source, ASCII text
-5654	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/utility.h	C source, ASCII text
-1510	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/fx.h	C source, ASCII text
-7673	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/constitute.h	C source, ASCII text
-1578	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/confirm_access.h	C source, ASCII text
-1573	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/attribute.h	C source, ASCII text
-878	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/average.h	C source, ASCII text
-915	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/module.h	C source, ASCII text
-1360	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/registry.h	C source, ASCII text
-1348	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/timer.h	C source, ASCII text
-5923	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/magick_types.h	C source, ASCII text
-2440	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/compress.h	C source, ASCII text
 6055	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/render.h	C source, ASCII text
-1751	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/quantize.h	C source, ASCII text
-982	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/forward.h	C source, ASCII text
-1923	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/composite.h	C source, ASCII text
-1860	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/type.h	C source, ASCII text
-3711	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/api.h	C source, ASCII text
-13026	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/common.h	C source, ASCII text
-1659	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/memory.h	C source, ASCII text
-2215	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/resource.h	C source, ASCII text
-901	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/describe.h	C source, ASCII text
-880	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/gradient.h	C source, ASCII text
-2863	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/deprecate.h	C source, ASCII text
-54506	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/symbols.h	ASCII text
+31224	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/image.h	C source, ASCII text
+1491	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/statistics.h	C source, ASCII text
+3094	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/effect.h	C source, ASCII text
+659	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/cdl.h	C source, Unicode text, UTF-8 text
+709	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/signature.h	C source, ASCII text
+1124	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/paint.h	C source, ASCII text
+2636	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/command.h	C source, ASCII text
+1132	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/enhance.h	C source, ASCII text
+5923	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/magick_types.h	C source, ASCII text
+5396	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/enum_strings.h	C source, ASCII text
+1439	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/channel.h	C source, ASCII text
+1050	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/texture.h	C source, ASCII text
+1489	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/color_lookup.h	C source, ASCII text
 12034	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/pixel_iterator.h	C source, ASCII text
+3275	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/operator.h	C source, ASCII text
+2863	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/deprecate.h	C source, ASCII text
+911	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/plasma.h	C source, ASCII text
+1659	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/memory.h	C source, ASCII text
+10551	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/error.h	C source, ASCII text
+1741	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/list.h	C source, ASCII text
+2215	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/resource.h	C source, ASCII text
+1557	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/color.h	C source, ASCII text
+774	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/hclut.h	C source, ASCII text
 1820	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/gem.h	C source, ASCII text
+5654	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/utility.h	C source, ASCII text
+3825	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/delegate.h	C source, ASCII text
+3149	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/version.h	C source, ASCII text
+1650	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/monitor.h	C source, ASCII text
+11693	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/draw.h	C source, ASCII text
+8364	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/pixel_cache.h	C source, ASCII text
+1360	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/registry.h	C source, ASCII text
+901	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/describe.h	C source, ASCII text
+1266	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/colormap.h	C source, ASCII text
+3711	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/api.h	C source, ASCII text
+1843	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/analyze.h	C source, ASCII text
+17653	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/blob.h	C source, ASCII text
 1448	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/resize.h	C source, ASCII text
 3070	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/compare.h	C source, ASCII text
-5396	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/enum_strings.h	C source, ASCII text
-11693	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/draw.h	C source, ASCII text
-31224	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/image.h	C source, ASCII text
+1578	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/confirm_access.h	C source, ASCII text
+878	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/average.h	C source, ASCII text
+1348	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/timer.h	C source, ASCII text
+54506	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/symbols.h	ASCII text
+2669	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/profile.h	C source, ASCII text
+1107	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/shear.h	C source, ASCII text
+1751	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/quantize.h	C source, ASCII text
+4930	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/magick.h	C source, ASCII text
+1050	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/montage.h	C source, ASCII text
+987	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/decorate.h	C source, ASCII text
+2440	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/compress.h	C source, ASCII text
+915	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/module.h	C source, ASCII text
+3965	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/colorspace.h	C source, ASCII text
+1340	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/random.h	C source, ASCII text
 1714	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/transform.h	C source, ASCII text
-709	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/signature.h	C source, ASCII text
-684	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/magick_config.h	ASCII text
-1741	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/list.h	C source, ASCII text
-3825	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/delegate.h	C source, ASCII text
-774	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/hclut.h	C source, ASCII text
-659	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/cdl.h	C source, Unicode text, UTF-8 text
-1557	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/color.h	C source, ASCII text
-284829	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick	directory
-16964	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/wand/drawing_wand.h	C source, ASCII text
-3065	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/wand/pixel_wand.h	C source, ASCII text
-1202	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/wand/wand_api.h	C source, ASCII text
-22267	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/wand/wand_symbols.h	ASCII text
+13026	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/common.h	C source, ASCII text
+687	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/magick_config.h	ASCII text
+1510	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/fx.h	C source, ASCII text
+4128	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/log.h	C source, ASCII text
+1923	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/composite.h	C source, ASCII text
+7673	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/constitute.h	C source, ASCII text
+1860	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/type.h	C source, ASCII text
+880	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/gradient.h	C source, ASCII text
+1573	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/attribute.h	C source, ASCII text
+1004	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/magic.h	C source, ASCII text
+982	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick/forward.h	C source, ASCII text
+284832	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/magick	directory
 16968	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/wand/magick_wand.h	C source, ASCII text
+1202	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/wand/wand_api.h	C source, ASCII text
+3065	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/wand/pixel_wand.h	C source, ASCII text
+16964	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/wand/drawing_wand.h	C source, ASCII text
+22267	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/wand/wand_symbols.h	ASCII text
 60466	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick/wand	directory
-626266	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick	directory
-626266	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include	directory
-25212387	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_	directory
-25441	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/input.mpc	data
-427504000	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/input.cache	data
+626269	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include/GraphicsMagick	directory
+626269	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/include	directory
+2135976	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/bin/gm	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, not stripped
+1389	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/bin/GraphicsMagickWand-config	POSIX shell script, ASCII text executable
+1688	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/bin/GraphicsMagick-config	POSIX shell script, ASCII text executable
+1707	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/bin/GraphicsMagick++-config	POSIX shell script, ASCII text executable
+2140760	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/bin	directory
+439	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/share/GraphicsMagick-1.3.43/config/modules.mgk	XML 1.0 document, ASCII text
+497	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/share/GraphicsMagick-1.3.43/config/colors.mgk	XML 1.0 document, ASCII text
+2513	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/share/GraphicsMagick-1.3.43/config/log.mgk	XML 1.0 document, ASCII text
+3449	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/share/GraphicsMagick-1.3.43/config	directory
+3449	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/share/GraphicsMagick-1.3.43	directory
+0	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/share/doc	directory
+3449	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_/share	directory
+8266749	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/gm_	directory
 163	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/graphics-magick	POSIX shell script, ASCII text executable
+231688	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/install.log	ASCII text, with very long lines (493)
+955	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/pts-install.json	JSON text data
+5657460	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/GraphicsMagick-1.3.43.tar.xz	XZ compressed data, checksum CRC64
 20369694	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/sample-photo-mars.jpg	JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, orientation=upper-left, xresolution=98, yresolution=106, resolutionunit=2, software=Adobe Photoshop Elements 12.0 Windows, datetime=2014:05:23 17:52:49], baseline, precision 8, 15400x6940, components 3
-251793	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/install.log	ASCII text, with very long lines (522)
-903	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0/pts-install.json	JSON text data
-479021841	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0	directory
+34526709	/home/pedro/.phoronix-test-suite/installed-tests/pts/graphics-magick-2.2.0	directory
