@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
-<!--Phoronix Test Suite v10.8.4-->
+<!--Phoronix Test Suite v10.8.5-->
 <PhoronixTestSuite>
   <Generated>
     <Title>scimark2-1.3.2_</Title>
-    <LastModified>2024-09-16 21:03:00</LastModified>
-    <TestClient>Phoronix Test Suite v10.8.4</TestClient>
-    <Description>Intel Core i5-5200U testing with a FF50 06F2 (5.30 BIOS) and Intel HD 5500 2GB on Ubuntu 24.04 via the Phoronix Test Suite.</Description>
+    <LastModified>2024-11-09 21:25:11</LastModified>
+    <TestClient>Phoronix Test Suite v10.8.5</TestClient>
+    <Description>Intel Core i5-5200U testing with a FF50 SATELLITE L50-C 06F2 (5.30 BIOS) and Intel HD 5500 on Ubuntu 24.04 via the Phoronix Test Suite.</Description>
   </Generated>
   <System>
     <Identifier>base</Identifier>
-    <Hardware>Processor: Intel Core i5-5200U @ 2.10GHz (2 Cores), Motherboard: FF50 06F2 (5.30 BIOS), Chipset: Intel Broadwell-U-OPI, Memory: 8GB, Disk: 480GB KINGSTON SA400S3, Graphics: Intel HD 5500 2GB, Audio: Conexant CX20756, Monitor: VG245, Network: Realtek RTL8111/8168/8211/8411 + Intel 3160</Hardware>
-    <Software>OS: Ubuntu 24.04, Kernel: 6.8.0-44-generic (x86_64), Desktop: GNOME Shell 46.0, Display Server: X Server 1.21.1.11, Display Driver: NVIDIA, Compiler: GCC 13.2.0, File-System: ext4, Screen Resolution: 1920x1080</Software>
+    <Hardware>Processor: Intel Core i5-5200U @ 2.10GHz (2 Cores), Motherboard: FF50 SATELLITE L50-C 06F2 (5.30 BIOS), Chipset: Intel Broadwell-U-OPI, Memory: 1 x 8GB DDR3-1600MT/s Samsung M471B1G73QH0-YK0, Disk: 480GB KINGSTON SA400S3, Graphics: Intel HD 5500, Audio: Conexant CX20756, Monitor: VG245, Network: Realtek RTL8111/8168/8211/8411 + Intel 3160</Hardware>
+    <Software>OS: Ubuntu 24.04, Kernel: 6.8.0-48-generic (x86_64), Compiler: Clang 18.1.3 + GCC 13.2.0, File-System: ext4, Screen Resolution: 1920x1080</Software>
     <User>pedro</User>
-    <TimeStamp>2024-09-16 21:01:14</TimeStamp>
-    <TestClientVersion>10.8.4</TestClientVersion>
+    <TimeStamp>2024-11-09 21:23:23</TimeStamp>
+    <TestClientVersion>10.8.5</TestClientVersion>
     <Notes></Notes>
-    <JSON>{"cpu-scaling-governor":"intel_cpufreq performance","cpu-microcode":"0x2f","cpu-thermald":"2.5.6","kernel-extra-details":"Transparent Huge Pages: madvise","environment-variables":"FLAGS=-O2","security":"gather_data_sampling: Not affected + itlb_multihit: KVM: Mitigation of VMX disabled + l1tf: Mitigation of PTE Inversion; VMX: conditional cache flushes SMT disabled + mds: Mitigation of Clear buffers; SMT disabled + meltdown: Mitigation of PTI + mmio_stale_data: Unknown: No mitigations + reg_file_data_sampling: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of Retpolines; IBPB: conditional; IBRS_FW; RSB filling; PBRSB-eIBRS: Not affected; BHI: Not affected + srbds: Mitigation of Microcode + tsx_async_abort: Not affected"}</JSON>
+    <JSON>{"cpu-scaling-governor":"intel_cpufreq performance","cpu-microcode":"0x2f","cpu-thermald":"2.5.6","kernel-extra-details":"Transparent Huge Pages: madvise","environment-variables":"FLAGS=-O2 CXXFLAGS=-O2 CFLAGS=-O2","security":"gather_data_sampling: Not affected + itlb_multihit: KVM: Mitigation of VMX disabled + l1tf: Mitigation of PTE Inversion; VMX: conditional cache flushes SMT disabled + mds: Mitigation of Clear buffers; SMT disabled + meltdown: Mitigation of PTI + mmio_stale_data: Unknown: No mitigations + reg_file_data_sampling: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of Retpolines; IBPB: conditional; IBRS_FW; RSB filling; PBRSB-eIBRS: Not affected; BHI: Not affected + srbds: Mitigation of Microcode + tsx_async_abort: Not affected"}</JSON>
   </System>
   <Result>
     <Identifier>pts/scimark2-1.3.2</Identifier>
@@ -29,9 +29,9 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>834.55</Value>
-        <RawString>836.93:830.8:835.93</RawString>
-        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"clang","compiler-options":"-lm"},"test-run-times":"26.61:26.56:30.51"}</JSON>
+        <Value>815.55</Value>
+        <RawString>820.89:811.18:814.57</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"clang","compiler-options":"-O2 -lm"},"test-run-times":"27.74:27.33:31.11"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -47,9 +47,9 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>339.31</Value>
-        <RawString>339.29:339.32:339.32</RawString>
-        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"clang","compiler-options":"-lm"}}</JSON>
+        <Value>337.94</Value>
+        <RawString>337.93:337.94:337.96</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"clang","compiler-options":"-O2 -lm"}}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -65,9 +65,9 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>192.94</Value>
-        <RawString>192.92:192.99:192.91</RawString>
-        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"clang","compiler-options":"-lm"}}</JSON>
+        <Value>180.63</Value>
+        <RawString>181.89:179.63:180.36</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"clang","compiler-options":"-O2 -lm"}}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -83,9 +83,9 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>1023.34</Value>
-        <RawString>1020.35:1018.83:1030.83</RawString>
-        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"clang","compiler-options":"-lm"}}</JSON>
+        <Value>1021.21</Value>
+        <RawString>1008.46:1008.53:1046.64</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"clang","compiler-options":"-O2 -lm"}}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -101,9 +101,9 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>1611.37</Value>
-        <RawString>1626.77:1597.11:1610.24</RawString>
-        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"clang","compiler-options":"-lm"}}</JSON>
+        <Value>1547.71</Value>
+        <RawString>1585.81:1539.53:1517.78</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"clang","compiler-options":"-O2 -lm"}}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -119,9 +119,9 @@
     <Data>
       <Entry>
         <Identifier>base</Identifier>
-        <Value>1005.81</Value>
-        <RawString>1005.33:1005.75:1006.35</RawString>
-        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"clang","compiler-options":"-lm"}}</JSON>
+        <Value>990.25</Value>
+        <RawString>990.37:990.28:990.11</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"clang","compiler-options":"-O2 -lm"}}</JSON>
       </Entry>
     </Data>
   </Result>
