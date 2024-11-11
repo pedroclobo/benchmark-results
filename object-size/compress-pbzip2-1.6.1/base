@@ -1,0 +1,103 @@
+810029	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8.tar.gz	gzip compressed data, was "bzip2-1.0.8.tar", last modified: Sat Jul 13 17:50:27 2019, from Unix, original size modulo 2^32 3143680
+48015	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13.tar.gz	gzip compressed data, was "pbzip2-1.1.13.tar", last modified: Thu Dec 17 23:32:49 2015, max compression, original size modulo 2^32 215040
+146	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/compress-pbzip2	POSIX shell script, ASCII text executable
+5302	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/install.log	ASCII text
+934	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pts-install.json	JSON text data
+1090900480	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/FreeBSD-13.0-RELEASE-amd64-memstick.img	DOS/MBR boot sector; partition 1 : ID=0xef, start-CHS (0x3ff,255,63), end-CHS (0x3ff,255,63), startsector 1, 66584 sectors; partition 2 : ID=0xa5, active, start-CHS (0x3ff,255,63), end-CHS (0x3ff,255,63), startsector 66585, 2064080 sectors
+235	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/sample3.bz2	bzip2 compressed data, block size = 300k
+30713	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/blocksort.c	magic text fragment for file(1) cmd, 2nd line "/*-------------------------------------------------------------*/", 3rd line "/*--- Block sorting machinery                               ---*/"
+1725	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/spewG.c	C source, ASCII text
+111313	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/manual.xml	XML 1.0 document, ASCII text
+1259	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzmore	POSIX shell script, ASCII text executable
+40696	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/blocksort.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), with debug_info, not stripped
+36808	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzip2recover	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, with debug_info, not stripped
+98696	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/sample1.ref	TeX DVI file ( TeX output 1995.07.01:1517)
+212340	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/sample2.tst	TeX DVI file ( TeX output 1995.10.19:1430)
+6986	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/huffman.c	magic text fragment for file(1) cmd, 2nd line "/*-------------------------------------------------------------*/", 3rd line "/*--- Huffman coding low-level stuff                        ---*/"
+6290	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/Makefile	magic text fragment for file(1) cmd, 1st line "# ------------------------------------------------------------------", 2nd line "# This file is part of bzip2/libbzip2, a program and library for"
+945	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/words3	ASCII text
+4310	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzmore.1	troff or preprocessor input, ASCII text
+3646	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/unzcrash.c	C source, ASCII text
+1359	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/README.XML.STUFF	ASCII text
+1896	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/LICENSE	magic text fragment for file(1) cmd, 2nd line "--------------------------------------------------------------------------", 3rd line ""
+517	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/libbz2.def	ASCII text, with CRLF line terminators
+1766625	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/manual.ps	PostScript document text conforming DSC level 3.0, Level 2
+777	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bz-html.xsl	XML 1.0 document, ASCII text
+45960	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzlib.c	magic text fragment for file(1) cmd, 2nd line "/*-------------------------------------------------------------*/", 3rd line "/*--- Library top-level functions.                          ---*/"
+120244	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/sample3.ref	ASCII text
+119464	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzip2.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), with debug_info, not stripped
+4402	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/dlltest.c	C source, ASCII text, with CRLF line terminators
+103	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/words1	ASCII text
+1297	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzgrep.1	troff or preprocessor input, ASCII text
+32348	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/sample1.rb2	bzip2 compressed data, block size = 100k
+4912	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/randtable.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), with debug_info, not stripped
+36768	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzip2recover.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), with debug_info, not stripped
+12256	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/CHANGES	ASCII text
+1750	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzip.css	ASCII text
+212340	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/sample2.ref	TeX DVI file ( TeX output 1995.10.19:1430)
+4254	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/libbz2.dsp	Non-ISO extended-ASCII text, with CRLF line terminators
+1057	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bz-common.xsl	XML 1.0 document, ASCII text
+73732	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/sample2.bz2	bzip2 compressed data, block size = 200k
+2911	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/xmlproc.sh	Bourne-Again shell script, ASCII text executable
+15003	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzip2recover.c	C source, ASCII text
+252104	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzip2	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, with debug_info, not stripped
+235	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/sample3.rb2	bzip2 compressed data, block size = 300k
+20945	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzip2.1.preformatted	Unicode text, UTF-8 text, with overstriking
+3855	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/randtable.c	magic text fragment for file(1) cmd, 2nd line "/*-------------------------------------------------------------*/", 3rd line "/*--- Table for randomising repetitive blocks               ---*/"
+6240	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzlib.h	magic text fragment for file(1) cmd, 2nd line "/*-------------------------------------------------------------*/", 3rd line "/*--- Public header file for the library.                   ---*/"
+1615	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/makefile.msc	makefile script, ASCII text, with CRLF line terminators
+120244	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/sample3.tst	ASCII text
+4813	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/crctable.c	magic text fragment for file(1) cmd, 2nd line "/*-------------------------------------------------------------*/", 3rd line "/*--- Table for doing CRCs                                  ---*/"
+2140	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzdiff	POSIX shell script, ASCII text executable
+13239	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzlib_private.h	magic text fragment for file(1) cmd, 2nd line "/*-------------------------------------------------------------*/", 3rd line "/*--- Private header file for the library.                  ---*/"
+16266	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzip2.1	troff or preprocessor input, ASCII text
+126958	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/manual.html	HTML document, Unicode text, UTF-8 text
+376	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/words0	ASCII text
+58576	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzip2.c	magic text fragment for file(1) cmd, 2nd line "/*-----------------------------------------------------------*/", 3rd line "/*--- A block-sorting, lossless compressor        bzip2.c ---*/"
+69512	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzlib.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), with debug_info, not stripped
+10585	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bz-fo.xsl	XML 1.0 document, ASCII text
+20546	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/compress.c	magic text fragment for file(1) cmd, 2nd line "/*-------------------------------------------------------------*/", 3rd line "/*--- Compression machinery (not incl block sorting)        ---*/"
+7451	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/README	ASCII text
+897	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzdiff.1	troff or preprocessor input, ASCII text
+52864	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/decompress.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), with debug_info, not stripped
+242218	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/libbz2.a	current ar archive
+18997	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzip2.txt	ASCII text
+12224	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/huffman.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), with debug_info, not stripped
+914	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/mk251.c	C source, ASCII text
+185	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/words2	ASCII text
+73732	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/sample2.rb2	bzip2 compressed data, block size = 200k
+3516	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/dlltest.dsp	Non-ISO extended-ASCII text, with CRLF line terminators
+21258	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/decompress.c	magic text fragment for file(1) cmd, 2nd line "/*-------------------------------------------------------------*/", 3rd line "/*--- Decompression machinery                               ---*/"
+1722	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/Makefile-libbz2_so	makefile script, ASCII text
+294	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/entities.xml	exported SGML document, ASCII text
+2054	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/bzgrep	POSIX shell script, ASCII text executable
+1684	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/format.pl	Perl script text executable
+56888	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/compress.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), with debug_info, not stripped
+2500	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/README.COMPILATION.PROBLEMS	ASCII text
+3912	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/crctable.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), with debug_info, not stripped
+98696	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/sample1.tst	TeX DVI file ( TeX output 1995.07.01:1517)
+32348	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/sample1.bz2	bzip2 compressed data, block size = 100k
+183803	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8/manual.pdf	PDF document, version 1.5
+4562343	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/bzip2-1.0.8	directory
+337	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/pbzip2-rpm-buildflags.patch	unified diff output, ASCII text
+2760	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/Makefile	makefile script, ASCII text
+7330	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/pbzip2.h	C++ source, ASCII text
+4355	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/BZ2StreamScanner.h	C++ source, ASCII text
+1807	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/COPYING	ASCII text
+256456	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/pbzip2	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, with debug_info, not stripped
+4273	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/AUTHORS	ISO-8859 text, with very long lines (857)
+1887	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/Makefile.solaris.sunstudio	makefile script, ASCII text
+5569	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/pbzip2.1	troff or preprocessor input, ASCII text
+11412	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/ChangeLog	ASCII text
+6240	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/bzlib.h	magic text fragment for file(1) cmd, 2nd line "/*-------------------------------------------------------------*/", 3rd line "/*--- Public header file for the library.                   ---*/"
+16301	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/BZ2StreamScanner.cpp	C++ source, ASCII text
+1813	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/ErrorContext.cpp	C source, ASCII text
+8606	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/README	ASCII text
+242218	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/libbz2.a	current ar archive
+4827	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/pbzip2.spec	ASCII text
+3349	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/releasing/set_version.rb	Ruby script, ASCII text
+3349	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/releasing	directory
+117204	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/pbzip2.cpp	C++ source, ASCII text
+815	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13/ErrorContext.h	C++ source, ASCII text
+697559	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1/pbzip2-1.1.13	directory
+1097024808	/home/pedro/.phoronix-test-suite/installed-tests/pts/compress-pbzip2-1.6.1	directory
