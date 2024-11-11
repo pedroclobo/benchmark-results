@@ -1,0 +1,90 @@
+#####
+base - Run 1
+2024-11-11 10:52:39
+#####
+Problem: ibc256, setup: 721.71 ms, time: 512.70 ns, ``mflops'': 19972.876
+
+#####
+base - Run 2
+2024-11-11 10:52:47
+#####
+Problem: ibc256, setup: 721.98 ms, time: 516.66 ns, ``mflops'': 19819.511
+
+#####
+base - Run 3
+2024-11-11 10:52:56
+#####
+Problem: ibc256, setup: 721.38 ms, time: 578.74 ns, ``mflops'': 17693.752
+
+#####
+base - Run 4
+2024-11-11 10:53:04
+#####
+Problem: ibc256, setup: 720.17 ms, time: 517.97 ns, ``mflops'': 19769.299
+
+#####
+base - Run 5
+2024-11-11 10:53:13
+#####
+Problem: ibc256, setup: 722.58 ms, time: 567.26 ns, ``mflops'': 18051.663
+
+#####
+base - Run 6
+2024-11-11 10:53:21
+#####
+Problem: ibc256, setup: 723.54 ms, time: 520.42 ns, ``mflops'': 19676.557
+
+#####
+base - Run 7
+2024-11-11 10:53:29
+#####
+Problem: ibc256, setup: 720.21 ms, time: 552.46 ns, ``mflops'': 18535.288
+
+#####
+base - Run 8
+2024-11-11 10:53:37
+#####
+Problem: ibc256, setup: 721.53 ms, time: 516.02 ns, ``mflops'': 19844.126
+
+#####
+base - Run 9
+2024-11-11 10:53:45
+#####
+Problem: ibc256, setup: 723.00 ms, time: 518.92 ns, ``mflops'': 19733.258
+
+#####
+base - Run 10
+2024-11-11 10:53:54
+#####
+Problem: ibc256, setup: 721.54 ms, time: 546.91 ns, ``mflops'': 18723.527
+
+#####
+base - Run 11
+2024-11-11 10:54:02
+#####
+Problem: ibc256, setup: 721.35 ms, time: 484.10 ns, ``mflops'': 21152.639
+
+#####
+base - Run 12
+2024-11-11 10:54:10
+#####
+Problem: ibc256, setup: 722.66 ms, time: 495.24 ns, ``mflops'': 20676.875
+
+#####
+base - Run 13
+2024-11-11 10:54:18
+#####
+Problem: ibc256, setup: 722.54 ms, time: 544.74 ns, ``mflops'': 18798.001
+
+#####
+base - Run 14
+2024-11-11 10:54:26
+#####
+Problem: ibc256, setup: 722.07 ms, time: 493.19 ns, ``mflops'': 20762.596
+
+#####
+base - Run 15
+2024-11-11 10:54:32
+#####
+Problem: ibc256, setup: 720.97 ms, time: 546.84 ns, ``mflops'': 18725.616
+
