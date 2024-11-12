@@ -1,0 +1,51 @@
+#####
+byte - Run 1
+2024-11-12 09:20:32
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
+
+KASUMI encrypt buffer size 1024 bytes: 47.114 MiB/sec 44.34 cycles/byte (706.71 MiB in 15000.02 ms)
+KASUMI decrypt buffer size 1024 bytes: 46.397 MiB/sec 45.02 cycles/byte (695.95 MiB in 15000.02 ms)
+
+algo                               operation             1024 bytes
+KASUMI                             decrypt                 48650.45
+KASUMI                             encrypt                 49402.21
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+byte - Run 2
+2024-11-12 09:21:06
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
+
+KASUMI encrypt buffer size 1024 bytes: 47.113 MiB/sec 44.34 cycles/byte (706.69 MiB in 15000.01 ms)
+KASUMI decrypt buffer size 1024 bytes: 46.401 MiB/sec 45.02 cycles/byte (696.02 MiB in 15000.02 ms)
+
+algo                               operation             1024 bytes
+KASUMI                             decrypt                 48655.50
+KASUMI                             encrypt                 49401.28
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+byte - Run 3
+2024-11-12 09:21:38
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
+
+KASUMI encrypt buffer size 1024 bytes: 47.115 MiB/sec 44.34 cycles/byte (706.72 MiB in 15000.02 ms)
+KASUMI decrypt buffer size 1024 bytes: 46.400 MiB/sec 45.02 cycles/byte (696.00 MiB in 15000.01 ms)
+
+algo                               operation             1024 bytes
+KASUMI                             decrypt                 48653.88
+KASUMI                             encrypt                 49403.30
+
+[results are the number of 1000s bytes processed per second]
+
+

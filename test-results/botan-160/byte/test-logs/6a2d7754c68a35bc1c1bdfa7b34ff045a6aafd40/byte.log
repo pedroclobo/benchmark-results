@@ -1,0 +1,51 @@
+#####
+byte - Run 1
+2024-11-12 09:26:06
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
+
+Blowfish encrypt buffer size 1024 bytes: 182.667 MiB/sec 11.37 cycles/byte (2740.01 MiB in 15000.00 ms)
+Blowfish decrypt buffer size 1024 bytes: 183.073 MiB/sec 11.34 cycles/byte (2746.10 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+Blowfish                           decrypt                191966.29
+Blowfish                           encrypt                191540.65
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+byte - Run 2
+2024-11-12 09:26:40
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
+
+Blowfish encrypt buffer size 1024 bytes: 182.655 MiB/sec 11.37 cycles/byte (2739.83 MiB in 15000.00 ms)
+Blowfish decrypt buffer size 1024 bytes: 183.050 MiB/sec 11.34 cycles/byte (2745.75 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+Blowfish                           decrypt                191941.67
+Blowfish                           encrypt                191527.61
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+byte - Run 3
+2024-11-12 09:27:12
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
+
+Blowfish encrypt buffer size 1024 bytes: 182.668 MiB/sec 11.37 cycles/byte (2740.02 MiB in 15000.01 ms)
+Blowfish decrypt buffer size 1024 bytes: 183.062 MiB/sec 11.34 cycles/byte (2745.93 MiB in 15000.01 ms)
+
+algo                               operation             1024 bytes
+Blowfish                           decrypt                191954.26
+Blowfish                           encrypt                191541.05
+
+[results are the number of 1000s bytes processed per second]
+
+
