@@ -1,0 +1,36 @@
+#####
+byte - Run 1
+2024-11-12 10:32:44
+#####
+Problem: ibc32, setup: 52.04 ms, time: 100.40 ns, ``mflops'': 7968.5082
+
+#####
+byte - Run 2
+2024-11-12 10:32:51
+#####
+Problem: ibc32, setup: 52.10 ms, time: 95.92 ns, ``mflops'': 8339.903
+
+#####
+byte - Run 3
+2024-11-12 10:32:57
+#####
+Problem: ibc32, setup: 52.20 ms, time: 93.86 ns, ``mflops'': 8523.6222
+
+#####
+byte - Run 4
+2024-11-12 10:33:04
+#####
+Problem: ibc32, setup: 52.08 ms, time: 94.18 ns, ``mflops'': 8493.9328
+
+#####
+byte - Run 5
+2024-11-12 10:33:10
+#####
+Problem: ibc32, setup: 52.17 ms, time: 95.70 ns, ``mflops'': 8359.1837
+
+#####
+byte - Run 6
+2024-11-12 10:33:15
+#####
+Problem: ibc32, setup: 52.03 ms, time: 97.16 ns, ``mflops'': 8233.8123
+
