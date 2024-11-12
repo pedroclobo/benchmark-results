@@ -1,0 +1,74 @@
+Archive:  crafty-25.2.zip
+  inflating: analyze.c               
+  inflating: annotate.c              
+  inflating: attacks.c               
+  inflating: autotune.c              
+  inflating: bench.c                 
+  inflating: book.c                  
+  inflating: boolean.c               
+  inflating: crafty.c                
+  inflating: data.c                  
+  inflating: drawn.c                 
+  inflating: edit.c                  
+  inflating: epd.c                   
+  inflating: epdglue.c               
+  inflating: evaluate.c              
+  inflating: evtest.c                
+  inflating: hash.c                  
+  inflating: history.c               
+  inflating: init.c                  
+  inflating: input.c                 
+  inflating: interrupt.c             
+  inflating: iterate.c               
+  inflating: learn.c                 
+  inflating: main.c                  
+  inflating: make.c                  
+  inflating: movgen.c                
+  inflating: next.c                  
+  inflating: option.c                
+  inflating: output.c                
+  inflating: ponder.c                
+  inflating: quiesce.c               
+  inflating: repeat.c                
+  inflating: resign.c                
+  inflating: root.c                  
+  inflating: search.c                
+  inflating: see.c                   
+  inflating: setboard.c              
+  inflating: tbcore.c                
+  inflating: tbprobe.c               
+  inflating: test.c                  
+  inflating: thread.c                
+  inflating: time.c                  
+  inflating: unmake.c                
+  inflating: utility.c               
+  inflating: validate.c              
+  inflating: chess.h                 
+  inflating: data.h                  
+  inflating: epd.h                   
+  inflating: epddefs.h               
+  inflating: epdglue.h               
+  inflating: evaluate.h              
+  inflating: lock.h                  
+  inflating: tbconfig.h              
+  inflating: tbcore.h                
+  inflating: tbprobe.h               
+  inflating: vcinline.h              
+  inflating: speak                   
+  inflating: crafty.hlp              
+  inflating: Makefile                
+make my-clang
+make[1]: Entering directory '/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5'
+make  target=UNIX \
+	CC=clang \
+	opt='-DSYZYGY -DTEST -DCPUS=4' \
+	CFLAGS='-Wall -Wno-array-bounds -pipe -O2 -mpopcnt' \
+	LDFLAGS=' -pthread -lstdc++ -fprofile-use -lstdc++' \
+	crafty-make
+make[2]: Entering directory '/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5'
+make[3]: Entering directory '/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5'
+clang -Wall -Wno-array-bounds -pipe -O2 -mpopcnt -DSYZYGY -DTEST -DCPUS=4 -DUNIX -c crafty.c
+clang -pthread -lstdc++ -fprofile-use -lstdc++ -g -o crafty crafty.o -lm  
+make[3]: Leaving directory '/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5'
+make[2]: Leaving directory '/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5'
+make[1]: Leaving directory '/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5'
