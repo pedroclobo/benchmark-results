@@ -1,4 +1,5 @@
 Module                  Size  Used by
+tls                   155648  0
 qrtr                   53248  2
 intel_rapl_msr         20480  0
 intel_rapl_common      40960  1 intel_rapl_msr
