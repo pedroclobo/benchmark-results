@@ -1,86 +1,86 @@
 Module                  Size  Used by
 tls                   155648  0
 qrtr                   53248  2
+snd_hda_codec_hdmi     94208  1
 intel_rapl_msr         20480  0
 intel_rapl_common      40960  1 intel_rapl_msr
-x86_pkg_temp_thermal    20480  0
-intel_powerclamp       24576  0
 cmdlinepart            12288  0
 spi_nor               163840  0
-coretemp               24576  0
-snd_hda_codec_hdmi     94208  1
+x86_pkg_temp_thermal    20480  0
+intel_powerclamp       24576  0
 mtd                    98304  3 spi_nor,cmdlinepart
 snd_hda_codec_conexant    32768  1
-snd_hda_codec_generic   122880  1 snd_hda_codec_conexant
+coretemp               24576  0
 iwlmvm                868352  0
-snd_usb_audio         495616  0
-kvm_intel             487424  0
-snd_usbmidi_lib        53248  1 snd_usb_audio
-snd_hda_intel          61440  0
+snd_hda_codec_generic   122880  1 snd_hda_codec_conexant
 spi_intel_platform     12288  0
-mac80211             1720320  1 iwlmvm
-snd_ump                45056  1 snd_usb_audio
-snd_intel_dspcfg       36864  1 snd_hda_intel
-at24                   28672  0
-mei_pxp                16384  0
-mei_hdcp               28672  0
 binfmt_misc            24576  1
+snd_hda_intel          61440  0
+kvm_intel             487424  0
+at24                   28672  0
+mei_hdcp               28672  0
+mei_pxp                16384  0
 spi_intel              32768  1 spi_intel_platform
+snd_intel_dspcfg       36864  1 snd_hda_intel
 nouveau              3096576  0
+mac80211             1720320  1 iwlmvm
+snd_usb_audio         495616  0
 kvm                  1404928  1 kvm_intel
-i915                 4280320  2
-snd_intel_sdw_acpi     16384  1 snd_intel_dspcfg
-libarc4                12288  1 mac80211
-btusb                  77824  0
-snd_rawmidi            57344  2 snd_usbmidi_lib,snd_ump
-irqbypass              12288  1 kvm
-btrtl                  32768  1 btusb
 mxm_wmi                12288  1 nouveau
-btintel                57344  1 btusb
-snd_hda_codec         204800  4 snd_hda_codec_generic,snd_hda_codec_conexant,snd_hda_codec_hdmi,snd_hda_intel
+libarc4                12288  1 mac80211
+i915                 4280320  2
 drm_gpuvm              45056  1 nouveau
-snd_seq_device         16384  2 snd_ump,snd_rawmidi
-snd_hda_core          139264  5 snd_hda_codec_generic,snd_hda_codec_conexant,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec
-drm_exec               12288  2 drm_gpuvm,nouveau
-mc                     81920  1 snd_usb_audio
-btbcm                  24576  1 btusb
+snd_usbmidi_lib        53248  1 snd_usb_audio
+snd_intel_sdw_acpi     16384  1 snd_intel_dspcfg
+irqbypass              12288  1 kvm
 iwlwifi               598016  1 iwlmvm
-snd_hwdep              20480  2 snd_usb_audio,snd_hda_codec
+snd_ump                45056  1 snd_usb_audio
+snd_hda_codec         204800  4 snd_hda_codec_generic,snd_hda_codec_conexant,snd_hda_codec_hdmi,snd_hda_intel
+snd_rawmidi            57344  2 snd_usbmidi_lib,snd_ump
+drm_exec               12288  2 drm_gpuvm,nouveau
+btusb                  77824  0
+snd_hda_core          139264  5 snd_hda_codec_generic,snd_hda_codec_conexant,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec
 gpu_sched              61440  1 nouveau
-btmtk                  12288  1 btusb
-rapl                   20480  0
-snd_pcm               192512  5 snd_hda_codec_hdmi,snd_hda_intel,snd_usb_audio,snd_hda_codec,snd_hda_core
-i2c_i801               36864  0
+btrtl                  32768  1 btusb
 drm_buddy              20480  1 i915
 drm_ttm_helper         12288  1 nouveau
-nls_iso8859_1          12288  1
-intel_cstate           24576  0
-wmi_bmof               12288  0
-i2c_smbus              16384  1 i2c_i801
-bluetooth            1028096  6 btrtl,btmtk,btintel,btbcm,btusb
+snd_seq_device         16384  2 snd_ump,snd_rawmidi
+snd_hwdep              20480  2 snd_usb_audio,snd_hda_codec
+rapl                   20480  0
+btintel                57344  1 btusb
 ttm                   110592  3 drm_ttm_helper,i915,nouveau
-lpc_ich                32768  0
-mei_me                 53248  2
-toshiba_acpi           65536  0
-cfg80211             1323008  3 iwlmvm,iwlwifi,mac80211
-snd_timer              49152  1 snd_pcm
-ecdh_generic           16384  1 bluetooth
-sparse_keymap          12288  1 toshiba_acpi
+mc                     81920  1 snd_usb_audio
+btbcm                  24576  1 btusb
+btmtk                  12288  1 btusb
 drm_display_helper    237568  2 i915,nouveau
-snd                   143360  13 snd_hda_codec_generic,snd_hda_codec_conexant,snd_seq_device,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_usb_audio,snd_usbmidi_lib,snd_hda_codec,snd_timer,snd_ump,snd_pcm,snd_rawmidi
+intel_cstate           24576  0
+i2c_i801               36864  0
+wmi_bmof               12288  0
+cfg80211             1323008  3 iwlmvm,iwlwifi,mac80211
+i2c_smbus              16384  1 i2c_i801
+snd_pcm               192512  5 snd_hda_codec_hdmi,snd_hda_intel,snd_usb_audio,snd_hda_codec,snd_hda_core
+nls_iso8859_1          12288  1
+snd_timer              49152  1 snd_pcm
+bluetooth            1028096  6 btrtl,btmtk,btintel,btbcm,btusb
+toshiba_acpi           65536  0
 cec                    94208  2 drm_display_helper,i915
-industrialio          126976  1 toshiba_acpi
-ecc                    45056  1 ecdh_generic
 rc_core                73728  1 cec
+mei_me                 53248  2
+sparse_keymap          12288  1 toshiba_acpi
+ecdh_generic           16384  1 bluetooth
+lpc_ich                32768  0
+ecc                    45056  1 ecdh_generic
+snd                   143360  13 snd_hda_codec_generic,snd_hda_codec_conexant,snd_seq_device,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_usb_audio,snd_usbmidi_lib,snd_hda_codec,snd_timer,snd_ump,snd_pcm,snd_rawmidi
+industrialio          126976  1 toshiba_acpi
 mei                   172032  5 mei_hdcp,mei_pxp,mei_me
-soundcore              16384  1 snd
 i2c_algo_bit           16384  2 i915,nouveau
+soundcore              16384  1 snd
 toshiba_bluetooth      16384  0
 acpi_pad              184320  0
-joydev                 32768  0
 input_leds             12288  0
-serio_raw              20480  0
+joydev                 32768  0
 mac_hid                12288  0
+serio_raw              20480  0
 sch_fq_codel           24576  2
 dm_multipath           45056  0
 msr                    12288  0
@@ -100,27 +100,27 @@ async_pq               20480  2 raid456,async_raid6_recov
 async_xor              16384  3 async_pq,raid456,async_raid6_recov
 async_tx               16384  5 async_pq,async_memcpy,async_xor,raid456,async_raid6_recov
 xor                    20480  2 async_xor,btrfs
-hid_generic            12288  0
 raid6_pq              126976  4 async_pq,btrfs,raid456,async_raid6_recov
 libcrc32c              12288  2 btrfs,raid456
 raid1                  57344  0
-usbhid                 77824  0
 raid0                  24576  0
+hid_generic            12288  0
+usbhid                 77824  0
 hid                   180224  2 usbhid,hid_generic
+rtsx_pci_sdmmc         36864  0
 crct10dif_pclmul       12288  1
 crc32_pclmul           12288  0
 polyval_clmulni        12288  0
-rtsx_pci_sdmmc         36864  0
 polyval_generic        12288  1 polyval_clmulni
 ghash_clmulni_intel    16384  0
-psmouse               217088  0
 sha256_ssse3           32768  0
 sha1_ssse3             32768  0
+psmouse               217088  0
 r8169                 118784  0
 ahci                   49152  2
+libahci                53248  1 ahci
 rtsx_pci              143360  1 rtsx_pci_sdmmc
 realtek                36864  1
-libahci                53248  1 ahci
 xhci_pci               24576  0
 xhci_pci_renesas       20480  1 xhci_pci
 video                  73728  3 toshiba_acpi,i915,nouveau
