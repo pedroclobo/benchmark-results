@@ -1,0 +1,30 @@
+13792	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_1c.zip	Zip archive data, at least v2.0 to extract, compression method=deflate
+247	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/SparseCompRow.h	C source, ASCII text
+422	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/Stopwatch.h	C source, ASCII text
+177	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/LU.h	C source, ASCII text
+5880	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/kernel.c	C source, ASCII text
+1361	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/SparseCompRow.c	ASCII text
+302	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/Makefile	makefile script, ASCII text
+1356	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/Stopwatch.c	C source, ASCII text
+2189	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/LU.c	C source, ASCII text
+2587	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/scimark2.c	C source, ASCII text
+1056	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/SOR.c	C source, ASCII text
+152	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/FFT.h	ASCII text
+645	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/Random.h	C source, ASCII text
+1331	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/MonteCarlo.c	C source, ASCII text
+3277	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/Random.c	C source, ASCII text
+1309	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/constants.h	C source, ASCII text
+92	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/MonteCarlo.h	ASCII text
+27136	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/scimark2	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, not stripped
+3533	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/FFT.c	C source, ASCII text
+182	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/scimark2.h	C source, ASCII text
+1503	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/array.c	C source, ASCII text
+412	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/kernel.h	C source, ASCII text
+1544	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/README	ASCII text
+203	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/array.h	C source, ASCII text
+135	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files/SOR.h	ASCII text
+57031	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2_files	directory
+949	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/install.log	ASCII text
+926	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/pts-install.json	JSON text data
+94	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2/scimark2	POSIX shell script, ASCII text executable
+72792	/home/pedro/.phoronix-test-suite/installed-tests/pts/scimark2-1.3.2	directory
