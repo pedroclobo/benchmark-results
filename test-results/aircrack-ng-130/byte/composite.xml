@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>aircrack-ng-1.3.0_</Title>
+    <LastModified>2024-11-13 16:43:39</LastModified>
+    <TestClient>Phoronix Test Suite v10.8.5</TestClient>
+    <Description>Intel Core i5-5200U testing with a FF50 SATELLITE L50-C 06F2 (5.30 BIOS) and Intel HD 5500 on Ubuntu 24.04 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>byte</Identifier>
+    <Hardware>Processor: Intel Core i5-5200U @ 2.10GHz (2 Cores), Motherboard: FF50 SATELLITE L50-C 06F2 (5.30 BIOS), Chipset: Intel Broadwell-U-OPI, Memory: 1 x 8GB DDR3-1600MT/s Samsung M471B1G73QH0-YK0, Disk: 480GB KINGSTON SA400S3, Graphics: Intel HD 5500, Audio: Intel Broadwell-U Audio, Monitor: VG245, Network: Realtek RTL8111/8168/8211/8411 + Intel 3160</Hardware>
+    <Software>OS: Ubuntu 24.04, Kernel: 6.8.0-48-generic (x86_64), Compiler: GCC 13.2.0, File-System: ext4, Screen Resolution: 1920x1080</Software>
+    <User>pedro</User>
+    <TimeStamp>2024-11-13 16:41:56</TimeStamp>
+    <TestClientVersion>10.8.5</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"cpu-scaling-governor":"intel_cpufreq performance","cpu-microcode":"0x2f","cpu-thermald":"2.5.6","kernel-extra-details":"Transparent Huge Pages: madvise","environment-variables":"FLAGS=-O2 CXXFLAGS=-O2 CFLAGS=-O2","security":"gather_data_sampling: Not affected + itlb_multihit: KVM: Mitigation of VMX disabled + l1tf: Mitigation of PTE Inversion; VMX: conditional cache flushes SMT disabled + mds: Mitigation of Clear buffers; SMT disabled + meltdown: Mitigation of PTI + mmio_stale_data: Unknown: No mitigations + reg_file_data_sampling: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of Retpolines; IBPB: conditional; IBRS_FW; RSB filling; PBRSB-eIBRS: Not affected; BHI: Not affected + srbds: Mitigation of Microcode + tsx_async_abort: Not affected"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/aircrack-ng-1.3.0</Identifier>
+    <Title>Aircrack-ng</Title>
+    <AppVersion>1.7</AppVersion>
+    <Arguments></Arguments>
+    <Description></Description>
+    <Scale>k/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"30.60:30.08:30.06","error":"The test run did not produce a result."}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>
