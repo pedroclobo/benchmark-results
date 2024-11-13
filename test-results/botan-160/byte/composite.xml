@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>botan-1.6.0_</Title>
+    <LastModified>2024-11-13 17:33:10</LastModified>
+    <TestClient>Phoronix Test Suite v10.8.5</TestClient>
+    <Description>Intel Core i5-5200U testing with a FF50 SATELLITE L50-C 06F2 (5.30 BIOS) and Intel HD 5500 on Ubuntu 24.04 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>byte</Identifier>
+    <Hardware>Processor: Intel Core i5-5200U @ 2.10GHz (2 Cores), Motherboard: FF50 SATELLITE L50-C 06F2 (5.30 BIOS), Chipset: Intel Broadwell-U-OPI, Memory: 1 x 8GB DDR3-1600MT/s Samsung M471B1G73QH0-YK0, Disk: 480GB KINGSTON SA400S3, Graphics: Intel HD 5500, Audio: Intel Broadwell-U Audio, Monitor: VG245, Network: Realtek RTL8111/8168/8211/8411 + Intel 3160</Hardware>
+    <Software>OS: Ubuntu 24.04, Kernel: 6.8.0-48-generic (x86_64), Compiler: GCC 13.2.0, File-System: ext4, Screen Resolution: 1920x1080</Software>
+    <User>pedro</User>
+    <TimeStamp>2024-11-13 17:22:14</TimeStamp>
+    <TestClientVersion>10.8.5</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"cpu-scaling-governor":"intel_cpufreq performance","cpu-microcode":"0x2f","cpu-thermald":"2.5.6","kernel-extra-details":"Transparent Huge Pages: madvise","environment-variables":"FLAGS=-O2 CXXFLAGS=-O2 CFLAGS=-O2","security":"gather_data_sampling: Not affected + itlb_multihit: KVM: Mitigation of VMX disabled + l1tf: Mitigation of PTE Inversion; VMX: conditional cache flushes SMT disabled + mds: Mitigation of Clear buffers; SMT disabled + meltdown: Mitigation of PTI + mmio_stale_data: Unknown: No mitigations + reg_file_data_sampling: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of Retpolines; IBPB: conditional; IBRS_FW; RSB filling; PBRSB-eIBRS: Not affected; BHI: Not affected + srbds: Mitigation of Microcode + tsx_async_abort: Not affected"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>KASUMI</Arguments>
+    <Description>Test: KASUMI</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>47.110</Value>
+        <RawString>47.098:47.117:47.115</RawString>
+        <JSON>{"test-run-times":"30.58:30.08:30.08"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>KASUMI</Arguments>
+    <Description>Test: KASUMI - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>46.401</Value>
+        <RawString>46.402:46.402:46.4</RawString>
+        <JSON>{"test-run-times":"30.58:30.08:30.08"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>AES-256</Arguments>
+    <Description>Test: AES-256</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>1720.398</Value>
+        <RawString>1720.102:1720.494:1720.599</RawString>
+        <JSON>{"test-run-times":"32.35:32.35:32.35"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>AES-256</Arguments>
+    <Description>Test: AES-256 - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>1727.901</Value>
+        <RawString>1727.919:1727.882:1727.902</RawString>
+        <JSON>{"test-run-times":"32.35:32.35:32.35"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>Twofish</Arguments>
+    <Description>Test: Twofish</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>171.072</Value>
+        <RawString>171.073:171.07:171.072</RawString>
+        <JSON>{"test-run-times":"30.25:30.25:30.25"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>Twofish</Arguments>
+    <Description>Test: Twofish - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>175.318</Value>
+        <RawString>175.316:175.323:175.316</RawString>
+        <JSON>{"test-run-times":"30.25:30.25:30.25"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>Blowfish</Arguments>
+    <Description>Test: Blowfish</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>182.645</Value>
+        <RawString>182.647:182.64:182.648</RawString>
+        <JSON>{"test-run-times":"30.26:30.26:30.26"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>Blowfish</Arguments>
+    <Description>Test: Blowfish - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>182.922</Value>
+        <RawString>183.054:182.659:183.052</RawString>
+        <JSON>{"test-run-times":"30.26:30.26:30.26"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>CAST-256</Arguments>
+    <Description>Test: CAST-256</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>65.577</Value>
+        <RawString>65.448:65.641:65.643</RawString>
+        <JSON>{"test-run-times":"30.10:30.10:30.10"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>CAST-256</Arguments>
+    <Description>Test: CAST-256 - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>65.771</Value>
+        <RawString>65.696:65.805:65.811</RawString>
+        <JSON>{"test-run-times":"30.10:30.10:30.10"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>ChaCha20Poly1305</Arguments>
+    <Description>Test: ChaCha20Poly1305</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>411.851</Value>
+        <RawString>411.837:411.861:411.854</RawString>
+        <JSON>{"test-run-times":"30.26:30.26:30.26"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>ChaCha20Poly1305</Arguments>
+    <Description>Test: ChaCha20Poly1305 - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>401.712</Value>
+        <RawString>401.72:401.717:401.7</RawString>
+        <JSON>{"test-run-times":"30.26:30.26:30.26"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>
