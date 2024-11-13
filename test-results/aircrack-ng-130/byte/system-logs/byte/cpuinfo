@@ -5,7 +5,7 @@ model		: 61
 model name	: Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
 stepping	: 4
 microcode	: 0x2f
-cpu MHz		: 2094.957
+cpu MHz		: 2095.788
 cache size	: 3072 KB
 physical id	: 0
 siblings	: 2
@@ -33,7 +33,7 @@ model		: 61
 model name	: Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
 stepping	: 4
 microcode	: 0x2f
-cpu MHz		: 2095.552
+cpu MHz		: 2094.941
 cache size	: 3072 KB
 physical id	: 0
 siblings	: 2

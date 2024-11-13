@@ -712,7 +712,7 @@ memoryHeaps: count = 1
 	memoryHeaps[0]:
 		size   = 8236539904 (0x1eaefa000) (7.67 GiB)
 		budget = 8236539904 (0x1eaefa000) (7.67 GiB)
-		usage  = 585084928 (0x22dfb000) (557.98 MiB)
+		usage  = 560799744 (0x216d2000) (534.82 MiB)
 		flags: count = 1
 			MEMORY_HEAP_DEVICE_LOCAL_BIT
 memoryTypes: count = 1
