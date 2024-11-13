@@ -1,0 +1,18 @@
+#####
+base - Run 1
+2024-11-13 18:11:53
+#####
+Problem: ibc256, setup: 410.02 ms, time: 2.73 us, ``mflops'': 3746.2522
+
+#####
+base - Run 2
+2024-11-13 18:12:00
+#####
+Problem: ibc256, setup: 409.99 ms, time: 2.79 us, ``mflops'': 3667.3114
+
+#####
+base - Run 3
+2024-11-13 18:12:05
+#####
+Problem: ibc256, setup: 409.42 ms, time: 2.79 us, ``mflops'': 3665.0682
+

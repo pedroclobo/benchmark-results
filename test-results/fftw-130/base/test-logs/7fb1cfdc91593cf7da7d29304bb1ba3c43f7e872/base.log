@@ -1,0 +1,18 @@
+#####
+base - Run 1
+2024-11-13 18:12:48
+#####
+Problem: ibc128x128, setup: 684.71 ms, time: 347.66 us, ``mflops'': 3298.8908
+
+#####
+base - Run 2
+2024-11-13 18:12:55
+#####
+Problem: ibc128x128, setup: 686.81 ms, time: 348.31 us, ``mflops'': 3292.6754
+
+#####
+base - Run 3
+2024-11-13 18:13:00
+#####
+Problem: ibc128x128, setup: 684.40 ms, time: 350.47 us, ``mflops'': 3272.4173
+
