@@ -1,0 +1,36 @@
+#####
+byte - Run 1
+2024-11-13 21:03:34
+#####
+Problem: ibc1024x1024, setup: 52.89 s, time: 10.06 ms, ``mflops'': 10421.149
+
+#####
+byte - Run 2
+2024-11-13 21:04:32
+#####
+Problem: ibc1024x1024, setup: 52.78 s, time: 10.61 ms, ``mflops'': 9887.5625
+
+#####
+byte - Run 3
+2024-11-13 21:05:32
+#####
+Problem: ibc1024x1024, setup: 52.72 s, time: 9.92 ms, ``mflops'': 10567.659
+
+#####
+byte - Run 4
+2024-11-13 21:06:32
+#####
+Problem: ibc1024x1024, setup: 52.76 s, time: 9.92 ms, ``mflops'': 10566.062
+
+#####
+byte - Run 5
+2024-11-13 21:07:30
+#####
+Problem: ibc1024x1024, setup: 52.81 s, time: 10.08 ms, ``mflops'': 10404.604
+
+#####
+byte - Run 6
+2024-11-13 21:08:25
+#####
+Problem: ibc1024x1024, setup: 52.79 s, time: 10.01 ms, ``mflops'': 10474.238
+

@@ -1,0 +1,18 @@
+#####
+byte - Run 1
+2024-11-13 20:55:14
+#####
+Problem: ibc128x128, setup: 1.04 s, time: 74.46 us, ``mflops'': 15402.438
+
+#####
+byte - Run 2
+2024-11-13 20:55:22
+#####
+Problem: ibc128x128, setup: 1.04 s, time: 75.02 us, ``mflops'': 15287.752
+
+#####
+byte - Run 3
+2024-11-13 20:55:29
+#####
+Problem: ibc128x128, setup: 1.05 s, time: 74.32 us, ``mflops'': 15431.582
+

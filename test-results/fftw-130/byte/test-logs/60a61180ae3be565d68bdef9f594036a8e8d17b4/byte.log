@@ -1,0 +1,48 @@
+#####
+byte - Run 1
+2024-11-13 20:58:51
+#####
+Problem: ibc512x512, setup: 7.12 s, time: 2.15 ms, ``mflops'': 10990.723
+
+#####
+byte - Run 2
+2024-11-13 20:59:05
+#####
+Problem: ibc512x512, setup: 7.12 s, time: 2.23 ms, ``mflops'': 10562.041
+
+#####
+byte - Run 3
+2024-11-13 20:59:20
+#####
+Problem: ibc512x512, setup: 7.16 s, time: 2.28 ms, ``mflops'': 10339.287
+
+#####
+byte - Run 4
+2024-11-13 20:59:34
+#####
+Problem: ibc512x512, setup: 7.17 s, time: 2.12 ms, ``mflops'': 11111.72
+
+#####
+byte - Run 5
+2024-11-13 20:59:49
+#####
+Problem: ibc512x512, setup: 7.16 s, time: 2.24 ms, ``mflops'': 10552.593
+
+#####
+byte - Run 6
+2024-11-13 21:00:03
+#####
+Problem: ibc512x512, setup: 7.22 s, time: 2.16 ms, ``mflops'': 10904.997
+
+#####
+byte - Run 7
+2024-11-13 21:00:18
+#####
+Problem: ibc512x512, setup: 7.25 s, time: 2.21 ms, ``mflops'': 10675.548
+
+#####
+byte - Run 8
+2024-11-13 21:00:30
+#####
+Problem: ibc512x512, setup: 7.27 s, time: 2.20 ms, ``mflops'': 10731.39
+

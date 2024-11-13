@@ -1,0 +1,18 @@
+#####
+byte - Run 1
+2024-11-13 21:12:16
+#####
+Problem: ibc2048x2048, setup: 212.97 s, time: 46.11 ms, ``mflops'': 10005.496
+
+#####
+byte - Run 2
+2024-11-13 21:15:57
+#####
+Problem: ibc2048x2048, setup: 212.23 s, time: 46.83 ms, ``mflops'': 9851.6707
+
+#####
+byte - Run 3
+2024-11-13 21:19:36
+#####
+Problem: ibc2048x2048, setup: 212.83 s, time: 46.47 ms, ``mflops'': 9929.0559
+

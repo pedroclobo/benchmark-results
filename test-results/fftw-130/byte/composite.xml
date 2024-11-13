@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.5-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>fftw-1.3.0_</Title>
+    <LastModified>2024-11-13 21:50:39</LastModified>
+    <TestClient>Phoronix Test Suite v10.8.5</TestClient>
+    <Description>Intel Core i5-5200U testing with a FF50 SATELLITE L50-C 06F2 (5.30 BIOS) and Intel HD 5500 on Ubuntu 24.04 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>byte</Identifier>
+    <Hardware>Processor: Intel Core i5-5200U @ 2.10GHz (2 Cores), Motherboard: FF50 SATELLITE L50-C 06F2 (5.30 BIOS), Chipset: Intel Broadwell-U-OPI, Memory: 1 x 8GB DDR3-1600MT/s Samsung M471B1G73QH0-YK0, Disk: 480GB KINGSTON SA400S3, Graphics: Intel HD 5500, Audio: Intel Broadwell-U Audio, Monitor: VG245, Network: Realtek RTL8111/8168/8211/8411 + Intel 3160</Hardware>
+    <Software>OS: Ubuntu 24.04, Kernel: 6.8.0-48-generic (x86_64), Compiler: GCC 13.2.0, File-System: ext4, Screen Resolution: 1920x1080</Software>
+    <User>pedro</User>
+    <TimeStamp>2024-11-13 19:45:58</TimeStamp>
+    <TestClientVersion>10.8.5</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"cpu-scaling-governor":"intel_cpufreq performance","cpu-microcode":"0x2f","cpu-thermald":"2.5.6","kernel-extra-details":"Transparent Huge Pages: madvise","environment-variables":"FLAGS=-O2 CXXFLAGS=-O2 CFLAGS=-O2","security":"gather_data_sampling: Not affected + itlb_multihit: KVM: Mitigation of VMX disabled + l1tf: Mitigation of PTE Inversion; VMX: conditional cache flushes SMT disabled + mds: Mitigation of Clear buffers; SMT disabled + meltdown: Mitigation of PTI + mmio_stale_data: Unknown: No mitigations + reg_file_data_sampling: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of Retpolines; IBPB: conditional; IBRS_FW; RSB filling; PBRSB-eIBRS: Not affected; BHI: Not affected + srbds: Mitigation of Microcode + tsx_async_abort: Not affected"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc32</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 32</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>4265.3955</Value>
+        <RawString>4267.7086:4261.8111:4266.6667</RawString>
+        <JSON>{"test-run-times":"3.02:2.51:2.51"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc64</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 64</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>3989.8433</Value>
+        <RawString>4037.1253:3904.5839:4027.8207</RawString>
+        <JSON>{"test-run-times":"3.22:3.34:3.23"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc32x32</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 32</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>4385.7756</Value>
+        <RawString>4393.5976:4373.0753:4390.654</RawString>
+        <JSON>{"test-run-times":"2.50:2.51:2.50"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc64x64</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 64</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>3555.2965</Value>
+        <RawString>3516.1549:3558.5158:3591.2187</RawString>
+        <JSON>{"test-run-times":"3.82:3.78:3.75"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc128</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 128</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>3673.6740</Value>
+        <RawString>3682.3519:3683.2758:3655.3944</RawString>
+        <JSON>{"test-run-times":"4.21:4.21:2.23"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc256</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 256</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>3709.9276</Value>
+        <RawString>3758.0002:3648.8073:3722.9753</RawString>
+        <JSON>{"test-run-times":"2.66:2.73:2.68"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc512</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 512</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>3786.5452</Value>
+        <RawString>3836.8775:3774.5716:3748.1865</RawString>
+        <JSON>{"test-run-times":"3.23:3.28:3.29"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc128x128</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 128</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>3281.6307</Value>
+        <RawString>3212.8303:3317.9785:3314.0834</RawString>
+        <JSON>{"test-run-times":"2.97:2.88:2.88"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc256x256</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 256</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>2759.5646</Value>
+        <RawString>2696.7813:2778.4208:2803.4917</RawString>
+        <JSON>{"test-run-times":"4.78:4.71:4.66"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc512x512</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 512</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>2770.8666</Value>
+        <RawString>2791.7359:2804.3457:2716.5181</RawString>
+        <JSON>{"test-run-times":"6.90:6.84:6.94"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc1024</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 1024</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>3688.6257</Value>
+        <RawString>3682.3149:3689.0515:3694.5106</RawString>
+        <JSON>{"test-run-times":"4.09:4.09:4.08"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc2048</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 2048</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>3441.5086</Value>
+        <RawString>3433.8601:3427.941:3462.7247</RawString>
+        <JSON>{"test-run-times":"5.46:5.46:5.43"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc4096</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 4096</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>3282.5975</Value>
+        <RawString>3288.7904:3292.7493:3266.2527</RawString>
+        <JSON>{"test-run-times":"7.54:7.53:7.56"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc1024x1024</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 1024</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>2681.0577</Value>
+        <RawString>2699.3152:2649.1903:2694.6676</RawString>
+        <JSON>{"test-run-times":"28.65:28.76:28.71"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc2048x2048</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 2048</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>2572.2137</Value>
+        <RawString>2559.8722:2573.9104:2582.8586</RawString>
+        <JSON>{"test-run-times":"111.99:111.43:111.52"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc4096x4096</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 4096</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>2307.5544</Value>
+        <RawString>2394.1116:2215.7037:2369.2868:2342.9412:2220.3172:2388.9413:2427.3178:2098.2733:2311.097</RawString>
+        <JSON>{"test-run-times":"325.53:333.79:327.19:326.72:334.38:326.11:324.73:339.10:329.39"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc32</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 32</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>8477.1533</Value>
+        <RawString>8478.1371:8521.5441:8431.7787</RawString>
+        <JSON>{"test-run-times":"2.54:2.53:2.56"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc64</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 64</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>13351.039</Value>
+        <RawString>13195.86:13177.204:13680.052</RawString>
+        <JSON>{"test-run-times":"3.97:3.97:3.83"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc32x32</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 32</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>19412.708</Value>
+        <RawString>19385.764:19410.885:19441.476</RawString>
+        <JSON>{"test-run-times":"2.34:2.34:2.33"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc64x64</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 64</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>18868.358</Value>
+        <RawString>18944.463:19027.54:18633.07</RawString>
+        <JSON>{"test-run-times":"3.04:3.03:3.08"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc128</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 128</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>19912.783</Value>
+        <RawString>19957.942:20252.554:19527.854</RawString>
+        <JSON>{"test-run-times":"3.31:3.27:3.38"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc256</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 256</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>19682.927</Value>
+        <RawString>19835.914:21366.806:20984.635:19043.378:20109.332:19615.592:21051.78:18765.411:19934.905:17166.905:20212.296:18108.166</RawString>
+        <JSON>{"test-run-times":"4.12:3.89:3.94:4.27:4.08:4.16:3.93:4.32:4.12:4.65:4.06:4.45"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc512</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 512</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>23615.689</Value>
+        <RawString>23849.34:23181.489:23816.237</RawString>
+        <JSON>{"test-run-times":"4.57:4.67:4.60"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc128x128</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 128</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>15373.924</Value>
+        <RawString>15402.438:15287.752:15431.582</RawString>
+        <JSON>{"test-run-times":"4.87:4.90:4.86"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc256x256</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 256</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>11413.670</Value>
+        <RawString>11740.529:10833.796:10935.482:10517.971:10882.989:11166.944:11195.26:11981.158:11421.619:11399.114:11433.294:11356.675:12842.327:12106.52:11391.374</RawString>
+        <JSON>{"test-run-times":"6.09:6.32:6.27:6.43:6.32:6.25:6.20:5.97:6.13:6.15:6.15:6.13:5.74:5.93:6.12"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc512x512</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 512</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>10733.537</Value>
+        <RawString>10990.723:10562.041:10339.287:11111.72:10552.593:10904.997:10675.548:10731.39</RawString>
+        <JSON>{"test-run-times":"10.37:10.50:10.62:10.39:10.55:10.49:10.59:10.59"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc1024</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 1024</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>22810.445</Value>
+        <RawString>22705.051:22584.019:23142.264</RawString>
+        <JSON>{"test-run-times":"5.98:5.99:5.92"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc2048</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 2048</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>21596.609</Value>
+        <RawString>21601.903:21650.56:21537.365</RawString>
+        <JSON>{"test-run-times":"5.78:5.79:5.80"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc4096</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 4096</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>18363.700</Value>
+        <RawString>17934.595:18639.97:18516.536</RawString>
+        <JSON>{"test-run-times":"8.88:8.77:8.78"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc1024x1024</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 1024</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>10386.8791</Value>
+        <RawString>10421.149:9887.5625:10567.659:10566.062:10404.604:10474.238</RawString>
+        <JSON>{"test-run-times":"54.07:53.87:55.74:55.77:53.85:53.82"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc2048x2048</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 2048</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>9928.7409</Value>
+        <RawString>10005.496:9851.6707:9929.0559</RawString>
+        <JSON>{"test-run-times":"217.65:216.99:217.55"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.3.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.10</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc4096x4096</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 4096</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>byte</Identifier>
+        <Value>8083.0241</Value>
+        <RawString>7953.109:8238.9677:8056.9955</RawString>
+        <JSON>{"test-run-times":"609.17:604.98:629.48"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>
