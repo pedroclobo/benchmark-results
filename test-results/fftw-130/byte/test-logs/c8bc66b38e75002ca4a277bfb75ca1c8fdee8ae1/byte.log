@@ -1,0 +1,18 @@
+#####
+byte - Run 1
+2024-11-13 03:49:01
+#####
+Problem: ibc4096x4096, setup: 239.18 s, time: 819.46 ms, ``mflops'': 2456.8172
+
+#####
+byte - Run 2
+2024-11-13 03:54:23
+#####
+Problem: ibc4096x4096, setup: 235.85 s, time: 819.29 ms, ``mflops'': 2457.324
+
+#####
+byte - Run 3
+2024-11-13 03:59:43
+#####
+Problem: ibc4096x4096, setup: 235.91 s, time: 814.90 ms, ``mflops'': 2470.5529
+

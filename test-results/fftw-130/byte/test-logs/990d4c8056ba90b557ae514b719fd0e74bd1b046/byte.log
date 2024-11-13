@@ -1,0 +1,18 @@
+#####
+byte - Run 1
+2024-11-13 03:33:41
+#####
+Problem: ibc512x512, setup: 4.04 s, time: 8.54 ms, ``mflops'': 2761.3483
+
+#####
+byte - Run 2
+2024-11-13 03:33:51
+#####
+Problem: ibc512x512, setup: 4.04 s, time: 8.20 ms, ``mflops'': 2876.138
+
+#####
+byte - Run 3
+2024-11-13 03:34:00
+#####
+Problem: ibc512x512, setup: 4.03 s, time: 8.20 ms, ``mflops'': 2877.3657
+

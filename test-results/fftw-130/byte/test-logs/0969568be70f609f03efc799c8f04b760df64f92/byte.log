@@ -1,0 +1,18 @@
+#####
+byte - Run 1
+2024-11-13 03:30:44
+#####
+Problem: ibc64x64, setup: 231.80 ms, time: 68.67 us, ``mflops'': 3578.9613
+
+#####
+byte - Run 2
+2024-11-13 03:30:52
+#####
+Problem: ibc64x64, setup: 231.32 ms, time: 68.54 us, ``mflops'': 3585.6925
+
+#####
+byte - Run 3
+2024-11-13 03:30:58
+#####
+Problem: ibc64x64, setup: 231.61 ms, time: 68.23 us, ``mflops'': 3602.1161
+

@@ -1,0 +1,60 @@
+#####
+byte - Run 1
+2024-11-13 04:04:26
+#####
+Problem: ibc512, setup: 1.38 s, time: 1.02 us, ``mflops'': 22675.999
+
+#####
+byte - Run 2
+2024-11-13 04:04:34
+#####
+Problem: ibc512, setup: 1.38 s, time: 943.54 ns, ``mflops'': 24418.614
+
+#####
+byte - Run 3
+2024-11-13 04:04:43
+#####
+Problem: ibc512, setup: 1.38 s, time: 958.74 ns, ``mflops'': 24031.536
+
+#####
+byte - Run 4
+2024-11-13 04:04:52
+#####
+Problem: ibc512, setup: 1.38 s, time: 998.41 ns, ``mflops'': 23076.621
+
+#####
+byte - Run 5
+2024-11-13 04:05:00
+#####
+Problem: ibc512, setup: 1.38 s, time: 1.00 us, ``mflops'': 22957.329
+
+#####
+byte - Run 6
+2024-11-13 04:05:09
+#####
+Problem: ibc512, setup: 1.38 s, time: 1.00 us, ``mflops'': 23027.351
+
+#####
+byte - Run 7
+2024-11-13 04:05:18
+#####
+Problem: ibc512, setup: 1.38 s, time: 991.03 ns, ``mflops'': 23248.59
+
+#####
+byte - Run 8
+2024-11-13 04:05:26
+#####
+Problem: ibc512, setup: 1.38 s, time: 1.00 us, ``mflops'': 22996.489
+
+#####
+byte - Run 9
+2024-11-13 04:05:35
+#####
+Problem: ibc512, setup: 1.38 s, time: 966.80 ns, ``mflops'': 23831.273
+
+#####
+byte - Run 10
+2024-11-13 04:05:41
+#####
+Problem: ibc512, setup: 1.38 s, time: 978.82 ns, ``mflops'': 23538.527
+
