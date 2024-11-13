@@ -1,0 +1,72 @@
+#####
+base - Run 1
+2024-11-13 00:56:13
+#####
+Problem: ibc64x64, setup: 365.83 ms, time: 13.84 us, ``mflops'': 17762.439
+
+#####
+base - Run 2
+2024-11-13 00:56:20
+#####
+Problem: ibc64x64, setup: 364.49 ms, time: 12.94 us, ``mflops'': 18987.343
+
+#####
+base - Run 3
+2024-11-13 00:56:27
+#####
+Problem: ibc64x64, setup: 363.74 ms, time: 12.95 us, ``mflops'': 18971.597
+
+#####
+base - Run 4
+2024-11-13 00:56:34
+#####
+Problem: ibc64x64, setup: 364.19 ms, time: 13.11 us, ``mflops'': 18744.097
+
+#####
+base - Run 5
+2024-11-13 00:56:41
+#####
+Problem: ibc64x64, setup: 363.89 ms, time: 12.88 us, ``mflops'': 19080.919
+
+#####
+base - Run 6
+2024-11-13 00:56:48
+#####
+Problem: ibc64x64, setup: 363.90 ms, time: 13.04 us, ``mflops'': 18839.515
+
+#####
+base - Run 7
+2024-11-13 00:56:55
+#####
+Problem: ibc64x64, setup: 363.91 ms, time: 13.81 us, ``mflops'': 17792.579
+
+#####
+base - Run 8
+2024-11-13 00:57:02
+#####
+Problem: ibc64x64, setup: 364.42 ms, time: 12.99 us, ``mflops'': 18923.095
+
+#####
+base - Run 9
+2024-11-13 00:57:09
+#####
+Problem: ibc64x64, setup: 363.63 ms, time: 13.49 us, ``mflops'': 18217.623
+
+#####
+base - Run 10
+2024-11-13 00:57:16
+#####
+Problem: ibc64x64, setup: 364.10 ms, time: 13.13 us, ``mflops'': 18719
+
+#####
+base - Run 11
+2024-11-13 00:57:23
+#####
+Problem: ibc64x64, setup: 363.77 ms, time: 13.17 us, ``mflops'': 18663.471
+
+#####
+base - Run 12
+2024-11-13 00:57:28
+#####
+Problem: ibc64x64, setup: 364.64 ms, time: 13.06 us, ``mflops'': 18815.569
+
