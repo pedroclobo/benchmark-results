@@ -1,0 +1,48 @@
+#####
+base - Run 1
+2024-11-13 23:48:17
+#####
+**                                                              **
+** SciMark2 Numeric Benchmark, see http://math.nist.gov/scimark **
+** for details. (Results can be submitted to pozo@nist.gov)     **
+**                                                              **
+Using       2.00 seconds min time per kenel.
+Composite Score:          825.88
+FFT             Mflops:   181.36    (N=1048576)
+SOR             Mflops:   989.46    (1000 x 1000)
+MonteCarlo:     Mflops:   337.93
+Sparse matmult  Mflops:   998.38    (N=100000, nz=1000000)
+LU              Mflops:  1622.27    (M=1000, N=1000)
+
+#####
+base - Run 2
+2024-11-13 23:48:49
+#####
+**                                                              **
+** SciMark2 Numeric Benchmark, see http://math.nist.gov/scimark **
+** for details. (Results can be submitted to pozo@nist.gov)     **
+**                                                              **
+Using       2.00 seconds min time per kenel.
+Composite Score:          823.76
+FFT             Mflops:   180.22    (N=1048576)
+SOR             Mflops:   989.84    (1000 x 1000)
+MonteCarlo:     Mflops:   337.94
+Sparse matmult  Mflops:   987.28    (N=100000, nz=1000000)
+LU              Mflops:  1623.53    (M=1000, N=1000)
+
+#####
+base - Run 3
+2024-11-13 23:49:18
+#####
+**                                                              **
+** SciMark2 Numeric Benchmark, see http://math.nist.gov/scimark **
+** for details. (Results can be submitted to pozo@nist.gov)     **
+**                                                              **
+Using       2.00 seconds min time per kenel.
+Composite Score:          825.34
+FFT             Mflops:   180.51    (N=1048576)
+SOR             Mflops:   989.79    (1000 x 1000)
+MonteCarlo:     Mflops:   337.93
+Sparse matmult  Mflops:   998.16    (N=100000, nz=1000000)
+LU              Mflops:  1620.33    (M=1000, N=1000)
+
