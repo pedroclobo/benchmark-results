@@ -710,9 +710,9 @@ VkPhysicalDeviceMemoryProperties:
 =================================
 memoryHeaps: count = 1
 	memoryHeaps[0]:
-		size   = 8236539904 (0x1eaefa000) (7.67 GiB)
-		budget = 8236539904 (0x1eaefa000) (7.67 GiB)
-		usage  = 591945728 (0x23486000) (564.52 MiB)
+		size   = 8236531712 (0x1eaef8000) (7.67 GiB)
+		budget = 8236531712 (0x1eaef8000) (7.67 GiB)
+		usage  = 587186176 (0x22ffc000) (559.98 MiB)
 		flags: count = 1
 			MEMORY_HEAP_DEVICE_LOCAL_BIT
 memoryTypes: count = 1
