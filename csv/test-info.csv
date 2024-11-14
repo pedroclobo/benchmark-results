@@ -1,0 +1,11 @@
+Test;Version;Description;LOC
+aircrack-ng;1.7;Aircrack-ng is a tool for assessing WiFi/WLAN network security.;2334740
+botan;2.17.3;Botan is a BSD-licensed cross-platform open-source C++ crypto library "cryptography toolkit" that supports most publicly known cryptographic algorithms. The project's stated goal is to be "the best option for cryptography in C++ by offering the tools necessary to implement a range of practical systems, such as TLS protocol, X.509 certificates, modern AEAD ciphers, PKCS#11 and TPM hardware support, password hashing, and post quantum crypto schemes.";7081177
+compress-pbzip2;1.1.13;This test measures the time needed to compress a file (FreeBSD-13.0-RELEASE-amd64-memstick.img) using Parallel BZIP2 compression.;173508
+crafty;25.2;This is a performance test of Crafty, an advanced open-source chess engine.;1543497
+fftw;3.3.10;FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions.;18896860
+mafft;7.471;This test performs an alignment of 100 pyruvate decarboxylase sequences.;0
+ngspice;34;Ngspice is an open-source SPICE circuit simulator. Ngspice was originally based on the Berkeley SPICE electronic circuit simulator. Ngspice supports basic threading using OpenMP. This test profile is making use of the ISCAS 85 benchmark circuits.;23776079
+scimark2;2.0;This test runs the ANSI C version of SciMark 2.0, which is a benchmark for scientific and numerical computing developed by programmers at the National Institute of Standards and Technology. This test is made up of Fast Foruier Transform, Jacobi Successive Over-relaxation, Monte Carlo, Sparse Matrix Multiply, and dense LU matrix factorization benchmarks.;26309
+sqlite-speedtest;3.30;This is a benchmark of SQLite's speedtest1 benchmark program with an increased problem size of 1,000.;31417212
+tjbench;2.1.0;tjbench is a JPEG decompression/compression benchmark that is part of libjpeg-turbo, a JPEG image codec library optimized for SIMD instructions on modern CPU architectures.;2953393
