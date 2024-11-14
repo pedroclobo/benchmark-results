@@ -1,0 +1,51 @@
+#####
+byte - Run 1
+2024-11-14 09:10:01
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
+
+Twofish encrypt buffer size 1024 bytes: 171.061 MiB/sec 12.14 cycles/byte (2565.92 MiB in 15000.01 ms)
+Twofish decrypt buffer size 1024 bytes: 175.301 MiB/sec 11.85 cycles/byte (2629.51 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+Twofish                            decrypt                183816.28
+Twofish                            encrypt                179370.40
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+byte - Run 2
+2024-11-14 09:10:35
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
+
+Twofish encrypt buffer size 1024 bytes: 171.055 MiB/sec 12.14 cycles/byte (2565.83 MiB in 15000.00 ms)
+Twofish decrypt buffer size 1024 bytes: 175.316 MiB/sec 11.85 cycles/byte (2629.74 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+Twofish                            decrypt                183832.41
+Twofish                            encrypt                179364.15
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+byte - Run 3
+2024-11-14 09:11:07
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 avx2 rdtsc bmi1 bmi2 adx aes_ni clmul rdrand rdseed
+
+Twofish encrypt buffer size 1024 bytes: 170.539 MiB/sec 12.18 cycles/byte (2558.09 MiB in 15000.00 ms)
+Twofish decrypt buffer size 1024 bytes: 175.248 MiB/sec 11.85 cycles/byte (2628.72 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+Twofish                            decrypt                183761.08
+Twofish                            encrypt                178823.35
+
+[results are the number of 1000s bytes processed per second]
+
+
