@@ -1,0 +1,59 @@
+Test;Description;Scale;Proportion;base;byte
+pts/aircrack-ng-1.3.0;No description;k/s;HIB;3163.927;3171.38
+pts/botan-1.6.0;Test: AES-256;MiB/s;HIB;1730.183;1721.163
+pts/botan-1.6.0;Test: AES-256 - Decrypt;MiB/s;HIB;1728.825;1729.259
+pts/botan-1.6.0;Test: Blowfish;MiB/s;HIB;182.241;182.663
+pts/botan-1.6.0;Test: Blowfish - Decrypt;MiB/s;HIB;182.084;183.062
+pts/botan-1.6.0;Test: CAST-256;MiB/s;HIB;65.639;65.635
+pts/botan-1.6.0;Test: CAST-256 - Decrypt;MiB/s;HIB;65.818;65.807
+pts/botan-1.6.0;Test: ChaCha20Poly1305;MiB/s;HIB;407.241;411.889
+pts/botan-1.6.0;Test: ChaCha20Poly1305 - Decrypt;MiB/s;HIB;399.991;401.683
+pts/botan-1.6.0;Test: KASUMI;MiB/s;HIB;47.112;47.114
+pts/botan-1.6.0;Test: KASUMI - Decrypt;MiB/s;HIB;46.387;46.399
+pts/botan-1.6.0;Test: Twofish;MiB/s;HIB;170.812;171.065
+pts/botan-1.6.0;Test: Twofish - Decrypt;MiB/s;HIB;174.971;175.314
+pts/compress-pbzip2-1.6.1;FreeBSD-13.0-RELEASE-amd64-memstick.img Compression;Seconds;LIB;189.776042;189.032924
+pts/crafty-1.4.5;Elapsed Time;Nodes Per Second;HIB;3824575.0;3817873.0
+pts/fftw-1.3.0;Build: Float + SSE - Size: 1D FFT Size 1024;Mflops;HIB;23233.327;22792.407
+pts/fftw-1.3.0;Build: Float + SSE - Size: 1D FFT Size 128;Mflops;HIB;19088.235;19769.908
+pts/fftw-1.3.0;Build: Float + SSE - Size: 1D FFT Size 2048;Mflops;HIB;21469.432;21193.819
+pts/fftw-1.3.0;Build: Float + SSE - Size: 1D FFT Size 256;Mflops;HIB;19462.372;19764.896
+pts/fftw-1.3.0;Build: Float + SSE - Size: 1D FFT Size 32;Mflops;HIB;8059.1476;8319.827
+pts/fftw-1.3.0;Build: Float + SSE - Size: 1D FFT Size 4096;Mflops;HIB;18575.808;18787.384
+pts/fftw-1.3.0;Build: Float + SSE - Size: 1D FFT Size 512;Mflops;HIB;22594.742;23135.843
+pts/fftw-1.3.0;Build: Float + SSE - Size: 1D FFT Size 64;Mflops;HIB;14081.172;13871.313
+pts/fftw-1.3.0;Build: Float + SSE - Size: 2D FFT Size 1024;Mflops;HIB;10538.736;10506.028
+pts/fftw-1.3.0;Build: Float + SSE - Size: 2D FFT Size 128;Mflops;HIB;15217.636;15329.932
+pts/fftw-1.3.0;Build: Float + SSE - Size: 2D FFT Size 2048;Mflops;HIB;10133.5945;10210.318
+pts/fftw-1.3.0;Build: Float + SSE - Size: 2D FFT Size 256;Mflops;HIB;13605.742;13648.683
+pts/fftw-1.3.0;Build: Float + SSE - Size: 2D FFT Size 32;Mflops;HIB;19305.522;19029.681
+pts/fftw-1.3.0;Build: Float + SSE - Size: 2D FFT Size 4096;Mflops;HIB;9222.7039;9259.5536
+pts/fftw-1.3.0;Build: Float + SSE - Size: 2D FFT Size 512;Mflops;HIB;14067.761;14219.829
+pts/fftw-1.3.0;Build: Float + SSE - Size: 2D FFT Size 64;Mflops;HIB;19021.635;18842.346
+pts/fftw-1.3.0;Build: Stock - Size: 1D FFT Size 1024;Mflops;HIB;3714.8075;3710.646
+pts/fftw-1.3.0;Build: Stock - Size: 1D FFT Size 128;Mflops;HIB;3665.1991;3671.4212
+pts/fftw-1.3.0;Build: Stock - Size: 1D FFT Size 2048;Mflops;HIB;3419.2678;3445.6986
+pts/fftw-1.3.0;Build: Stock - Size: 1D FFT Size 256;Mflops;HIB;3653.7611;3726.3715
+pts/fftw-1.3.0;Build: Stock - Size: 1D FFT Size 32;Mflops;HIB;4262.4176;4254.6635
+pts/fftw-1.3.0;Build: Stock - Size: 1D FFT Size 4096;Mflops;HIB;3266.9434;3278.728
+pts/fftw-1.3.0;Build: Stock - Size: 1D FFT Size 512;Mflops;HIB;3813.3617;3838.7366
+pts/fftw-1.3.0;Build: Stock - Size: 1D FFT Size 64;Mflops;HIB;3961.5636;4036.0909
+pts/fftw-1.3.0;Build: Stock - Size: 2D FFT Size 1024;Mflops;HIB;2691.4824;2707.6952
+pts/fftw-1.3.0;Build: Stock - Size: 2D FFT Size 128;Mflops;HIB;3305.9738;3304.3496
+pts/fftw-1.3.0;Build: Stock - Size: 2D FFT Size 2048;Mflops;HIB;2596.2181;2579.9696
+pts/fftw-1.3.0;Build: Stock - Size: 2D FFT Size 256;Mflops;HIB;3211.5446;3242.5832
+pts/fftw-1.3.0;Build: Stock - Size: 2D FFT Size 32;Mflops;HIB;4374.3667;4378.6041
+pts/fftw-1.3.0;Build: Stock - Size: 2D FFT Size 4096;Mflops;HIB;2412.185;2431.9176
+pts/fftw-1.3.0;Build: Stock - Size: 2D FFT Size 512;Mflops;HIB;2838.1393;2916.5183
+pts/fftw-1.3.0;Build: Stock - Size: 2D FFT Size 64;Mflops;HIB;3599.0986;3578.803
+pts/mafft-1.6.2;Multiple Sequence Alignment - LSU RNA;Seconds;LIB;54.061;52.898
+pts/ngspice-1.0.0;Circuit: C2670;Seconds;LIB;249.029;256.038
+pts/ngspice-1.0.0;Circuit: C7552;Seconds;LIB;274.862;276.523
+pts/scimark2-1.3.2;Computational Test: Composite;Mflops;HIB;810.53;817.55
+pts/scimark2-1.3.2;Computational Test: Dense LU Matrix Factorization;Mflops;HIB;1496.33;1576.03
+pts/scimark2-1.3.2;Computational Test: Fast Fourier Transform;Mflops;HIB;180.75;181.51
+pts/scimark2-1.3.2;Computational Test: Jacobi Successive Over-Relaxation;Mflops;HIB;990.22;989.98
+pts/scimark2-1.3.2;Computational Test: Monte Carlo;Mflops;HIB;337.95;337.95
+pts/scimark2-1.3.2;Computational Test: Sparse Matrix Multiply;Mflops;HIB;1047.39;1002.29
+pts/sqlite-speedtest-1.0.1;Timed Time - Size 1,000;Seconds;LIB;150.424;150.533
+pts/tjbench-1.2.0;Test: Decompression Throughput;Megapixels/sec;HIB;51.345629;51.518819
