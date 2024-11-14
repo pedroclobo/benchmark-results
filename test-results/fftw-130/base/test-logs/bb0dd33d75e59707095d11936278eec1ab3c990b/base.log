@@ -1,0 +1,36 @@
+#####
+base - Run 1
+2024-11-14 11:10:40
+#####
+Problem: ibc1024, setup: 2.23 s, time: 2.21 us, ``mflops'': 23155.04
+
+#####
+base - Run 2
+2024-11-14 11:10:50
+#####
+Problem: ibc1024, setup: 2.23 s, time: 2.27 us, ``mflops'': 22603.492
+
+#####
+base - Run 3
+2024-11-14 11:11:00
+#####
+Problem: ibc1024, setup: 2.24 s, time: 2.37 us, ``mflops'': 21645.786
+
+#####
+base - Run 4
+2024-11-14 11:11:10
+#####
+Problem: ibc1024, setup: 2.24 s, time: 2.28 us, ``mflops'': 22449.842
+
+#####
+base - Run 5
+2024-11-14 11:11:20
+#####
+Problem: ibc1024, setup: 2.23 s, time: 2.23 us, ``mflops'': 22961.099
+
+#####
+base - Run 6
+2024-11-14 11:11:28
+#####
+Problem: ibc1024, setup: 2.24 s, time: 2.26 us, ``mflops'': 22614.461
+

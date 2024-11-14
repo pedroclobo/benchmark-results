@@ -1,0 +1,18 @@
+#####
+base - Run 1
+2024-11-14 11:00:10
+#####
+Problem: ibc32x32, setup: 158.83 ms, time: 2.73 us, ``mflops'': 18773.181
+
+#####
+base - Run 2
+2024-11-14 11:00:16
+#####
+Problem: ibc32x32, setup: 158.75 ms, time: 2.82 us, ``mflops'': 18179.196
+
+#####
+base - Run 3
+2024-11-14 11:00:21
+#####
+Problem: ibc32x32, setup: 160.77 ms, time: 2.70 us, ``mflops'': 18982.187
+

@@ -1,0 +1,36 @@
+#####
+base - Run 1
+2024-11-14 11:03:18
+#####
+Problem: ibc512, setup: 1.39 s, time: 967.10 ns, ``mflops'': 23823.753
+
+#####
+base - Run 2
+2024-11-14 11:03:27
+#####
+Problem: ibc512, setup: 1.39 s, time: 1.04 us, ``mflops'': 22214.286
+
+#####
+base - Run 3
+2024-11-14 11:03:36
+#####
+Problem: ibc512, setup: 1.39 s, time: 995.73 ns, ``mflops'': 23138.86
+
+#####
+base - Run 4
+2024-11-14 11:03:44
+#####
+Problem: ibc512, setup: 1.39 s, time: 992.98 ns, ``mflops'': 23202.862
+
+#####
+base - Run 5
+2024-11-14 11:03:53
+#####
+Problem: ibc512, setup: 1.39 s, time: 982.24 ns, ``mflops'': 23456.618
+
+#####
+base - Run 6
+2024-11-14 11:04:00
+#####
+Problem: ibc512, setup: 1.38 s, time: 999.82 ns, ``mflops'': 23044.22
+
