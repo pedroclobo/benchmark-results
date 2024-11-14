@@ -1,0 +1,99 @@
+#####
+base - Run 1
+2024-11-14 09:38:30
+#####
+unable to open book file [./book.bin].
+book is disabled
+unable to open book file [./books.bin].
+(info) command line option "bench"
+Running serial benchmark. . .
+pos:  1(4.3M)  2(3.6M)  3(4.2M)  4(4.3M)  5(3.3M)  6(3.7M)  7(4.0M) 
+pos:  8(3.7M)  9(3.9M) 10(3.9M) 11(3.6M) 12(4.0M) 13(3.6M) 14(3.7M) 
+pos: 15(8.0M) 16(4.0M) 17(4.0M) 18(3.3M) 19(3.4M) 20(4.2M) 21(4.9M) 
+pos: 22(4.0M) 23(4.1M) 24(4.7M) 25(4.3M) 26(4.3M) 27(4.2M) 28(3.1M) 
+pos: 29(3.5M) 30(3.8M) 31(3.8M) 32(3.6M) 33(3.6M) 34(4.0M) 35(3.8M) 
+pos: 36(4.1M) 37(4.5M) 38(5.2M) 39(3.8M) 40(3.9M) 41(4.2M) 42(4.2M) 
+pos: 43(3.4M) 44(4.2M) 45(3.5M) 46(3.9M) 47(3.8M) 48(3.9M) 49(5.2M) 
+pos: 50(3.7M) 51(4.4M) 52(4.0M) 53(3.3M) 54(1.6M) 55(4.3M) 56(3.2M) 
+pos: 57(4.2M) 58(3.9M) 59(4.7M) 60(4.1M) 61(4.0M) 62(4.3M) 63(3.8M) 
+pos: 64(3.6M) 
+
+Total nodes: 191258593
+Raw nodes per second: 3825937
+Total elapsed time: 49.99
+
+Running SMP benchmark (2 threads)...
+pos:  1(2.7M)  2(2.8M) 
+
+Total nodes: 196643160
+Raw nodes per second: 3786696
+Total elapsed time: 51.93
+
+(info) command line option "quit"
+
+#####
+base - Run 2
+2024-11-14 09:39:25
+#####
+unable to open book file [./book.bin].
+book is disabled
+unable to open book file [./books.bin].
+(info) command line option "bench"
+Running serial benchmark. . .
+pos:  1(4.3M)  2(3.7M)  3(4.4M)  4(4.4M)  5(3.3M)  6(3.8M)  7(4.0M) 
+pos:  8(3.9M)  9(3.9M) 10(4.2M) 11(3.6M) 12(3.9M) 13(3.6M) 14(3.8M) 
+pos: 15(8.0M) 16(4.0M) 17(4.2M) 18(3.4M) 19(3.4M) 20(4.2M) 21(4.9M) 
+pos: 22(4.0M) 23(4.1M) 24(4.7M) 25(4.3M) 26(4.7M) 27(4.4M) 28(3.1M) 
+pos: 29(3.6M) 30(4.0M) 31(3.8M) 32(3.5M) 33(3.6M) 34(4.0M) 35(3.8M) 
+pos: 36(4.1M) 37(4.9M) 38(5.5M) 39(3.8M) 40(4.1M) 41(4.2M) 42(4.3M) 
+pos: 43(3.3M) 44(4.2M) 45(3.8M) 46(3.9M) 47(3.7M) 48(3.8M) 49(3.5M) 
+pos: 50(3.7M) 51(4.4M) 52(4.0M) 53(3.3M) 54(1.6M) 55(4.3M) 56(3.2M) 
+pos: 57(4.2M) 58(3.9M) 59(4.7M) 60(4.0M) 61(4.1M) 62(4.7M) 63(3.9M) 
+pos: 64(3.6M) 
+
+Total nodes: 191258593
+Raw nodes per second: 3845939
+Total elapsed time: 49.73
+
+Running SMP benchmark (2 threads)...
+pos:  1(2.7M)  2(2.6M) 
+
+Total nodes: 193319737
+Raw nodes per second: 3827355
+Total elapsed time: 50.51
+
+(info) command line option "quit"
+
+#####
+base - Run 3
+2024-11-14 09:40:18
+#####
+unable to open book file [./book.bin].
+book is disabled
+unable to open book file [./books.bin].
+(info) command line option "bench"
+Running serial benchmark. . .
+pos:  1(4.3M)  2(3.6M)  3(4.3M)  4(4.3M)  5(3.3M)  6(3.7M)  7(4.0M) 
+pos:  8(3.7M)  9(3.9M) 10(4.2M) 11(3.6M) 12(3.9M) 13(3.6M) 14(3.8M) 
+pos: 15(8.0M) 16(4.0M) 17(4.2M) 18(3.4M) 19(3.3M) 20(4.2M) 21(4.9M) 
+pos: 22(4.0M) 23(4.1M) 24(4.6M) 25(4.2M) 26(4.7M) 27(4.2M) 28(3.1M) 
+pos: 29(3.6M) 30(3.9M) 31(3.8M) 32(3.6M) 33(3.6M) 34(4.0M) 35(4.3M) 
+pos: 36(4.1M) 37(4.5M) 38(5.5M) 39(3.8M) 40(4.1M) 41(4.2M) 42(4.3M) 
+pos: 43(3.3M) 44(4.3M) 45(3.8M) 46(3.9M) 47(3.8M) 48(3.9M) 49(3.5M) 
+pos: 50(3.7M) 51(4.4M) 52(4.0M) 53(3.3M) 54(1.6M) 55(4.3M) 56(3.2M) 
+pos: 57(4.2M) 58(3.9M) 59(4.8M) 60(4.1M) 61(4.1M) 62(4.7M) 63(3.9M) 
+pos: 64(3.6M) 
+
+Total nodes: 191258593
+Raw nodes per second: 3844393
+Total elapsed time: 49.75
+
+Running SMP benchmark (2 threads)...
+pos:  1(2.8M)  2(2.3M) 
+
+Total nodes: 193789141
+Raw nodes per second: 3813996
+Total elapsed time: 50.81
+
+(info) command line option "quit"
+

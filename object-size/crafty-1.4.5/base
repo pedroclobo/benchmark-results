@@ -1,0 +1,65 @@
+5847	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/history.c	C source, ASCII text
+98	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/crafty-benchmark	POSIX shell script, ASCII text executable
+4641	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/unmake.c	C source, ASCII text
+48298	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/tbprobe.c	C source, ASCII text
+7005	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/analyze.c	C source, ASCII text
+44583	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/tbcore.c	C source, ASCII text
+8084	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/Makefile	ASCII text
+51629	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/thread.c	C source, ASCII text
+6114	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/resign.c	C source, ASCII text
+28319	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/next.c	C source, ASCII text
+10754	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/tbprobe.h	C source, ASCII text
+8462	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/autotune.c	C source, ASCII text
+19305	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/input.c	C source, ASCII text
+22662	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/hash.c	C source, ASCII text
+16178	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/root.c	C source, ASCII text
+3174	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/install.log	ASCII text
+32645	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/annotate.c	C source, ASCII text
+6835	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/edit.c	C source, ASCII text
+5305	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/attacks.c	C source, ASCII text
+73753	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/epdglue.c	ASCII text
+6039	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/repeat.c	C source, ASCII text
+9541	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/ponder.c	C source, ASCII text
+1085	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/pts-install.json	JSON text data
+1574	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/crafty.c	C source, ASCII text
+863	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/vcinline.h	ASCII text
+102340	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/utility.c	C source, ASCII text
+49993	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/crafty.hlp	ASCII text
+14518	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/learn.c	C source, ASCII text
+2873	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/lock.h	C source, ASCII text
+7879	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/interrupt.c	C source, ASCII text
+18344	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/time.c	C source, ASCII text
+433320	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/crafty-25.2.zip	Zip archive data, at least v2.0 to extract, compression method=deflate
+120280	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/epd.c	ASCII text
+4423	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/drawn.c	C source, ASCII text
+9463	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/bench.c	C source, ASCII text
+3322	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/tbcore.h	C source, ASCII text
+55592	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/data.c	C source, ASCII text
+10518	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/setboard.c	C source, ASCII text
+1181	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/epdglue.h	C source, ASCII text
+9035	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/output.c	C source, ASCII text
+2201	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/speak	Perl script text executable
+372920	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/crafty	ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, not stripped
+42621	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/movgen.c	C source, ASCII text
+150969	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/option.c	C source, ASCII text
+82640	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/evaluate.c	C source, ASCII text
+24466	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/chess.h	C source, ASCII text
+5680	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/evtest.c	C source, ASCII text
+45775	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/search.c	C source, ASCII text
+10374	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/validate.c	ASCII text
+370491	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/main.c	C source, ASCII text
+1659	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/boolean.c	C source, ASCII text
+32097	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/iterate.c	C source, ASCII text
+5479	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/epd.h	C source, ASCII text
+11083	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/make.c	C source, ASCII text
+40119	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/init.c	C source, ASCII text
+15134	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/evaluate.h	C source, ASCII text
+637184	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/crafty.o	ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+4142	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/tbconfig.h	C source, ASCII text
+60415	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/book.c	C source, ASCII text
+17164	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/quiesce.c	C source, ASCII text
+9403	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/see.c	C source, ASCII text
+10996	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/data.h	C source, ASCII text
+16222	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/test.c	C source, ASCII text
+21718	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5/epddefs.h	C source, ASCII text
+3256826	/home/pedro/.phoronix-test-suite/installed-tests/pts/crafty-1.4.5	directory
