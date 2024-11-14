@@ -1,0 +1,72 @@
+#####
+byte - Run 1
+2024-11-14 14:07:26
+#####
+Problem: ibc2048x2048, setup: 217.85 s, time: 53.65 ms, ``mflops'': 8600.3326
+
+#####
+byte - Run 2
+2024-11-14 14:11:13
+#####
+Problem: ibc2048x2048, setup: 218.74 s, time: 46.77 ms, ``mflops'': 9865.1522
+
+#####
+byte - Run 3
+2024-11-14 14:15:00
+#####
+Problem: ibc2048x2048, setup: 218.25 s, time: 47.90 ms, ``mflops'': 9632.0134
+
+#####
+byte - Run 4
+2024-11-14 14:18:49
+#####
+Problem: ibc2048x2048, setup: 219.57 s, time: 47.98 ms, ``mflops'': 9616.5546
+
+#####
+byte - Run 5
+2024-11-14 14:22:37
+#####
+Problem: ibc2048x2048, setup: 219.16 s, time: 47.65 ms, ``mflops'': 9683.1582
+
+#####
+byte - Run 6
+2024-11-14 14:26:23
+#####
+Problem: ibc2048x2048, setup: 217.84 s, time: 47.90 ms, ``mflops'': 9632.2145
+
+#####
+byte - Run 7
+2024-11-14 14:30:10
+#####
+Problem: ibc2048x2048, setup: 217.93 s, time: 47.60 ms, ``mflops'': 9692.1085
+
+#####
+byte - Run 8
+2024-11-14 14:33:58
+#####
+Problem: ibc2048x2048, setup: 218.97 s, time: 46.61 ms, ``mflops'': 9897.5317
+
+#####
+byte - Run 9
+2024-11-14 14:37:45
+#####
+Problem: ibc2048x2048, setup: 218.26 s, time: 47.16 ms, ``mflops'': 9783.7742
+
+#####
+byte - Run 10
+2024-11-14 14:41:32
+#####
+Problem: ibc2048x2048, setup: 218.18 s, time: 46.72 ms, ``mflops'': 9874.2309
+
+#####
+byte - Run 11
+2024-11-14 14:45:19
+#####
+Problem: ibc2048x2048, setup: 218.18 s, time: 47.85 ms, ``mflops'': 9642.2797
+
+#####
+byte - Run 12
+2024-11-14 14:49:05
+#####
+Problem: ibc2048x2048, setup: 218.86 s, time: 47.66 ms, ``mflops'': 9680.7201
+
